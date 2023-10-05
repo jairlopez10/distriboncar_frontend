@@ -62,7 +62,7 @@ const Jugueterialocal = () => {
   return (
     <>
       <div className="contenedor">
-        <h1 className="titulocatalogo">¿Cuáles son nuestros juguetes?</h1>
+        <h1 className="titulocatalogo">Catalogo</h1>
         <div className="seccionjuguetes">
           <div className="seccion-filtros">
             <select className="filtro" name="categoria" id="categoria" onChange={e => setcategoria(e.target.value)}>
