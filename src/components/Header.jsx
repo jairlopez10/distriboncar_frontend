@@ -27,10 +27,10 @@ const Header = () => {
                     </svg>
                 </div>
                 <div className={`${menu ? "flex transition-all" : "hidden"} navegacion`}>
-                    <Link to="/">Inicio</Link>
-                    <Link to="/catalogojuguetesl" className="jugueteslink">Jugueteria</Link>
-                    <Link to="/catalogoferreterial" className="ferreterialink">Ferreteria</Link>
-                    <Link to="/nosotros">Nosotros</Link>
+                    <Link to="/" onClick={() => setmenu(false)}>Inicio</Link>
+                    <Link to="/catalogojuguetesl" className="jugueteslink" onClick={() => setmenu(false)}>Jugueteria</Link>
+                    <Link to="/catalogoferreterial" className="ferreterialink" onClick={() => setmenu(false)}>Ferreteria</Link>
+                    <Link to="/nosotros" onClick={() => setmenu(false)}>Nosotros</Link>
                 </div>
             </div>
         </header>
