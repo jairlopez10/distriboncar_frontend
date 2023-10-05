@@ -169,6 +169,7 @@ footer {
     height: 5rem;
     width: 100%;
     -webkit-background-clip: padding-box;
+    -webkit-text-align-last: center;
 }
 
 .seccion-precio, .seccion-precio input {
