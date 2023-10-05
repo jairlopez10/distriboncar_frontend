@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.7rem;
+}
+
+a {
+    font-size: 2.7rem;
+}
+
+div {
+    font-size: 1.7rem;
+}
+
+.contenedor {
+    width: 95%;
+    margin: 0 auto;
+}
+
+/** -------------------------------- Header ----------------------------------------------------*/
+
+header {
+    background-color: black;
+    margin-bottom: 3rem;
+}
+
+.divheader {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+}
+
+.logo img {
+    width: 16rem;
+}
+
+.navegacion {
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.navegacion a {
+    color: #d9d9d9;
+    text-align: center;
+}
+
+.navegacion a:hover {
+    transition: all .5s;
+}
+
+.jugueteslink:hover {
+    background-image: linear-gradient(to right, #fc2a93, #4545b6); /* Cambia los colores según tus preferencias */
+    background-clip: text;
+    -webkit-background-clip: text; /* Para navegadores webkit (como Safari) */
+    color: transparent; /* Hace que el color del texto sea transparente */
+}
+
+.ferreterialink:hover {
+    background-image: linear-gradient(to right, #dbff11, #e6241d); /* Cambia los colores según tus preferencias */
+    background-clip: text;
+    -webkit-background-clip: text; /* Para navegadores webkit (como Safari) */
+    color: transparent; /* Hace que el color del texto sea transparente */
+}
+
+.divbarra {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .divheader {
+        flex-direction: row;
+    }
+    .navegacion {
+        display: flex;
+        flex-direction: row;
+        gap: 6rem;
+        margin-bottom: 0rem;
+    }
+    .menuicono {
+        visibility: hidden;
+    }
+    .logo img {
+        width: 18rem;
+    }
+}
+
+
+/** -------------------------------------- Footer ------------------------------------------------*/
+
+footer {
+    background-color: black;
+    margin-top: 3rem;
+}
+
+.divfooter {
+    display: flex;
+    justify-content: center;
+}
+
+.divfooter img {
+    width: 25rem;
+    cursor: pointer;
+}
+
+
+/*------------------------------------- CATALOGO JUGUETES LOCAL ---------------------------- */
+
+.titulocatalogo {
+    color: #fc2a93;
+    margin-bottom: 2rem;
+}
+
+.seccion-filtros {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.seccion-filtros select {
+    background-color: #4545b6;
+    border-radius: 1rem;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    height: 5rem;
+    width: 100%;
+}
+
+.seccion-precio, .seccion-precio input {
+    width: 95%;
+    text-align: center;
+}
+
+.seccion-precio input {
+    cursor: pointer;
+    accent-color: #4545b6;
+}
+
+.text-range-prices {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .seccion-filtros {
+        flex-direction: row;
+        gap: 0rem;
+    }
+    .seccion-filtros select {
+        width: 25rem;
+    }
+    .seccion-precio, .seccion-precio input {
+        width: 25rem;
+    }
+}
+
+/* --------------------------------------- SECCION CATALOGO --------------------------------*/
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.productocard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productocard img {
+    height: 25rem;
+    object-fit: contain;
+}
+
+.productocard p {
+    text-align: center;
+    color: #242424;
+}
+
+.titulocard {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.preciocard {
+    font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+    .productos {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .productos {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
