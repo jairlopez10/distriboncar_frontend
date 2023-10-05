@@ -868,7 +868,7 @@ const jugueterialocaldb = [
                 url: "/producto20e.mp4"
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Rosado, Morado, Azul",
         edad: "+3",
         categoria: "mascotas",
@@ -938,7 +938,7 @@ const jugueterialocaldb = [
                 url: "/producto4a.webp"
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Rosado",
         edad: "+3",
         categoria: "munecas",
@@ -965,7 +965,7 @@ const jugueterialocaldb = [
             }
             
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Verde, Azul",
         edad: "+3",
         categoria: "punteria",
@@ -989,7 +989,7 @@ const jugueterialocaldb = [
                 url: "producto7b.mp4"
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Amarillo, Verde",
         edad: "+3",
         categoria: "dinosaurios",
@@ -1015,7 +1015,7 @@ const jugueterialocaldb = [
                 url: "/producto9b.mp4"
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Azul, Morado, Naranja, Negro",
         edad: "+3",
         categoria: "carros-impulso",
@@ -1035,7 +1035,7 @@ const jugueterialocaldb = [
                 url: "/producto13a.webp"
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Verde",
         edad: "+0",
         categoria: "didacticos",
@@ -1131,7 +1131,7 @@ const jugueterialocaldb = [
                 url: "/producto19a.webp" 
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Naranja, Verde",
         edad: "+6",
         categoria: "dinosaurios",
@@ -1161,7 +1161,7 @@ const jugueterialocaldb = [
                 url: "/producto21c.mp4"
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Cafe",
         edad: "+3",
         categoria: "dinosaurios",
@@ -1183,7 +1183,7 @@ const jugueterialocaldb = [
                 url: "/producto22a.webp" 
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Safari",
         edad: "+6",
         categoria: "carros-control",
@@ -1377,7 +1377,7 @@ const jugueterialocaldb = [
                 url: "/producto35a.webp" 
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+6",
         categoria: "didacticos",
@@ -1403,7 +1403,7 @@ const jugueterialocaldb = [
                 url: "/producto36b.webp" 
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Morado",
         edad: "+3",
         categoria: "doctor-cocina",
@@ -1423,7 +1423,7 @@ const jugueterialocaldb = [
                 url: "/producto37a.webp" 
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Transparente",
         edad: "+6",
         categoria: "didacticos",
@@ -1445,7 +1445,7 @@ const jugueterialocaldb = [
                 url: "/producto38a.webp" 
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+6",
         categoria: "didacticos",
@@ -1465,7 +1465,7 @@ const jugueterialocaldb = [
                 url: "/producto39a.webp" 
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+6",
         categoria: "didacticos",
@@ -1483,7 +1483,7 @@ const jugueterialocaldb = [
                 url: "/producto40a.webp" 
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "accion",
@@ -1509,7 +1509,7 @@ const jugueterialocaldb = [
                 url: "/producto41b.webp" 
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Azul, Verde",
         edad: "+12",
         categoria: "punteria",
@@ -1529,7 +1529,7 @@ const jugueterialocaldb = [
                 url: "/producto43a.webp" 
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Unicas",
         edad: "+6",
         categoria: "educativo",
@@ -1549,7 +1549,7 @@ const jugueterialocaldb = [
                 url: "/producto44a.webp" 
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Unicas",
         edad: "+6",
         categoria: "educativo",
@@ -1569,7 +1569,7 @@ const jugueterialocaldb = [
                 url: "/producto45a.webp" 
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Unicas",
         edad: "+6",
         categoria: "educativo",
@@ -1599,7 +1599,7 @@ const jugueterialocaldb = [
                 url: "/producto46d.webp" 
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Unicas",
         edad: "+6",
         categoria: "punteria",
@@ -1617,7 +1617,7 @@ const jugueterialocaldb = [
                 url: "/producto49a.webp" 
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Unicas",
         edad: "+6",
         categoria: "punteria",

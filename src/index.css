@@ -160,6 +160,7 @@ footer {
 }
 
 .seccion-filtros select {
+    -webkit-appearance: none;
     background-color: #4545b6;
     border-radius: 1rem;
     cursor: pointer;
@@ -167,6 +168,7 @@ footer {
     color: white;
     height: 5rem;
     width: 100%;
+    -webkit-background-clip: padding-box;
 }
 
 .seccion-precio, .seccion-precio input {
