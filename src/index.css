@@ -169,7 +169,6 @@ footer {
     height: 5rem;
     width: 100%;
     -webkit-background-clip: padding-box;
-    -webkit-text-align-last: center;
 }
 
 .seccion-precio, .seccion-precio input {
@@ -180,6 +179,7 @@ footer {
 .seccion-precio input {
     cursor: pointer;
     accent-color: #4545b6;
+    -webkit-accent-color: #4545b6;
 }
 
 .text-range-prices {

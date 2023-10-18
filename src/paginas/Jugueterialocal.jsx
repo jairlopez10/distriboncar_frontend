@@ -12,7 +12,7 @@ const Jugueterialocal = () => {
 
   const MIN = 1000;
   const STEP = 5000;
-  const MAX = 106000;
+  const MAX = 206000;
   const numproductopag = 10;
   const [juguetesmostrar, setjuguetesmostrar] = useState(juguetesavailable)
   const [juguetesfiltrados, setjuguetesfiltrados] = useState(juguetesavailable)
