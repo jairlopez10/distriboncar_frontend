@@ -72,11 +72,14 @@ const Jugueterialocal = () => {
               <option value="carros-control">Carros de Control Remoto</option>
               <option value="didacticos">Didacticos</option>
               <option value="mascotas">Perros & Gatos</option>
-              <option value="munecas">Muñecas</option>
+              <option value="munecas">Muñecas & Bebes</option>
+              <option value="munecos">Muñecos & Figuras Accion</option>
               <option value="punteria">Punteria</option>
               <option value="maquillaje">Maquillaje y Belleza</option>
               <option value="doctor-cocina">Doctor y Cocina</option>
               <option value="educativo">Interactivo y Educativo</option>
+              <option value="peluches">Peluches</option>
+              <option value="organetas-guitarras">Organetas & Guitarras</option>
             </select>
             <select name="ordenar" id="ordenar" onChange={e => setordenar(e.target.value)}>
               <option value="">{ordenar === "" ? "Ordenar" : "Mayor Relevancia"}</option>

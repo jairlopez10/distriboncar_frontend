@@ -1,266 +1,586 @@
 
 const jugueterialocaldb = [
     {
-        id: 50,
-        titulo: "Lanzador Hidrogel MP5 Automatica Recargable, con Gafas, con 6.000 Orvis Hidrogel",
-        preciomayorista: 60999,
-        precio: 67000,
-        descripcion: `¡Prepárate para la batalla definitiva con la Pistola Lanzadora Automática de Bolas de Hidrogel, inspirada en el estilo de un MP5! Este set de juego te sumerge en una experiencia de combate emocionante y llena de adrenalina.
-
-        Esta pistola lanzadora automática, con su diseño estilo MP5, te ofrece la emoción de una auténtica batalla. Dispara ráfagas de bolas de hidrogel de manera continua con solo mantener presionado el gatillo. Con capacidad para 6000 bolas de hidrogel, estarás listo para enfrentar cualquier desafío y mantenerte en la acción durante horas.
-        
-        La seguridad es una prioridad, y es por eso que este set incluye gafas de protección para mantener tus ojos a salvo mientras te sumerges en la acción. Las bolas de hidrogel son seguras y biodegradables, lo que garantiza un juego seguro y responsable`,
+        id: 100,
+        titulo: "Muñeca Frozen Musical y Accesorios",
+        preciomayorista: 7199,
+        precio: 55000,
+        referencia: "SR9878-1",
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
-                url: "/producto50a.webp" 
-            },
-            {
-                tipo: "video",
-                url: "/producto50b.mp4"
+                url: "/producto100a.webp" 
             }
         ],
         status: "disponible",
         colores: "Unicolor",
-        edad: "+11",
-        categoria: "punteria",
-        genero: "unisex"
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
     },
     {
-        id: 6,
-        titulo: "Dinosaurio Rex con Movimiento Luces Sonido",
-        preciomayorista: 29999,
-        precio: 30000,
-        descripcion: `¡Transporta a tu pequeño a la era de los dinosaurios con nuestro Dinosaurio Rex! Este magnífico amigo prehistórico está lleno de emocionantes luces brillantes, sonidos realistas y un movimiento fascinante en su cuerpo, garras y cola, este dinosaurio cobra vida en las manos de tu hijo. Cada paso es una aventura asombrosa mientras el dinosaurio camina y se balancea con autenticidad, creando momentos de maravilla y diversión.
-        
-        La interacción es clave: los niños adorarán activar los sonidos y movimientos con solo tocar un botón. Y para potenciar la diversión, este dinosaurio es fácil de alimentar. Simplemente coloca 3 pilas AA y estarás listo para la acción!`,
+        id: 101,
+        titulo: "Muñeca Doctora Juguetes con Accesorios",
+        preciomayorista: 7199,
+        precio: 55000,
+        referencia: "SR9885",
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
-                url: "/producto6a.webp"
-            },
-            {
-                tipo: "imagen",
-                url: "/producto6b.webp"
-            },
-            {
-                tipo: "video",
-                url: "/producto6c.mp4"
+                url: "/producto101a.webp" 
             }
         ],
         status: "disponible",
-        colores: "Verde",
+        colores: "Unicolor",
         edad: "+3",
-        categoria: "dinosaurios",
-        genero: "ninos"
+        categoria: "munecas",
+        genero: "ninas"
     },
     {
-        id: 2,
-        titulo: "Computador Interactivo con Pantalla y Mouse",
-        preciomayorista: 37000,
+        id: 102,
+        titulo: "Muñeca Sofia Musical y Accesorios",
+        preciomayorista: 7199,
+        precio: 42000,
+        referencia: "22-04",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto102a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 103,
+        titulo: "Muñeca Patinadora Musical",
+        preciomayorista: 7199,
+        precio: 71000,
+        referencia: "XMY8061",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto103a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 104,
+        titulo: "Bebe Crece con Sonido",
+        preciomayorista: 7199,
+        precio: 70000,
+        referencia: "XMY8019",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto104a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 105,
+        titulo: "Shakira Mediana",
+        preciomayorista: 7199,
+        precio: 26000,
+        referencia: "XW155-35",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto105a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 106,
+        titulo: "Mario / Luigi X1 Blister",
+        preciomayorista: 7199,
+        precio: 9000,
+        referencia: "BX-49853",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto106a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "ninas"
+    },
+    {
+        id: 107,
+        titulo: "Muñeca Cry Baby Orina con Pañal y Tetero",
+        preciomayorista: 7199,
+        precio: 33000,
+        referencia: "KQ-508",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto107a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 108,
+        titulo: "Neceser Maquillaje Fino",
+        preciomayorista: 7199,
+        precio: 55000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto108a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto108b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 109,
+        titulo: "Set Manillas",
+        preciomayorista: 7199,
+        precio: 9000,
+        referencia: "12028-2",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto109a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 110,
+        titulo: "Maleta Manicure y Maquillaje con Accesorios",
+        preciomayorista: 7199,
+        precio: 48000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto110a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto110b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 111,
+        titulo: "Maquillaje Mariposa Pequeño",
+        preciomayorista: 7199,
+        precio: 7500,
+        referencia: "876-2B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto111a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 112,
+        titulo: "Maleta Doctor con Accesorios",
+        preciomayorista: 7199,
+        precio: 24000,
+        referencia: "6607B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto112a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "doctor-cocina",
+        genero: "ninas"
+    },
+    {
+        id: 113,
+        titulo: "Maquillaje Tacon Pequeño",
+        preciomayorista: 7199,
+        precio: 8500,
+        referencia: "XG001",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto113a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 114,
+        titulo: "Kit Maquillaje con Secador de Uñas",
+        preciomayorista: 7199,
         precio: 35000,
-        descripcion: `¡Descubre el emocionante mundo del aprendizaje con nuestro Computador Interactivo Todo en Uno, equipado con mouse y pantalla digital! Diseñado para preescolares, este juguete cautivante es más que un juego.
-
-        Explora números del 1 al 10, el abecedario y palabras esenciales con diversión interactiva. Con canciones animadas y actividades intuitivas de suma y resta, cada momento se convierte en una lección emocionante.
-        
-        Colores vibrantes y personajes adorables hacen que el aprendizaje sea divertido. Los botones grandes y el mouse fácil de usar garantizan una inmersión sin complicaciones.
-        
-        Este computador educativo es una herramienta valiosa que fomenta el desarrollo cognitivo. ¡Cada toque en las teclas crea un futuro de conocimiento!`,
+        referencia: "3028-7",
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
-                url: "/producto2a.webp"
-            },
-            {
-                tipo: "imagen",
-                url: "/producto2b.webp"
-            },
-            {
-                tipo: "imagen",
-                url: "/producto2c.webp"
-            },
-            {
-                tipo: "imagen",
-                url: "/producto2e.webp"
-            },
-            {
-                tipo: "video",
-                url: "/producto2d.mp4"
-            }
-        ],
-        status: "disponible",
-        colores: "Rosado, Azul, Rojo",
-        edad: "+3",
-        categoria: "educativo",
-        genero: "ninas"
-    },
-    {
-        id: 53,
-        titulo: "Spiderman Bailarin, Luces y Sonido",
-        preciomayorista: 29999,
-        precio: 29000,
-        descripcion: `¡Experimenta la emoción de Spider-Man en una nueva dimensión con el Spider-Man Bailarín con Luces y Sonido! Este juguete te llevará directamente al mundo del famoso superhéroe arácnido mientras se mueve, brilla y suena al ritmo de la acción.
-
-        Spider-Man cobra vida con movimientos de baile divertidos y realistas que te harán sonreír. Sus luces brillantes añaden un toque de magia y emoción mientras iluminan el camino hacia la diversión. Además, con sonidos auténticos, te sentirás como si estuvieras en el corazón de una verdadera batalla contra villanos.
-        
-        Este Spider-Man bailarín es fácil de activar con solo colocar 3 pilas AA!`,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto53a.webp" 
-            },
-            {
-                tipo: "video",
-                url: "/producto53b.mp4" 
-            }
-        ],
-        status: "disponible",
-        colores: "Rojo",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 52,
-        titulo: "Lanzador Hidrogel M416 Automatica Recargable + 1.500 Orvis Hidrogel",
-        preciomayorista: 74999,
-        precio: 85000,
-        descripcion: `¡Entra en la acción con la Pistola Lanzadora Automática de Bolas de Hidrogel, inspirada en el estilo de un M416! Este emocionante juguete te lleva a un mundo lleno de emociones y diversión mientras te sumerges en batallas simuladas y aventuras imaginativas.
-
-        La pistola lanzadora automática, con su diseño estilo M416, te permite disparar ráfagas de bolas de hidrogel de manera continua con solo mantener presionado el gatillo. Con 1500 bolas de hidrogel incluidas, estarás listo para enfrentar cualquier desafío y mantener la emoción durante horas.
-        
-        Las bolas de hidrogel son seguras y biodegradables, lo que garantiza un juego responsable y sin preocupaciones!`,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto52a.webp" 
+                url: "/producto114a.webp" 
             }
         ],
         status: "disponible",
         colores: "Unicolor",
-        edad: "+11",
-        categoria: "punteria",
-        genero: "unisex"
-    },
-    {
-        id: 1,
-        titulo: "Kit de Uñas X12 con Brillos",
-        preciomayorista: 3499,
-        precio: 3500,
-        descripcion: `¡Fusionamos diversión y creatividad en nuestro kit de uñas encantadoras! Diseñado especialmente para niñas de 3 a 7 años, este kit les brinda la oportunidad de explorar su lado artístico mientras se divierten.
-
-        Con 12 uñas en colores vibrantes y diseños encantadores, cada uña es una pequeña obra maestra lista para ser creada. Desde delicadas flores hasta brillantes estrellas, ¡serán princesitas creativas!
-        
-        El kit incluye un tubito de pegamento suave y seguro para que las uñas permanezcan en su lugar durante todas las aventuras. Y para el toque final mágico, nuestro frasquito de brillo añade destellos y colores chispeantes a cada creación.`,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto1b.webp"
-            },
-            {
-                tipo: "imagen",
-                url: "/producto1c.webp"
-            },
-            {
-                tipo: "imagen",
-                url: "/producto1d.webp"
-            },
-            {
-                tipo: "imagen",
-                url: "/producto1a.webp"
-            }
-        ],
-        status: "disponible",
-        colores: "Rosado",
         edad: "+3",
         categoria: "maquillaje",
         genero: "ninas"
     },
     {
-        id: 59,
-        titulo: "Maleta Tocador + Accesorios",
-        preciomayorista: 26999,
-        precio: 30000,
-        descripcion: `¡Lleva la diversión y la belleza a un nivel superior con la Maleta Tocador para Niñas! Este juguete es perfecto para que las pequeñas exploren su creatividad y se sumerjan en el emocionante mundo de la moda y el maquillaje.
-
-        Dentro de esta maleta mágica, encontrarán 3 esmaltes de uñas para crear manicuras encantadoras, 1 peinilla para peinar y arreglar su cabello, y 1 secador de juguete para simular el secado y el estilismo del cabello.
-        
-        Pero eso no es todo, también podrán disfrutar de 3 anillos, 3 pulseras y 1 collar para añadir un toque de glamour a su estilo. Con 2 labiales de juguete en tonos divertidos, podrán experimentar con colores y expresar su personalidad!`,
+        id: 115,
+        titulo: "Peluche Minie Mouse",
+        preciomayorista: 7199,
+        precio: 21000,
+        referencia: "HD028-40",
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
-                url: "/producto59a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto59b.webp" 
+                url: "/producto115a.webp" 
             }
         ],
         status: "disponible",
-        colores: "Rosado",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "peluches",
+        genero: "ninas"
+    },
+    {
+        id: 116,
+        titulo: "Peluche Mario Bros",
+        preciomayorista: 7199,
+        precio: 22000,
+        referencia: "8901",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto116a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "peluches",
+        genero: "ninas"
+    },
+    {
+        id: 117,
+        titulo: "Bebe Gestos y Toma Tetero",
+        preciomayorista: 7199,
+        precio: 93000,
+        referencia: "XMY201A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto117a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 118,
+        titulo: "Bebe Sonido y Canguro",
+        preciomayorista: 7199,
+        precio: 55000,
+        referencia: "XMY8024",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto118a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 119,
+        titulo: "Maquina Repostera y Cafetera",
+        preciomayorista: 7199,
+        precio: 20000,
+        referencia: "9040B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto119a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "doctor-cocina",
+        genero: "ninas"
+    },
+    {
+        id: 120,
+        titulo: "Bolso Maquillaje Pequeño",
+        preciomayorista: 7199,
+        precio: 12000,
+        referencia: "1688-8823",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto120a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto120b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
         edad: "+3",
         categoria: "maquillaje",
         genero: "ninas"
     },
     {
-        id: 58,
-        titulo: "Carro Control Sensor + Control Remoto + Vapor de Agua",
-        preciomayorista: 84999,
-        precio: 78000,
-        referencia: "8868E",
-        descripcion: `¡Prepárate para una experiencia de conducción única con el Carro Control Sensor, Este vehículo te ofrece lo mejor de ambos mundos, combinando tecnología avanzada con la diversión clásica de los carros a control remoto.
-
-        El control de sensor de movimiento te permite dirigir el carro simplemente moviendo la mano, lo que añade un nivel de interacción y emoción sin precedentes. ¡Es como si estuvieras controlando el carro con gestos mágicos! Además, el control convencional también está incluido para una experiencia de conducción tradicional.
-        
-        Este carro está equipado con luces brillantes que iluminan tu camino y sonidos realistas que te sumergen en una experiencia de conducción auténtica. Pero eso no es todo, ¡también lanza vapor de agua, creando efectos visuales impresionantes que emulan el escape de un vehículo real!`,
+        id: 121,
+        titulo: "Maquina Coser y Plancha",
+        preciomayorista: 7199,
+        precio: 52000,
+        referencia: "8801-2",
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
-                url: "/producto58a.webp" 
-            },
-            {
-                tipo: "video",
-                url: "/producto58b.mp4" 
+                url: "/producto121a.webp" 
             }
         ],
         status: "disponible",
-        colores: "Rojo",
-        edad: "+6",
-        categoria: "carros-control",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 122,
+        titulo: "Muñecas LOL X4 Unds con Sorpresa Blister",
+        preciomayorista: 7199,
+        precio: 31000,
+        referencia: "6019-4B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto122a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 123,
+        titulo: "Mario Bros X1 Blister",
+        preciomayorista: 7199,
+        precio: 15000,
+        referencia: "B05-1",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto123a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Mario, King Kong, Princesa, Bowser",
+        edad: "+3",
+        categoria: "munecos",
         genero: "ninos"
     },
     {
-        id: 62,
-        titulo: "Maleta Veterinaria Mascota",
-        preciomayorista: 42999,
-        precio: 60000,
-        descripcion: `
-        ¡La Maleta Veterinaria es la elección perfecta para los amantes de los animales y los futuros veterinarios! Este juguete transformable permite a los niños explorar el emocionante mundo de cuidar y curar a sus amigos peludos.
-        
-        Dentro de la maleta veterinaria, encontrarás una gama de accesorios esenciales para cuidar al adorable perro de juguete. Esto incluye un plato de comida, un peine para acicalar al peludo amigo, 2 cajas de comida, tijeras para cortar su pelaje, shampoo para mantenerlo limpio y un lavabo para darle un buen baño!`,
+        id: 124,
+        titulo: "Barbie Individual",
+        preciomayorista: 7199,
+        precio: 4500,
+        referencia: "181A2",
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
-                url: "/producto62a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto62b.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto62c.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto62d.webp" 
+                url: "/producto124a.webp" 
             }
         ],
         status: "disponible",
-        colores: "Rosada, Azul",
+        colores: "Amarillo, Rosado, Rojo",
         edad: "+3",
-        categoria: "mascotas",
-        genero: "unisex"
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 125,
+        titulo: "Maquina de Coser",
+        preciomayorista: 7199,
+        precio: 36000,
+        referencia: "6992A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto125a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 126,
+        titulo: "Bebe Bañera Electrica",
+        preciomayorista: 7199,
+        precio: 42000,
+        referencia: "389-1",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto126a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 127,
+        titulo: "Guitarra Conejo con Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 27500,
+        referencia: "3017",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto127a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "organetas-guitarras",
+        genero: "ninas"
+    },
+    {
+        id: 128,
+        titulo: "Guitarra Jirafa con Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 35000,
+        referencia: "CY-6020C",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto128a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "organetas-guitarras",
+        genero: "ninas"
+    },
+    {
+        id: 129,
+        titulo: "Guitarra Jirafa Antenas",
+        preciomayorista: 7199,
+        precio: 38000,
+        referencia: "CY-60115C",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto129a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "organetas-guitarras",
+        genero: "ninas"
     },
     {
         id: 51,
@@ -1448,6 +1768,268 @@ const jugueterialocaldb = [
         edad: "+3",
         categoria: "carros-impulso",
         genero: "ninos"
+    },
+    {
+        id: 50,
+        titulo: "Lanzador Hidrogel MP5 Automatica Recargable, con Gafas, con 6.000 Orvis Hidrogel",
+        preciomayorista: 60999,
+        precio: 67000,
+        descripcion: `¡Prepárate para la batalla definitiva con la Pistola Lanzadora Automática de Bolas de Hidrogel, inspirada en el estilo de un MP5! Este set de juego te sumerge en una experiencia de combate emocionante y llena de adrenalina.
+
+        Esta pistola lanzadora automática, con su diseño estilo MP5, te ofrece la emoción de una auténtica batalla. Dispara ráfagas de bolas de hidrogel de manera continua con solo mantener presionado el gatillo. Con capacidad para 6000 bolas de hidrogel, estarás listo para enfrentar cualquier desafío y mantenerte en la acción durante horas.
+        
+        La seguridad es una prioridad, y es por eso que este set incluye gafas de protección para mantener tus ojos a salvo mientras te sumerges en la acción. Las bolas de hidrogel son seguras y biodegradables, lo que garantiza un juego seguro y responsable`,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto50a.webp" 
+            },
+            {
+                tipo: "video",
+                url: "/producto50b.mp4"
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+11",
+        categoria: "punteria",
+        genero: "unisex"
+    },
+    {
+        id: 6,
+        titulo: "Dinosaurio Rex con Movimiento Luces Sonido",
+        preciomayorista: 29999,
+        precio: 30000,
+        descripcion: `¡Transporta a tu pequeño a la era de los dinosaurios con nuestro Dinosaurio Rex! Este magnífico amigo prehistórico está lleno de emocionantes luces brillantes, sonidos realistas y un movimiento fascinante en su cuerpo, garras y cola, este dinosaurio cobra vida en las manos de tu hijo. Cada paso es una aventura asombrosa mientras el dinosaurio camina y se balancea con autenticidad, creando momentos de maravilla y diversión.
+        
+        La interacción es clave: los niños adorarán activar los sonidos y movimientos con solo tocar un botón. Y para potenciar la diversión, este dinosaurio es fácil de alimentar. Simplemente coloca 3 pilas AA y estarás listo para la acción!`,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto6a.webp"
+            },
+            {
+                tipo: "imagen",
+                url: "/producto6b.webp"
+            },
+            {
+                tipo: "video",
+                url: "/producto6c.mp4"
+            }
+        ],
+        status: "disponible",
+        colores: "Verde",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 2,
+        titulo: "Computador Interactivo con Pantalla y Mouse",
+        preciomayorista: 37000,
+        precio: 35000,
+        descripcion: `¡Descubre el emocionante mundo del aprendizaje con nuestro Computador Interactivo Todo en Uno, equipado con mouse y pantalla digital! Diseñado para preescolares, este juguete cautivante es más que un juego.
+
+        Explora números del 1 al 10, el abecedario y palabras esenciales con diversión interactiva. Con canciones animadas y actividades intuitivas de suma y resta, cada momento se convierte en una lección emocionante.
+        
+        Colores vibrantes y personajes adorables hacen que el aprendizaje sea divertido. Los botones grandes y el mouse fácil de usar garantizan una inmersión sin complicaciones.
+        
+        Este computador educativo es una herramienta valiosa que fomenta el desarrollo cognitivo. ¡Cada toque en las teclas crea un futuro de conocimiento!`,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto2a.webp"
+            },
+            {
+                tipo: "imagen",
+                url: "/producto2b.webp"
+            },
+            {
+                tipo: "imagen",
+                url: "/producto2c.webp"
+            },
+            {
+                tipo: "imagen",
+                url: "/producto2e.webp"
+            },
+            {
+                tipo: "video",
+                url: "/producto2d.mp4"
+            }
+        ],
+        status: "disponible",
+        colores: "Rosado, Azul, Rojo",
+        edad: "+3",
+        categoria: "educativo",
+        genero: "ninas"
+    },
+    {
+        id: 53,
+        titulo: "Spiderman Bailarin, Luces y Sonido",
+        preciomayorista: 29999,
+        precio: 29000,
+        descripcion: `¡Experimenta la emoción de Spider-Man en una nueva dimensión con el Spider-Man Bailarín con Luces y Sonido! Este juguete te llevará directamente al mundo del famoso superhéroe arácnido mientras se mueve, brilla y suena al ritmo de la acción.
+
+        Spider-Man cobra vida con movimientos de baile divertidos y realistas que te harán sonreír. Sus luces brillantes añaden un toque de magia y emoción mientras iluminan el camino hacia la diversión. Además, con sonidos auténticos, te sentirás como si estuvieras en el corazón de una verdadera batalla contra villanos.
+        
+        Este Spider-Man bailarín es fácil de activar con solo colocar 3 pilas AA!`,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto53a.webp" 
+            },
+            {
+                tipo: "video",
+                url: "/producto53b.mp4" 
+            }
+        ],
+        status: "disponible",
+        colores: "Rojo",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 52,
+        titulo: "Lanzador Hidrogel M416 Automatica Recargable + 1.500 Orvis Hidrogel",
+        preciomayorista: 74999,
+        precio: 85000,
+        descripcion: `¡Entra en la acción con la Pistola Lanzadora Automática de Bolas de Hidrogel, inspirada en el estilo de un M416! Este emocionante juguete te lleva a un mundo lleno de emociones y diversión mientras te sumerges en batallas simuladas y aventuras imaginativas.
+
+        La pistola lanzadora automática, con su diseño estilo M416, te permite disparar ráfagas de bolas de hidrogel de manera continua con solo mantener presionado el gatillo. Con 1500 bolas de hidrogel incluidas, estarás listo para enfrentar cualquier desafío y mantener la emoción durante horas.
+        
+        Las bolas de hidrogel son seguras y biodegradables, lo que garantiza un juego responsable y sin preocupaciones!`,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto52a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+11",
+        categoria: "punteria",
+        genero: "unisex"
+    },
+    {
+        id: 1,
+        titulo: "Kit de Uñas X12 con Brillos",
+        preciomayorista: 3499,
+        precio: 3500,
+        descripcion: `¡Fusionamos diversión y creatividad en nuestro kit de uñas encantadoras! Diseñado especialmente para niñas de 3 a 7 años, este kit les brinda la oportunidad de explorar su lado artístico mientras se divierten.
+
+        Con 12 uñas en colores vibrantes y diseños encantadores, cada uña es una pequeña obra maestra lista para ser creada. Desde delicadas flores hasta brillantes estrellas, ¡serán princesitas creativas!
+        
+        El kit incluye un tubito de pegamento suave y seguro para que las uñas permanezcan en su lugar durante todas las aventuras. Y para el toque final mágico, nuestro frasquito de brillo añade destellos y colores chispeantes a cada creación.`,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto1b.webp"
+            },
+            {
+                tipo: "imagen",
+                url: "/producto1c.webp"
+            },
+            {
+                tipo: "imagen",
+                url: "/producto1d.webp"
+            },
+            {
+                tipo: "imagen",
+                url: "/producto1a.webp"
+            }
+        ],
+        status: "disponible",
+        colores: "Rosado",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 59,
+        titulo: "Maleta Tocador + Accesorios",
+        preciomayorista: 26999,
+        precio: 30000,
+        descripcion: `¡Lleva la diversión y la belleza a un nivel superior con la Maleta Tocador para Niñas! Este juguete es perfecto para que las pequeñas exploren su creatividad y se sumerjan en el emocionante mundo de la moda y el maquillaje.
+
+        Dentro de esta maleta mágica, encontrarán 3 esmaltes de uñas para crear manicuras encantadoras, 1 peinilla para peinar y arreglar su cabello, y 1 secador de juguete para simular el secado y el estilismo del cabello.
+        
+        Pero eso no es todo, también podrán disfrutar de 3 anillos, 3 pulseras y 1 collar para añadir un toque de glamour a su estilo. Con 2 labiales de juguete en tonos divertidos, podrán experimentar con colores y expresar su personalidad!`,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto59a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto59b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Rosado",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 58,
+        titulo: "Carro Control Sensor + Control Remoto + Vapor de Agua",
+        preciomayorista: 84999,
+        precio: 78000,
+        referencia: "8868E",
+        descripcion: `¡Prepárate para una experiencia de conducción única con el Carro Control Sensor, Este vehículo te ofrece lo mejor de ambos mundos, combinando tecnología avanzada con la diversión clásica de los carros a control remoto.
+
+        El control de sensor de movimiento te permite dirigir el carro simplemente moviendo la mano, lo que añade un nivel de interacción y emoción sin precedentes. ¡Es como si estuvieras controlando el carro con gestos mágicos! Además, el control convencional también está incluido para una experiencia de conducción tradicional.
+        
+        Este carro está equipado con luces brillantes que iluminan tu camino y sonidos realistas que te sumergen en una experiencia de conducción auténtica. Pero eso no es todo, ¡también lanza vapor de agua, creando efectos visuales impresionantes que emulan el escape de un vehículo real!`,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto58a.webp" 
+            },
+            {
+                tipo: "video",
+                url: "/producto58b.mp4" 
+            }
+        ],
+        status: "disponible",
+        colores: "Rojo",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 62,
+        titulo: "Maleta Veterinaria Mascota",
+        preciomayorista: 42999,
+        precio: 60000,
+        descripcion: `
+        ¡La Maleta Veterinaria es la elección perfecta para los amantes de los animales y los futuros veterinarios! Este juguete transformable permite a los niños explorar el emocionante mundo de cuidar y curar a sus amigos peludos.
+        
+        Dentro de la maleta veterinaria, encontrarás una gama de accesorios esenciales para cuidar al adorable perro de juguete. Esto incluye un plato de comida, un peine para acicalar al peludo amigo, 2 cajas de comida, tijeras para cortar su pelaje, shampoo para mantenerlo limpio y un lavabo para darle un buen baño!`,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto62a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto62b.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto62c.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto62d.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Rosada, Azul",
+        edad: "+3",
+        categoria: "mascotas",
+        genero: "unisex"
     },
 
 ];
