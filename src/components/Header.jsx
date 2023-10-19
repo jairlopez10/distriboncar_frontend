@@ -11,7 +11,7 @@ const Header = () => {
         <header>
             <div className="divheader contenedor">
                 <div className="divbarra">
-                    <div className="logo cursor-pointer" onClick={() => navegar("/")}>
+                    <div className="logo cursor-pointer" onClick={() => navegar("/catalogojuguetesl")}>
                         <img src="/logo2.png" alt="logo" />
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" className={`${menu ? 'hidden' : 'block'} menuicono icon cursor-pointer icon-tabler icon-tabler-menu-2`} width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round" onClick={() => setmenu(!menu)}>
@@ -27,10 +27,16 @@ const Header = () => {
                     </svg>
                 </div>
                 <div className={`${menu ? "flex transition-all" : "hidden"} navegacion`}>
+                    
+                    {/*
                     <Link to="/" onClick={() => setmenu(false)}>Inicio</Link>
+                    */}
                     <Link to="/catalogojuguetesl" className="jugueteslink" onClick={() => setmenu(false)}>Jugueteria</Link>
+                    {/*
                     <Link to="/catalogoferreterial" className="ferreterialink" onClick={() => setmenu(false)}>Ferreteria</Link>
                     <Link to="/nosotros" onClick={() => setmenu(false)}>Nosotros</Link>
+                    */}
+                    
                 </div>
             </div>
         </header>
