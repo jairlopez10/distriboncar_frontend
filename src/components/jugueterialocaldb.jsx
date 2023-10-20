@@ -583,6 +583,657 @@ const jugueterialocaldb = [
         genero: "ninas"
     },
     {
+        id: 130,
+        titulo: "Peluche Minie Mouse Grande",
+        preciomayorista: 7199,
+        precio: 53000,
+        referencia: "HD028-75",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto130a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "peluches",
+        genero: "ninas"
+    },
+    {
+        id: 131,
+        titulo: "Playdoh de Pulpo",
+        preciomayorista: 7199,
+        precio: 30000,
+        referencia: "2902B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto131a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "didacticos",
+        genero: "unisex"
+    },
+    {
+        id: 132,
+        titulo: "Barbie Doctora",
+        preciomayorista: 7199,
+        precio: 12000,
+        referencia: "MU047",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto132a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 133,
+        titulo: "Barbie con Mascota",
+        preciomayorista: 7199,
+        precio: 23000,
+        referencia: "JF019",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto133a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 134,
+        titulo: "Barbie & Ken con Accesorios",
+        preciomayorista: 7199,
+        precio: 29000,
+        referencia: "8821E",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto134a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 135,
+        titulo: "Barbie Sirena",
+        preciomayorista: 7199,
+        precio: 18000,
+        referencia: "SR3390",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto135a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 136,
+        titulo: "Muñecas Encanto X2",
+        preciomayorista: 7199,
+        precio: 22000,
+        referencia: "2048",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto136a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 137,
+        titulo: "Dinosaurio con PlayDoh",
+        preciomayorista: 7199,
+        precio: 38000,
+        referencia: "9150",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto137a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto137b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "didacticos",
+        genero: "ninas"
+    },
+    {
+        id: 139,
+        titulo: "Cabeza para Peinar con Cepillo",
+        preciomayorista: 7199,
+        precio: 29000,
+        referencia: "B369-96",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto139a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 140,
+        titulo: "Barbie Bicicleta y Vestido",
+        preciomayorista: 7199,
+        precio: 23000,
+        referencia: "HB017",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto140a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 141,
+        titulo: "Barbie con Hija y Vestidos",
+        preciomayorista: 7199,
+        precio: 8500,
+        referencia: "319A42",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto141a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 142,
+        titulo: "Muñeca Encanto X1",
+        preciomayorista: 7199,
+        precio: 11000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto142a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 143,
+        titulo: "Muñeca Princesa X1",
+        preciomayorista: 7199,
+        precio: 34000,
+        referencia: "KT142",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto143a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 144,
+        titulo: "Set Manicure Grande",
+        preciomayorista: 7199,
+        precio: 58000,
+        referencia: "8822",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto144a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 145,
+        titulo: "Dinosaurio Transparente con Luces, Sonido y Movimiento",
+        preciomayorista: 7199,
+        precio: 27000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto145a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 146,
+        titulo: "Pistola Lanzadardos Blister",
+        preciomayorista: 7199,
+        precio: 27000,
+        referencia: "SNFD-M529",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto146a.webp" 
+            }
+        ],
+        status: "Out Stock - Precio",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "punteria",
+        genero: "ninos"
+    },
+    {
+        id: 147,
+        titulo: "El Ultimo Dragon X 4",
+        preciomayorista: 7199,
+        precio: 27000,
+        referencia: "BX-49853",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto147a.webp" 
+            }
+        ],
+        status: "Out Stock - Precio",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "ninos"
+    },
+    {
+        id: 148,
+        titulo: "Vengadores X4 Blister",
+        preciomayorista: 7199,
+        precio: 23000,
+        referencia: "63215",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto148a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "ninos"
+    },
+    {
+        id: 149,
+        titulo: "Minecraft X2 con Accesorios",
+        preciomayorista: 7199,
+        precio: 18000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto149a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "ninos"
+    },
+    {
+        id: 150,
+        titulo: "Princesas con Soporte X4",
+        preciomayorista: 7199,
+        precio: 21000,
+        referencia: "191108",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto150a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 151,
+        titulo: "Paw Patrol X7 Blister",
+        preciomayorista: 7199,
+        precio: 23000,
+        referencia: "63215",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto151a.webp" 
+            }
+        ],
+        status: "Out Stock - Precio",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "ninos"
+    },
+    {
+        id: 152,
+        titulo: "Spiderman X4 Blister",
+        preciomayorista: 7199,
+        precio: 35000,
+        referencia: "MU071",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto152a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "ninos"
+    },
+    {
+        id: 153,
+        titulo: "Frozen con Muñeco de Nieve",
+        preciomayorista: 7199,
+        precio: 12000,
+        referencia: "76793",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto153a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 154,
+        titulo: "Frozen X2 con Muñeco Nieve",
+        preciomayorista: 7199,
+        precio: 16500,
+        referencia: "MU031",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto154a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 155,
+        titulo: "Sonic X1 Blister",
+        preciomayorista: 7199,
+        precio: 10500,
+        referencia: "GNG-172",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto155a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "ninos"
+    },
+    {
+        id: 156,
+        titulo: "Barbie Sirena con Hija Blister",
+        preciomayorista: 7199,
+        precio: 8500,
+        referencia: "63215",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto156a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 157,
+        titulo: "Robot Bailarin",
+        preciomayorista: 7199,
+        precio: 29000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto157a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 158,
+        titulo: "Abeja Bailarina",
+        preciomayorista: 7199,
+        precio: 27000,
+        referencia: "YJ3006",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto158a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "unisex"
+    },
+    {
+        id: 159,
+        titulo: "Movil Musical para Bebes",
+        preciomayorista: 7199,
+        precio: 14000,
+        referencia: "D056",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto159a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "didacticos",
+        genero: "unisex"
+    },
+    {
+        id: 160,
+        titulo: "Play Doh X12",
+        preciomayorista: 7199,
+        precio: 34000,
+        referencia: "JD1204",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto160a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "didacticos",
+        genero: "unisex"
+    },
+    {
+        id: 161,
+        titulo: "Play Doh X4",
+        preciomayorista: 7199,
+        precio: 8000,
+        referencia: "6603-4",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto161a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "didacticos",
+        genero: "unisex"
+    },
+    {
+        id: 162,
+        titulo: "Play Doh X6",
+        preciomayorista: 7199,
+        precio: 11500,
+        referencia: "6603-6",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto162a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "didacticos",
+        genero: "unisex"
+    },
+    {
+        id: 163,
+        titulo: "Moldes y Playdoh",
+        preciomayorista: 7199,
+        precio: 15000,
+        referencia: "NQ-A112",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto163a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "didacticos",
+        genero: "unisex"
+    },
+    {
+        id: 164,
+        titulo: "Mario Karts X8",
+        preciomayorista: 7199,
+        precio: 33000,
+        referencia: "999-58",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto164a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "unisex"
+    },
+
+    {
         id: 51,
         titulo: "Lanzador Hidrogel Automatica Recargable + 1.500 Orvis Hidrogel",
         preciomayorista: 48999,
@@ -1723,7 +2374,7 @@ const jugueterialocaldb = [
     },
     {
         id: 49,
-        titulo: "Maleta Tocador",
+        titulo: "Maleta Tocador Pequeña",
         preciomayorista: 1000,
         precio: 15000,
         descripcion: `¡Vive la emoción de los Vengadores con la Pistola Nerf Estilo Avengers inspirada en Spider-Man y Capitán América! Este set incluye 6 dardos y un tablero de disparo para una acción heroica llena de diversión y aventuras. Con detalles auténticos y diseño de superhéroes, estarás listo para enfrentar desafíos imaginarios con estilo. ¡Prepárate para un juego lleno de emoción y adrenalina mientras te conviertes en un verdadero defensor de la justicia!`,
@@ -1734,10 +2385,10 @@ const jugueterialocaldb = [
             }
         ],
         status: "disponible",
-        colores: "Unicas",
-        edad: "+6",
-        categoria: "punteria",
-        genero: "ninos"
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "doctor-cocina",
+        genero: "ninas"
     },
     {
         id: 65,
