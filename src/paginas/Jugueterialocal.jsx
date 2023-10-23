@@ -71,7 +71,7 @@ const Jugueterialocal = () => {
               <option value="carros-impulso">Carros de Pila e Impulso</option>
               <option value="carros-control">Carros de Control Remoto</option>
               <option value="didacticos">Didacticos</option>
-              <option value="mascotas">Perros & Gatos</option>
+              <option value="mascotas">Animales y Mascotas</option>
               <option value="munecas">Muñecas & Bebes</option>
               <option value="munecos">Muñecos & Figuras Accion</option>
               <option value="punteria">Punteria</option>

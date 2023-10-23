@@ -1,5 +1,463 @@
 
 const jugueterialocaldb = [
+
+    {
+        id: 165,
+        titulo: "Libelula con Luces, Sonido y Movimiento",
+        preciomayorista: 7199,
+        precio: 26000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto165a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "mascotas",
+        genero: "unisex"
+    },
+    {
+        id: 166,
+        titulo: "Leon con Luces, Sonido y Movimiento",
+        preciomayorista: 7199,
+        precio: 19000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto166a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "mascotas",
+        genero: "unisex"
+    },
+    {
+        id: 167,
+        titulo: "Boquitoqui de Personajes",
+        preciomayorista: 7199,
+        precio: 0,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto167a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Avengers, Mickey Mouse, Cars, Frozen",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "unisex"
+    },
+    {
+        id: 168,
+        titulo: "Peluche Chimuelo",
+        preciomayorista: 7199,
+        precio: 12000,
+        referencia: "845212",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto168a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "peluches",
+        genero: "unisex"
+    },
+    {
+        id: 169,
+        titulo: "Avengers X1 en Blister",
+        preciomayorista: 7199,
+        precio: 10000,
+        referencia: "915-C1",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto169a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Iron Man, Grood, Rocket",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "ninos"
+    },
+    {
+        id: 170,
+        titulo: "Baby Yoda X3 en Blister",
+        preciomayorista: 7199,
+        precio: 12000,
+        referencia: "19011",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto170a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "unisex"
+    },
+    {
+        id: 171,
+        titulo: "Kit de Bicicleta con Patineta y Herramienta",
+        preciomayorista: 7199,
+        precio: 6500,
+        referencia: "SNFD-M529",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto171a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 172,
+        titulo: "Among Us X2 Blister",
+        preciomayorista: 7199,
+        precio: 6000,
+        referencia: "8050",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto172a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "unisex"
+    },
+    {
+        id: 173,
+        titulo: "Pokeballs Pequeñas",
+        preciomayorista: 7199,
+        precio: 2500,
+        referencia: "GOGO0215-2",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto173a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Surtida",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "unisex"
+    },
+    {
+        id: 174,
+        titulo: "Lego X1 de Personajes",
+        preciomayorista: 7199,
+        precio: 2500,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto174a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "unisex"
+    },
+    {
+        id: 175,
+        titulo: "Carroza con Luces, Sonido y Movimiento",
+        preciomayorista: 7199,
+        precio: 0,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto175a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninas"
+    },
+    {
+        id: 176,
+        titulo: "Sonajero Digital Musical",
+        preciomayorista: 7199,
+        precio: 12000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto176a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "didacticos",
+        genero: "unisex"
+    },
+    {
+        id: 177,
+        titulo: "Moto Frozen con Movimiento, Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 29500,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto177a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninas"
+    },
+    {
+        id: 178,
+        titulo: "Triceratops con Movimiento, Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 0,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto178a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "unisex"
+    },
+    {
+        id: 179,
+        titulo: "Organeta Vaca",
+        preciomayorista: 7199,
+        precio: 19000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto179a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "organetas-guitarras",
+        genero: "unisex"
+    },
+    {
+        id: 180,
+        titulo: "Organeta Gusano",
+        preciomayorista: 7199,
+        precio: 19000,
+        referencia: "3019",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto180a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "organetas-guitarras",
+        genero: "unisex"
+    },
+    {
+        id: 181,
+        titulo: "Cry Baby Doctora",
+        preciomayorista: 7199,
+        precio: 33000,
+        referencia: "KQ508",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto181a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 182,
+        titulo: "Organeta Granja",
+        preciomayorista: 7199,
+        precio: 15000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto182a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "organetas-guitarras",
+        genero: "unisex"
+    },
+    {
+        id: 183,
+        titulo: "Carro con Movimiento arriba y lados",
+        preciomayorista: 7199,
+        precio: 24000,
+        referencia: "QF05-14",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto183a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 184,
+        titulo: "Bus con Movimiento, Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "HJ-638",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto184a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "unisex"
+    },
+    {
+        id: 185,
+        titulo: "Tren con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 30000,
+        referencia: "238-1A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto185a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "unisex"
+    },
+    {
+        id: 186,
+        titulo: "Organeta Perro",
+        preciomayorista: 7199,
+        precio: 19000,
+        referencia: "5577",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto186a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "organetas-guitarras",
+        genero: "unisex"
+    },
+    {
+        id: 187,
+        titulo: "Organeta Caballo",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "5577",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto187a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "organetas-guitarras",
+        genero: "unisex"
+    },
+    {
+        id: 188,
+        titulo: "Pistola con Laser Lanza Dardos e Hidrogel",
+        preciomayorista: 7199,
+        precio: 12000,
+        referencia: "M138-C",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto188a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "punteria",
+        genero: "unisex"
+    },
+    
     {
         id: 100,
         titulo: "Muñeca Frozen Musical y Accesorios",
