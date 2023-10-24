@@ -784,6 +784,82 @@ const jugueterialocaldb = [
         categoria: "dinosaurios",
         genero: "ninos"
     },
+    {
+        id: 206,
+        titulo: "Dinosaurio Cuello Largo Alas Pone Huevos",
+        preciomayorista: 7199,
+        precio: 43000,
+        referencia: "666-2A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto206a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 207,
+        titulo: "Dinosaurio 3 Cabezas Pone Huevos",
+        preciomayorista: 7199,
+        precio: 39000,
+        referencia: "858B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto207a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 208,
+        titulo: "Dragona con Alas, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 48000,
+        referencia: "6659",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto208a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 209,
+        titulo: "Dragon 5 Cabezas con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 38000,
+        referencia: "NY016",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto209a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
 
 
 
@@ -2020,6 +2096,8 @@ const jugueterialocaldb = [
         categoria: "carros-impulso",
         genero: "unisex"
     },
+
+
 
     {
         id: 51,
