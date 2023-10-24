@@ -480,7 +480,7 @@ const jugueterialocaldb = [
         id: 190,
         titulo: "Dinosaurio 3 Cabezas con Movimiento, Luces y Sonido",
         preciomayorista: 7199,
-        precio: 0,
+        precio: 47000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1663,7 +1663,7 @@ const jugueterialocaldb = [
         id: 146,
         titulo: "Pistola Lanzadardos Blister",
         preciomayorista: 7199,
-        precio: 27000,
+        precio: 12500,
         referencia: "SNFD-M529",
         descripcion: ``,
         imagenes: [
@@ -1672,7 +1672,7 @@ const jugueterialocaldb = [
                 url: "/producto146a.webp" 
             }
         ],
-        status: "Out Stock - Precio",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "punteria",
@@ -1682,7 +1682,7 @@ const jugueterialocaldb = [
         id: 147,
         titulo: "El Ultimo Dragon X 4",
         preciomayorista: 7199,
-        precio: 27000,
+        precio: 19000,
         referencia: "BX-49853",
         descripcion: ``,
         imagenes: [
@@ -1691,7 +1691,7 @@ const jugueterialocaldb = [
                 url: "/producto147a.webp" 
             }
         ],
-        status: "Out Stock - Precio",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecos",
@@ -1758,7 +1758,7 @@ const jugueterialocaldb = [
         id: 151,
         titulo: "Paw Patrol X7 Blister",
         preciomayorista: 7199,
-        precio: 23000,
+        precio: 20000,
         referencia: "63215",
         descripcion: ``,
         imagenes: [
@@ -1767,7 +1767,7 @@ const jugueterialocaldb = [
                 url: "/producto151a.webp" 
             }
         ],
-        status: "Out Stock - Precio",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecos",
@@ -2738,7 +2738,7 @@ const jugueterialocaldb = [
         id: 42,
         titulo: "Juego Jenga + Dados",
         preciomayorista: 12999,
-        precio: 18999,
+        precio: 13000,
         descripcion: `¡Eleva la emoción del clásico juego de Jenga con Dados Numéricos! En esta emocionante variante, los dados añaden un elemento de sorpresa y estrategia mientras intentas mantener la torre en pie.
 
         En lugar de retirar bloques físicos, los dados numéricos te indican qué bloque retirar según el número que rueden. ¿Serás lo suficientemente hábil para retirar el bloque correcto sin derribar la torre? Cada lanzamiento de dados añade una dosis de incertidumbre y anticipación, ya que el destino de la torre está en tus manos y en los números que obtengas!`,
@@ -2748,7 +2748,7 @@ const jugueterialocaldb = [
                 url: "/producto42a.webp" 
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
         colores: "Beige",
         edad: "+6",
         categoria: "didacticos",
