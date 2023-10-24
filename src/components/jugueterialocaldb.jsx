@@ -874,10 +874,391 @@ const jugueterialocaldb = [
             }
         ],
         status: "disponible",
+        colores: "Azul, Rosada",
+        edad: "+3",
+        categoria: "doctor-cocina",
+        genero: "unisex"
+    },
+    {
+        id: 211,
+        titulo: "Maleta Construccion y Militar",
+        preciomayorista: 7199,
+        precio: 22000,
+        referencia: "399-256/7",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto211a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Militar, Construccion",
+        edad: "+3",
+        categoria: "educativo",
+        genero: "ninos"
+    },
+    {
+        id: 212,
+        titulo: "Maleta Doctor con Accesorios",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "008-918A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto212a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto212b.webp" 
+            }
+        ],
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "doctor-cocina",
         genero: "unisex"
+    },
+    {
+        id: 213,
+        titulo: "Boquitoquis Encanto",
+        preciomayorista: 7199,
+        precio: 18000,
+        referencia: "005-24A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto213a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 214,
+        titulo: "Pista Dinosaurio con Carro",
+        preciomayorista: 7199,
+        precio: 27000,
+        referencia: "668-30A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto214a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 215,
+        titulo: "Boquitoquis Personajes",
+        preciomayorista: 7199,
+        precio: 27000,
+        referencia: "178-260",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto215a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Capitan America, Minie Mouse",
+        edad: "+3",
+        categoria: "educativo",
+        genero: "unisex"
+    },
+    {
+        id: 216,
+        titulo: "Transformer X1 Grande",
+        preciomayorista: 7199,
+        precio: 0,
+        referencia: "JH1036",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto216a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto216b.webp" 
+            } 
+        ],
+        status: "disponible",
+        colores: "Optimus Prime, Bumblee Bee",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "ninos"
+    },
+    {
+        id: 217,
+        titulo: "Transformer X1 Mediano",
+        preciomayorista: 7199,
+        precio: 0,
+        referencia: "JH1018",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto217a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto217b.webp" 
+            } 
+        ],
+        status: "disponible",
+        colores: "Optimus Prime, Bumblee Bee",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "ninos"
+    },
+    {
+        id: 218,
+        titulo: "Lego Transformer 527 Pcs",
+        preciomayorista: 7199,
+        precio: 61000,
+        referencia: "55031",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto218a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto218b.webp" 
+            } 
+        ],
+        status: "disponible",
+        colores: "Optimus Prime, Bumblee Bee",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "ninos"
+    },
+    {
+        id: 219,
+        titulo: "Lego Barco Dragon de 335 Pcs",
+        preciomayorista: 7199,
+        precio: 0,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto219a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "ninos"
+    },
+    {
+        id: 220,
+        titulo: "Cocina Musical con Horno y Accesorios",
+        preciomayorista: 7199,
+        precio: 78000,
+        referencia: "008-58",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto220a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "doctor-cocina",
+        genero: "ninas"
+    },
+    {
+        id: 221,
+        titulo: "Pista Paw Patrol con 2 Carros",
+        preciomayorista: 7199,
+        precio: 65000,
+        referencia: "G2016",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto221a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "unisex"
+    },
+    {
+        id: 222,
+        titulo: "Lanzadora de Dardos Dinosaurios",
+        preciomayorista: 7199,
+        precio: 35000,
+        referencia: "283-14",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto222a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "punteria",
+        genero: "ninos"
+    },
+    {
+        id: 223,
+        titulo: "Peluche Sonic",
+        preciomayorista: 7199,
+        precio: 20000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto223a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "peluches",
+        genero: "unisex"
+    },
+    {
+        id: 224,
+        titulo: "Twist Juego",
+        preciomayorista: 7199,
+        precio: 0,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto224a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "educativo",
+        genero: "unisex"
+    },
+    {
+        id: 225,
+        titulo: "Mario Kart x1 Blister",
+        preciomayorista: 7199,
+        precio: 5500,
+        referencia: "WJ04",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto225a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Mario Bros, Bowser",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "ninos"
+    },
+    {
+        id: 226,
+        titulo: "Coleccion Cars X4",
+        preciomayorista: 7199,
+        precio: 16500,
+        referencia: "BP1213191",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto226a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "unisex"
+    },
+    {
+        id: 227,
+        titulo: "Carro Lanza Tazos con Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "8811-19",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto227a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 228,
+        titulo: "Carros Cambia de Color",
+        preciomayorista: 7199,
+        precio: 0,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto218a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 229,
+        titulo: "Carro 2 en 1 Lego de 219 pcs",
+        preciomayorista: 7199,
+        precio: 0,
+        referencia: "66037/5",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto229a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto229b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "educativo",
+        genero: "ninos"
     },
 
 
