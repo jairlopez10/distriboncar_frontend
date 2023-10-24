@@ -43,7 +43,7 @@ const jugueterialocaldb = [
         id: 167,
         titulo: "Boquitoqui de Personajes",
         preciomayorista: 7199,
-        precio: 0,
+        precio: 16000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -195,7 +195,7 @@ const jugueterialocaldb = [
         id: 175,
         titulo: "Carroza con Luces, Sonido y Movimiento",
         preciomayorista: 7199,
-        precio: 0,
+        precio: 24000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -252,7 +252,7 @@ const jugueterialocaldb = [
         id: 178,
         titulo: "Triceratops con Movimiento, Luces y Sonido",
         preciomayorista: 7199,
-        precio: 0,
+        precio: 27000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -461,7 +461,7 @@ const jugueterialocaldb = [
         id: 189,
         titulo: "Dinosaurio 4 Cabezas Pone Huevos",
         preciomayorista: 7199,
-        precio: 0,
+        precio: 44000,
         referencia: "",
         descripcion: ``,
         imagenes: [
