@@ -271,7 +271,7 @@ const jugueterialocaldb = [
         id: 179,
         titulo: "Organeta Vaca",
         preciomayorista: 7199,
-        precio: 19000,
+        precio: 17000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -290,7 +290,7 @@ const jugueterialocaldb = [
         id: 180,
         titulo: "Organeta Gusano",
         preciomayorista: 7199,
-        precio: 19000,
+        precio: 18000,
         referencia: "3019",
         descripcion: ``,
         imagenes: [
@@ -404,7 +404,7 @@ const jugueterialocaldb = [
         id: 186,
         titulo: "Organeta Perro",
         preciomayorista: 7199,
-        precio: 19000,
+        precio: 28000,
         referencia: "5577",
         descripcion: ``,
         imagenes: [
@@ -461,8 +461,8 @@ const jugueterialocaldb = [
         id: 189,
         titulo: "Dinosaurio 4 Cabezas Pone Huevos",
         preciomayorista: 7199,
-        precio: 44000,
-        referencia: "",
+        precio: 46000,
+        referencia: "666-4",
         descripcion: ``,
         imagenes: [
             {
@@ -480,8 +480,8 @@ const jugueterialocaldb = [
         id: 190,
         titulo: "Dinosaurio 3 Cabezas con Movimiento, Luces y Sonido",
         preciomayorista: 7199,
-        precio: 47000,
-        referencia: "",
+        precio: 45000,
+        referencia: "6653",
         descripcion: ``,
         imagenes: [
             {
@@ -499,8 +499,8 @@ const jugueterialocaldb = [
         id: 191,
         titulo: "Dinosaurio Hijo con Movimiento, Luces y Sonido",
         preciomayorista: 7199,
-        precio: 43000,
-        referencia: "",
+        precio: 45000,
+        referencia: "6627B",
         descripcion: ``,
         imagenes: [
             {
@@ -674,7 +674,7 @@ const jugueterialocaldb = [
         id: 200,
         titulo: "Dinosaurio Lanza Humo con Movimiento, Luces y Sonido",
         preciomayorista: 7199,
-        precio: 60000,
+        precio: 55000,
         referencia: "881",
         descripcion: ``,
         imagenes: [
@@ -712,7 +712,7 @@ const jugueterialocaldb = [
         id: 202,
         titulo: "Dinosaurio Cuello Largo Pone Huevos",
         preciomayorista: 7199,
-        precio: 33000,
+        precio: 30000,
         referencia: "6626",
         descripcion: ``,
         imagenes: [
@@ -731,7 +731,7 @@ const jugueterialocaldb = [
         id: 203,
         titulo: "Dinosaurio Cuello Largo Pone Huevos Pequeño",
         preciomayorista: 7199,
-        precio: 21000,
+        precio: 18000,
         referencia: "66050",
         descripcion: ``,
         imagenes: [
@@ -769,7 +769,7 @@ const jugueterialocaldb = [
         id: 205,
         titulo: "Dinosaurio Alas Cuello Largo Pone Huevos",
         preciomayorista: 7199,
-        precio: 37000,
+        precio: 35000,
         referencia: "857B",
         descripcion: ``,
         imagenes: [

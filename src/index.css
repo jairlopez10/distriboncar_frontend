@@ -223,7 +223,7 @@ footer {
     object-fit: contain;
 }
 
-.productocard p {
+.productocard p:not(.referencia) {
     text-align: center;
     color: #242424;
 }
@@ -232,6 +232,12 @@ footer {
     font-size: 2rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
+}
+
+.referencia {
+    font-size: 2rem;
+    color: #535252;
+    text-align: center;
 }
 
 .preciocard {
