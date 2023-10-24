@@ -1412,7 +1412,7 @@ const jugueterialocaldb = [
         id: 128,
         titulo: "Guitarra Jirafa con Luces y Sonido",
         preciomayorista: 7199,
-        precio: 35000,
+        precio: 32000,
         referencia: "CY-6020C",
         descripcion: ``,
         imagenes: [
@@ -1431,7 +1431,7 @@ const jugueterialocaldb = [
         id: 129,
         titulo: "Guitarra Jirafa Antenas",
         preciomayorista: 7199,
-        precio: 35000,
+        precio: 32000,
         referencia: "CY-60115C",
         descripcion: ``,
         imagenes: [
@@ -1545,7 +1545,7 @@ const jugueterialocaldb = [
         id: 135,
         titulo: "Barbie Sirena con Luz y Sonido",
         preciomayorista: 7199,
-        precio: 16000,
+        precio: 15000,
         referencia: "SR3390",
         descripcion: ``,
         imagenes: [
