@@ -457,10 +457,340 @@ const jugueterialocaldb = [
         categoria: "punteria",
         genero: "unisex"
     },
-    
+    {
+        id: 189,
+        titulo: "Dinosaurio 4 Cabezas Pone Huevos",
+        preciomayorista: 7199,
+        precio: 0,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto189a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 190,
+        titulo: "Dinosaurio 3 Cabezas con Movimiento, Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 0,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto190a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 191,
+        titulo: "Dinosaurio Hijo con Movimiento, Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 43000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto191a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 192,
+        titulo: "Carro Transformer a Control Remoto",
+        preciomayorista: 7199,
+        precio: 52000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto192a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto192b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 193,
+        titulo: "Dinosaurio Lanza Vapor y Pone Huevos",
+        preciomayorista: 7199,
+        precio: 50000,
+        referencia: "NY019B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto193a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 194,
+        titulo: "Triceratops con Movimiento, Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 40000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto194a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 195,
+        titulo: "Dinosaurio Lanza Vapor y Pone Huevos Grande",
+        preciomayorista: 7199,
+        precio: 65000,
+        referencia: "6689",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto195a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 196,
+        titulo: "Dinosaurio Chimuelo con Ginete",
+        preciomayorista: 7199,
+        precio: 39000,
+        referencia: "3308",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto196a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 197,
+        titulo: "Dinosaurio Pone Huevos con Movimiento, Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 46000,
+        referencia: "666-16",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto197a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 198,
+        titulo: "Dinosaurio Lanza Ping Pong",
+        preciomayorista: 7199,
+        precio: 46000,
+        referencia: "6632B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto198a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 199,
+        titulo: "Dinosaurio 3 Cabezas Bota Humo",
+        preciomayorista: 7199,
+        precio: 55000,
+        referencia: "8801",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto199a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 200,
+        titulo: "Dinosaurio Lanza Humo con Movimiento, Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 60000,
+        referencia: "881",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto200a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 201,
+        titulo: "Dinosaurio Calabera Pone Huevos",
+        preciomayorista: 7199,
+        precio: 46000,
+        referencia: "666-15",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto201a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 202,
+        titulo: "Dinosaurio Cuello Largo Pone Huevos",
+        preciomayorista: 7199,
+        precio: 33000,
+        referencia: "6626",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto202a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Verde, Naranja",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 203,
+        titulo: "Dinosaurio Cuello Largo Pone Huevos Pequeño",
+        preciomayorista: 7199,
+        precio: 21000,
+        referencia: "66050",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto203a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Naranja, Verde",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 204,
+        titulo: "Lanza burbujas Escopeta",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "B968A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto204a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "punteria",
+        genero: "unisex"
+    },
+    {
+        id: 205,
+        titulo: "Dinosaurio Alas Cuello Largo Pone Huevos",
+        preciomayorista: 7199,
+        precio: 37000,
+        referencia: "857B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto205a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+
+
+
+
     {
         id: 100,
-        titulo: "Muñeca Frozen Musical y Accesorios",
+        titulo: "Muñeca Frozen Musical con Luz en el Cabello",
         preciomayorista: 7199,
         precio: 55000,
         referencia: "SR9878-1",
@@ -479,7 +809,7 @@ const jugueterialocaldb = [
     },
     {
         id: 101,
-        titulo: "Muñeca Doctora Juguetes con Accesorios",
+        titulo: "Muñeca Doctora Juguetes con Luz en El Cabello",
         preciomayorista: 7199,
         precio: 55000,
         referencia: "SR9885",
@@ -736,7 +1066,7 @@ const jugueterialocaldb = [
         id: 114,
         titulo: "Kit Maquillaje con Secador de Uñas",
         preciomayorista: 7199,
-        precio: 35000,
+        precio: 29000,
         referencia: "3028-7",
         descripcion: ``,
         imagenes: [
@@ -810,7 +1140,7 @@ const jugueterialocaldb = [
     },
     {
         id: 118,
-        titulo: "Bebe Sonido y Canguro",
+        titulo: "Bebe Sonido con Sleeping (NUEVO)",
         preciomayorista: 7199,
         precio: 55000,
         referencia: "XMY8024",
@@ -1025,7 +1355,7 @@ const jugueterialocaldb = [
         id: 129,
         titulo: "Guitarra Jirafa Antenas",
         preciomayorista: 7199,
-        precio: 38000,
+        precio: 35000,
         referencia: "CY-60115C",
         descripcion: ``,
         imagenes: [
@@ -1293,9 +1623,9 @@ const jugueterialocaldb = [
     },
     {
         id: 144,
-        titulo: "Set Manicure Grande",
+        titulo: "Set Manicure con Plancha Grande",
         preciomayorista: 7199,
-        precio: 58000,
+        precio: 56000,
         referencia: "8822",
         descripcion: ``,
         imagenes: [
@@ -2084,9 +2414,9 @@ const jugueterialocaldb = [
     },
     {
         id: 17,
-        titulo: "Coche Plastico + Muñeca Baby + Tetero",
+        titulo: "Coche Plastico + Muñeca Baby + Tetero en Bolsa",
         preciomayorista: 36999,
-        precio: 38000,
+        precio: 34000,
         descripcion: `¡Lleva la diversión en movimiento a un nivel superior con nuestro Coche Paseador de Plástico con Muñeca y Tetero Incluidos! Este conjunto encantador combina la emoción del juego con la imaginación, permitiendo a los niños crear sus propias historias mientras se embarcan en emocionantes aventuras.
 
         El coche paseador de plástico está diseñado con detalles realistas y colores vibrantes que capturan la atención y la creatividad. Y lo mejor de todo, viene con una muñeca incluida, perfecta para sentarla en el coche, además de un tetero para cuidar y alimentar a la muñeca durante los paseos!`,
