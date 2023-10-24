@@ -1467,9 +1467,9 @@ const jugueterialocaldb = [
     },
     {
         id: 135,
-        titulo: "Barbie Sirena",
+        titulo: "Barbie Sirena con Luz y Sonido",
         preciomayorista: 7199,
-        precio: 18000,
+        precio: 16000,
         referencia: "SR3390",
         descripcion: ``,
         imagenes: [
