@@ -1231,7 +1231,7 @@ const jugueterialocaldb = [
                 url: "/producto122a.webp" 
             }
         ],
-        status: "disponible",
+        status: "Out Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
