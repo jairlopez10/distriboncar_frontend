@@ -234,7 +234,7 @@ const jugueterialocaldb = [
         titulo: "Moto Frozen con Movimiento, Luces y Sonido",
         preciomayorista: 7199,
         precio: 29500,
-        referencia: "",
+        referencia: "0138-23",
         descripcion: ``,
         imagenes: [
             {
@@ -442,7 +442,7 @@ const jugueterialocaldb = [
         id: 188,
         titulo: "Pistola con Laser Lanza Dardos e Hidrogel",
         preciomayorista: 7199,
-        precio: 12000,
+        precio: 11500,
         referencia: "M138-C",
         descripcion: ``,
         imagenes: [
@@ -792,7 +792,7 @@ const jugueterialocaldb = [
         id: 100,
         titulo: "Muñeca Frozen Musical con Luz en el Cabello",
         preciomayorista: 7199,
-        precio: 55000,
+        precio: 45000,
         referencia: "SR9878-1",
         descripcion: ``,
         imagenes: [
@@ -811,7 +811,7 @@ const jugueterialocaldb = [
         id: 101,
         titulo: "Muñeca Doctora Juguetes con Luz en El Cabello",
         preciomayorista: 7199,
-        precio: 55000,
+        precio: 50000,
         referencia: "SR9885",
         descripcion: ``,
         imagenes: [
@@ -1142,7 +1142,7 @@ const jugueterialocaldb = [
         id: 118,
         titulo: "Bebe Sonido con Sleeping (NUEVO)",
         preciomayorista: 7199,
-        precio: 55000,
+        precio: 45000,
         referencia: "XMY8024",
         descripcion: ``,
         imagenes: [
@@ -1258,7 +1258,7 @@ const jugueterialocaldb = [
     },
     {
         id: 124,
-        titulo: "Barbie Individual",
+        titulo: "Barbie Individual Maciza",
         preciomayorista: 7199,
         precio: 4500,
         referencia: "181A2",
@@ -2758,7 +2758,7 @@ const jugueterialocaldb = [
         id: 19,
         titulo: "Dragon a Control Remoto con Vapor y Huevos",
         preciomayorista: 1000,
-        precio: 70000,
+        precio: 66000,
         referencia: "66163",
         descripcion: `¡Desata la magia y la emoción con nuestro Dragón Control Remoto Interactivo! Este majestuoso ser escamoso trae consigo una experiencia llena de asombro y aventura.
 
@@ -2835,7 +2835,7 @@ const jugueterialocaldb = [
         id: 57,
         titulo: "Carro Tanque Lanza Granadas",
         preciomayorista: 33999,
-        precio: 35000,
+        precio: 31000,
         referencia: "168-11",
         descripcion: `¡Prepárate para una aventura de combate épica con el Tanque de Pila Lanzagranadas de Juguete! Este formidable vehículo de batalla te llevará a emocionantes misiones y batallas imaginarias.
 
@@ -3077,7 +3077,7 @@ const jugueterialocaldb = [
         id: 41,
         titulo: "Pistola Lanza Dardos e Hidrogel + 200 Bolas Hidrogel",
         preciomayorista: 1000,
-        precio: 26000,
+        precio: 25000,
         referencia: "8820",
         descripcion: `¡Prepárate para la acción emocionante con la Pistola Lanza Dardos e Hidrogel de Última Generación! Este conjunto todo en uno te sumerge en una experiencia de juego llena de adrenalina y diversión.
 
@@ -3354,7 +3354,7 @@ const jugueterialocaldb = [
         id: 1,
         titulo: "Kit de Uñas X12 con Brillos",
         preciomayorista: 3499,
-        precio: 3500,
+        precio: 3000,
         descripcion: `¡Fusionamos diversión y creatividad en nuestro kit de uñas encantadoras! Diseñado especialmente para niñas de 3 a 7 años, este kit les brinda la oportunidad de explorar su lado artístico mientras se divierten.
 
         Con 12 uñas en colores vibrantes y diseños encantadores, cada uña es una pequeña obra maestra lista para ser creada. Desde delicadas flores hasta brillantes estrellas, ¡serán princesitas creativas!
