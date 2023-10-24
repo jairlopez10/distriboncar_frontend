@@ -860,6 +860,25 @@ const jugueterialocaldb = [
         categoria: "dinosaurios",
         genero: "ninos"
     },
+    {
+        id: 210,
+        titulo: "Maleta Doctor Digital",
+        preciomayorista: 7199,
+        precio: 29000,
+        referencia: "9900B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto210a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "doctor-cocina",
+        genero: "unisex"
+    },
 
 
 
@@ -1488,7 +1507,7 @@ const jugueterialocaldb = [
         id: 132,
         titulo: "Barbie Doctora",
         preciomayorista: 7199,
-        precio: 12000,
+        precio: 10500,
         referencia: "MU047",
         descripcion: ``,
         imagenes: [
@@ -1625,7 +1644,7 @@ const jugueterialocaldb = [
         id: 140,
         titulo: "Barbie Bicicleta y Vestido",
         preciomayorista: 7199,
-        precio: 23000,
+        precio: 21000,
         referencia: "HB017",
         descripcion: ``,
         imagenes: [
