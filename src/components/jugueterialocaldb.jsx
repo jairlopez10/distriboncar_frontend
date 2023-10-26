@@ -1260,8 +1260,636 @@ const jugueterialocaldb = [
         categoria: "educativo",
         genero: "ninos"
     },
-
-
+    {
+        id: 230,
+        titulo: "Carro Dinosaurio con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 38000,
+        referencia: "834",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto230a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto230b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 231,
+        titulo: "Carro T Rex con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 34000,
+        referencia: "HG-884",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto231a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto231b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 232,
+        titulo: "Tanque con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 14000,
+        referencia: "9056A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto232a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 233,
+        titulo: "Hummer Transformer con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 30000,
+        referencia: "8811-17",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto233a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 234,
+        titulo: "Tanque Transformer con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 14000,
+        referencia: "9056A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto234a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto234b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 235,
+        titulo: "Bomberos Transformer Lanza Agua con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 32500,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto235a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto235b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 236,
+        titulo: "Camaro con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 25000,
+        referencia: "YJ388-22",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto236a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto236b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 237,
+        titulo: "Hummer Transformer con Movimiento, Luz y Sonido.",
+        preciomayorista: 7199,
+        precio: 29000,
+        referencia: "8811-5",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto237a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto237b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 238,
+        titulo: "Bugatti Transformer con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 21000,
+        referencia: "8987",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto238a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto238b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 239,
+        titulo: "Optimus Transformer con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 20000,
+        referencia: "JH1035",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto239a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto239b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 240,
+        titulo: "Camaro Rojo Transformer con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 0,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto240a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto240b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 241,
+        titulo: "Carro Avion con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 27000,
+        referencia: "740",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto241a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto241b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 242,
+        titulo: "Carro Abre Puertas con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 26000,
+        referencia: "8811-21",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto242a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 243,
+        titulo: "Camioneta Abre Puertas con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 27000,
+        referencia: "8811-9",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto243a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    
+    {
+        id: 244,
+        titulo: "Helicoptero con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 20500,
+        referencia: "780",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto244a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 245,
+        titulo: "Collecion Carros X5",
+        preciomayorista: 7199,
+        precio: 4500,
+        referencia: "648",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto245a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 246,
+        titulo: "Coleccion Carros X3 Hotwheel",
+        preciomayorista: 7199,
+        precio: 13000,
+        referencia: "67-6",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto246a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 247,
+        titulo: "Coleccion Aviones X4",
+        preciomayorista: 7199,
+        precio: 10500,
+        referencia: "399-254K",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto247a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 248,
+        titulo: "LOL con Huevo Sorpresa Blister",
+        preciomayorista: 7199,
+        precio: 16500,
+        referencia: "2018-35-2B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto248a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 249,
+        titulo: "Dinosaurio para Pintar",
+        preciomayorista: 7199,
+        precio: 10500,
+        referencia: "AN808",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto249a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 250,
+        titulo: "Coleccion Carros Vengadores X5",
+        preciomayorista: 7199,
+        precio: 10000,
+        referencia: "399-351K",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto250a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 251,
+        titulo: "Coleccion Carros Batman X6",
+        preciomayorista: 7199,
+        precio: 21000,
+        referencia: "054-6",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto251a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 252,
+        titulo: "Coleccion Constructor X3",
+        preciomayorista: 7199,
+        precio: 13000,
+        referencia: "927W15",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto252a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 253,
+        titulo: "Coleccion Militar X5",
+        preciomayorista: 7199,
+        precio: 8500,
+        referencia: "399-255K",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto253a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 254,
+        titulo: "Hummer Control Recargable",
+        preciomayorista: 7199,
+        precio: 37000,
+        referencia: "YL814-A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto254a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 255,
+        titulo: "Carro Control Cars Recargable",
+        preciomayorista: 7199,
+        precio: 35000,
+        referencia: "9920B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto255a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 256,
+        titulo: "Peluche Iron Man",
+        preciomayorista: 7199,
+        precio: 24000,
+        referencia: "RW-2",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto256a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "peluches",
+        genero: "ninos"
+    },
+    {
+        id: 257,
+        titulo: "Carro Avengers con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 25000,
+        referencia: "018",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto257a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 258,
+        titulo: "Excavadora con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 20000,
+        referencia: "107-1",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto258a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 259,
+        titulo: "Helicoptero Transparente con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 0,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto259a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "unisex"
+    },
+    {
+        id: 260,
+        titulo: "Avion Transparente con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 25500,
+        referencia: "KH332-5",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto260a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
 
 
     {
