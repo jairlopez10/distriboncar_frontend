@@ -90,7 +90,7 @@ const jugueterialocaldb = [
                 url: "/producto169a.webp" 
             }
         ],
-        status: "disponible",
+        status: "Out Stock",
         colores: "Iron Man, Grood, Rocket",
         edad: "+3",
         categoria: "munecos",
@@ -826,7 +826,7 @@ const jugueterialocaldb = [
         id: 208,
         titulo: "Dragona con Alas, Luz y Sonido",
         preciomayorista: 7199,
-        precio: 48000,
+        precio: 46000,
         referencia: "6659",
         descripcion: ``,
         imagenes: [
