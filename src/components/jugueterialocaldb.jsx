@@ -982,7 +982,7 @@ const jugueterialocaldb = [
         id: 216,
         titulo: "Transformer X1 Grande",
         preciomayorista: 7199,
-        precio: 0,
+        precio: 61000,
         referencia: "JH1036",
         descripcion: ``,
         imagenes: [
@@ -1005,7 +1005,7 @@ const jugueterialocaldb = [
         id: 217,
         titulo: "Transformer X1 Mediano",
         preciomayorista: 7199,
-        precio: 0,
+        precio: 58000,
         referencia: "JH1018",
         descripcion: ``,
         imagenes: [
@@ -1051,7 +1051,7 @@ const jugueterialocaldb = [
         id: 219,
         titulo: "Lego Barco Dragon de 335 Pcs",
         preciomayorista: 7199,
-        precio: 0,
+        precio: 38000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1146,7 +1146,7 @@ const jugueterialocaldb = [
         id: 224,
         titulo: "Twist Juego",
         preciomayorista: 7199,
-        precio: 0,
+        precio: 20000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1222,13 +1222,13 @@ const jugueterialocaldb = [
         id: 228,
         titulo: "Carros Cambia de Color",
         preciomayorista: 7199,
-        precio: 0,
+        precio: 6000,
         referencia: "",
         descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
-                url: "/producto218a.webp" 
+                url: "/producto228a.webp" 
             }
         ],
         status: "disponible",
@@ -1241,8 +1241,8 @@ const jugueterialocaldb = [
         id: 229,
         titulo: "Carro 2 en 1 Lego de 219 pcs",
         preciomayorista: 7199,
-        precio: 0,
-        referencia: "66037/5",
+        precio: 35000,
+        referencia: "JD718",
         descripcion: ``,
         imagenes: [
             {
@@ -1486,8 +1486,8 @@ const jugueterialocaldb = [
         id: 240,
         titulo: "Camaro Rojo Transformer con Movimiento, Luz y Sonido",
         preciomayorista: 7199,
-        precio: 0,
-        referencia: "",
+        precio: 16000,
+        referencia: "JH1034",
         descripcion: ``,
         imagenes: [
             {
@@ -1856,8 +1856,8 @@ const jugueterialocaldb = [
         id: 259,
         titulo: "Helicoptero Transparente con Movimiento, Luz y Sonido",
         preciomayorista: 7199,
-        precio: 0,
-        referencia: "",
+        precio: 28000,
+        referencia: "YJ388-66",
         descripcion: ``,
         imagenes: [
             {
