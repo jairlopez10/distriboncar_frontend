@@ -1890,6 +1890,774 @@ const jugueterialocaldb = [
         categoria: "carros-impulso",
         genero: "ninos"
     },
+    {
+        id: 261,
+        titulo: "Cubo Espejo 2x2",
+        preciomayorista: 7199,
+        precio: 7000,
+        referencia: "EQY569",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto261a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto261b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "educativo",
+        genero: "unisex"
+    },
+    {
+        id: 262,
+        titulo: "Cubo Dimension 3x3",
+        preciomayorista: 7199,
+        precio: 9000,
+        referencia: "EQY504",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto262a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto262b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "educativo",
+        genero: "unisex"
+    },
+    {
+        id: 263,
+        titulo: "Cubo Economico 3x3",
+        preciomayorista: 7199,
+        precio: 2000,
+        referencia: "CU205",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto263a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "educativo",
+        genero: "unisex"
+    },
+    {
+        id: 264,
+        titulo: "Cubo Rubik 3x3",
+        preciomayorista: 7199,
+        precio: 3500,
+        referencia: "CU052",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto264a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "educativo",
+        genero: "unisex"
+    },
+    {
+        id: 265,
+        titulo: "Cubo Torcido",
+        preciomayorista: 7199,
+        precio: 8000,
+        referencia: "691",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto265a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "educativo",
+        genero: "unisex"
+    },
+    {
+        id: 266,
+        titulo: "Cubo Extremos",
+        preciomayorista: 7199,
+        precio: 10000,
+        referencia: "EQY575",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto266a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto266b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "educativo",
+        genero: "unisex"
+    },
+    {
+        id: 267,
+        titulo: "Cubo Rubik 4x4",
+        preciomayorista: 7199,
+        precio: 12500,
+        referencia: "EQY769",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto267a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto267b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "educativo",
+        genero: "unisex"
+    },
+    {
+        id: 268,
+        titulo: "Cubo Rubik 5x5",
+        preciomayorista: 7199,
+        precio: 17500,
+        referencia: "EQY905",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto268a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "educativo",
+        genero: "unisex"
+    },
+    {
+        id: 269,
+        titulo: "Pista Mario Karts",
+        preciomayorista: 7199,
+        precio: 60000,
+        referencia: "111-163A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto269a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "unisex"
+    },
+    {
+        id: 270,
+        titulo: "Lego Mario Bros 3 en 1",
+        preciomayorista: 7199,
+        precio: 42000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto270a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "legos",
+        genero: "unisex"
+    },
+    {
+        id: 271,
+        titulo: "Lego Transformers de 816 Piezas",
+        preciomayorista: 7199,
+        precio: 60000,
+        referencia: "98271/72",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto271a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto271a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "legos",
+        genero: "ninos"
+    },
+    {
+        id: 272,
+        titulo: "Resorte de Caras",
+        preciomayorista: 7199,
+        precio: 3000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto272a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "didacticos",
+        genero: "unisex"
+    },
+    {
+        id: 273,
+        titulo: "Dinosaurio Armable",
+        preciomayorista: 7199,
+        precio: 9500,
+        referencia: "211-1A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto273a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "legos",
+        genero: "ninos"
+    },
+    {
+        id: 274,
+        titulo: "Bicicleta Metalica Caja",
+        preciomayorista: 7199,
+        precio: 22000,
+        referencia: "NM2204-012",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto274a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 275,
+        titulo: "Play Doh Doctor Dientes",
+        preciomayorista: 7199,
+        precio: 23000,
+        referencia: "JD1218",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto275a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "educativo",
+        genero: "unisex"
+    },
+    {
+        id: 276,
+        titulo: "Lanzadora Hidrogel Mini AK-47 con Gafas y 1.500 Orvis",
+        preciomayorista: 7199,
+        precio: 60000,
+        referencia: "319GS",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto276a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "punteria",
+        genero: "ninos"
+    },
+    {
+        id: 277,
+        titulo: "Lanzadora Hidrogel Larga con Gafas y 1.500 Orvis",
+        preciomayorista: 7199,
+        precio: 66000,
+        referencia: "568C",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto277a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "punteria",
+        genero: "ninos"
+    },
+    {
+        id: 278,
+        titulo: "Carro Buggi",
+        preciomayorista: 7199,
+        precio: 6500,
+        referencia: "M11B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto278a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Camioneta, Policia",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 279,
+        titulo: "Dinosaurio Lanza Vapor Desarmable con Movimiento Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 35000,
+        referencia: "8880",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto279a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 280,
+        titulo: "Perro Fino Saca la Lengua con Movimiento y Sonido",
+        preciomayorista: 7199,
+        precio: 58000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto280a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto280b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "mascotas",
+        genero: "unisex"
+    },
+    {
+        id: 281,
+        titulo: "Lego Avengers de 273 Piezas",
+        preciomayorista: 7199,
+        precio: 26000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto281a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "legos",
+        genero: "ninos"
+    },
+    {
+        id: 282,
+        titulo: "Cartas Pokemon Doradas",
+        preciomayorista: 7199,
+        precio: 7000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto282a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "ninos"
+    },
+    {
+        id: 283,
+        titulo: "Cartas Vengadores",
+        preciomayorista: 7199,
+        precio: 26000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto283a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecos",
+        genero: "ninos"
+    },
+    {
+        id: 284,
+        titulo: "Maquillaje Mariposa Pequeño Blister",
+        preciomayorista: 7199,
+        precio: 3000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto284a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 285,
+        titulo: "Slime Leon Doble",
+        preciomayorista: 7199,
+        precio: 7000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto285a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Azul, Amarillo",
+        edad: "+3",
+        categoria: "didacticos",
+        genero: "unisex"
+    },
+    {
+        id: 286,
+        titulo: "Slime Pequeño",
+        preciomayorista: 7199,
+        precio: 1300,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto286a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Amarillo, Rosado, Verde",
+        edad: "+3",
+        categoria: "didacticos",
+        genero: "unisex"
+    },
+    {
+        id: 287,
+        titulo: "Carro Loco Recargable Control",
+        preciomayorista: 7199,
+        precio: 34000,
+        referencia: "9802M-11",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto287a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Azul, Rojo",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 288,
+        titulo: "Carro Paw Patrol Recargable Control Remoto",
+        preciomayorista: 7199,
+        precio: 38000,
+        referencia: "DY1853",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto288a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 289,
+        titulo: "Carro Control Transparente Recargable",
+        preciomayorista: 7199,
+        precio: 148000,
+        referencia: "999-59CS",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto289a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Azul, Rojo",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 290,
+        titulo: "Carro Control Vengadores Recargable",
+        preciomayorista: 7199,
+        precio: 58000,
+        referencia: "8587-2A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto290a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 291,
+        titulo: "Excavadora Control Remoto Recargable",
+        preciomayorista: 7199,
+        precio: 65000,
+        referencia: "8034E",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto291a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 292,
+        titulo: "Carro Control Lamborghini Recargable",
+        preciomayorista: 7199,
+        precio: 22000,
+        referencia: "KF-1A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto292a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 293,
+        titulo: "Carro Control Hotwheels Recargable",
+        preciomayorista: 7199,
+        precio: 35000,
+        referencia: "771A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto293a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Azul, Negro",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 294,
+        titulo: "Pista Carros Sencilla",
+        preciomayorista: 7199,
+        precio: 26500,
+        referencia: "FOX-1018",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto294a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 295,
+        titulo: "Camion Bomberos con Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 33000,
+        referencia: "SY754C",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto295a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 296,
+        titulo: "Carro Control Todo Terreno Recargable",
+        preciomayorista: 7199,
+        precio: 148000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto296a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 297,
+        titulo: "Mula Cars con 4 Carros",
+        preciomayorista: 7199,
+        precio: 35000,
+        referencia: "8835-2",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto297a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 298,
+        titulo: "Carro Control Mario Kart Recargable",
+        preciomayorista: 7199,
+        precio: 65000,
+        referencia: "055404",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto298a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 299,
+        titulo: "Carro Control Timon Lamborghini",
+        preciomayorista: 7199,
+        precio: 29000,
+        referencia: "323-9",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto299a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+
+
+
 
 
     {

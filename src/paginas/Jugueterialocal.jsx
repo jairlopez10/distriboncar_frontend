@@ -78,6 +78,7 @@ const Jugueterialocal = () => {
               <option value="maquillaje">Maquillaje y Belleza</option>
               <option value="doctor-cocina">Doctor y Cocina</option>
               <option value="educativo">Interactivo y Educativo</option>
+              <option value="legos">Legos</option>
               <option value="peluches">Peluches</option>
               <option value="organetas-guitarras">Organetas & Guitarras</option>
             </select>
