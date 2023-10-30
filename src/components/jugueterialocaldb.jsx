@@ -636,7 +636,7 @@ const jugueterialocaldb = [
         id: 198,
         titulo: "Dinosaurio Lanza Ping Pong",
         preciomayorista: 7199,
-        precio: 46000,
+        precio: 45000,
         referencia: "6632B",
         descripcion: ``,
         imagenes: [
@@ -864,7 +864,7 @@ const jugueterialocaldb = [
         id: 210,
         titulo: "Maleta Doctor Digital",
         preciomayorista: 7199,
-        precio: 29000,
+        precio: 27000,
         referencia: "9900B",
         descripcion: ``,
         imagenes: [
@@ -1262,7 +1262,7 @@ const jugueterialocaldb = [
     },
     {
         id: 230,
-        titulo: "Carro Dinosaurio con Movimiento, Luz y Sonido",
+        titulo: "Carro Dinosaurio con Vapor, Movimiento, Luz y Sonido",
         preciomayorista: 7199,
         precio: 38000,
         referencia: "834",
@@ -1285,7 +1285,7 @@ const jugueterialocaldb = [
     },
     {
         id: 231,
-        titulo: "Carro T Rex con Movimiento, Luz y Sonido",
+        titulo: "Carro T Rex con Vapor, Movimiento, Luz y Sonido",
         preciomayorista: 7199,
         precio: 34000,
         referencia: "HG-884",
@@ -1310,7 +1310,7 @@ const jugueterialocaldb = [
         id: 232,
         titulo: "Tanque con Movimiento, Luz y Sonido",
         preciomayorista: 7199,
-        precio: 14000,
+        precio: 28000,
         referencia: "9056A",
         descripcion: ``,
         imagenes: [
@@ -1394,7 +1394,7 @@ const jugueterialocaldb = [
         id: 236,
         titulo: "Camaro con Movimiento, Luz y Sonido",
         preciomayorista: 7199,
-        precio: 25000,
+        precio: 23000,
         referencia: "YJ388-22",
         descripcion: ``,
         imagenes: [
@@ -1571,7 +1571,7 @@ const jugueterialocaldb = [
         id: 244,
         titulo: "Helicoptero con Movimiento, Luz y Sonido",
         preciomayorista: 7199,
-        precio: 20500,
+        precio: 19500,
         referencia: "780",
         descripcion: ``,
         imagenes: [
@@ -2227,7 +2227,7 @@ const jugueterialocaldb = [
         id: 117,
         titulo: "Bebe Gestos y Toma Tetero",
         preciomayorista: 7199,
-        precio: 93000,
+        precio: 85000,
         referencia: "XMY201A",
         descripcion: ``,
         imagenes: [
@@ -3304,7 +3304,7 @@ const jugueterialocaldb = [
     },
     {
         id: 56,
-        titulo: "Carro Abre Puertas Control Remoto",
+        titulo: "Carro Abre Puertas Recargable Control Remoto",
         preciomayorista: 61999,
         precio: 67000,
         descripcion: `¡Experimenta la elegancia y la diversión de la carretera con el Carro a Control Remoto Estilo Mini Cooper! Este vehículo de juguete te ofrece una experiencia de conducción realista con un toque de lujo y estilo.
@@ -3330,7 +3330,7 @@ const jugueterialocaldb = [
     },
     {
         id: 15,
-        titulo: "Carro a Control Remoto Estilo Ferrari",
+        titulo: "Carro Recargable con Control Remoto Estilo Ferrari",
         preciomayorista: 28999,
         precio: 23000,
         descripcion: `¡Experimenta la emoción de la velocidad con nuestro Carro a Control Remoto Ferrari! Este vehículo de alta calidad captura la elegancia y la potencia de un Ferrari, ofreciéndote una experiencia de conducción excepcional.
@@ -3787,7 +3787,7 @@ const jugueterialocaldb = [
     },
     {
         id: 14,
-        titulo: "Carro a Control Remoto con Efecto Vapor",
+        titulo: "Carro Recargable Control Remoto con Efecto Vapor",
         preciomayorista: 74999,
         precio: 70000,
         descripcion: `¡Acelera hacia la diversión con nuestro Carro a Control Remoto con Efecto Vapor! Este impresionante vehículo combina la emoción de la velocidad con un toque de magia gracias a su capacidad para lanzar vapor de agua, ¡simulando un efecto de nitro!
@@ -3916,7 +3916,7 @@ const jugueterialocaldb = [
     },
     {
         id: 22,
-        titulo: "Camioneta Jeep a Control Remoto Safari",
+        titulo: "Jeep Recargable a Control Remoto Safari",
         preciomayorista: 1000,
         precio: 28000,
         referencia: "091-43B",
@@ -3939,7 +3939,7 @@ const jugueterialocaldb = [
     },
     {
         id: 57,
-        titulo: "Carro Tanque Lanza Granadas",
+        titulo: "Carro Tanque con Vapor y Lanza Granadas",
         preciomayorista: 33999,
         precio: 31000,
         referencia: "168-11",
@@ -4518,7 +4518,7 @@ const jugueterialocaldb = [
     },
     {
         id: 58,
-        titulo: "Carro Control Sensor + Control Remoto + Vapor de Agua",
+        titulo: "Carro Control Recargable Sensor con Control Remoto con Vapor de Agua",
         preciomayorista: 84999,
         precio: 78000,
         referencia: "8868E",
