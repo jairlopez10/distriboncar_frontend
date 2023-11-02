@@ -598,7 +598,7 @@ const jugueterialocaldb = [
         id: 196,
         titulo: "Dinosaurio Chimuelo con Ginete",
         preciomayorista: 7199,
-        precio: 39000,
+        precio: 36000,
         referencia: "3308",
         descripcion: ``,
         imagenes: [
@@ -1108,7 +1108,7 @@ const jugueterialocaldb = [
         id: 222,
         titulo: "Lanzadora de Dardos Dinosaurios",
         preciomayorista: 7199,
-        precio: 35000,
+        precio: 31000,
         referencia: "283-14",
         descripcion: ``,
         imagenes: [
@@ -1310,8 +1310,8 @@ const jugueterialocaldb = [
         id: 232,
         titulo: "Tanque con Movimiento, Luz y Sonido",
         preciomayorista: 7199,
-        precio: 28000,
-        referencia: "HX156",
+        precio: 14000,
+        referencia: "9056A",
         descripcion: ``,
         imagenes: [
             {
@@ -1348,8 +1348,8 @@ const jugueterialocaldb = [
         id: 234,
         titulo: "Tanque Transformer con Movimiento, Luz y Sonido",
         preciomayorista: 7199,
-        precio: 14000,
-        referencia: "9056A",
+        precio: 28000,
+        referencia: "HX156",
         descripcion: ``,
         imagenes: [
             {
@@ -2256,7 +2256,7 @@ const jugueterialocaldb = [
         id: 279,
         titulo: "Dinosaurio Lanza Vapor Desarmable con Movimiento Luz y Sonido",
         preciomayorista: 7199,
-        precio: 35000,
+        precio: 33000,
         referencia: "8880",
         descripcion: ``,
         imagenes: [
@@ -2275,7 +2275,7 @@ const jugueterialocaldb = [
         id: 280,
         titulo: "Perro Fino Saca la Lengua con Movimiento y Sonido",
         preciomayorista: 7199,
-        precio: 58000,
+        precio: 55000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -3477,6 +3477,36 @@ const jugueterialocaldb = [
             {
                 tipo: "imagen",
                 url: "/producto341a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 342,
+        titulo: "Cry Baby Sorpresa Huevo",
+        preciomayorista: 69900,
+        precio: 60000,
+        referencia: '',
+        descripcion: `
+        ¡Inspira a tu pequeña estrella musical con el Conjunto de Guitarra Eléctrica, Parlante y Micrófono! Este juguete musical es perfecto para que las jóvenes artistas exploren la música de manera creativa y divertida.
+        
+        La guitarra eléctrica es fácil de tocar y tiene un diseño atractivo, mientras que el parlante y el micrófono amplifican el sonido, permitiendo a las niñas tocar y cantar con estilo. También pueden conectar sus dispositivos favoritos para tocar junto a sus canciones preferidas!`,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto342a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto342b.webp" 
+            },
+            {
+                tipo: "video",
+                url: "/producto342c.mp4" 
             }
         ],
         status: "disponible",
