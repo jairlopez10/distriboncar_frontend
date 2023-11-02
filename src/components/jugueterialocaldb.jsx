@@ -5150,7 +5150,7 @@ const jugueterialocaldb = [
         id: 17,
         titulo: "Coche Plastico + Muñeca Baby + Tetero en Bolsa",
         preciomayorista: 36999,
-        precio: 34000,
+        precio: 30000,
         descripcion: `¡Lleva la diversión en movimiento a un nivel superior con nuestro Coche Paseador de Plástico con Muñeca y Tetero Incluidos! Este conjunto encantador combina la emoción del juego con la imaginación, permitiendo a los niños crear sus propias historias mientras se embarcan en emocionantes aventuras.
 
         El coche paseador de plástico está diseñado con detalles realistas y colores vibrantes que capturan la atención y la creatividad. Y lo mejor de todo, viene con una muñeca incluida, perfecta para sentarla en el coche, además de un tetero para cuidar y alimentar a la muñeca durante los paseos!`,
