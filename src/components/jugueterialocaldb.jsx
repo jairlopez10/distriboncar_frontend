@@ -1070,7 +1070,7 @@ const jugueterialocaldb = [
         id: 220,
         titulo: "Cocina Musical con Horno y Accesorios",
         preciomayorista: 7199,
-        precio: 78000,
+        precio: 75000,
         referencia: "008-58",
         descripcion: ``,
         imagenes: [
@@ -2412,7 +2412,7 @@ const jugueterialocaldb = [
         id: 287,
         titulo: "Carro Loco Recargable Control",
         preciomayorista: 7199,
-        precio: 34000,
+        precio: 33000,
         referencia: "9802M-11",
         descripcion: ``,
         imagenes: [
@@ -2583,7 +2583,7 @@ const jugueterialocaldb = [
         id: 296,
         titulo: "Carro Control Todo Terreno Recargable",
         preciomayorista: 7199,
-        precio: 148000,
+        precio: 98000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2781,7 +2781,7 @@ const jugueterialocaldb = [
         id: 306,
         titulo: "Mula Dinosaurio X3 Desarmable",
         preciomayorista: 7199,
-        precio: 31000,
+        precio: 30000,
         referencia: "8883",
         descripcion: ``,
         imagenes: [
@@ -2804,7 +2804,7 @@ const jugueterialocaldb = [
         id: 307,
         titulo: "Mula Cohetes y Satelite X3 Desarmable",
         preciomayorista: 71993,
-        precio: 31000,
+        precio: 30000,
         referencia: "+",
         descripcion: ``,
         imagenes: [
@@ -2900,7 +2900,7 @@ const jugueterialocaldb = [
         id: 311,
         titulo: "Perro Ojos de Lazo con Movimiento y Sonido",
         preciomayorista: 7199,
-        precio: 45000,
+        precio: 39000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2938,7 +2938,7 @@ const jugueterialocaldb = [
         id: 313,
         titulo: "Perro Paw Patrol con Movimiento y Sonido",
         preciomayorista: 7199,
-        precio: 39000,
+        precio: 45000,
         referencia: "YC806",
         descripcion: ``,
         imagenes: [
@@ -3069,9 +3069,9 @@ const jugueterialocaldb = [
     },
     {
         id: 320,
-        titulo: "Maleta Mascota y Veterinaria",
+        titulo: "Maleta Mascota y Veterinaria 3 en 1",
         preciomayorista: 7199,
-        precio: 60000,
+        precio: 51000,
         referencia: "008-997A",
         descripcion: ``,
         imagenes: [
@@ -3147,7 +3147,7 @@ const jugueterialocaldb = [
         id: 324,
         titulo: "Lanzadora de Dardos e Hidrogel con Gafas",
         preciomayorista: 7199,
-        precio: 40000,
+        precio: 39000,
         referencia: "518D",
         descripcion: ``,
         imagenes: [
@@ -3185,7 +3185,7 @@ const jugueterialocaldb = [
         id: 326,
         titulo: "Bebe Camina, Gatea, Llora y mueve Manos",
         preciomayorista: 7199,
-        precio: 70000,
+        precio: 68000,
         referencia: "XMY8058",
         descripcion: ``,
         imagenes: [
@@ -3261,7 +3261,7 @@ const jugueterialocaldb = [
         id: 330,
         titulo: "Set de Cocina e Utensilios",
         preciomayorista: 7199,
-        precio: 25000,
+        precio: 23000,
         referencia: "SK98C",
         descripcion: ``,
         imagenes: [
@@ -3562,7 +3562,7 @@ const jugueterialocaldb = [
         id: 102,
         titulo: "Muñeca Sofia Musical y Accesorios",
         preciomayorista: 7199,
-        precio: 42000,
+        precio: 29000,
         referencia: "22-04",
         descripcion: ``,
         imagenes: [
@@ -3600,7 +3600,7 @@ const jugueterialocaldb = [
         id: 104,
         titulo: "Bebe Crece con Sonido",
         preciomayorista: 7199,
-        precio: 70000,
+        precio: 69000,
         referencia: "XMY8019",
         descripcion: ``,
         imagenes: [
@@ -3657,7 +3657,7 @@ const jugueterialocaldb = [
         id: 107,
         titulo: "Muñeca Cry Baby Orina con Pañal y Tetero",
         preciomayorista: 7199,
-        precio: 33000,
+        precio: 29000,
         referencia: "KQ-508",
         descripcion: ``,
         imagenes: [
@@ -3855,7 +3855,7 @@ const jugueterialocaldb = [
         id: 117,
         titulo: "Bebe Gestos y Toma Tetero",
         preciomayorista: 7199,
-        precio: 85000,
+        precio: 80000,
         referencia: "XMY201A",
         descripcion: ``,
         imagenes: [
@@ -4338,7 +4338,7 @@ const jugueterialocaldb = [
         id: 143,
         titulo: "Muñeca Princesa X1",
         preciomayorista: 7199,
-        precio: 34000,
+        precio: 30000,
         referencia: "KT142",
         descripcion: ``,
         imagenes: [
@@ -4805,7 +4805,7 @@ const jugueterialocaldb = [
         id: 54,
         titulo: "Iron Man Bailarin, Luces y Sonido",
         preciomayorista: 29999,
-        precio: 28000,
+        precio: 26000,
         descripcion: `¡Lleva la acción de Iron Man a tu casa con el Iron Man Bailarín con Luces y Sonido! Este emocionante juguete te permite experimentar la elegancia tecnológica de Tony Stark mientras se mueve, se ilumina y suena al ritmo de la aventura.
 
         Iron Man cobra vida con movimientos de baile sorprendentes y auténticos, que te harán sentir como si estuvieras en medio de una batalla épica. Sus luces brillantes agregan un toque de magia y realismo a la experiencia, mientras que los sonidos te transportan al mundo del genio multimillonario y su traje tecnológico.
@@ -4831,7 +4831,7 @@ const jugueterialocaldb = [
         id: 61,
         titulo: "Maleta Cocina + Accesorios",
         preciomayorista: 26999,
-        precio: 30000,
+        precio: 29500,
         descripcion: `¡La Maleta Cocina es el sueño de todo chef! Este juguete versátil y emocionante permite a los pequeños cocineros llevar la diversión de la cocina a donde quieran.
 
         Esta maleta se convierte en una cocina completamente equipada en cuestión de segundos, lo que la hace perfecta para llevar a fiestas de juegos, a casa de amigos o a cualquier lugar donde la imaginación culinaria esté lista para despegar.
@@ -4908,7 +4908,7 @@ const jugueterialocaldb = [
     },
     {
         id: 31,
-        titulo: "Mesa Proyector + Tanque de Agua + 8 Rompecabezas + 12 Marcadores + Sellos",
+        titulo: "Mesa Proyector + Tanque de Agua + 8 Rompecabezas + 12 Marcadores + Sellos (Grande)",
         preciomayorista: 88999,
         precio: 85000,
         descripcion: `¡Despierta la creatividad y la diversión con nuestro Set de Mesa Proyector y Actividades Todo en Uno! Este conjunto emocionante ofrece una amplia gama de experiencias interactivas y creativas, perfectas para horas de entretenimiento y aprendizaje.
@@ -4986,7 +4986,7 @@ const jugueterialocaldb = [
         id: 55,
         titulo: "Carro Loco Control Bateria Recargable",
         preciomayorista: 38999,
-        precio: 33000,
+        precio: 32000,
         referencia: "6600",
         descripcion: `
         ¡Prepárate para la diversión extrema con el Carro Loco a Control Remoto! Este vehículo todo terreno te brinda una experiencia emocionante y llena de acción con luces y sonidos que te dejarán asombrado.
@@ -5192,7 +5192,7 @@ const jugueterialocaldb = [
         id: 11,
         titulo: "Perro con Sensor de Movimiento, Ladra",
         preciomayorista: 39999,
-        precio: 40000,
+        precio: 38000,
         descripcion: `¡Trae a casa la alegría con nuestro Perro Interactivo Ladra y Juega! Este adorable compañero peludo está listo para llenar tu hogar de risas y diversión.
 
         Acariciar o aplaudir desencadena una respuesta emocionante: este perro ladra alegremente y mueve su cola con entusiasmo. ¡Cada interacción es una muestra de afecto y amistad!
@@ -5270,7 +5270,7 @@ const jugueterialocaldb = [
         id: 3,
         titulo: "Computador Interactivo 130 Actividades",
         preciomayorista: 84999,
-        precio: 85000,
+        precio: 75000,
         descripcion: `Descubre un mundo de aprendizaje interactivo con nuestro Computador Interactivo 130 Actividades. Diseñado para inspirar y enseñar, este juguete educativo es una experiencia completa.
 
         Desde letras y música hasta un reloj funcional, los niños explorarán un abanico de habilidades. Rellena palabras, deletrea, sumérgete en matemáticas y disfruta de juegos educativos, todo con el uso del mouse y el teclado interactivo. Este computador, con conexión a corriente, brinda horas de diversión y aprendizaje sin fin.
@@ -5300,7 +5300,7 @@ const jugueterialocaldb = [
         id: 4,
         titulo: "Barbie +10 Vestidos con Hija, Bicicleta y Accesorios",
         preciomayorista: 1000,
-        precio: 48000,
+        precio: 46000,
         descripcion: `¡Diversión sin fin espera con este set único de Barbie con 10 vestidos impresionantes, para que ella pueda deslumbrar en cualquier ocasión. Pero eso no es todo, ¡también viene con su hija lista para un emocionante paseo en bicicleta!
 
         Explora un mundo de moda y creatividad mientras vistes a Barbie en los vestidos más elegantes y a la moda. Cada vestido está diseñado para reflejar su estilo único y personalidad. Además, el set incluye accesorios esenciales como cepillos y espejos, ¡para que Barbie y su hija estén siempre listas para el día!`,
@@ -5600,7 +5600,7 @@ const jugueterialocaldb = [
         id: 66,
         titulo: "Camion + 3 Carritos de Plants VS Zombies",
         preciomayorista: 30999,
-        precio: 19500,
+        precio: 30000,
         referencia: "8690",
         descripcion: `¡Prepárate para la diversión de la construcción con el Camión de Carritos Estilo Plantas vs. Zombies! Este juego de construcción te lleva al emocionante mundo de Plantas vs. Zombies mientras creas tu propio escenario de batalla.
 
@@ -5765,7 +5765,7 @@ const jugueterialocaldb = [
         id: 36,
         titulo: "Maleta Doctora con Accesorios Sonido y Luces",
         preciomayorista: 1000,
-        precio: 64500,
+        precio: 49000,
         referencia: "1803",
         descripcion: `¡Bienvenidos a la Maleta Doctora Sonido y Luces Este set de juego emocionante trae la diversión de la medicina a tus manos. Con un estetoscopio que emite luces y sonidos realistas para escuchar los latidos del corazón, y un celular interactivo que te sumerge en situaciones médicas emocionantes, este set ofrece una experiencia de juego única.
 
@@ -6122,7 +6122,7 @@ const jugueterialocaldb = [
         id: 59,
         titulo: "Maleta Tocador + Accesorios",
         preciomayorista: 26999,
-        precio: 30000,
+        precio: 29500,
         descripcion: `¡Lleva la diversión y la belleza a un nivel superior con la Maleta Tocador para Niñas! Este juguete es perfecto para que las pequeñas exploren su creatividad y se sumerjan en el emocionante mundo de la moda y el maquillaje.
 
         Dentro de esta maleta mágica, encontrarán 3 esmaltes de uñas para crear manicuras encantadoras, 1 peinilla para peinar y arreglar su cabello, y 1 secador de juguete para simular el secado y el estilismo del cabello.
@@ -6175,7 +6175,8 @@ const jugueterialocaldb = [
         id: 62,
         titulo: "Maleta Veterinaria Mascota",
         preciomayorista: 42999,
-        precio: 60000,
+        precio: 38000,
+        referencia: '008-967B',
         descripcion: `
         ¡La Maleta Veterinaria es la elección perfecta para los amantes de los animales y los futuros veterinarios! Este juguete transformable permite a los niños explorar el emocionante mundo de cuidar y curar a sus amigos peludos.
         
