@@ -4883,7 +4883,7 @@ const jugueterialocaldb = [
         id: 60,
         titulo: "Maleta Tocador con Luz y Sonido",
         preciomayorista: 70999,
-        precio: 75000,
+        precio: 72000,
         referencia: "008-923A",
         descripcion: `¡La Maleta Tocador de Luces, Sonido y Accesorios es el sueño de toda niña hecho realidad! Este versátil y encantador juguete proporciona horas de diversión creativa mientras permite a las pequeñas explorar el mundo de la moda y la belleza.
 
