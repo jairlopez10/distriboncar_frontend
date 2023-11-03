@@ -47,6 +47,8 @@ const Jugueterialocal = () => {
 
   }, [categoria, ordenar, preciomax])
 
+  console.log(juguetesfiltrados.length)
+
   /*
   //Definir los paginadores y filtrar productos
   useEffect(() => {
@@ -68,7 +70,8 @@ const Jugueterialocal = () => {
             <select className="filtro" name="categoria" id="categoria" onChange={e => setcategoria(e.target.value)}>
               <option value="" >{categoria === "" ? "Categoria" : "Todas las categorias"}</option>
               <option value="dinosaurios">Dinosaurios</option>
-              <option value="carros-impulso">Carros de Pila e Impulso</option>
+              <option value="carros-impulso">Carros y Motos de Impulso</option>
+              <option value="carros-pila">Carros y Helicopteros de Pila</option>
               <option value="carros-control">Carros de Control Remoto</option>
               <option value="didacticos">Didacticos</option>
               <option value="mascotas">Animales y Mascotas</option>
@@ -81,6 +84,7 @@ const Jugueterialocal = () => {
               <option value="legos">Legos y Pistas</option>
               <option value="peluches">Peluches</option>
               <option value="organetas-guitarras">Organetas & Guitarras</option>
+              <option value="musical">Musical</option>
             </select>
             <select name="ordenar" id="ordenar" onChange={e => setordenar(e.target.value)}>
               <option value="">{ordenar === "" ? "Ordenar" : "Mayor Relevancia"}</option>

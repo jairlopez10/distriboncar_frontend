@@ -309,7 +309,7 @@ const jugueterialocaldb = [
         id: 181,
         titulo: "Cry Baby Doctora",
         preciomayorista: 7199,
-        precio: 33000,
+        precio: 28000,
         referencia: "KQ508",
         descripcion: ``,
         imagenes: [
@@ -385,8 +385,8 @@ const jugueterialocaldb = [
         id: 185,
         titulo: "Tren con Movimiento, Luz y Sonido",
         preciomayorista: 7199,
-        precio: 30000,
-        referencia: "238-1A",
+        precio: 29500,
+        referencia: "FS238-1A",
         descripcion: ``,
         imagenes: [
             {
@@ -982,7 +982,7 @@ const jugueterialocaldb = [
         id: 216,
         titulo: "Transformer X1 Grande",
         preciomayorista: 7199,
-        precio: 61000,
+        precio: 92000,
         referencia: "JH1036",
         descripcion: ``,
         imagenes: [
@@ -1509,7 +1509,7 @@ const jugueterialocaldb = [
         id: 241,
         titulo: "Carro Avion con Movimiento, Luz y Sonido",
         preciomayorista: 7199,
-        precio: 27000,
+        precio: 25000,
         referencia: "740",
         descripcion: ``,
         imagenes: [
@@ -1761,7 +1761,7 @@ const jugueterialocaldb = [
         id: 254,
         titulo: "Hummer Control Recargable",
         preciomayorista: 7199,
-        precio: 37000,
+        precio: 34000,
         referencia: "YL814-A",
         descripcion: ``,
         imagenes: [
@@ -1856,7 +1856,7 @@ const jugueterialocaldb = [
         id: 259,
         titulo: "Helicoptero Transparente con Movimiento, Luz y Sonido",
         preciomayorista: 7199,
-        precio: 28000,
+        precio: 26000,
         referencia: "YJ388-66",
         descripcion: ``,
         imagenes: [
@@ -2336,7 +2336,7 @@ const jugueterialocaldb = [
         id: 283,
         titulo: "Cartas Vengadores",
         preciomayorista: 7199,
-        precio: 26000,
+        precio: 2000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2412,7 +2412,7 @@ const jugueterialocaldb = [
         id: 287,
         titulo: "Carro Loco Recargable Control",
         preciomayorista: 7199,
-        precio: 33000,
+        precio: 32000,
         referencia: "9802M-11",
         descripcion: ``,
         imagenes: [
@@ -2581,7 +2581,7 @@ const jugueterialocaldb = [
     },
     {
         id: 296,
-        titulo: "Carro Control Todo Terreno Recargable",
+        titulo: "Carro Control Todo Terreno Recargable (Grande)",
         preciomayorista: 7199,
         precio: 98000,
         referencia: "",
@@ -2774,7 +2774,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+3",
-        categoria: "carros-impulso",
+        categoria: "didacticos",
         genero: "ninos"
     },
     {
@@ -2797,7 +2797,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+3",
-        categoria: "carros-impulso",
+        categoria: "didacticos",
         genero: "ninos"
     },
     {
@@ -2805,7 +2805,7 @@ const jugueterialocaldb = [
         titulo: "Mula Cohetes y Satelite X3 Desarmable",
         preciomayorista: 71993,
         precio: 30000,
-        referencia: "+",
+        referencia: "",
         descripcion: ``,
         imagenes: [
             {
@@ -2820,7 +2820,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+3",
-        categoria: "carros-impulso",
+        categoria: "didacticos",
         genero: "ninos"
     },
     {
@@ -2917,7 +2917,7 @@ const jugueterialocaldb = [
     },
     {
         id: 312,
-        titulo: "Perro Motoso con Movimiento y Sonido",
+        titulo: "Perro Motoso con Lazo con Movimiento y 10 Canciones",
         preciomayorista: 7199,
         precio: 45000,
         referencia: "L0425-49",
@@ -3071,7 +3071,7 @@ const jugueterialocaldb = [
         id: 320,
         titulo: "Maleta Mascota y Veterinaria 3 en 1",
         preciomayorista: 7199,
-        precio: 51000,
+        precio: 53000,
         referencia: "008-997A",
         descripcion: ``,
         imagenes: [
@@ -3107,9 +3107,9 @@ const jugueterialocaldb = [
     },
     {
         id: 322,
-        titulo: "Oso Peluche con Luz",
+        titulo: "Oso Peluche con Luz y Sonido",
         preciomayorista: 7199,
-        precio: 20000,
+        precio: 30000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -3515,6 +3515,376 @@ const jugueterialocaldb = [
         categoria: "munecas",
         genero: "ninas"
     },
+    {
+        id: 343,
+        titulo: "Princesa Alumbra el Pelo, con Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 46000,
+        referencia: "L90-2A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto343a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 344,
+        titulo: "Muñeca Bota Lagrimas con Chupo, Tetero y Sonidos",
+        preciomayorista: 7199,
+        precio: 45000,
+        referencia: "XMY8183",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto344a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 345,
+        titulo: "Muñeca con Lavadora",
+        preciomayorista: 7199,
+        precio: 45000,
+        referencia: "YM-21-1",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto345a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 346,
+        titulo: "Bebe Real con Peluche, Tetero y Chupo",
+        preciomayorista: 7199,
+        precio: 170000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto346a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 347,
+        titulo: "Muñeca Campesina Pequeña con Sonido",
+        preciomayorista: 7199,
+        precio: 16000,
+        referencia: "L0425-28",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto347a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Rosada, Morada",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 348,
+        titulo: "Cry Baby Caminadora en Bolsa",
+        preciomayorista: 7199,
+        precio: 47000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto348a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 349,
+        titulo: "Cry Baby Caminadora en Caja",
+        preciomayorista: 7199,
+        precio: 50000,
+        referencia: "L0426-1",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto349a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 350,
+        titulo: "Helicoptero Transformable Lanza Vapor con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 34000,
+        referencia: "D168-1",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto350a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 351,
+        titulo: "Helicoptero Transformer con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 32000,
+        referencia: "HX168",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto351a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto351b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 352,
+        titulo: "Helicoptero con Movimiento, Luz y Sonido Alas",
+        preciomayorista: 7199,
+        precio: 27000,
+        referencia: "HG881",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto352a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 353,
+        titulo: "Helicoptero con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 24000,
+        referencia: "JYD182A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto353a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 354,
+        titulo: "Magic Pad de Dinosaurio",
+        preciomayorista: 7199,
+        precio: 25000,
+        referencia: "TB25",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto354a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "educativo",
+        genero: "unisex"
+    },
+    {
+        id: 355,
+        titulo: "Magic Pad Conejo",
+        preciomayorista: 7199,
+        precio: 21000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto355a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "educativo",
+        genero: "unisex"
+    },
+    {
+        id: 356,
+        titulo: "Carro Serpiente Transformable con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 23000,
+        referencia: "HG885",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto356a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto356B.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "unisex"
+    },
+    {
+        id: 359,
+        titulo: "Registradora Musical con Mercado, Dinero y Canasta",
+        preciomayorista: 7199,
+        precio: 77000,
+        referencia: "5911",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto359a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "doctor-cocina",
+        genero: "ninas"
+    },
+    {
+        id: 360,
+        titulo: "Guitarra Karaoke con Microfono y MP3",
+        preciomayorista: 7199,
+        precio: 40000,
+        referencia: "HD-779",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto360a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "musical",
+        genero: "unisex"
+    },
+    {
+        id: 361,
+        titulo: "Tanque Control Remoto y Manilla Lanza Hidrogel y Vapor de Agua Recargable",
+        preciomayorista: 7199,
+        precio: 110000,
+        referencia: "8818B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto361a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 362,
+        titulo: "Lanzadoras X2 de Ping Pong Soft",
+        preciomayorista: 7199,
+        precio: 35000,
+        referencia: "G-16",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto362a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "punteria",
+        genero: "unisex"
+    },
+    {
+        id: 363,
+        titulo: "Hummer Control Remoto Recargable Camuflado",
+        preciomayorista: 7199,
+        precio: 38000,
+        referencia: "YL819B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto363a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    
     
 
 
@@ -3657,7 +4027,7 @@ const jugueterialocaldb = [
         id: 107,
         titulo: "Muñeca Cry Baby Orina con Pañal y Tetero",
         preciomayorista: 7199,
-        precio: 29000,
+        precio: 28000,
         referencia: "KQ-508",
         descripcion: ``,
         imagenes: [
@@ -3760,7 +4130,7 @@ const jugueterialocaldb = [
         id: 112,
         titulo: "Maleta Doctor con Accesorios",
         preciomayorista: 7199,
-        precio: 24000,
+        precio: 23000,
         referencia: "6607B",
         descripcion: ``,
         imagenes: [
@@ -3798,8 +4168,8 @@ const jugueterialocaldb = [
         id: 114,
         titulo: "Kit Maquillaje con Secador de Uñas",
         preciomayorista: 7199,
-        precio: 29000,
-        referencia: "3028-7",
+        precio: 28000,
+        referencia: "MBK-326",
         descripcion: ``,
         imagenes: [
             {
@@ -3971,9 +4341,9 @@ const jugueterialocaldb = [
     },
     {
         id: 123,
-        titulo: "Mario Bros X1 Blister",
+        titulo: "Mario Bros X1 Fino Blister",
         preciomayorista: 7199,
-        precio: 15000,
+        precio: 14000,
         referencia: "B05-1",
         descripcion: ``,
         imagenes: [
@@ -4338,7 +4708,7 @@ const jugueterialocaldb = [
         id: 143,
         titulo: "Muñeca Princesa X1",
         preciomayorista: 7199,
-        precio: 30000,
+        precio: 32000,
         referencia: "KT142",
         descripcion: ``,
         imagenes: [
@@ -4932,7 +5302,7 @@ const jugueterialocaldb = [
     },
     {
         id: 56,
-        titulo: "Carro Abre Puertas Recargable Control Remoto",
+        titulo: "Jeep/Hummer/Mini Cooper Abre Puertas Recargable Control Remoto",
         preciomayorista: 61999,
         precio: 67000,
         descripcion: `¡Experimenta la elegancia y la diversión de la carretera con el Carro a Control Remoto Estilo Mini Cooper! Este vehículo de juguete te ofrece una experiencia de conducción realista con un toque de lujo y estilo.
@@ -4984,9 +5354,9 @@ const jugueterialocaldb = [
     },
     {
         id: 55,
-        titulo: "Carro Loco Control Bateria Recargable",
+        titulo: "Carro Loco Grafiti Control Bateria Recargable",
         preciomayorista: 38999,
-        precio: 32000,
+        precio: 31000,
         referencia: "6600",
         descripcion: `
         ¡Prepárate para la diversión extrema con el Carro Loco a Control Remoto! Este vehículo todo terreno te brinda una experiencia emocionante y llena de acción con luces y sonidos que te dejarán asombrado.
@@ -5248,9 +5618,9 @@ const jugueterialocaldb = [
     },
     {
         id: 12,
-        titulo: "Pista de Carros Neon Xtreme",
+        titulo: "Pista Neon Recargable de 3 Giros con Carro de Luz y cargador USB",
         preciomayorista: 81999,
-        precio: 79000,
+        precio: 74000,
         descripcion: `¡Sumérgete en la emoción de la velocidad y la luz con nuestra Pista de Carros Neon Xtreme! Esta pista asombrosa lleva la diversión al siguiente nivel con su diseño iluminado que brilla intensamente en la oscuridad.
 
         Cada giro y vuelta en la pista se convierte en un espectáculo visual emocionante mientras los carros recorren las curvas resplandecientes, ¡incluyendo 3 vueltas de 360 grados que aumentarán la adrenalina! Y lo mejor de todo, el set incluye un carro eléctrico incluido que es recargable por USB. Simplemente conecta y carga para estar listo para la acción. Prepárate para carreras emocionantes y momentos inolvidables!`,
@@ -5318,7 +5688,7 @@ const jugueterialocaldb = [
     },
     {
         id: 5,
-        titulo: "Pistola de Burbujas Dinosaurio Rex",
+        titulo: "Maleta de Dinosaurio con 2 Modelos de Pistola de Burbujas",
         preciomayorista: 1000,
         precio: 55000,
         descripcion: `¡Diversión prehistórica te espera con nuestra Pistola de Burbujas Dinosaurio Rex! Este juguete único combina la emoción de las burbujas con el estilo del legendario tiranosaurio rex.
@@ -5397,7 +5767,7 @@ const jugueterialocaldb = [
         id: 13,
         titulo: "Gimnasio de Actividades para Bebe",
         preciomayorista: 1000,
-        precio: 69000,
+        precio: 65000,
         descripcion: `¡Estimula el crecimiento y la diversión con nuestro Gimnasio de Bebés Sonidos y Juguetes! Este espacio de juego interactivo está diseñado para ofrecer a tu bebé una experiencia llena de aprendizaje y entretenimiento.
 
         Con sonidos suaves y alegres, el gimnasio crea un ambiente envolvente que captura la atención y curiosidad de tu bebé. Además, el arco sobre la cabeza del bebé está decorado con juguetes colgantes que invitan a la exploración. Tu bebé podrá recostarse cómodamente mientras se sumerge en el mundo de los colores, formas y texturas!`,
@@ -5569,7 +5939,7 @@ const jugueterialocaldb = [
         id: 57,
         titulo: "Carro Tanque con Vapor y Lanza Granadas",
         preciomayorista: 33999,
-        precio: 31000,
+        precio: 32000,
         referencia: "168-11",
         descripcion: `¡Prepárate para una aventura de combate épica con el Tanque de Pila Lanzagranadas de Juguete! Este formidable vehículo de batalla te llevará a emocionantes misiones y batallas imaginarias.
 
@@ -5618,7 +5988,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+3",
-        categoria: "carros-impulso",
+        categoria: "didacticos",
         genero: "ninos"
     },
     {
@@ -5972,7 +6342,7 @@ const jugueterialocaldb = [
         id: 6,
         titulo: "Dinosaurio Rex con Movimiento Luces Sonido",
         preciomayorista: 29999,
-        precio: 30000,
+        precio: 29000,
         descripcion: `¡Transporta a tu pequeño a la era de los dinosaurios con nuestro Dinosaurio Rex! Este magnífico amigo prehistórico está lleno de emocionantes luces brillantes, sonidos realistas y un movimiento fascinante en su cuerpo, garras y cola, este dinosaurio cobra vida en las manos de tu hijo. Cada paso es una aventura asombrosa mientras el dinosaurio camina y se balancea con autenticidad, creando momentos de maravilla y diversión.
         
         La interacción es clave: los niños adorarán activar los sonidos y movimientos con solo tocar un botón. Y para potenciar la diversión, este dinosaurio es fácil de alimentar. Simplemente coloca 3 pilas AA y estarás listo para la acción!`,
@@ -6122,7 +6492,7 @@ const jugueterialocaldb = [
         id: 59,
         titulo: "Maleta Tocador + Accesorios",
         preciomayorista: 26999,
-        precio: 29500,
+        precio: 29000,
         descripcion: `¡Lleva la diversión y la belleza a un nivel superior con la Maleta Tocador para Niñas! Este juguete es perfecto para que las pequeñas exploren su creatividad y se sumerjan en el emocionante mundo de la moda y el maquillaje.
 
         Dentro de esta maleta mágica, encontrarán 3 esmaltes de uñas para crear manicuras encantadoras, 1 peinilla para peinar y arreglar su cabello, y 1 secador de juguete para simular el secado y el estilismo del cabello.
@@ -6175,7 +6545,7 @@ const jugueterialocaldb = [
         id: 62,
         titulo: "Maleta Veterinaria Mascota",
         preciomayorista: 42999,
-        precio: 38000,
+        precio: 37000,
         referencia: '008-967B',
         descripcion: `
         ¡La Maleta Veterinaria es la elección perfecta para los amantes de los animales y los futuros veterinarios! Este juguete transformable permite a los niños explorar el emocionante mundo de cuidar y curar a sus amigos peludos.
