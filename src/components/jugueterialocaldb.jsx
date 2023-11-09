@@ -309,7 +309,7 @@ const jugueterialocaldb = [
         id: 181,
         titulo: "Cry Baby Doctora",
         preciomayorista: 7199,
-        precio: 28000,
+        precio: 29000,
         referencia: "KQ508",
         descripcion: ``,
         imagenes: [
@@ -499,7 +499,7 @@ const jugueterialocaldb = [
         id: 191,
         titulo: "Dinosaurio Hijo con Movimiento, Luces y Sonido",
         preciomayorista: 7199,
-        precio: 45000,
+        precio: 42000,
         referencia: "6627B",
         descripcion: ``,
         imagenes: [
@@ -598,7 +598,7 @@ const jugueterialocaldb = [
         id: 196,
         titulo: "Dinosaurio Chimuelo con Ginete",
         preciomayorista: 7199,
-        precio: 36000,
+        precio: 35000,
         referencia: "3308",
         descripcion: ``,
         imagenes: [
@@ -786,7 +786,7 @@ const jugueterialocaldb = [
     },
     {
         id: 206,
-        titulo: "Dinosaurio Cuello Largo Alas Pone Huevos",
+        titulo: "Dinosaurio Gigante (Nuevo) Cuello Largo Alas Pone Huevos",
         preciomayorista: 7199,
         precio: 43000,
         referencia: "666-2A",
@@ -1070,7 +1070,7 @@ const jugueterialocaldb = [
         id: 220,
         titulo: "Cocina Musical con Horno y Accesorios",
         preciomayorista: 7199,
-        precio: 75000,
+        precio: 70000,
         referencia: "008-58",
         descripcion: ``,
         imagenes: [
@@ -1203,7 +1203,7 @@ const jugueterialocaldb = [
         id: 227,
         titulo: "Carro Lanza Tazos con Luces y Sonido",
         preciomayorista: 7199,
-        precio: 28000,
+        precio: 29000,
         referencia: "8811-19",
         descripcion: ``,
         imagenes: [
@@ -2180,7 +2180,7 @@ const jugueterialocaldb = [
         id: 275,
         titulo: "Play Doh Doctor Dientes",
         preciomayorista: 7199,
-        precio: 23000,
+        precio: 24000,
         referencia: "JD1218",
         descripcion: ``,
         imagenes: [
@@ -2412,7 +2412,7 @@ const jugueterialocaldb = [
         id: 287,
         titulo: "Carro Loco Recargable Control",
         preciomayorista: 7199,
-        precio: 32000,
+        precio: 33000,
         referencia: "9802M-11",
         descripcion: ``,
         imagenes: [
@@ -2448,9 +2448,9 @@ const jugueterialocaldb = [
     },
     {
         id: 289,
-        titulo: "Carro Control Transparente Recargable",
+        titulo: "Carro Control Humo Transparente Recargable con Luz y Sonido (GRANDE)",
         preciomayorista: 7199,
-        precio: 148000,
+        precio: 115000,
         referencia: "999-59CS",
         descripcion: ``,
         imagenes: [
@@ -2701,7 +2701,7 @@ const jugueterialocaldb = [
         id: 302,
         titulo: "Pista Dinosaurio con Catapulta",
         preciomayorista: 7199,
-        precio: 90000,
+        precio: 75000,
         referencia: "9977-3",
         descripcion: ``,
         imagenes: [
@@ -2900,7 +2900,7 @@ const jugueterialocaldb = [
         id: 311,
         titulo: "Perro Ojos de Lazo con Movimiento y Sonido",
         preciomayorista: 7199,
-        precio: 39000,
+        precio: 40000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -3128,7 +3128,7 @@ const jugueterialocaldb = [
         id: 323,
         titulo: "Bebe Unicornio con Sonido",
         preciomayorista: 7199,
-        precio: 35000,
+        precio: 38000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -3147,7 +3147,7 @@ const jugueterialocaldb = [
         id: 324,
         titulo: "Lanzadora de Dardos e Hidrogel con Gafas",
         preciomayorista: 7199,
-        precio: 39000,
+        precio: 40000,
         referencia: "518D",
         descripcion: ``,
         imagenes: [
@@ -3185,7 +3185,7 @@ const jugueterialocaldb = [
         id: 326,
         titulo: "Bebe Camina, Gatea, Llora y mueve Manos",
         preciomayorista: 7199,
-        precio: 68000,
+        precio: 75000,
         referencia: "XMY8058",
         descripcion: ``,
         imagenes: [
@@ -3261,7 +3261,7 @@ const jugueterialocaldb = [
         id: 330,
         titulo: "Set de Cocina e Utensilios",
         preciomayorista: 7199,
-        precio: 23000,
+        precio: 25000,
         referencia: "SK98C",
         descripcion: ``,
         imagenes: [
@@ -3451,7 +3451,7 @@ const jugueterialocaldb = [
         id: 340,
         titulo: "Bebe Llora y se Acuesta",
         preciomayorista: 7199,
-        precio: 78000,
+        precio: 82000,
         referencia: "XMY8068",
         descripcion: ``,
         imagenes: [
@@ -3519,7 +3519,7 @@ const jugueterialocaldb = [
         id: 343,
         titulo: "Princesa Alumbra el Pelo, con Luz y Sonido",
         preciomayorista: 7199,
-        precio: 46000,
+        precio: 48000,
         referencia: "L90-2A",
         descripcion: ``,
         imagenes: [
@@ -3614,7 +3614,7 @@ const jugueterialocaldb = [
         id: 348,
         titulo: "Cry Baby Caminadora en Bolsa",
         preciomayorista: 7199,
-        precio: 47000,
+        precio: 50000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -3633,7 +3633,7 @@ const jugueterialocaldb = [
         id: 349,
         titulo: "Cry Baby Caminadora en Caja",
         preciomayorista: 7199,
-        precio: 50000,
+        precio: 53000,
         referencia: "L0426-1",
         descripcion: ``,
         imagenes: [
@@ -4027,7 +4027,7 @@ const jugueterialocaldb = [
         id: 107,
         titulo: "Muñeca Cry Baby Orina con Pañal y Tetero",
         preciomayorista: 7199,
-        precio: 28000,
+        precio: 29000,
         referencia: "KQ-508",
         descripcion: ``,
         imagenes: [
@@ -4130,7 +4130,7 @@ const jugueterialocaldb = [
         id: 112,
         titulo: "Maleta Doctor con Accesorios",
         preciomayorista: 7199,
-        precio: 23000,
+        precio: 24000,
         referencia: "6607B",
         descripcion: ``,
         imagenes: [
@@ -4168,7 +4168,7 @@ const jugueterialocaldb = [
         id: 114,
         titulo: "Kit Maquillaje con Secador de Uñas",
         preciomayorista: 7199,
-        precio: 28000,
+        precio: 29000,
         referencia: "MBK-326",
         descripcion: ``,
         imagenes: [
@@ -4438,7 +4438,7 @@ const jugueterialocaldb = [
         id: 128,
         titulo: "Guitarra Jirafa con Luces y Sonido",
         preciomayorista: 7199,
-        precio: 32000,
+        precio: 33500,
         referencia: "CY-6020C",
         descripcion: ``,
         imagenes: [
@@ -5227,7 +5227,7 @@ const jugueterialocaldb = [
         id: 30,
         titulo: "Bumble Bee Bailarin, Luces y Sonido",
         preciomayorista: 29999,
-        precio: 28000,
+        precio: 29000,
         descripcion: `¡Lleva la diversión a un nivel vibrante con nuestro Bumble Bee Bailarín! Este juguete encantador combina movimiento, luces y sonidos en una experiencia llena de alegría y entretenimiento.
 
         Observa con asombro mientras el Bumble Bee cobra vida con movimientos animados y cautivadores. Sus luces brillantes iluminan su camino mientras realiza sus pasos de baile únicos, y su sonido alegre añade una banda sonora emocionante a cada movimiento.
@@ -5715,9 +5715,9 @@ const jugueterialocaldb = [
     },
     {
         id: 7,
-        titulo: "Dinosaurio Huevo Sorpresa, Luces, Movimiento y Sonido",
+        titulo: "Dinosaurio Escualizable Huevo Sorpresa, Luces, Movimiento y Sonido",
         preciomayorista: 1000,
-        precio: 65000,
+        precio: 55000,
         descripcion: `¡Sumérgete en una emocionante expedición prehistórica con nuestro Dinosaurio Huevo Sorpresa con luces brillantes, sonidos realistas y movimientos cautivadores que cobran vida en su cuerpo y cabeza. Pero aquí está la verdadera maravilla: este dinosaurio también tiene una sorpresa bajo la manga (o en este caso, bajo sus patas). ¡Bota huevos de plástico en cada paso, creando momentos de anticipación y emoción!
 
         Este dinosaurio es una fuente inagotable de diversión. Además, para que la diversión nunca termine, funciona con 3 pilas AA. Ideal para los apasionados por los dinosaurios y los amantes de la aventura!`,
