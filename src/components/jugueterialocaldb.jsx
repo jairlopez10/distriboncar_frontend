@@ -5012,7 +5012,7 @@ const jugueterialocaldb = [
         id: 159,
         titulo: "Movil Musical para Bebes",
         preciomayorista: 7199,
-        precio: 14000,
+        precio: 19000,
         referencia: "D056",
         descripcion: ``,
         imagenes: [
@@ -5356,7 +5356,7 @@ const jugueterialocaldb = [
         id: 55,
         titulo: "Carro Loco Grafiti Control Bateria Recargable",
         preciomayorista: 38999,
-        precio: 31000,
+        precio: 32000,
         referencia: "6600",
         descripcion: `
         ¡Prepárate para la diversión extrema con el Carro Loco a Control Remoto! Este vehículo todo terreno te brinda una experiencia emocionante y llena de acción con luces y sonidos que te dejarán asombrado.
@@ -5640,7 +5640,7 @@ const jugueterialocaldb = [
         id: 3,
         titulo: "Computador Interactivo 130 Actividades",
         preciomayorista: 84999,
-        precio: 75000,
+        precio: 85000,
         descripcion: `Descubre un mundo de aprendizaje interactivo con nuestro Computador Interactivo 130 Actividades. Diseñado para inspirar y enseñar, este juguete educativo es una experiencia completa.
 
         Desde letras y música hasta un reloj funcional, los niños explorarán un abanico de habilidades. Rellena palabras, deletrea, sumérgete en matemáticas y disfruta de juegos educativos, todo con el uso del mouse y el teclado interactivo. Este computador, con conexión a corriente, brinda horas de diversión y aprendizaje sin fin.
@@ -5715,7 +5715,7 @@ const jugueterialocaldb = [
     },
     {
         id: 7,
-        titulo: "Dinosaurio Escualizable Huevo Sorpresa, Luces, Movimiento y Sonido",
+        titulo: "Dinosaurio Escualizable Huevo Sorpresa, Luces y Sonido",
         preciomayorista: 1000,
         precio: 55000,
         descripcion: `¡Sumérgete en una emocionante expedición prehistórica con nuestro Dinosaurio Huevo Sorpresa con luces brillantes, sonidos realistas y movimientos cautivadores que cobran vida en su cuerpo y cabeza. Pero aquí está la verdadera maravilla: este dinosaurio también tiene una sorpresa bajo la manga (o en este caso, bajo sus patas). ¡Bota huevos de plástico en cada paso, creando momentos de anticipación y emoción!
