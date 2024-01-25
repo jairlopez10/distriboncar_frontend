@@ -45,6 +45,12 @@ const FerrreteriaMery = () => {
         }
     
         setferreteriafiltrada(newlist);
+
+        const filtro = document.querySelector('.tituloferreteria')
+        filtro.scrollIntoView({
+          behavior: 'smooth'
+        })
+        
     
     }, [categoria, ordenar, preciomax])
     
