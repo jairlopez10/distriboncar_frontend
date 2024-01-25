@@ -56,7 +56,10 @@ const FerrreteriaMery = () => {
         <h1 className="titulocatalogo tituloferreteria">Catalogo Ferreteria</h1>
         <div className="seccionjuguetes">
           <div className="seccion-filtros">
-            <select className="filtro ferreteria" name="categoria" id="categoria" onChange={e => setcategoria(e.target.value)}>
+            
+            
+          </div>
+          <select className="filtro ferreteria" name="categoria" id="categoria" onChange={e => setcategoria(e.target.value)}>
               <option value="" >{categoria === "" ? "Categoria" : "Todas las categorias"}</option>
               <option value="candados">Candados</option>
               <option value="guayas">Guayas</option>
@@ -75,8 +78,6 @@ const FerrreteriaMery = () => {
               <option value="kitdespinchar">Kit Despinchar</option>
               <option value="otros">Otros</option>
             </select>
-            
-          </div>
           <div className="productos">
             {ferreteriafiltrada.map(producto => {
               return (

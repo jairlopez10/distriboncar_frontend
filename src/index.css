@@ -186,6 +186,16 @@ footer {
     background-color: #dbff11;
     font-weight: 900;
     border: 1px solid #afa5a5;
+    position: sticky;
+    top: 1rem;
+    -webkit-appearance: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    text-align: center;
+    height: 5rem;
+    width: 100%;
+    -webkit-background-clip: padding-box;
+
 }
 
 .seccion-precio, .seccion-precio input {
