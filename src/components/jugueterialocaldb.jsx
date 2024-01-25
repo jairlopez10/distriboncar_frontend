@@ -1678,7 +1678,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+3",
-        categoria: "carros-impulso",
+        categoria: "educativo",
         genero: "ninos"
     },
     {

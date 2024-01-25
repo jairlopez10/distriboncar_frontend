@@ -146,8 +146,15 @@ footer {
 /*------------------------------------- CATALOGO JUGUETES LOCAL ---------------------------- */
 
 .titulocatalogo {
-    color: #fc2a93;
     margin-bottom: 2rem;
+}
+
+.titulojugueteria {
+    color: #fc2a93;
+}
+
+.tituloferreteria {
+    color: #242424;
 }
 
 .seccion-filtros {
@@ -161,14 +168,24 @@ footer {
 
 .seccion-filtros select {
     -webkit-appearance: none;
-    background-color: #4545b6;
     border-radius: 1rem;
     cursor: pointer;
     text-align: center;
-    color: white;
+    
     height: 5rem;
     width: 100%;
     -webkit-background-clip: padding-box;
+}
+
+.juguetes {
+    background-color: #4545b6;
+    color: white;
+}
+
+.ferreteria {
+    background-color: #dbff11;
+    font-weight: 900;
+    border: 1px solid #afa5a5;
 }
 
 .seccion-precio, .seccion-precio input {

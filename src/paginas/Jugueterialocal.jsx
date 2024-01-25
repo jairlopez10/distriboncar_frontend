@@ -64,10 +64,10 @@ const Jugueterialocal = () => {
   return (
     <>
       <div className="contenedor">
-        <h1 className="titulocatalogo">Catalogo</h1>
+        <h1 className="titulocatalogo titulojugueteria">Catalogo</h1>
         <div className="seccionjuguetes">
           <div className="seccion-filtros">
-            <select className="filtro" name="categoria" id="categoria" onChange={e => setcategoria(e.target.value)}>
+            <select className="filtro juguetes" name="categoria" id="categoria" onChange={e => setcategoria(e.target.value)}>
               <option value="" >{categoria === "" ? "Categoria" : "Todas las categorias"}</option>
               <option value="dinosaurios">Dinosaurios</option>
               <option value="carros-impulso">Carros y Motos de Impulso</option>
