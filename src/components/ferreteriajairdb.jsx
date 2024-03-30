@@ -2496,6 +2496,182 @@ const ferreteriajairdb = [
         status: "disponible",
         categoria: "crucetas"
     },
+    {
+        id: 165,
+        titulo: 'PINZA SACA PINES 4,5"',
+        precio: 3900,
+        referencia: "CA04-46",
+        bulto: "Bulto X 240 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m165.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 166,
+        titulo: 'ALICATE 4,5"',
+        precio: 3900,
+        referencia: "CA04-51",
+        bulto: "Bulto X 240 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m166.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 167,
+        titulo: 'Tenaza 4,5"',
+        precio: 4000,
+        referencia: "HMP02215",
+        bulto: "Bulto X 240 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m167.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 168,
+        titulo: 'PINZA CURVA 4,5"',
+        precio: 3900,
+        referencia: "C04-48",
+        bulto: "Bulto X 240 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m168.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 169,
+        titulo: 'CORTA FRIO 4,5"',
+        precio: 3900,
+        referencia: "C04-49",
+        bulto: "Bulto X 240 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m169.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 170,
+        titulo: 'PINZA LARGA 4,5"',
+        precio: 3900,
+        referencia: "C04-47",
+        bulto: "Bulto X 240 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m170.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 171,
+        titulo: 'PINZA AMPERIMETRICA GRANDE',
+        precio: 22000,
+        referencia: "DT-266",
+        bulto: "Bulto X 40 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m171.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 172,
+        titulo: 'CANDADO DORADO #60 IL8663',
+        precio: 4800,
+        referencia: "IL8663",
+        bulto: "Bulto X 60 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m172.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 174,
+        titulo: 'CANDADO DORADO #50 IL8650',
+        precio: 3200,
+        referencia: "IL8650",
+        bulto: "Bulto X 120 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m174.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 173,
+        titulo: 'CANDADO DORADO #40 IL8638',
+        precio: 2100,
+        referencia: "IL8638",
+        bulto: "Bulto X 240 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m173.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 175,
+        titulo: 'CANDADO DORADO #30 IL8632',
+        precio: 1750,
+        referencia: "IL8632",
+        bulto: "Bulto X 240 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m175.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
     
     {
         id: 91,

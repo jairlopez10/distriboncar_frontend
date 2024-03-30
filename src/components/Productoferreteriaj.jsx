@@ -9,8 +9,8 @@ const Productoferreteriaj = ({producto}) => {
 
   return (
     <>
-        <div className="productocard cursor-pointer" onClick={() => navigate(`/${titulourl}/${id}`)}>
-            <img src={`${imagenes[0].url}`} alt={`imagen ${titulo}`} />
+        <div className="productocard cursor-pointer" onClick={() => window.open(`/${titulourl}/${id}`)}>
+            <img loading="lazy" src={`${imagenes[0].url}`} alt={`imagen ${titulo}`} />
             <div>
                 <p className="titulocard">{titulo}</p>
                 <p className="referencia">{bulto}</p>
