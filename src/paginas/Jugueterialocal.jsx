@@ -86,7 +86,7 @@ const Jugueterialocal = () => {
               <option value="organetas-guitarras">Organetas & Guitarras</option>
               <option value="musical">Musical</option>
             </select>
-            <select name="ordenar" id="ordenar" onChange={e => setordenar(e.target.value)}>
+            <select name="ordenar" id="ordenar" className="filtro juguetes" onChange={e => setordenar(e.target.value)}>
               <option value="">{ordenar === "" ? "Ordenar" : "Mayor Relevancia"}</option>
               <option value="asc">Precio menor a mayor</option>
               <option value="des">Precio mayor a menor</option>

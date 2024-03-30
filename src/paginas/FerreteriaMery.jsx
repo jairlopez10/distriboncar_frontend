@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import ferreteriamerybd from "../components/ferreteriamerybd";
-import Productocard from "../components/Productocard";
 import Productoferreteria from "../components/Productoferreteria";
+import usePagina from "../hooks/usePagina";
 
 const FerrreteriaMery = () => {
 
@@ -20,6 +20,7 @@ const FerrreteriaMery = () => {
     const [categoria, setcategoria] = useState("");
     const [ordenar, setordenar] = useState("");
     const [preciomax, setpreciomax] = useState(+MAX);
+    const { setPagina } = usePagina()
     
     const filtrarcategoria = (product) => {
         if (categoria === "") return product;
@@ -53,6 +54,10 @@ const FerrreteriaMery = () => {
         
     
     }, [categoria, ordenar, preciomax])
+
+    useEffect(() => {
+      setPagina('Mery')
+    }, [])
     
     console.log(ferreteriafiltrada.length)
 

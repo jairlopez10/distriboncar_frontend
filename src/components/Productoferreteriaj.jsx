@@ -1,11 +1,15 @@
+import { useNavigate } from "react-router-dom"
 
 const Productoferreteriaj = ({producto}) => {
 
-    const {titulo, precio, imagenes, referencia, bulto} = producto
+    const {titulo, precio, imagenes, referencia, bulto, id} = producto
+    const navigate = useNavigate()
+
+    const titulourl = titulo.replace(/ /g, '-').toLowerCase().replace('#', '-').replace('/', '-').replace('/', '-')
 
   return (
     <>
-        <div className="productocard">
+        <div className="productocard cursor-pointer" onClick={() => navigate(`/${titulourl}/${id}`)}>
             <img src={`${imagenes[0].url}`} alt={`imagen ${titulo}`} />
             <div>
                 <p className="titulocard">{titulo}</p>
