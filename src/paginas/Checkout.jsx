@@ -9,7 +9,6 @@ const Checkout = () => {
 
     const { setPagina } = usePagina();
     const [nombres, setNombres] = useState('');
-    const [apellidos, setApellidos] = useState('');
     const [telefono, setTelefono] = useState('');
     const [email, setEmail] = useState('');
     const [origen, setOrigen] = useState('');
@@ -19,7 +18,6 @@ const Checkout = () => {
     const [total, setTotal] = useState(0);
     const [carrito, setCarrito] = useState(JSON.parse(localStorage.getItem('carritodistribucionesboncar')) || []);
     const [carritomostrar, setCarritoMostrar] = useState([]);
-    const [cliente, setCliente] = useState('');
     const [spinner, setSpinner] = useState(false);
     const navegar = useNavigate()
 
@@ -58,7 +56,7 @@ const Checkout = () => {
         setSpinner(true);
 
         //Revisar si algun campo esta vacio y generar alerta
-        if([nombres, apellidos, telefono, email, origen, ciudad, direccion].includes('')){
+        if([nombres, telefono, email, origen, ciudad, direccion].includes('')){
             setAlerta({
                 msg: 'Todos los campos son obligatorios',
                 error: true
@@ -84,7 +82,7 @@ const Checkout = () => {
         const fecha = (fechahoy.getMonth()+1)+"/"+fechahoy.getDate()+"/"+fechahoy.getFullYear()
 
         const pedido = {
-            cliente,
+            nombres,
             origen,
             fecha,
             productos: carritomostrar,
@@ -95,24 +93,31 @@ const Checkout = () => {
             total
         }
 
-        //fbq('track', 'Purchase', {currency: "USD", value: total});
+        //Crear texto URL
+        const texto1wa = `Hola Jair! Te comparto mi pedido a nombre de ${nombres}`
+        const texto1url = convertirtextoaurlwa(texto1wa);
+        let pedidourlcarrito = carritomostrar.map(item => {
+            const texto = `${item.cantidad} - ${item.nombre}`
+            return convertirtextoaurlwa(texto)
+        })
+        let pedidourltext = ''
+        pedidourlcarrito.forEach(item => {
+            pedidourltext = pedidourltext + item.replace('#','Num') + '%2C%0D'
+        })
+
 
         //Enviar pedido
         try {
-            /*
-            const url = `${import.meta.env.VITE_BACKEND_URL}/api/clientes`;
-            await axios.post(url, pedido)
-            setSpinner(false);
-            navegar('/pedidoconfirmado')
-            localStorage.setItem('carritojammy', JSON.stringify([]));
-            setCarrito([]);
-            setCarritoMostrar([]); 
-            */
+            window.open(`https://wa.me/573204289310?text=${texto1url+'%2C%0D'+'%20'+'%2C%0D'+pedidourltext}`, '_blank');
             
         } catch (error) {
             console.log(error);
         }
 
+    }
+
+    const convertirtextoaurlwa = (texto) => {
+        return texto.replace(/ /g, "%20")
     }
 
   return (
