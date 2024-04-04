@@ -1455,6 +1455,10 @@ const ferreteriajairdb = [
         status: "disponible",
         categoria: "otros"
     },
+
+]
+
+const bdagregar = [
     {
         id: 109,
         titulo: 'Interruptor Rojo Redondo',
@@ -2705,8 +2709,6 @@ const ferreteriajairdb = [
         status: "Out Stock",
         categoria: "otros"
     },
-    
-
 ]
 
 
