@@ -82,7 +82,7 @@ const ferreteriajairdb = [
     {
         id: 9,
         titulo: "CANDADO CASTOR #50",
-        precio: 3100,
+        precio: 3000,
         referencia: "PA-50",
         bulto: "Bulto X 120 UND",
         descripcion: "",
@@ -98,7 +98,7 @@ const ferreteriajairdb = [
     {
         id: 5,
         titulo: "CANDADO CASTOR #40",
-        precio: 2050,
+        precio: 2000,
         referencia: "PA-40",
         bulto: "Bulto X 240 UND",
         descripcion: "",
@@ -114,7 +114,7 @@ const ferreteriajairdb = [
     {
         id: 8,
         titulo: "CANDADO CASTOR #30",
-        precio: 1700,
+        precio: 1650,
         referencia: "",
         bulto: "Bulto X 240 UND",
         descripcion: "PA-30",
@@ -146,7 +146,7 @@ const ferreteriajairdb = [
     {
         id: 47,
         titulo: 'CANDADO ANTICIZALLA BLISS #70',
-        precio: 10600,
+        precio: 10100,
         referencia: "BL-70",
         bulto: "Bulto X 60 UND",
         descripcion: "",
@@ -162,7 +162,7 @@ const ferreteriajairdb = [
     {
         id: 36,
         titulo: 'CANDADO ANTICIZALLA BLISS #60',
-        precio: 8200,
+        precio: 7900,
         referencia: "BL-60",
         bulto: "Bulto X 72 UND",
         descripcion: "",
@@ -178,7 +178,7 @@ const ferreteriajairdb = [
     {
         id: 51,
         titulo: 'CANDADO ANTICIZALLA BLISS #50',
-        precio: 7000,
+        precio: 6600,
         referencia: "BL-50",
         bulto: "Bulto X 96 UND",
         descripcion: "",
@@ -194,7 +194,7 @@ const ferreteriajairdb = [
     {
         id: 38,
         titulo: 'CANDADO ANTICIZALLA BLISS #40',
-        precio: 5400,
+        precio: 5200,
         referencia: "BL-40",
         bulto: "Bulto X 120 UND",
         descripcion: "",
@@ -626,7 +626,7 @@ const ferreteriajairdb = [
     {
         id: 42,
         titulo: 'TIJERA COLORES 7,5"',
-        precio: 1950,
+        precio: 2000,
         referencia: "14601-2",
         bulto: "Bulto X 360 UND",
         descripcion: "",
@@ -674,7 +674,7 @@ const ferreteriajairdb = [
     {
         id: 32,
         titulo: 'DECAMETRO 20M',
-        precio: 6000,
+        precio: 6500,
         referencia: "HFBT0120",
         bulto: "Bulto X 60 UND",
         descripcion: "",
@@ -768,6 +768,22 @@ const ferreteriajairdb = [
         categoria: "llaves"
     },
     {
+        id: 88,
+        titulo: 'LLAVE LARGA BRISTOL X 9 PCS',
+        precio: 9000,
+        referencia: "C0417-3",
+        bulto: "Bulto X 60 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m88.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "llaves"
+    },
+    {
         id: 43,
         titulo: 'LLAVE MED TORX X 9 PCS',
         precio: 8000,
@@ -778,6 +794,22 @@ const ferreteriajairdb = [
             {
                 tipo: "imagen",
                 url: "/m43.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "llaves"
+    },
+    {
+        id: 84,
+        titulo: 'LLAVE MED BRISTOL X 9 PCS',
+        precio: 8000,
+        referencia: "C0417-2",
+        bulto: "Bulto X 60 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m84.webp" 
             }
         ],
         status: "disponible",
@@ -800,41 +832,9 @@ const ferreteriajairdb = [
         categoria: "llaves"
     },
     {
-        id: 88,
-        titulo: 'LLAVE LARGA BRISTOL X 9 PCS',
-        precio: 9000,
-        referencia: "C0417-3",
-        bulto: "Bulto X 60 UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/m88.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "llaves"
-    },
-    {
-        id: 84,
-        titulo: 'LLAVE MED BRISTOL X 9 PCS',
-        precio: 7700,
-        referencia: "C0417-2",
-        bulto: "Bulto X 60 UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/m84.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "llaves"
-    },
-    {
         id: 85,
         titulo: 'LLAVE CORTA BRISTOL X 9 PCS',
-        precio: 6300,
+        precio: 6500,
         referencia: "C0417-1",
         bulto: "Bulto X 72 UND",
         descripcion: "",
@@ -1106,7 +1106,7 @@ const ferreteriajairdb = [
     {
         id: 77,
         titulo: 'MARCO DE SEGUETA FONTOR',
-        precio: 11000,
+        precio: 8600,
         referencia: "HHF30012",
         bulto: "Bulto X 48 UND",
         descripcion: "",
@@ -1138,7 +1138,7 @@ const ferreteriajairdb = [
     {
         id: 69,
         titulo: 'TENAZA 8"',
-        precio: 6400,
+        precio: 6500,
         referencia: "C04-30",
         bulto: "Bulto X 60 UND",
         descripcion: "",
@@ -1154,7 +1154,7 @@ const ferreteriajairdb = [
     {
         id: 76,
         titulo: 'TENAZA 6"',
-        precio: 5100,
+        precio: 5200,
         referencia: "C04-29",
         bulto: "Bulto X 120 UND",
         descripcion: "",
@@ -1186,7 +1186,7 @@ const ferreteriajairdb = [
     {
         id: 89,
         titulo: 'KIT DE DESPINCHAR Y TACOS',
-        precio: 3400,
+        precio: 3500,
         referencia: "W0422-55",
         bulto: "Bulto X 144 UND",
         descripcion: "",
