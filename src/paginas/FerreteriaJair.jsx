@@ -140,7 +140,9 @@ const FerreteriaJair = () => {
               <option value="calculadoras">Calculadoras & Relojes</option>
               <option value="copasierra">Copa Sierra</option>
               <option value="crucetas">Crucetas & Tricetas</option>
+              <option value="cintas">Cintas</option>
               <option value="destornillador">Destornilladores</option>
+              <option value="duchas">Duchas</option>
               <option value="espatulas">Espatulas</option>
               <option value="electricos">Electricos Accesorios</option>
               <option value="gatos">Gatos</option>
