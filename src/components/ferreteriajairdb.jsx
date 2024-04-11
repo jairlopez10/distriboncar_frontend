@@ -1453,7 +1453,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "remachadoras"
     },
     {
         id: 182,
@@ -1469,7 +1469,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "duchas"
+        categoria: "electricos"
     },
     {
         id: 179,
@@ -1549,7 +1549,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "mangueras"
     },
     {
         id: 206,
@@ -1565,7 +1565,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "mangueras"
     },
     {
         id: 180,
@@ -1725,7 +1725,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "pegantes"
     },
     {
         id: 191,
@@ -1741,7 +1741,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "pegantes"
     },
     {
         id: 190,
@@ -1757,7 +1757,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "pegantes"
     },
     {
         id: 194,
@@ -1773,7 +1773,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "pegantes"
     },
     {
         id: 192,
@@ -1789,7 +1789,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "remachadoras"
     },
     {
         id: 193,
@@ -1805,7 +1805,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "remachadoras"
     },
     {
         id: 197,
@@ -2157,7 +2157,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "mangueras"
     },
     {
         id: 209,
@@ -2253,7 +2253,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "electricos"
     },
     {
         id: 227,
@@ -2285,7 +2285,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "electricos"
     },
     {
         id: 229,
@@ -2302,6 +2302,54 @@ const ferreteriajairdb = [
         ],
         status: "disponible",
         categoria: "prensas"
+    },
+    {
+        id: 230,
+        titulo: 'MANGUERA FLEXOMETALICA PARA GAS 1M',
+        precio: 8500,
+        referencia: "DM2369-11",
+        bulto: "Bulto X 100 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm230.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "mangueras"
+    },
+    {
+        id: 231,
+        titulo: 'MANGUERA FLEXOMETALICA PARA GAS 1.5M',
+        precio: 10800,
+        referencia: "DM2369-12",
+        bulto: "Bulto X 100 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm230.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "mangueras"
+    },
+    {
+        id: 232,
+        titulo: 'MANGUERA FLEXOMETALICA PARA GAS 2M',
+        precio: 14500,
+        referencia: "DM2369-13",
+        bulto: "Bulto X 100 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm230.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "mangueras"
     },
 
 ]
@@ -3539,7 +3587,7 @@ const bdagregar = [
             }
         ],
         status: "Out Stock",
-        categoria: "otros"
+        categoria: "remachadoras"
     },
     {
         id: 92,
