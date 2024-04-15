@@ -444,7 +444,7 @@ const ferreteriajairdb = [
                 url: "/m22.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "guayas"
     },
     {
