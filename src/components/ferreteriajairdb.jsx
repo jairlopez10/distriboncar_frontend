@@ -1692,7 +1692,7 @@ const ferreteriajairdb = [
                 url: "/dm188.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "prensas"
     },
     {
