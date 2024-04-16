@@ -1149,7 +1149,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "tenazas"
+        categoria: "alicates"
     },
     {
         id: 76,
@@ -1165,7 +1165,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "tenazas"
+        categoria: "alicates"
     },
     {
         id: 86,
@@ -1308,7 +1308,7 @@ const ferreteriajairdb = [
                 url: "/m54.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "destornillador"
     },
     {
@@ -1322,6 +1322,22 @@ const ferreteriajairdb = [
             {
                 tipo: "imagen",
                 url: "/m56.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 154,
+        titulo: 'Saca Bocado Golpe X6 PCS',
+        precio: 7300,
+        referencia: "HHPC0806",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m154.webp" 
             }
         ],
         status: "disponible",
@@ -1405,7 +1421,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "alicates"
     },
     {
         id: 67,
@@ -1421,7 +1437,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "guayas"
     },
     {
         id: 80,
@@ -1677,7 +1693,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "brocas"
     },
     {
         id: 188,
@@ -1693,7 +1709,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "No Stock",
-        categoria: "prensas"
+        categoria: "brocas"
     },
     {
         id: 187,
@@ -1709,7 +1725,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "brocas"
     },
     {
         id: 207,
@@ -1821,7 +1837,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "electricos"
     },
     {
         id: 211,
@@ -2061,7 +2077,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "otros"
     },
     {
         id: 199,
@@ -2077,7 +2093,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "otros"
     },
     {
         id: 200,
@@ -2093,7 +2109,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "pegantes"
     },
     {
         id: 204,
@@ -2109,7 +2125,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "brocas"
     },
     {
         id: 203,
@@ -2125,7 +2141,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "brocas"
     },
     {
         id: 202,
@@ -2141,7 +2157,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "brocas"
     },
     {
         id: 205,
@@ -2173,7 +2189,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "cintas"
     },
     {
         id: 215,
@@ -2189,23 +2205,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
-    },
-    {
-        id: 214,
-        titulo: 'REPUESTO BISTURI GRANDE',
-        precio: 9000,
-        referencia: "Y0420-12",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm214.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "prensas"
+        categoria: "cintas"
     },
     {
         id: 217,
@@ -2221,7 +2221,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "mangueras"
     },
     {
         id: 219,
@@ -2237,7 +2237,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "otros"
     },
     {
         id: 225,
@@ -2254,22 +2254,6 @@ const ferreteriajairdb = [
         ],
         status: "disponible",
         categoria: "electricos"
-    },
-    {
-        id: 227,
-        titulo: 'BISTURI PLASTICO GRANDE X 12PCS',
-        precio: 5500,
-        referencia: "18",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm227.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "prensas"
     },
     {
         id: 228,
@@ -2301,7 +2285,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "prensas"
+        categoria: "pegantes"
     },
     {
         id: 230,
@@ -2351,10 +2335,6 @@ const ferreteriajairdb = [
         status: "disponible",
         categoria: "mangueras"
     },
-
-]
-
-const bdagregar = [
     {
         id: 109,
         titulo: 'Interruptor Rojo Redondo',
@@ -2612,6 +2592,38 @@ const bdagregar = [
         categoria: "otros"
     },
     {
+        id: 227,
+        titulo: 'BISTURI PLASTICO GRANDE X 12PCS',
+        precio: 5500,
+        referencia: "18",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm227.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 214,
+        titulo: 'REPUESTO BISTURI GRANDE',
+        precio: 9000,
+        referencia: "Y0420-12",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm214.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
         id: 116,
         titulo: 'Corta Frio 8" 3 en 1',
         precio: 28500,
@@ -2625,7 +2637,7 @@ const bdagregar = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "alicates"
     },
     {
         id: 117,
@@ -2641,7 +2653,7 @@ const bdagregar = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "alicates"
     },
     {
         id: 118,
@@ -2657,7 +2669,7 @@ const bdagregar = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "alicates"
     },
     {
         id: 119,
@@ -3221,22 +3233,6 @@ const bdagregar = [
         categoria: "otros"
     },
     {
-        id: 154,
-        titulo: 'Saca Bocado Golpe X6 PCS',
-        precio: 7300,
-        referencia: "HHPC0806",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/m154.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "otros"
-    },
-    {
         id: 155,
         titulo: 'Lima X6 PCS Pequeña',
         precio: 5100,
@@ -3345,7 +3341,7 @@ const bdagregar = [
                 url: "/m161.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "crucetas"
     },
     {
@@ -3410,7 +3406,7 @@ const bdagregar = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "alicates"
     },
     {
         id: 166,
@@ -3426,7 +3422,7 @@ const bdagregar = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "alicates"
     },
     {
         id: 167,
@@ -3442,7 +3438,7 @@ const bdagregar = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "alicates"
     },
     {
         id: 168,
@@ -3458,7 +3454,7 @@ const bdagregar = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "alicates"
     },
     {
         id: 169,
@@ -3474,7 +3470,7 @@ const bdagregar = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "alicates"
     },
     {
         id: 170,
@@ -3490,7 +3486,7 @@ const bdagregar = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "alicates"
     },
     {
         id: 171,
@@ -3506,7 +3502,7 @@ const bdagregar = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "electricos"
     },
     {
         id: 172,
@@ -3522,7 +3518,7 @@ const bdagregar = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "candados"
     },
     {
         id: 174,
@@ -3538,7 +3534,7 @@ const bdagregar = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "candados"
     },
     {
         id: 173,
@@ -3554,7 +3550,7 @@ const bdagregar = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "candados"
     },
     {
         id: 175,
@@ -3570,7 +3566,7 @@ const bdagregar = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "candados"
     },
     
     {
@@ -3605,6 +3601,11 @@ const bdagregar = [
         status: "Out Stock",
         categoria: "otros"
     },
+
+]
+
+const bdagregar = [
+    
 ]
 
 

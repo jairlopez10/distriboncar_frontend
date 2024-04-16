@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react"
 import jugueterialocaldb from "../components/jugueterialocaldb";
 import Productocard from "../components/Productocard";
+import Alerta from "../components/Alerta";
+import usePagina from "../hooks/usePagina";
 
 const Jugueterialocal = () => {
 
@@ -19,6 +21,10 @@ const Jugueterialocal = () => {
   const [categoria, setcategoria] = useState("");
   const [ordenar, setordenar] = useState("");
   const [preciomax, setpreciomax] = useState(+MAX);
+  const [auth, setAuth] = useState(false);
+  const [pwdauth, setPwdauth] = useState('');
+  const [alerta, setAlerta] = useState({});
+  const { setPagina } = usePagina();
 
   const filtrarcategoria = (product) => {
     if (categoria === "") return product;
@@ -47,23 +53,73 @@ const Jugueterialocal = () => {
 
   }, [categoria, ordenar, preciomax])
 
-  console.log(juguetesfiltrados.length)
-
-  /*
-  //Definir los paginadores y filtrar productos
   useEffect(() => {
+    setPagina('Jair')
+    document.title = 'Distribuciones Boncar - Juguetes'
+    window.scrollTo(0,0)
+
+    //Revisar auth
+    const datestorage = JSON.parse(localStorage.getItem('authdistribucionesboncar')) || {}
+
+    if(datestorage.dia){
+      const today = new Date()
+      if(today.getFullYear() === datestorage.ano && today.getMonth() === datestorage.mes && today.getDate() === datestorage.dia){
+        setAuth(true);
+      }
+    }
+  }, [])
+
+  const handleauth = () => {
+    const pwdauths = [
+      202410,
+      191210,
+      101021,
+      120121,
+      209919,
+      983212
+    ]
+
+    const result = pwdauths.some(pwd => pwd === +pwdauth)
     
-    let iteradormin 
-    let iteradormax
+    if(result) {
+      setAuth(true)
 
-  }, [juguetesfiltrados])
+      //Crear token
+      const date = new Date()
+  
+      const newdate = {
+        ano: date.getFullYear(),
+        dia: date.getDate(),
+        mes: date.getMonth()
+      }
 
+      localStorage.setItem('authdistribucionesboncar', JSON.stringify(newdate))
+    } else {
+      setAlerta({
+        error: true,
+        msg: 'Contraseña Incorrecta'
+      })
 
-  */
+      setTimeout(() => {
+        setAlerta({})
+      }, 3000);
+    }
+
+  }
 
   return (
     <>
       <div className="contenedor">
+        <div className={`${auth ? 'hidden' : 'login-auth'}`}>
+          <h2>Iniciar Sesion</h2>
+          <label htmlFor="loginauth">Contraseña:</label>
+          <input id="loginauth" type="number" placeholder="Contraseña" value={pwdauth} onChange={(e) => setPwdauth(e.target.value)}/>
+          {alerta.error && <Alerta alerta={alerta} />}
+          <button className="boton-auth" onClick={handleauth}>Ingresar</button>
+        </div>
+        
+      </div>
+      <div className={`${auth ? 'contenedor' : 'hidden'}`}>
         <h1 className="titulocatalogo titulojugueteria">Catalogo</h1>
         <div className="seccionjuguetes">
           <div className="seccion-filtros">

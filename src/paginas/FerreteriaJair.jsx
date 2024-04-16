@@ -71,19 +71,20 @@ const FerreteriaJair = () => {
         const today = new Date()
         if(today.getFullYear() === datestorage.ano && today.getMonth() === datestorage.mes && today.getDate() === datestorage.dia){
           setAuth(true);
-        } else {
-          console.log('Otro dia diferente, log out')
         }
       }
 
     }, [])
     
-    console.log(ferreteriafiltrada.length)
 
     const handleauth = () => {
       const pwdauths = [
         202410,
-        191210
+        191210,
+        101021,
+        120121,
+        209919,
+        983212
       ]
 
       const result = pwdauths.some(pwd => pwd === +pwdauth)
@@ -136,6 +137,8 @@ const FerreteriaJair = () => {
           </div>
           <select className="filtro ferreteria" name="categoria" id="categoria" onChange={e => setcategoria(e.target.value)}>
               <option value="" >{categoria === "" ? "Categoria" : "Todas las categorias"}</option>
+              <option value="alicates">Alicates, Cortafrio, Pinzas, Tenazas</option>
+              <option value="brocas">Brocas</option>
               <option value="candados">Candados</option>
               <option value="calculadoras">Calculadoras & Relojes</option>
               <option value="copasierra">Copa Sierra</option>
@@ -158,7 +161,6 @@ const FerreteriaJair = () => {
               <option value="rachet">Rachet</option>
               <option value="remachadoras">Remachadoras</option>
               <option value="seguetas">Marco Seguetas</option>
-              <option value="tenazas">Tenazas</option>
               <option value="tijeras">Tijeras</option>
               <option value="otros">Otros</option>
             </select>
