@@ -125,6 +125,17 @@ const Producto = () => {
           </div>
           <div className="contenido-producto-final">
             <p className="titulo-producto-final">{producto.titulo}</p>
+            {tipocliente === "d" ? (
+              <>
+                <p className="precio-prod">{`Precio: $${producto.preciomayorista.toLocaleString('es-CO')} / Und`}</p>
+                <p className="precio-prod">{`Precio Sugerido: $${producto.precio.toLocaleString('es-CO')} / Und`}</p>
+              </>
+            ) : (
+              <>
+                <p className="precio-prod">{`$${producto.precio.toLocaleString('es-CO')} / Und`}</p>
+              </>
+            )}
+            <p className="bulto"><span>{producto.bulto}</span></p>
             <div className="beneficios">
               <div className="flex gap-2 items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" className="icono-incluido icon icon-tabler icon-tabler-truck-delivery" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#000000" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -155,18 +166,7 @@ const Producto = () => {
                 <p>Stock <span className=" text-green-600">disponible</span></p>
               </div>
             </div>
-            {tipocliente === "d" ? (
-              <>
-                <p className="precio-prod">{`Precio: $${producto.preciomayorista.toLocaleString('es-CO')} / Und`}</p>
-                <p className="precio-prod">{`Precio Sugerido: $${producto.precio.toLocaleString('es-CO')} / Und`}</p>
-              </>
-            ) : (
-              <>
-                <p className="precio-prod">{`$${producto.precio.toLocaleString('es-CO')} / Und`}</p>
-              </>
-            )}
             
-            <p className="bulto"><span>{producto.bulto}</span></p>
             <div className="botones-carrito">
               <button onClick={() => cambiarcantidad('menos')}>-</button>
               <input type="number" min="1" value={cantidad} onChange={e => setCantidad(e.target.value)} />

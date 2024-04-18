@@ -310,7 +310,6 @@ footer {
   .titulo-producto-final {
     font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom: 2rem;
     color: black;
   }
   
@@ -368,8 +367,9 @@ footer {
   }
   
   .precio-prod {
-    margin-top: 1rem;
+    margin-top: 0rem;
     font-size: 3rem;
+    color: #3d3d3d;
   }
   
   .boton-ordenar {
@@ -402,6 +402,7 @@ footer {
   .bulto {
     color: #3d3d3d;
     font-size: 2rem;
+    margin-bottom: 2rem;
   }
   
   .botones-carrito {
