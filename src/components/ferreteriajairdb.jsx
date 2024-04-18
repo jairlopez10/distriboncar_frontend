@@ -3505,6 +3505,54 @@ const ferreteriajairdb = [
         categoria: "electricos"
     },
     {
+        id: 233,
+        titulo: 'PINZA AMPERIMETRICA PEQUEÑA',
+        precio: 21000,
+        referencia: "VC3266L",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m233.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "electricos"
+    },
+    {
+        id: 234,
+        titulo: 'PUNTAS TALADRO CORTA MIXTA',
+        precio: 3600,
+        referencia: "CAC0417-32",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m234.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 235,
+        titulo: 'PUNTAS LARGAS X10 PCS FINA',
+        precio: 11500,
+        referencia: "CAC0417-20",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m235.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
         id: 172,
         titulo: 'CANDADO DORADO #60 IL8663',
         precio: 4800,
