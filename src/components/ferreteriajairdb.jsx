@@ -492,7 +492,7 @@ const ferreteriajairdb = [
                 url: "/m25.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "rachet"
     },
     {
@@ -3551,6 +3551,54 @@ const ferreteriajairdb = [
         ],
         status: "disponible",
         categoria: "otros"
+    },
+    {
+        id: 236,
+        titulo: 'MULTIMETRO DT-830L',
+        precio: 17500,
+        referencia: "DT-830L",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m236.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "electricos"
+    },
+    {
+        id: 237,
+        titulo: 'JUEGO DE COPAS LARGAS 1/4',
+        precio: 20500,
+        referencia: "A4-X00902",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m237.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "llaves"
+    },
+    {
+        id: 238,
+        titulo: 'JUEGO DE COPAS LARGAS 3/8',
+        precio: 32000,
+        referencia: "A4-Z00902",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m238.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "llaves"
     },
     {
         id: 172,
