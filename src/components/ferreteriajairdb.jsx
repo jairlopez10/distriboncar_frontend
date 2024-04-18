@@ -1245,7 +1245,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "testers"
+        categoria: "electricos"
     },
     {
         id: 72,
@@ -1261,7 +1261,7 @@ const ferreteriajairdb = [
             }
         ],
         status: "disponible",
-        categoria: "testers"
+        categoria: "electricos"
     },
     {
         id: 40,
