@@ -92,6 +92,10 @@ const FerreteriaJair = () => {
       if(result) {
         setAuth(true)
 
+        gtag('event', `login_${pwdauth}`, {
+          method: pwdauth
+        })
+
         //Crear token
         const date = new Date()
     

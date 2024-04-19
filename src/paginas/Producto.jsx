@@ -61,6 +61,17 @@ const Producto = () => {
       imagen: producto.imagenes[0].url
     }
 
+    //Evento de Google Analytics
+    gtag('event', 'add_to_cart', {
+      currency: 'COP',
+      items: [{
+        item_id: producto.id,
+        item_name: producto.titulo,
+        quantity: cantidad,
+        price: producto.precio
+      }]
+    })
+
     let nuevocarrito = []
 
     const existe = carrito.some(item => item.id === producto.id);
