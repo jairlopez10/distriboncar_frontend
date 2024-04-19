@@ -71,8 +71,8 @@ const Jugueterialocal = () => {
 
   const handleauth = () => {
     const pwdauths = [
-      101010,
-      202410,
+      101010, //Testeo
+      202410, //Cliente 1
       191210,
       101021,
       120121,

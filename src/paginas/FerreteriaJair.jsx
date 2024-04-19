@@ -55,6 +55,8 @@ const FerreteriaJair = () => {
         filtro.scrollIntoView({
           behavior: 'smooth'
         })
+
+        gtag('event', `filtrar_${categoria}`)
         
     
     }, [categoria, ordenar, preciomax])
