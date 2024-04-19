@@ -92,7 +92,7 @@ const FerreteriaJair = () => {
       if(result) {
         setAuth(true)
 
-        gtag('event', `login_${pwdauth}`, {
+        gtag('event', `login`, {
           method: pwdauth
         })
 
