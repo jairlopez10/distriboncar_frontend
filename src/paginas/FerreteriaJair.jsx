@@ -56,7 +56,10 @@ const FerreteriaJair = () => {
           behavior: 'smooth'
         })
 
-        gtag('event', `filtrar_${categoria}`)
+        if(categoria !== ''){
+          gtag('event', `filtrar_${categoria}`)
+        }
+        
         
     
     }, [categoria, ordenar, preciomax])
