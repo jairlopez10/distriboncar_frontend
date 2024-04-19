@@ -79,6 +79,7 @@ const FerreteriaJair = () => {
 
     const handleauth = () => {
       const pwdauths = [
+        101010,
         202410,
         191210,
         101021,

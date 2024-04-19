@@ -71,6 +71,7 @@ const Jugueterialocal = () => {
 
   const handleauth = () => {
     const pwdauths = [
+      101010,
       202410,
       191210,
       101021,
@@ -83,6 +84,10 @@ const Jugueterialocal = () => {
     
     if(result) {
       setAuth(true)
+
+      gtag('event', `login_${pwdauth}`, {
+        method: pwdauth
+      })
 
       //Crear token
       const date = new Date()
