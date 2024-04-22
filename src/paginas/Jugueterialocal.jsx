@@ -25,6 +25,7 @@ const Jugueterialocal = () => {
   const [pwdauth, setPwdauth] = useState('');
   const [alerta, setAlerta] = useState({});
   const { setPagina } = usePagina();
+  const [tipocliente, setTipocliente] = useState('');
 
   const filtrarcategoria = (product) => {
     if (categoria === "") return product;
@@ -65,6 +66,11 @@ const Jugueterialocal = () => {
       const today = new Date()
       if(today.getFullYear() === datestorage.ano && today.getMonth() === datestorage.mes && today.getDate() === datestorage.dia){
         setAuth(true);
+        if(datestorage.tipocliente === 'Detal'){
+          setTipocliente('Detal')
+        } else {
+          setTipocliente('Mayorista')
+        }
       }
     }
   }, [])
@@ -88,9 +94,18 @@ const Jugueterialocal = () => {
       179315
     ]
 
+    let tipoclienttemp = '';
     const result = pwdauths.some(pwd => pwd === +pwdauth)
     
     if(result) {
+
+      if(pwdauth === "202410" || pwdauth === '141414'){
+        tipoclienttemp = 'Detal'
+        setTipocliente('Detal')
+      } else {
+        tipoclienttemp = 'Mayorista'
+        setTipocliente('Mayorista')
+      }
       setAuth(true)
 
       gtag('event', `login_${pwdauth}`, {
@@ -103,7 +118,8 @@ const Jugueterialocal = () => {
       const newdate = {
         ano: date.getFullYear(),
         dia: date.getDate(),
-        mes: date.getMonth()
+        mes: date.getMonth(),
+        tipocliente: tipoclienttemp
       }
 
       localStorage.setItem('authdistribucionesboncar', JSON.stringify(newdate))
