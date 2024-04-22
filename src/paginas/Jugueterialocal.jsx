@@ -71,13 +71,21 @@ const Jugueterialocal = () => {
 
   const handleauth = () => {
     const pwdauths = [
-      101010, //Testeo
-      202410, //Cliente 1
+      202410, //Detal
+      101010, //Mayorista Jair
+      141414, //Detal Jair
       191210,
       101021,
       120121,
       209919,
-      983212
+      983212,
+      152619,
+      120933,
+      329412,
+      112312,
+      321212,
+      335592,
+      179315
     ]
 
     const result = pwdauths.some(pwd => pwd === +pwdauth)
