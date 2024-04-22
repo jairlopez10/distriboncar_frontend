@@ -25,7 +25,7 @@ function App() {
               <Route path='ferreteriaiv' element={<FerrreteriaIvan />}/>
               <Route path='ferreteriame' element={<FerrreteriaMery />}/>
               <Route path='ferreteriaj' element={<FerreteriaJair />}/>
-              <Route path='/:titulo/:id' element={<Producto />}/>
+              <Route path='/:titulo/:id/:tipocliente' element={<Producto />}/>
               <Route path='nosotros' element={<Nosotros />}/>
               <Route path='/checkout' element={<Checkout />} />
             </Route> 

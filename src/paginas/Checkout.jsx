@@ -19,6 +19,7 @@ const Checkout = () => {
     const [carrito, setCarrito] = useState(JSON.parse(localStorage.getItem('carritodistribucionesboncar')) || []);
     const [carritomostrar, setCarritoMostrar] = useState([]);
     const [spinner, setSpinner] = useState(false);
+    const [tipocliente, setTipocliente] = useState('');
     const navegar = useNavigate()
 
 
@@ -48,6 +49,20 @@ const Checkout = () => {
 
     useEffect(() => {
         setPagina('Jair')
+        document.title = 'Checkout - Distribuciones Boncar'
+        
+        const datestorage = JSON.parse(localStorage.getItem('authdistribucionesboncar')) || {}
+
+        if(datestorage.mes){
+            
+            if(datestorage.tipocliente === 'Mayorista'){
+                setTipocliente('Mayorista')
+            } else {
+                setTipocliente('Detal')
+            }
+        }
+
+
     }, [])
 
     const handlesubmit = async (e) => {
@@ -190,14 +205,15 @@ const Checkout = () => {
                             />
                         ))}
                     </div>
-
-                    <div className="flex justify-between mt-8">
+                    
+                    <div className={`${tipocliente === 'Detal' ? 'hidden' : 'flex'} justify-between mt-8`}>
                         <p className=" font-bold">Descuento - 5 %</p>
                         <p>{`- $${(total*0.05).toLocaleString('es-CO')}`}</p>
                     </div>
+                    
                     <div className="flex justify-between mt-8 seccion-total">
                         <p className=" font-bold">TOTAL</p>
-                        <p className=" text-3xl">{`$${(total*0.95).toLocaleString('es-CO')}`}</p>
+                        <p className=" text-3xl">{`$${tipocliente === 'Detal' ? total.toLocaleString('es-CO') : (total*0.95).toLocaleString('es-CO')}`}</p>
                     </div>
 
                     <div>

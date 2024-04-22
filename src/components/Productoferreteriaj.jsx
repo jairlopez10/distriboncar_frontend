@@ -4,12 +4,19 @@ const Productoferreteriaj = ({producto, tipocliente}) => {
 
     const {titulo, precio, imagenes, referencia, bulto, id} = producto
     const navigate = useNavigate()
+    let tipoclienteurl = ""
 
     const titulourl = titulo.replace(/ /g, '-').toLowerCase().replace('#', '-').replace('/', '-').replace('/', '-')
 
+    if(tipocliente === 'Detal'){
+      tipoclienteurl = "d"
+    } else {
+      tipoclienteurl = "m"
+    }
+
   return (
     <>
-        <div className="productocard cursor-pointer" onClick={() => window.open(`/${titulourl}/${id}`)}>
+        <div className="productocard cursor-pointer" onClick={() => window.open(`/${titulourl}/${id}/${tipoclienteurl}`)}>
             <img loading="lazy" src={`${imagenes[0].url}`} alt={`imagen ${titulo}`} />
             <div>
                 <p className="titulocard">{titulo}</p>

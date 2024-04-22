@@ -8,6 +8,9 @@ const Producto = () => {
 
     const params = useParams();
     const idurl = +params.id
+    const tipocliente = params.tipocliente
+
+    console.log(tipocliente)
 
     const producto = ferreteriajairdb.find(prod => prod.id === idurl)
     const { titulo, id, imagenes } = producto
@@ -18,7 +21,7 @@ const Producto = () => {
     const [descripcion, setdescripcion] = useState(true);
     const [carrito, setCarrito] = useState(JSON.parse(localStorage.getItem('carritodistribucionesboncar')) || []);
     const [lanzadoraboolean, setLanzadoraBoolean] = useState(false);
-    const tipocliente = 'm'
+    
     const { setPagina } = usePagina();
 
    //Actualizar carrito en localstorage
@@ -53,11 +56,13 @@ const Producto = () => {
 
   const agregaralcarrito = () => {
 
+    const preciotipocliente = tipocliente === "d" ? Math.ceil(producto.precio*1.15/100)*100 : producto.precio
+
     const pedido = {
       id: producto.id,
       nombre: producto.titulo,
       cantidad: +cantidad,
-      precio: producto.precio,
+      precio: preciotipocliente,
       imagen: producto.imagenes[0].url
     }
 
@@ -138,8 +143,7 @@ const Producto = () => {
             <p className="titulo-producto-final">{producto.titulo}</p>
             {tipocliente === "d" ? (
               <>
-                <p className="precio-prod">{`Precio: $${producto.preciomayorista.toLocaleString('es-CO')} / Und`}</p>
-                <p className="precio-prod">{`Precio Sugerido: $${producto.precio.toLocaleString('es-CO')} / Und`}</p>
+                <p className="precio-prod">{`$${(Math.ceil(producto.precio*1.15/100)*100).toLocaleString('es-CO')} / Und`}</p>
               </>
             ) : (
               <>
