@@ -3,6 +3,8 @@ import ferreteriajairdb from "../components/ferreteriajairdb";
 import Productoferreteriaj from "../components/Productoferreteriaj";
 import usePagina from "../hooks/usePagina";
 import Alerta from "../components/Alerta";
+import { useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const FerreteriaJair = () => {
 
@@ -26,6 +28,10 @@ const FerreteriaJair = () => {
     const [pwdauth, setPwdauth] = useState('');
     const [alerta, setAlerta] = useState({});
     const [tipocliente, setTipocliente] = useState('');
+    const navigate = useNavigate()
+
+    const params = useParams()
+    const categoriaurl = params.categoria || ""
     
     const filtrarcategoria = (product) => {
         if (categoria === "") return product;
@@ -69,6 +75,7 @@ const FerreteriaJair = () => {
       setPagina('Jair')
       document.title = 'Distribuciones Boncar - Ferreteria'
       window.scrollTo(0,0)
+      setcategoria(categoriaurl)
 
       //Revisar auth
       const datestorage = JSON.parse(localStorage.getItem('authdistribucionesboncar')) || {}
@@ -162,7 +169,10 @@ const FerreteriaJair = () => {
             
             
           </div>
-          <select className="filtro ferreteria" name="categoria" id="categoria" onChange={e => setcategoria(e.target.value)}>
+          <select className="filtro ferreteria" name="categoria" id="categoria" value={categoria} onChange={e => {
+            navigate(`/ferreteriaj/${e.target.value}`)
+            setcategoria(e.target.value)
+          }}>
               <option value="" >{categoria === "" ? "Categoria" : "Todas las categorias"}</option>
               <option value="alicates">Alicates, Cortafrio, Pinzas, Tenazas</option>
               <option value="brocas">Brocas</option>
