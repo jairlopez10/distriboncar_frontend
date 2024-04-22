@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom"
 
-const Productoferreteriaj = ({producto}) => {
+const Productoferreteriaj = ({producto, tipocliente}) => {
 
     const {titulo, precio, imagenes, referencia, bulto, id} = producto
     const navigate = useNavigate()
@@ -15,7 +15,7 @@ const Productoferreteriaj = ({producto}) => {
                 <p className="titulocard">{titulo}</p>
                 <p className="referencia">{bulto}</p>
                 <p className="referencia italic">REF: {producto.referencia ? producto.referencia : "" }</p>
-                <p className="referencia italic">{`$${precio.toLocaleString('es-CO')}`}</p>
+                <p className="referencia italic">{`$${tipocliente === 'Detal' ? (Math.ceil(precio*1.15/100)*100).toLocaleString('es-CO') : precio.toLocaleString('es-CO')}`}</p>
                 
             </div>
             
