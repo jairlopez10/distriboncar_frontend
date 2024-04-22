@@ -82,7 +82,7 @@ const ferreteriamerybd = [
     {
         id: 9,
         titulo: "CANDADO CASTOR #50",
-        precio: 3100,
+        precio: 3000,
         referencia: "PA-50",
         bulto: "Bulto X 120 UND",
         descripcion: "",
@@ -98,7 +98,7 @@ const ferreteriamerybd = [
     {
         id: 5,
         titulo: "CANDADO CASTOR #40",
-        precio: 2050,
+        precio: 2000,
         referencia: "PA-40",
         bulto: "Bulto X 240 UND",
         descripcion: "",
@@ -114,7 +114,7 @@ const ferreteriamerybd = [
     {
         id: 8,
         titulo: "CANDADO CASTOR #30",
-        precio: 1700,
+        precio: 1650,
         referencia: "",
         bulto: "Bulto X 240 UND",
         descripcion: "PA-30",
@@ -146,7 +146,7 @@ const ferreteriamerybd = [
     {
         id: 47,
         titulo: 'CANDADO ANTICIZALLA BLISS #70',
-        precio: 10600,
+        precio: 10100,
         referencia: "BL-70",
         bulto: "Bulto X 60 UND",
         descripcion: "",
@@ -162,7 +162,7 @@ const ferreteriamerybd = [
     {
         id: 36,
         titulo: 'CANDADO ANTICIZALLA BLISS #60',
-        precio: 8200,
+        precio: 7900,
         referencia: "BL-60",
         bulto: "Bulto X 72 UND",
         descripcion: "",
@@ -178,7 +178,7 @@ const ferreteriamerybd = [
     {
         id: 51,
         titulo: 'CANDADO ANTICIZALLA BLISS #50',
-        precio: 7000,
+        precio: 6600,
         referencia: "BL-50",
         bulto: "Bulto X 96 UND",
         descripcion: "",
@@ -194,7 +194,7 @@ const ferreteriamerybd = [
     {
         id: 38,
         titulo: 'CANDADO ANTICIZALLA BLISS #40',
-        precio: 5400,
+        precio: 5200,
         referencia: "BL-40",
         bulto: "Bulto X 120 UND",
         descripcion: "",
@@ -444,7 +444,7 @@ const ferreteriamerybd = [
                 url: "/m22.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "guayas"
     },
     {
@@ -465,7 +465,7 @@ const ferreteriamerybd = [
     },
     {
         id: 24,
-        titulo: "RACHET DOBLE 1/4 - 3/8",
+        titulo: "RACHET DOBLE 1/4 y 3/8",
         precio: 14000,
         referencia: "CA0421-06",
         bulto: "Bulto X 100 UND",
@@ -492,7 +492,7 @@ const ferreteriamerybd = [
                 url: "/m25.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "rachet"
     },
     {
@@ -626,7 +626,7 @@ const ferreteriamerybd = [
     {
         id: 42,
         titulo: 'TIJERA COLORES 7,5"',
-        precio: 1950,
+        precio: 2000,
         referencia: "14601-2",
         bulto: "Bulto X 360 UND",
         descripcion: "",
@@ -674,7 +674,7 @@ const ferreteriamerybd = [
     {
         id: 32,
         titulo: 'DECAMETRO 20M',
-        precio: 6000,
+        precio: 6500,
         referencia: "HFBT0120",
         bulto: "Bulto X 60 UND",
         descripcion: "",
@@ -768,6 +768,22 @@ const ferreteriamerybd = [
         categoria: "llaves"
     },
     {
+        id: 88,
+        titulo: 'LLAVE LARGA BRISTOL X 9 PCS',
+        precio: 9000,
+        referencia: "C0417-3",
+        bulto: "Bulto X 60 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m88.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "llaves"
+    },
+    {
         id: 43,
         titulo: 'LLAVE MED TORX X 9 PCS',
         precio: 8000,
@@ -778,6 +794,22 @@ const ferreteriamerybd = [
             {
                 tipo: "imagen",
                 url: "/m43.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "llaves"
+    },
+    {
+        id: 84,
+        titulo: 'LLAVE MED BRISTOL X 9 PCS',
+        precio: 8000,
+        referencia: "C0417-2",
+        bulto: "Bulto X 60 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m84.webp" 
             }
         ],
         status: "disponible",
@@ -800,41 +832,9 @@ const ferreteriamerybd = [
         categoria: "llaves"
     },
     {
-        id: 88,
-        titulo: 'LLAVE LARGA BRISTOL X 9 PCS',
-        precio: 9000,
-        referencia: "C0417-3",
-        bulto: "Bulto X 60 UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/m88.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "llaves"
-    },
-    {
-        id: 84,
-        titulo: 'LLAVE MED BRISTOL X 9 PCS',
-        precio: 7700,
-        referencia: "C0417-2",
-        bulto: "Bulto X 60 UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/m84.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "llaves"
-    },
-    {
         id: 85,
         titulo: 'LLAVE CORTA BRISTOL X 9 PCS',
-        precio: 6300,
+        precio: 6500,
         referencia: "C0417-1",
         bulto: "Bulto X 72 UND",
         descripcion: "",
@@ -1106,7 +1106,7 @@ const ferreteriamerybd = [
     {
         id: 77,
         titulo: 'MARCO DE SEGUETA FONTOR',
-        precio: 11000,
+        precio: 8600,
         referencia: "HHF30012",
         bulto: "Bulto X 48 UND",
         descripcion: "",
@@ -1138,7 +1138,7 @@ const ferreteriamerybd = [
     {
         id: 69,
         titulo: 'TENAZA 8"',
-        precio: 6400,
+        precio: 6500,
         referencia: "C04-30",
         bulto: "Bulto X 60 UND",
         descripcion: "",
@@ -1149,12 +1149,12 @@ const ferreteriamerybd = [
             }
         ],
         status: "disponible",
-        categoria: "tenazas"
+        categoria: "alicates"
     },
     {
         id: 76,
         titulo: 'TENAZA 6"',
-        precio: 5100,
+        precio: 5200,
         referencia: "C04-29",
         bulto: "Bulto X 120 UND",
         descripcion: "",
@@ -1165,7 +1165,7 @@ const ferreteriamerybd = [
             }
         ],
         status: "disponible",
-        categoria: "tenazas"
+        categoria: "alicates"
     },
     {
         id: 86,
@@ -1186,7 +1186,7 @@ const ferreteriamerybd = [
     {
         id: 89,
         titulo: 'KIT DE DESPINCHAR Y TACOS',
-        precio: 3400,
+        precio: 3500,
         referencia: "W0422-55",
         bulto: "Bulto X 144 UND",
         descripcion: "",
@@ -1245,7 +1245,7 @@ const ferreteriamerybd = [
             }
         ],
         status: "disponible",
-        categoria: "testers"
+        categoria: "electricos"
     },
     {
         id: 72,
@@ -1261,7 +1261,7 @@ const ferreteriamerybd = [
             }
         ],
         status: "disponible",
-        categoria: "testers"
+        categoria: "electricos"
     },
     {
         id: 40,
@@ -1308,8 +1308,8 @@ const ferreteriamerybd = [
                 url: "/m54.webp" 
             }
         ],
-        status: "disponible",
-        categoria: "otros"
+        status: "No Stock",
+        categoria: "destornillador"
     },
     {
         id: 56,
@@ -1322,6 +1322,22 @@ const ferreteriamerybd = [
             {
                 tipo: "imagen",
                 url: "/m56.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 154,
+        titulo: 'Saca Bocado Golpe X6 PCS',
+        precio: 7300,
+        referencia: "HHPC0806",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m154.webp" 
             }
         ],
         status: "disponible",
@@ -1341,7 +1357,7 @@ const ferreteriamerybd = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "electricos"
     },
     {
         id: 59,
@@ -1405,7 +1421,7 @@ const ferreteriamerybd = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "alicates"
     },
     {
         id: 67,
@@ -1421,7 +1437,7 @@ const ferreteriamerybd = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "guayas"
     },
     {
         id: 80,
@@ -1453,40 +1469,871 @@ const ferreteriamerybd = [
             }
         ],
         status: "disponible",
-        categoria: "otros"
+        categoria: "remachadoras"
     },
-    
     {
-        id: 91,
-        titulo: 'REMACHADORA CON REMACHES',
-        precio: 1150,
-        referencia: "CK1301",
-        bulto: "Bulto X 500 UND",
+        id: 182,
+        titulo: 'Taladro inalambrica 12V Henglida',
+        precio: 105000,
+        referencia: "DM2369-56",
+        bulto: "Bulto X  UND",
         descripcion: "",
         imagenes: [
             {
                 tipo: "imagen",
-                url: "/m91.webp" 
+                url: "/dm182.webp" 
             }
         ],
-        status: "Out Stock",
-        categoria: "otros"
+        status: "disponible",
+        categoria: "electricos"
     },
     {
-        id: 92,
-        titulo: 'LLAVE TALADRO',
-        precio: 1150,
-        referencia: "CK1301",
-        bulto: "Bulto X 500 UND",
+        id: 179,
+        titulo: 'Ducha Cuadrada 10" con Extensor',
+        precio: 32500,
+        referencia: "DM2369-20",
+        bulto: "Bulto X  UND",
         descripcion: "",
         imagenes: [
             {
                 tipo: "imagen",
-                url: "/m92.webp" 
+                url: "/dm179.webp" 
             }
         ],
-        status: "Out Stock",
+        status: "disponible",
+        categoria: "duchas"
+    },
+    {
+        id: 178,
+        titulo: 'Ducha Cuadrada 8" con Extensor',
+        precio: 18000,
+        referencia: "DM2369-19",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm178.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "duchas"
+    },
+    {
+        id: 177,
+        titulo: 'Ducha Cuadrada 6" con Extensor',
+        precio: 12000,
+        referencia: "DM2369-18",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm177.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "duchas"
+    },
+    {
+        id: 176,
+        titulo: 'Ducha Cuadrada 4" con Extensor',
+        precio: 7800,
+        referencia: "DM2369-17",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm176.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "duchas"
+    },
+    {
+        id: 218,
+        titulo: 'SIFON FLEXIBLE CROMADO CON CANASTILLA',
+        precio: 9000,
+        referencia: "DM2369-21",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm218.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "mangueras"
+    },
+    {
+        id: 206,
+        titulo: 'SIFON FLEXIBLE CROMADO',
+        precio: 6000,
+        referencia: "DM2369-22",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm206.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "mangueras"
+    },
+    {
+        id: 180,
+        titulo: 'Llave lava platos flexible metalica',
+        precio: 23000,
+        referencia: "DM2369-9",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm180.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "duchas"
+    },
+    {
+        id: 181,
+        titulo: 'Llave lava platos flexible metal/plastica',
+        precio: 18200,
+        referencia: "DM2369-10",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm181.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "duchas"
+    },
+    {
+        id: 186,
+        titulo: 'Prensa Henglida 6"',
+        precio: 13000,
+        referencia: "H0117006",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm186.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "prensas"
+    },
+    {
+        id: 185,
+        titulo: 'Prensa Henglida 5"',
+        precio: 13000,
+        referencia: "H0117005",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm185.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "prensas"
+    },
+    {
+        id: 184,
+        titulo: 'Prensa Henglida 4"',
+        precio: 10000,
+        referencia: "H0117004",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm184.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "prensas"
+    },
+    {
+        id: 183,
+        titulo: 'Prensa Henglida 3"',
+        precio: 8200,
+        referencia: "H0117003",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm183.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "prensas"
+    },
+    {
+        id: 189,
+        titulo: 'Set Broca Escalonada X 3PCS Henglida',
+        precio: 35000,
+        referencia: "H1014034",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm189.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "brocas"
+    },
+    {
+        id: 188,
+        titulo: 'Broca Escalonada 4-32MM Henglida',
+        precio: 22000,
+        referencia: "H1014033",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm188.webp" 
+            }
+        ],
+        status: "No Stock",
+        categoria: "brocas"
+    },
+    {
+        id: 187,
+        titulo: 'Broca Escalonada 4-20MM Henglida',
+        precio: 11000,
+        referencia: "H1014032",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm187.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "brocas"
+    },
+    {
+        id: 207,
+        titulo: 'PEGANTE INSTANTANEO X 14PCS',
+        precio: 6000,
+        referencia: "DM2369-22",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm207.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "pegantes"
+    },
+    {
+        id: 191,
+        titulo: 'Soldador Epoxico 20GR DEYI',
+        precio: 3000,
+        referencia: "DY-E705",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm191.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "pegantes"
+    },
+    {
+        id: 190,
+        titulo: 'Soldador Epoxico 16GR Kafuter',
+        precio: 2500,
+        referencia: "DM2369-43",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm190.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "pegantes"
+    },
+    {
+        id: 194,
+        titulo: 'Fija Tornillos 10GR Gastop',
+        precio: 2600,
+        referencia: "DM2369-24 /243",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm194.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "pegantes"
+    },
+    {
+        id: 192,
+        titulo: 'Remachadora Profesional 8" Henglida',
+        precio: 28000,
+        referencia: "DM2369-53 / H120",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm192.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "remachadoras"
+    },
+    {
+        id: 193,
+        titulo: 'Remachadora Profesional 10" 3 Boquillas Henglida',
+        precio: 21000,
+        referencia: "DM2369-54 / H120",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm193.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "remachadoras"
+    },
+    {
+        id: 197,
+        titulo: 'REGISTRO DE GAS 1/2 PESADO',
+        precio: 7000,
+        referencia: "DM2369-8",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm197.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "electricos"
+    },
+    {
+        id: 211,
+        titulo: 'CINTA ANTIDESLIZANTE REFLECTIVO 5MTS',
+        precio: 14000,
+        referencia: "DM2369-29",
+        bulto: "Bulto X  UND",
+        descripcion: "50MM X 5MTS",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm211.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "cintas"
+    },
+    {
+        id: 210,
+        titulo: 'CINTA ANTIDESLIZANTE N/A 5MTS',
+        precio: 6500,
+        referencia: "DM2369-30",
+        bulto: "Bulto X  UND",
+        descripcion: "50MM X 5MTS",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm210.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "cintas"
+    },
+    {
+        id: 212,
+        titulo: 'CINTA ANTIDESLIZANTE NEGRA 5MTS',
+        precio: 5500,
+        referencia: "DM2369-27",
+        bulto: "Bulto X  UND",
+        descripcion: "50MM X 5MTS",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm212.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "cintas"
+    },
+    {
+        id: 198,
+        titulo: 'CINTA BUTILIO 50MM X 5MTS',
+        precio: 4800,
+        referencia: "DM2369-35",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm198.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "cintas"
+    },
+    {
+        id: 213,
+        titulo: 'CINTA DUCTO 10MTS',
+        precio: 3300,
+        referencia: "DM2369-31",
+        bulto: "Bulto X  UND",
+        descripcion: "48MM X 10MTS",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm213.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "cintas"
+    },
+    {
+        id: 201,
+        titulo: 'CINTA DOBLE FAZ TRANSPARENTE 2MTS',
+        precio: 2000,
+        referencia: "DM2369-38",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm201.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "cintas"
+    },
+    {
+        id: 195,
+        titulo: 'CINTA DOBLE FAZ 3.5MTS',
+        precio: 1600,
+        referencia: "HW0423-28",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm195.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "cintas"
+    },
+    {
+        id: 196,
+        titulo: 'CINTA DOBLE FAZ 1.8MTS',
+        precio: 1200,
+        referencia: "HW0423-27",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm196.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "cintas"
+    },
+    {
+        id: 221,
+        titulo: 'CINTA TAPA GOTERA 20CM X 1.5MT',
+        precio: 10000,
+        referencia: "DM2369-42",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm221.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "cintas"
+    },
+    {
+        id: 220,
+        titulo: 'CINTA TAPA GOTERA 10CM X 1.5MT',
+        precio: 5000,
+        referencia: "DM2369-41",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm220.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "cintas"
+    },
+    {
+        id: 223,
+        titulo: 'CINTA DISPENSADOR X 24PCS DE 40MTS',
+        precio: 13200,
+        referencia: "DM2369-39",
+        bulto: "Bulto X  UND",
+        descripcion: "12MM X 40MTS",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm223.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "cintas"
+    },
+    {
+        id: 224,
+        titulo: 'CINTA DISPENSADOR X 12PCS DE 40MTS',
+        precio: 13200,
+        referencia: "DM2369-40",
+        bulto: "Bulto X  UND",
+        descripcion: "24MM X 40MTS",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm224.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "cintas"
+    },
+    {
+        id: 222,
+        titulo: 'CINTA DISPENSADOR X 12PCS DE 20MTS',
+        precio: 2500,
+        referencia: "DM2369-37",
+        bulto: "Bulto X  UND",
+        descripcion: "12MM X 20MTS",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm222.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "cintas"
+    },
+    {
+        id: 208,
+        titulo: 'ROLLO CINTA TIQUETEADORA',
+        precio: 3800,
+        referencia: "DM2369-36",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm208.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "cintas"
+    },
+    {
+        id: 216,
+        titulo: 'AHORRADOR DE AGUA FLEXIBLE LARGO',
+        precio: 3000,
+        referencia: "DM2369-5",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm216.webp" 
+            }
+        ],
+        status: "disponible",
         categoria: "otros"
+    },
+    {
+        id: 199,
+        titulo: 'AHORRADOR AGUA FLEXIBLE CORTO',
+        precio: 2200,
+        referencia: "DM2369-16",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm199.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 200,
+        titulo: 'PEGATAMKE NEGRO',
+        precio: 4500,
+        referencia: "0921505336",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm200.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "pegantes"
+    },
+    {
+        id: 204,
+        titulo: 'SET BROCAS PARA METAL X 7PCS',
+        precio: 4800,
+        referencia: "DM2369-64",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm204.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "brocas"
+    },
+    {
+        id: 203,
+        titulo: 'SET BROCAS PARA CONCRETO X 7PCS',
+        precio: 4500,
+        referencia: "DM2369-65",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm203.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "brocas"
+    },
+    {
+        id: 202,
+        titulo: 'SET BROCAS PARA MADERA X 7PCS',
+        precio: 4150,
+        referencia: "DM2369-66",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm202.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "brocas"
+    },
+    {
+        id: 205,
+        titulo: 'MANGUERA DESAGUE DE LAVADORA 1.5MTS',
+        precio: 7500,
+        referencia: "DM2369-3",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm205.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "mangueras"
+    },
+    {
+        id: 209,
+        titulo: 'TEFLON INDUSTRIAL X 10PCS DE 15MTS',
+        precio: 11000,
+        referencia: "DM2369-6",
+        bulto: "Bulto X  UND",
+        descripcion: "19MM X 15MTS",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm209.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "cintas"
+    },
+    {
+        id: 215,
+        titulo: 'TEFLON PEQUEÑO X12 PCS',
+        precio: 4400,
+        referencia: "DM2369-4",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm215.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "cintas"
+    },
+    {
+        id: 217,
+        titulo: 'PISTOLA MANGUERA PUNTA BRONCE',
+        precio: 4000,
+        referencia: "DM2369-63",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm217.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "mangueras"
+    },
+    {
+        id: 219,
+        titulo: 'PISTOLA SILICONA PQ CON INTERRUPTOR HENGLIDA',
+        precio: 8000,
+        referencia: "DM2369-60",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm219.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 225,
+        titulo: 'SOPLADORA 600W',
+        precio: 50000,
+        referencia: "7025 / 7025-1",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm225.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "electricos"
+    },
+    {
+        id: 228,
+        titulo: 'PISTOLA CALOR GRADUABLE HENGLIDA',
+        precio: 60000,
+        referencia: "DM2369-52",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm228.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "electricos"
+    },
+    {
+        id: 229,
+        titulo: 'CARTON PEGANTE PARA RATON X2 PCS',
+        precio: 1500,
+        referencia: "AY-1002",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm229.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "pegantes"
+    },
+    {
+        id: 230,
+        titulo: 'MANGUERA FLEXOMETALICA PARA GAS 1M',
+        precio: 8500,
+        referencia: "DM2369-11",
+        bulto: "Bulto X 100 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm230.webp" 
+            }
+        ],
+        status: "No Stock",
+        categoria: "mangueras"
+    },
+    {
+        id: 231,
+        titulo: 'MANGUERA FLEXOMETALICA PARA GAS 1.5M',
+        precio: 10800,
+        referencia: "DM2369-12",
+        bulto: "Bulto X 100 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm230.webp" 
+            }
+        ],
+        status: "No Stock",
+        categoria: "mangueras"
+    },
+    {
+        id: 232,
+        titulo: 'MANGUERA FLEXOMETALICA PARA GAS 2M',
+        precio: 14500,
+        referencia: "DM2369-13",
+        bulto: "Bulto X 100 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/dm230.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "mangueras"
     },
     
 

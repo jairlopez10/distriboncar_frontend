@@ -2300,7 +2300,7 @@ const ferreteriajairdb = [
                 url: "/dm230.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "mangueras"
     },
     {
@@ -2316,7 +2316,7 @@ const ferreteriajairdb = [
                 url: "/dm230.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "mangueras"
     },
     {

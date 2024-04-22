@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import ferreteriamerybd from "../components/ferreteriamerybd";
 import Productoferreteria from "../components/Productoferreteria";
+import Productoferreteriaj from "../components/Productoferreteriaj";
 import usePagina from "../hooks/usePagina";
 
 const FerrreteriaMery = () => {
@@ -71,30 +72,38 @@ const FerrreteriaMery = () => {
             
           </div>
           <select className="filtro ferreteria" name="categoria" id="categoria" onChange={e => setcategoria(e.target.value)}>
-              <option value="" >{categoria === "" ? "Categoria" : "Todas las categorias"}</option>
+          <option value="" >{categoria === "" ? "Categoria" : "Todas las categorias"}</option>
+              <option value="alicates">Alicates y Tenazas</option>
+              <option value="brocas">Brocas</option>
               <option value="candados">Candados</option>
-              <option value="guayas">Guayas</option>
-              <option value="rachet">Rachet</option>
+              <option value="copasierra">Copa Sierra</option>
+              <option value="cintas">Cintas</option>
+              <option value="duchas">Duchas</option>
               <option value="espatulas">Espatulas</option>
-              <option value="prensas">Prensas</option>
-              <option value="tijeras">Tijeras</option>
-              <option value="metros">Metros y Decametros</option>
-              <option value="llaves">Llaves</option>
-              <option value="hombresolos">Hombre Solos</option>
-              <option value="seguetas">Marco Seguetas</option>
+              <option value="electricos">Electricos & Accesorios</option>
               <option value="gatos">Gatos</option>
               <option value="gratas">Gratas y Cepillos</option>
-              <option value="copasierra">Copa Sierra</option>
-              <option value="tenazas">Tenazas</option>
+              <option value="guayas">Guayas</option>
+              <option value="hombresolos">Hombre Solos</option>
               <option value="kitdespinchar">Kit Despinchar</option>
+              <option value="llaves">Llaves</option>
+              <option value="mangueras">Mangueras & Sifones</option>
+              <option value="metros">Metros y Decametros</option>
+              <option value="pegantes">Pegantes</option>
+              <option value="prensas">Prensas</option>
+              <option value="rachet">Rachet</option>
+              <option value="remachadoras">Remachadoras</option>
+              <option value="seguetas">Marco Seguetas</option>
+              <option value="tijeras">Tijeras</option>
               <option value="otros">Otros</option>
             </select>
           <div className="productos">
             {ferreteriafiltrada.map(producto => {
               return (
-                <Productoferreteria 
+                <Productoferreteriaj 
                   key={producto.id}
                   producto={producto}
+                  tipocliente='Mayorista'
                 />
               )
             })}
