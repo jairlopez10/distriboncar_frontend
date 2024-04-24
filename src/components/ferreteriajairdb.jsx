@@ -2995,7 +2995,7 @@ const ferreteriajairdb = [
     {
         id: 140,
         titulo: 'Juego de Rachet X 24PCS',
-        precio: 90000,
+        precio: 91583,
         referencia: "CA-119",
         bulto: "Bulto X  UND",
         descripcion: "",
@@ -3011,7 +3011,7 @@ const ferreteriajairdb = [
     {
         id: 133,
         titulo: 'Juego de Rachet X24 PCS',
-        precio: 90000,
+        precio: 91583,
         referencia: "CA-118",
         bulto: "Bulto X  UND",
         descripcion: "",
@@ -3105,8 +3105,8 @@ const ferreteriajairdb = [
         categoria: "otros"
     },
     {
-        id: 146,
-        titulo: 'Copas en T 8MM',
+        id: 149,
+        titulo: 'Copas en T 13MM',
         precio: 2900,
         referencia: "CA0421-32",
         bulto: "Bulto X  UND",
@@ -3114,7 +3114,7 @@ const ferreteriajairdb = [
         imagenes: [
             {
                 tipo: "imagen",
-                url: "/m146.webp" 
+                url: "/m149.webp" 
             }
         ],
         status: "disponible",
@@ -3153,8 +3153,8 @@ const ferreteriajairdb = [
         categoria: "llaves"
     },
     {
-        id: 149,
-        titulo: 'Copas en T 13MM',
+        id: 241,
+        titulo: 'Copas en T 10MM',
         precio: 2900,
         referencia: "CA0421-32",
         bulto: "Bulto X  UND",
@@ -3162,7 +3162,23 @@ const ferreteriajairdb = [
         imagenes: [
             {
                 tipo: "imagen",
-                url: "/m149.webp" 
+                url: "/m148.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "llaves"
+    },
+    {
+        id: 146,
+        titulo: 'Copas en T 8MM',
+        precio: 2900,
+        referencia: "CA0421-32",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m146.webp" 
             }
         ],
         status: "disponible",
@@ -3599,6 +3615,134 @@ const ferreteriajairdb = [
         ],
         status: "disponible",
         categoria: "llaves"
+    },
+    {
+        id: 240,
+        titulo: 'LLAVE RACHET 15"',
+        precio: 9800,
+        referencia: "810-15",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m239.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "llaves"
+    },
+    {
+        id: 239,
+        titulo: 'LLAVE RACHET 11"',
+        precio: 8500,
+        referencia: "810-11",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m239.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "llaves"
+    },
+    {
+        id: 242,
+        titulo: 'LLAVE MIXTA 10"',
+        precio: 2050,
+        referencia: "E-666-10MM",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m242.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "llaves"
+    },
+    {
+        id: 243,
+        titulo: 'LLAVE MIXTA 11"',
+        precio: 2200,
+        referencia: "E-666-11MM",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m242.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "llaves"
+    },
+    {
+        id: 244,
+        titulo: 'PELA CABLE 7"',
+        precio: 5700,
+        referencia: "KNR-98P07",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m244.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "electricos"
+    },
+    {
+        id: 245,
+        titulo: 'PELA CABLE 5"',
+        precio: 5000,
+        referencia: "KNR-008",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m245.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "electricos"
+    },
+    {
+        id: 246,
+        titulo: 'TENAZA CARPINTERA 6"',
+        precio: 5500,
+        referencia: "NV010701B",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m246.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "alicates"
+    },
+    {
+        id: 247,
+        titulo: 'DESTORNILLADOR TATAMACO CRISTAL X2',
+        precio: 2400,
+        referencia: "CA2302-13",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m247.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "destornillador"
     },
     {
         id: 172,

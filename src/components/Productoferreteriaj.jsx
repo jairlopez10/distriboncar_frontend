@@ -22,7 +22,7 @@ const Productoferreteriaj = ({producto, tipocliente}) => {
                 <p className="titulocard">{titulo}</p>
                 <p className="referencia">{bulto}</p>
                 <p className="referencia italic">REF: {producto.referencia ? producto.referencia : "" }</p>
-                <p className="referencia italic">{`$${tipocliente === 'Detal' ? (Math.ceil(precio*1.15/100)*100).toLocaleString('es-CO') : precio.toLocaleString('es-CO')}`}</p>
+                <p className="referencia italic">{`$${tipocliente === 'Detal' ? (Math.ceil(precio*1.2/100)*100).toLocaleString('es-CO') : precio.toLocaleString('es-CO')}`}</p>
                 
             </div>
             
