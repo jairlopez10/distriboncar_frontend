@@ -2995,7 +2995,7 @@ const ferreteriajairdb = [
     {
         id: 140,
         titulo: 'Juego de Rachet X 24PCS',
-        precio: 91583,
+        precio: 90000,
         referencia: "CA-119",
         bulto: "Bulto X  UND",
         descripcion: "",
@@ -3011,7 +3011,7 @@ const ferreteriajairdb = [
     {
         id: 133,
         titulo: 'Juego de Rachet X24 PCS',
-        precio: 91583,
+        precio: 90000,
         referencia: "CA-118",
         bulto: "Bulto X  UND",
         descripcion: "",
