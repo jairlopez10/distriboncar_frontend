@@ -1788,7 +1788,7 @@ const ferreteriamerybd = [
                 url: "/dm194.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Disponible",
         categoria: "pegantes"
     },
     {
