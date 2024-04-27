@@ -21,6 +21,7 @@ const Producto = () => {
     const [descripcion, setdescripcion] = useState(true);
     const [carrito, setCarrito] = useState(JSON.parse(localStorage.getItem('carritodistribucionesboncar')) || []);
     const [lanzadoraboolean, setLanzadoraBoolean] = useState(false);
+    const profitdetal = 1.332
     
     const { setPagina } = usePagina();
 
@@ -56,7 +57,7 @@ const Producto = () => {
 
   const agregaralcarrito = () => {
 
-    const preciotipocliente = tipocliente === "d" ? Math.ceil(producto.precio*1.15/100)*100 : producto.precio
+    const preciotipocliente = tipocliente === "d" ? Math.ceil(producto.precio*profitdetal/100)*100 : producto.precio
 
     const pedido = {
       id: producto.id,
@@ -143,7 +144,7 @@ const Producto = () => {
             <p className="titulo-producto-final">{producto.titulo}</p>
             {tipocliente === "d" ? (
               <>
-                <p className="precio-prod">{`$${(Math.ceil(producto.precio*1.15/100)*100).toLocaleString('es-CO')} / Und`}</p>
+                <p className="precio-prod">{`$${(Math.ceil(producto.precio*profitdetal/100)*100).toLocaleString('es-CO')} / Und`}</p>
               </>
             ) : (
               <>
