@@ -1,5 +1,37 @@
 const ferreteriajairdb = [
     {
+        id: 140,
+        titulo: 'Juego de Rachet X 24PCS BERBIQUI',
+        precio: 90000,
+        referencia: "CA-119",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m140.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "rachet"
+    },
+    {
+        id: 133,
+        titulo: 'Juego de Rachet X24 PCS CON L',
+        precio: 90000,
+        referencia: "CA-118",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m133.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "rachet"
+    },
+    {
         id: 1,
         titulo: "CANDADO SEGURIDAD CASTOR #60",
         precio: 5500,
@@ -2127,38 +2159,6 @@ const ferreteriajairdb = [
         ],
         status: "disponible",
         categoria: "electricos"
-    },
-    {
-        id: 140,
-        titulo: 'Juego de Rachet X 24PCS BERBIQUI',
-        precio: 90000,
-        referencia: "CA-119",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/m140.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "rachet"
-    },
-    {
-        id: 133,
-        titulo: 'Juego de Rachet X24 PCS CON L',
-        precio: 90000,
-        referencia: "CA-118",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/m133.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "rachet"
     },
     {
         id: 141,
