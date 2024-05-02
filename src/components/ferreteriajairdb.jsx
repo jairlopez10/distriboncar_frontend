@@ -1185,7 +1185,7 @@ const ferreteriajairdb = [
     },
     {
         id: 89,
-        titulo: 'KIT DE DESPINCHAR Y TACOS',
+        titulo: 'KIT DE DESPINCHAR Y TACOS CON NAVAJA',
         precio: 3500,
         referencia: "W0422-55",
         bulto: "Bulto X 144 UND",
@@ -1938,7 +1938,7 @@ const ferreteriajairdb = [
     {
         id: 127,
         titulo: 'Juego Rachet con Copas 1/2 SR-1034',
-        precio: 33000,
+        precio: 29000,
         referencia: "SR-1034",
         bulto: "Bulto X 20 UND",
         descripcion: "COPAS: 8-10-12-13-14-17-19-21-22-24 mm",
@@ -2130,7 +2130,7 @@ const ferreteriajairdb = [
     },
     {
         id: 140,
-        titulo: 'Juego de Rachet X 24PCS',
+        titulo: 'Juego de Rachet X 24PCS BERBIQUI',
         precio: 90000,
         referencia: "CA-119",
         bulto: "Bulto X  UND",
@@ -2146,7 +2146,7 @@ const ferreteriajairdb = [
     },
     {
         id: 133,
-        titulo: 'Juego de Rachet X24 PCS',
+        titulo: 'Juego de Rachet X24 PCS CON L',
         precio: 90000,
         referencia: "CA-118",
         bulto: "Bulto X  UND",
@@ -3076,7 +3076,7 @@ const ferreteriajairdb = [
     {
         id: 254,
         titulo: 'JUEGO RACHET 1/4 X 46PCS',
-        precio: 35000,
+        precio: 33000,
         referencia: "CA2302-16",
         bulto: "Bulto X UND",
         descripcion: "",
@@ -3136,6 +3136,214 @@ const ferreteriajairdb = [
         ],
         status: "disponible",
         categoria: "llaves"
+    },
+    {
+        id: 258,
+        titulo: 'ALICATE DIELECTRICO 8"',
+        precio: 6500,
+        referencia: "Y0420-14",
+        bulto: "Bulto X UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m258.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "alicates"
+    },
+    {
+        id: 259,
+        titulo: 'PINZA DIELECTRICO 8"',
+        precio: 6500,
+        referencia: "Y0420-18",
+        bulto: "Bulto X UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m259.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "alicates"
+    },
+    {
+        id: 260,
+        titulo: 'CORTA FRIO DIELECTRICO 8"',
+        precio: 6500,
+        referencia: "Y0420-16",
+        bulto: "Bulto X UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m260.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "alicates"
+    },
+    {
+        id: 261,
+        titulo: 'PETROLIZADORA',
+        precio: 20500,
+        referencia: "DO-10",
+        bulto: "Bulto X UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m261.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 262,
+        titulo: 'DESPINADOR DE CADENA FINO',
+        precio: 15500,
+        referencia: "C04-96",
+        bulto: "Bulto X UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m262.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 263,
+        titulo: 'NIVEL LASER',
+        precio: 15500,
+        referencia: "CAC04-15",
+        bulto: "Bulto X UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m263.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 264,
+        titulo: 'IMAN NEODIMIO 12X7MM',
+        precio: 1000,
+        referencia: "N30",
+        bulto: "Bulto X UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m264.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 265,
+        titulo: 'IMAN NEODIMIO 25x2.5MM',
+        precio: 1800,
+        referencia: "N33",
+        bulto: "Bulto X UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m265.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 268,
+        titulo: 'NIVEL CON IMAN 24"',
+        precio: 9500,
+        referencia: "C04-81",
+        bulto: "Bulto X UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m268.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 269,
+        titulo: 'NIVEL CON IMAN 20"',
+        precio: 8500,
+        referencia: "C04-80",
+        bulto: "Bulto X UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m269.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 267,
+        titulo: 'NIVEL CON IMAN 18"',
+        precio: 7500,
+        referencia: "C04-34",
+        bulto: "Bulto X UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m267.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 266,
+        titulo: 'NIVEL CON IMAN 16"',
+        precio: 7000,
+        referencia: "C04-33",
+        bulto: "Bulto X UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m266.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 270,
+        titulo: 'NIVEL CON IMAN 14"',
+        precio: 6500,
+        referencia: "C04-32",
+        bulto: "Bulto X UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m270.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
     },
 
     {
