@@ -1,5 +1,21 @@
 const ferreteriajairdb = [
     {
+        id: 133,
+        titulo: 'Juego de Rachet X24 PCS CON L',
+        precio: 90000,
+        referencia: "CA-118",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m133.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "rachet"
+    },
+    {
         id: 140,
         titulo: 'Juego de Rachet X 24PCS BERBIQUI',
         precio: 90000,
@@ -16,20 +32,196 @@ const ferreteriajairdb = [
         categoria: "rachet"
     },
     {
-        id: 133,
-        titulo: 'Juego de Rachet X24 PCS CON L',
-        precio: 90000,
-        referencia: "CA-118",
+        id: 262,
+        titulo: 'DESPINADOR DE CADENA FINO',
+        precio: 15500,
+        referencia: "C04-96",
+        bulto: "Bulto X UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m262.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 250,
+        titulo: 'DESPINADOR DE CADENA',
+        precio: 7600,
+        referencia: "A-367CW-300",
+        bulto: "Bulto X UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m250.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 18,
+        titulo: "GUAYA ESLABON",
+        precio: 14200,
+        referencia: "W0422-63",
+        bulto: "Bulto X 40 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m18.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "guayas"
+    },
+    {
+        id: 86,
+        titulo: 'KIT DE DESPINCHAR Y TACOS',
+        precio: 3300,
+        referencia: "W0422-54",
+        bulto: "Bulto X 144 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m86.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "kitdespinchar"
+    },
+    {
+        id: 151,
+        titulo: 'Copa Impacto X 10PCS',
+        precio: 50000,
+        referencia: "SR-1018",
         bulto: "Bulto X  UND",
         descripcion: "",
         imagenes: [
             {
                 tipo: "imagen",
-                url: "/m133.webp" 
+                url: "/m151.webp" 
             }
         ],
         status: "disponible",
-        categoria: "rachet"
+        categoria: "otros"
+    },
+    {
+        id: 137,
+        titulo: 'Lampara de Taller 10M',
+        precio: 17000,
+        referencia: "W0423-24",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m137.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "electricos"
+    },
+    {
+        id: 138,
+        titulo: 'Lampara de Taller 5M',
+        precio: 14800,
+        referencia: "W0423-23",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m138.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "electricos"
+    },
+    {
+        id: 244,
+        titulo: 'PELA CABLE 7"',
+        precio: 5700,
+        referencia: "KNR-98P07",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m244.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "electricos"
+    },
+    {
+        id: 67,
+        titulo: 'CORTA GUAYA',
+        precio: 8000,
+        referencia: "W0423-88",
+        bulto: "Bulto X 100 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m67.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "guayas"
+    },
+    {
+        id: 255,
+        titulo: 'DESTORNILLADOR IMPACTO X 6PCS',
+        precio: 11000,
+        referencia: "KNR-9802",
+        bulto: "Bulto X UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m255.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "destornillador"
+    },
+    {
+        id: 122,
+        titulo: 'Cruceta Escualizable CA-45',
+        precio: 20000,
+        referencia: "CA-45",
+        bulto: "Bulto X 25 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m122.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "crucetas"
+    },
+    {
+        id: 236,
+        titulo: 'MULTIMETRO DT-830L',
+        precio: 17500,
+        referencia: "DT-830L",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m236.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "electricos"
     },
     {
         id: 1,
@@ -380,7 +572,7 @@ const ferreteriajairdb = [
                 url: "/m16.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "guayas"
     },
     {
@@ -394,22 +586,6 @@ const ferreteriajairdb = [
             {
                 tipo: "imagen",
                 url: "/m17.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "guayas"
-    },
-    {
-        id: 18,
-        titulo: "GUAYA ESLABON",
-        precio: 14200,
-        referencia: "W0422-63",
-        bulto: "Bulto X 40 UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/m18.webp" 
             }
         ],
         status: "disponible",
@@ -1200,22 +1376,6 @@ const ferreteriajairdb = [
         categoria: "alicates"
     },
     {
-        id: 86,
-        titulo: 'KIT DE DESPINCHAR Y TACOS',
-        precio: 3300,
-        referencia: "W0422-54",
-        bulto: "Bulto X 144 UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/m86.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "kitdespinchar"
-    },
-    {
         id: 89,
         titulo: 'KIT DE DESPINCHAR Y TACOS CON NAVAJA',
         precio: 3500,
@@ -1228,7 +1388,7 @@ const ferreteriajairdb = [
                 url: "/m89.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "kitdespinchar"
     },
     {
@@ -1454,22 +1614,6 @@ const ferreteriajairdb = [
         ],
         status: "disponible",
         categoria: "alicates"
-    },
-    {
-        id: 67,
-        titulo: 'CORTA GUAYA',
-        precio: 8000,
-        referencia: "W0423-88",
-        bulto: "Bulto X 100 UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/m67.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "guayas"
     },
     {
         id: 80,
@@ -1888,22 +2032,6 @@ const ferreteriajairdb = [
         categoria: "crucetas"
     },
     {
-        id: 122,
-        titulo: 'Cruceta Escualizable CA-45',
-        precio: 20000,
-        referencia: "CA-45",
-        bulto: "Bulto X 25 UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/m122.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "crucetas"
-    },
-    {
         id: 123,
         titulo: 'Cronometro Kadio KD-1069',
         precio: 3950,
@@ -2113,38 +2241,6 @@ const ferreteriajairdb = [
         categoria: "rachet"
     },
     {
-        id: 137,
-        titulo: 'Lampara de Taller 10M',
-        precio: 17000,
-        referencia: "W0423-24",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/m137.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "electricos"
-    },
-    {
-        id: 138,
-        titulo: 'Lampara de Taller 5M',
-        precio: 14800,
-        referencia: "W0423-23",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/m138.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "electricos"
-    },
-    {
         id: 139,
         titulo: 'Kit Proyecto Escolar',
         precio: 4800,
@@ -2335,22 +2431,6 @@ const ferreteriajairdb = [
         ],
         status: "disponible",
         categoria: "destornillador"
-    },
-    {
-        id: 151,
-        titulo: 'Copa Impacto X 10PCS',
-        precio: 50000,
-        referencia: "SR-1018",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/m151.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "otros"
     },
     {
         id: 152,
@@ -2705,22 +2785,6 @@ const ferreteriajairdb = [
         categoria: "otros"
     },
     {
-        id: 236,
-        titulo: 'MULTIMETRO DT-830L',
-        precio: 17500,
-        referencia: "DT-830L",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/m236.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "electricos"
-    },
-    {
         id: 237,
         titulo: 'JUEGO DE COPAS LARGAS 1/4',
         precio: 20500,
@@ -2815,22 +2879,6 @@ const ferreteriajairdb = [
         ],
         status: "disponible",
         categoria: "llaves"
-    },
-    {
-        id: 244,
-        titulo: 'PELA CABLE 7"',
-        precio: 5700,
-        referencia: "KNR-98P07",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/m244.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "electricos"
     },
     {
         id: 245,
@@ -3010,22 +3058,6 @@ const ferreteriajairdb = [
         categoria: "alicates"
     },
     {
-        id: 250,
-        titulo: 'DESPINADOR DE CADENA',
-        precio: 7600,
-        referencia: "A-367CW-300",
-        bulto: "Bulto X UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/m250.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "otros"
-    },
-    {
         id: 251,
         titulo: 'DESTORNILLADOR TATAMACO CRISTAL',
         precio: 1750,
@@ -3088,22 +3120,6 @@ const ferreteriajairdb = [
         ],
         status: "disponible",
         categoria: "rachet"
-    },
-    {
-        id: 255,
-        titulo: 'DESTORNILLADOR IMPACTO X 6PCS',
-        precio: 11000,
-        referencia: "KNR-9802",
-        bulto: "Bulto X UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/m255.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "destornillador"
     },
     {
         id: 256,
@@ -3196,22 +3212,6 @@ const ferreteriajairdb = [
             {
                 tipo: "imagen",
                 url: "/m261.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "otros"
-    },
-    {
-        id: 262,
-        titulo: 'DESPINADOR DE CADENA FINO',
-        precio: 15500,
-        referencia: "C04-96",
-        bulto: "Bulto X UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/m262.webp" 
             }
         ],
         status: "disponible",
