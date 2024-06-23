@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import ferreteriajairdb from "../components/ferreteriajairdb";
 import Itemcheckout from "../components/Itemcheckout";
 import Alerta from "../components/Alerta";
+import axios from 'axios'
 
 const Checkout = () => {
 
@@ -97,7 +98,7 @@ const Checkout = () => {
         const fecha = (fechahoy.getMonth()+1)+"/"+fechahoy.getDate()+"/"+fechahoy.getFullYear()
 
         const pedido = {
-            nombres,
+            cliente: nombres,
             origen,
             fecha,
             productos: carritomostrar,
@@ -109,6 +110,7 @@ const Checkout = () => {
         }
 
         //Crear texto URL
+        /*
         const texto1wa = `Hola Jair! Te comparto mi pedido a nombre de ${nombres}`
         const texto1url = convertirtextoaurlwa(texto1wa);
         let pedidourlcarrito = carritomostrar.map(item => {
@@ -119,11 +121,13 @@ const Checkout = () => {
         pedidourlcarrito.forEach(item => {
             pedidourltext = pedidourltext + item.replace('#','Num') + '%2C%0D'
         })
-
+        */
 
         //Enviar pedido
         try {
-            window.open(`https://wa.me/573204289310?text=${texto1url+'%2C%0D'+'%20'+'%2C%0D'+pedidourltext}`, '_blank');
+            const url = `${import.meta.env.VITE_BACKEND_URL}/api/clientes`
+            await axios.post(url, pedido);
+            //window.open(`https://wa.me/573204289310?text=${texto1url+'%2C%0D'+'%20'+'%2C%0D'+pedidourltext}`, '_blank');
             
         } catch (error) {
             console.log(error);
