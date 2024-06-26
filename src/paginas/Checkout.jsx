@@ -126,10 +126,7 @@ const Checkout = () => {
         //Enviar pedido
         try {
             const url = `${import.meta.env.VITE_BACKEND_URL}/api/clientes`
-            console.log('Enviando...')
             await axios.post(url, pedido);
-            //window.open(`https://wa.me/573204289310?text=${texto1url+'%2C%0D'+'%20'+'%2C%0D'+pedidourltext}`, '_blank');
-            console.log('Enviado');
             setNombres('');
             setTelefono('');
             setEmail('');
