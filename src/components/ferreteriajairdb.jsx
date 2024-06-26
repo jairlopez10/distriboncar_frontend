@@ -12,7 +12,7 @@ const ferreteriajairdb = [
                 url: "/m133.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "rachet"
     },
     {
