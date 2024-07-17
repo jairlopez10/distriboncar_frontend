@@ -44,7 +44,7 @@ const ferreteriajairdb = [
                 url: "/m262.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "otros"
     },
     {
