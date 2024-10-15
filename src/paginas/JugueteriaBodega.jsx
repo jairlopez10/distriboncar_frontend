@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react"
-import jugueterialocaldb from "../components/jugueterialocaldb";
+import jugueteriabodegadb from "../components/jugueteriabodega";
 import Productocard from "../components/Productocard";
+import Productoferreteria from "../components/Productoferreteria";
 import Alerta from "../components/Alerta";
 import usePagina from "../hooks/usePagina";
 
-const Jugueterialocal = () => {
+const JugueteriaBodega = () => {
 
-  const juguetesavailable = jugueterialocaldb.filter(product => {
+  const juguetesavailable = jugueteriabodegadb.filter(product => {
     if(product.status === "disponible"){
       return product;
     }
@@ -137,10 +138,7 @@ const Jugueterialocal = () => {
   return (
     <>
       <div className="contenedor">
-        <div className={`${auth ? 'hidden' : 'hidden'}`}>
-          {/*
-            En vez del doble hidden va "login-auth" para que pida la contraseña
-          */}
+        <div className={`${auth ? 'hidden' : 'login-auth'}`}>
           <h2>Iniciar Sesion</h2>
           <label htmlFor="loginauth">Contraseña:</label>
           <input id="loginauth" type="number" placeholder="Contraseña" value={pwdauth} onChange={(e) => setPwdauth(e.target.value)}/>
@@ -149,10 +147,7 @@ const Jugueterialocal = () => {
         </div>
         
       </div>
-      <div className={`${auth ? 'contenedor' : 'contenedor'}`}>
-        {/* 
-          En vez de conteneder en alguna va es "hidden" para que desaparezca el contenido cuando no tiene la contraseña
-        */}
+      <div className={`${auth ? 'contenedor' : 'hidden'}`}>
         <h1 className="titulocatalogo titulojugueteria">Catalogo</h1>
         <div className="seccionjuguetes">
           <div className="seccion-filtros">
@@ -192,7 +187,7 @@ const Jugueterialocal = () => {
           <div className="productos">
             {juguetesfiltrados.map(producto => {
               return (
-                <Productocard 
+                <Productoferreteria 
                   key={producto.id}
                   producto={producto}
                 />
@@ -206,4 +201,4 @@ const Jugueterialocal = () => {
   )
 }
 
-export default Jugueterialocal
+export default JugueteriaBodega 

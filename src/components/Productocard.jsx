@@ -10,7 +10,10 @@ const Productocard = ({producto}) => {
             <div>
                 <p className="titulocard">{titulo}</p>
                 <p className="referencia italic">REF: {producto.referencia ? producto.referencia : "" }</p>
-                <p className="preciocard">{`$${precio.toLocaleString('es-CO')}`}</p>
+                {/*
+                  <p className="preciocard">{`$${precio.toLocaleString('es-CO')}`}</p>
+                */}
+                
             </div>
             
         </div>

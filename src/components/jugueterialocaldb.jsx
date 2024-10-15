@@ -2,6 +2,1082 @@
 const jugueterialocaldb = [
 
     {
+        id: 364,
+        titulo: "Camioneta Control Remoto B/R",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto364a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 415,
+        titulo: "Carro Transformer Control Sensor B/R",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto415a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto415b.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto415c.webp" 
+            },
+
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 366,
+        titulo: "Lanzadora Hidrogel con Luz",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto366a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 367,
+        titulo: "Cry Baby Caminadora Repetidora",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto367a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto367b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 368,
+        titulo: "Maquina Helados Play Doh",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto368a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto368b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 369,
+        titulo: "Kit de Uñas con Secador",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto369a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto369b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 370,
+        titulo: "Cafetera y Licuadora",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto370a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto370b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 371,
+        titulo: "Avion con movimiento, luces y sonido",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto371a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 372,
+        titulo: "Dinosaurio lanza burbujas",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto372a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto372b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 373,
+        titulo: "Lancha a Control Remoto B/R",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto373a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 374,
+        titulo: "Carro Control Remoto B/R",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto374a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 375,
+        titulo: "Caracol con luz, sonido y movimiento",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto375a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 376,
+        titulo: "Pato con movimiento, luz y sonido",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto376a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 377,
+        titulo: "Organeta con luces y sonido",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto377a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 378,
+        titulo: "Tanque Hidrogel Sensor y Control Remoto",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto378a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 379,
+        titulo: "Avion con movimiento, luces y sonido",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto379a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 380,
+        titulo: "Camioneta Control Remoto B/R",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto380a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 381,
+        titulo: "lanzadora Hidrogel, Dardos y Gafas",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto381a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 382,
+        titulo: "Excavadora de Movimiento, Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto382a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 383,
+        titulo: "Dardos de Pistolas X 10",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto383a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 384,
+        titulo: "Helicoptero de Movimiento, Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto384a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 385,
+        titulo: "Kit de Uñas con Secador de Cabello",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto385a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 386,
+        titulo: "Tapete Musical con Baquetas",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto386a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 387,
+        titulo: "Maleta de Uñas con Secador",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto387a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 388,
+        titulo: "Dinosaurio con Hijo lanza Vapor",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto388a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 389,
+        titulo: "Bebe 15 en 1",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto389a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 390,
+        titulo: "Registradora con Luces, Sonido",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto390a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 391,
+        titulo: "Lego Bumble Bee 2 en 1",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto391a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 392,
+        titulo: "Orvis el Hidrogel X 10.000 Orvis ",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto392a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 393,
+        titulo: "Carro Transformer Policia Movimiento Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto393a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 394,
+        titulo: "Muñeca Peinados con Luces y sonido",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto394a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 395,
+        titulo: "Lanzadora Soft Balls X 2",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto395a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 396,
+        titulo: "Lego Transformer 2 en 1 de 413 PCS",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto396a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 397,
+        titulo: "Camaro Transformer con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto397a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 398,
+        titulo: "Kit de Uñas y Spa con Burbujas",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto398a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 399,
+        titulo: "Play Doh Dientes con 3 Repuestos",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto399a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 400,
+        titulo: "Karaoke Recargable con Microfono Niño",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto400a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 401,
+        titulo: "Karaoke Recargable con Microfono Niña",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto401a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 402,
+        titulo: "Computador con Pantalla de +150 Actividades",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto402a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 403,
+        titulo: "Guitarra Jirafa con Luces",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto403a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 404,
+        titulo: "Barco Lanza Agua con Movimiento, Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto404a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 405,
+        titulo: "Registradora con Balanza",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto405a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 406,
+        titulo: "Lanzadora Hidrogel con Mira y Luces",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto406a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 407,
+        titulo: "Lanzadora de Hidrogel y Gafas Protección",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto407a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 409,
+        titulo: "Carro Dinosaurio Control Lanza Hidrogel B/R",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto409a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 410,
+        titulo: "Camion de Bomberos a Control Remoto B",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto410a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 411,
+        titulo: "Carro Lanza Burbujas, Hidrogel con Manilla y Control",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto411a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 413,
+        titulo: "Carro Lanza Vapor con Manilla y Control",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto413a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 414,
+        titulo: "Carro Solenary Control B/R",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto414a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 416,
+        titulo: "Lanza Burbujas Recargable",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto416a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 417,
+        titulo: "Cubo cilindrico",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto417a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 418,
+        titulo: "Cubo cilindrico",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto418a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 419,
+        titulo: "Cubo 4x4",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto419a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 420,
+        titulo: "Cubo 2x2",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto420a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 421,
+        titulo: "Cubo 3x3 Formas",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto421a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+
+
+    {
         id: 165,
         titulo: "Libelula con Luces, Sonido y Movimiento",
         preciomayorista: 7199,
@@ -212,7 +1288,7 @@ const jugueterialocaldb = [
     },
     {
         id: 176,
-        titulo: "Sonajero Digital Musical",
+        titulo: "CAMBIAR - Sonajero Digital Musical",
         preciomayorista: 7199,
         precio: 12000,
         referencia: "",
@@ -299,7 +1375,7 @@ const jugueterialocaldb = [
                 url: "/producto180a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "organetas-guitarras",
@@ -413,7 +1489,7 @@ const jugueterialocaldb = [
                 url: "/producto186a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "organetas-guitarras",
@@ -432,7 +1508,7 @@ const jugueterialocaldb = [
                 url: "/producto187a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "organetas-guitarras",
@@ -569,7 +1645,7 @@ const jugueterialocaldb = [
                 url: "/producto194a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "dinosaurios",
@@ -748,7 +1824,7 @@ const jugueterialocaldb = [
     },
     {
         id: 204,
-        titulo: "Lanza burbujas Escopeta",
+        titulo: "CAMBIAR - Lanza burbujas Escopeta",
         preciomayorista: 7199,
         precio: 28000,
         referencia: "B968A",
@@ -873,7 +1949,7 @@ const jugueterialocaldb = [
                 url: "/producto210a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Azul, Rosada",
         edad: "+3",
         categoria: "doctor-cocina",
@@ -972,7 +2048,7 @@ const jugueterialocaldb = [
                 url: "/producto215a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Capitan America, Minie Mouse",
         edad: "+3",
         categoria: "educativo",
@@ -995,7 +2071,7 @@ const jugueterialocaldb = [
                 url: "/producto216b.webp" 
             } 
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Optimus Prime, Bumblee Bee",
         edad: "+3",
         categoria: "munecos",
@@ -1041,7 +2117,7 @@ const jugueterialocaldb = [
                 url: "/producto218b.webp" 
             } 
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Optimus Prime, Bumblee Bee",
         edad: "+3",
         categoria: "munecos",
@@ -1060,7 +2136,7 @@ const jugueterialocaldb = [
                 url: "/producto219a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecos",
@@ -1125,7 +2201,7 @@ const jugueterialocaldb = [
     },
     {
         id: 223,
-        titulo: "Peluche Sonic",
+        titulo: "CAMBIAR peluche Sonic",
         preciomayorista: 7199,
         precio: 20000,
         referencia: "",
@@ -1453,7 +2529,7 @@ const jugueterialocaldb = [
                 url: "/producto238b.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -1607,7 +2683,7 @@ const jugueterialocaldb = [
     },
     {
         id: 246,
-        titulo: "Coleccion Carros X3 Hotwheel",
+        titulo: "CAMBIAR - Coleccion Carros X3 Hotwheel",
         preciomayorista: 7199,
         precio: 13000,
         referencia: "67-6",
@@ -1713,7 +2789,7 @@ const jugueterialocaldb = [
                 url: "/producto251a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -1770,7 +2846,7 @@ const jugueterialocaldb = [
                 url: "/producto254a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+6",
         categoria: "carros-control",
@@ -1835,7 +2911,7 @@ const jugueterialocaldb = [
     },
     {
         id: 258,
-        titulo: "Excavadora con Movimiento, Luz y Sonido",
+        titulo: "CAMBIO Excavadora con Movimiento, Luz y Sonido",
         preciomayorista: 7199,
         precio: 20000,
         referencia: "107-1",
@@ -1865,7 +2941,7 @@ const jugueterialocaldb = [
                 url: "/producto259a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -1884,7 +2960,7 @@ const jugueterialocaldb = [
                 url: "/producto260a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -2071,7 +3147,7 @@ const jugueterialocaldb = [
                 url: "/producto269a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecos",
@@ -2208,7 +3284,7 @@ const jugueterialocaldb = [
                 url: "/producto276a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "punteria",
@@ -2227,7 +3303,7 @@ const jugueterialocaldb = [
                 url: "/producto277a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "punteria",
@@ -2254,7 +3330,7 @@ const jugueterialocaldb = [
     },
     {
         id: 279,
-        titulo: "Dinosaurio Lanza Vapor Desarmable con Movimiento Luz y Sonido",
+        titulo: "CAMBIO Dinosaurio Lanza Vapor Desarmable con Movimiento Luz y Sonido",
         preciomayorista: 7199,
         precio: 33000,
         referencia: "8880",
@@ -2364,7 +3440,7 @@ const jugueterialocaldb = [
                 url: "/producto284a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "maquillaje",
@@ -2459,7 +3535,7 @@ const jugueterialocaldb = [
                 url: "/producto289a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Azul, Rojo",
         edad: "+6",
         categoria: "carros-control",
@@ -2535,7 +3611,7 @@ const jugueterialocaldb = [
                 url: "/producto293a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Azul, Negro",
         edad: "+6",
         categoria: "carros-control",
@@ -2562,7 +3638,7 @@ const jugueterialocaldb = [
     },
     {
         id: 295,
-        titulo: "Camion Bomberos con Luces y Sonido",
+        titulo: "CAMBIO Camion Bomberos con Luces y Sonido",
         preciomayorista: 7199,
         precio: 33000,
         referencia: "SY754C",
@@ -2733,7 +3809,7 @@ const jugueterialocaldb = [
                 url: "/producto303a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+6",
         categoria: "legos",
@@ -2752,7 +3828,7 @@ const jugueterialocaldb = [
                 url: "/producto304a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+6",
         categoria: "legos",
@@ -2909,7 +3985,7 @@ const jugueterialocaldb = [
                 url: "/producto311a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "mascotas",
@@ -3145,7 +4221,7 @@ const jugueterialocaldb = [
     },
     {
         id: 324,
-        titulo: "Lanzadora de Dardos e Hidrogel con Gafas",
+        titulo: "CAMBIO - Lanzadora de Dardos e Hidrogel con Gafas",
         preciomayorista: 7199,
         precio: 40000,
         referencia: "518D",
@@ -3194,7 +4270,7 @@ const jugueterialocaldb = [
                 url: "/producto326a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -3289,7 +4365,7 @@ const jugueterialocaldb = [
                 url: "/producto331a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "maquillaje",
@@ -3308,7 +4384,7 @@ const jugueterialocaldb = [
                 url: "/producto332a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "maquillaje",
@@ -3346,7 +4422,7 @@ const jugueterialocaldb = [
                 url: "/producto334a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -3487,7 +4563,7 @@ const jugueterialocaldb = [
     },
     {
         id: 342,
-        titulo: "Cry Baby Sorpresa Huevo",
+        titulo: "CAMBIO Cry Baby Sorpresa Huevo",
         preciomayorista: 69900,
         precio: 60000,
         referencia: '',
@@ -3566,7 +4642,7 @@ const jugueterialocaldb = [
                 url: "/producto345a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -3585,7 +4661,7 @@ const jugueterialocaldb = [
                 url: "/producto346a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -3650,7 +4726,7 @@ const jugueterialocaldb = [
     },
     {
         id: 350,
-        titulo: "Helicoptero Transformable Lanza Vapor con Movimiento, Luz y Sonido",
+        titulo: "CAMBIO Helicoptero Transformable Lanza Vapor con Movimiento, Luz y Sonido",
         preciomayorista: 7199,
         precio: 34000,
         referencia: "D168-1",
@@ -3730,7 +4806,7 @@ const jugueterialocaldb = [
     },
     {
         id: 354,
-        titulo: "Magic Pad de Dinosaurio",
+        titulo: "CAMBIO Magic Pad de Dinosaurio",
         preciomayorista: 7199,
         precio: 25000,
         referencia: "TB25",
@@ -3749,7 +4825,7 @@ const jugueterialocaldb = [
     },
     {
         id: 355,
-        titulo: "Magic Pad Conejo",
+        titulo: "CAMBIO Magic Pad Conejo",
         preciomayorista: 7199,
         precio: 21000,
         referencia: "",
@@ -3821,7 +4897,7 @@ const jugueterialocaldb = [
                 url: "/producto360a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "musical",
@@ -3878,7 +4954,7 @@ const jugueterialocaldb = [
                 url: "/producto363a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "carros-control",
@@ -4078,7 +5154,7 @@ const jugueterialocaldb = [
                 url: "/producto109a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "maquillaje",
@@ -4261,7 +5337,7 @@ const jugueterialocaldb = [
     },
     {
         id: 119,
-        titulo: "Maquina Repostera y Cafetera",
+        titulo: "CAMBIO Maquina Repostera y Cafetera",
         preciomayorista: 7199,
         precio: 20000,
         referencia: "9040B",
@@ -4303,7 +5379,7 @@ const jugueterialocaldb = [
     },
     {
         id: 121,
-        titulo: "Maquina Coser y Plancha",
+        titulo: "CAMBIO Maquina Coser y Plancha",
         preciomayorista: 7199,
         precio: 52000,
         referencia: "8801-2",
@@ -4542,7 +5618,7 @@ const jugueterialocaldb = [
                 url: "/producto133a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -4599,7 +5675,7 @@ const jugueterialocaldb = [
                 url: "/producto136a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -4698,7 +5774,7 @@ const jugueterialocaldb = [
                 url: "/producto142a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -4850,7 +5926,7 @@ const jugueterialocaldb = [
                 url: "/producto150a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -4877,7 +5953,7 @@ const jugueterialocaldb = [
     },
     {
         id: 152,
-        titulo: "Spiderman X4 Blister",
+        titulo: "CAMBIO Spiderman X4 Blister",
         preciomayorista: 7199,
         precio: 35000,
         referencia: "MU071",
@@ -4926,7 +6002,7 @@ const jugueterialocaldb = [
                 url: "/producto154a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -5002,7 +6078,7 @@ const jugueterialocaldb = [
                 url: "/producto158a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -5029,7 +6105,7 @@ const jugueterialocaldb = [
     },
     {
         id: 160,
-        titulo: "Play Doh X12",
+        titulo: "CAMBIO Play Doh X12",
         preciomayorista: 7199,
         precio: 34000,
         referencia: "JD1204",
@@ -5067,7 +6143,7 @@ const jugueterialocaldb = [
     },
     {
         id: 162,
-        titulo: "Play Doh X6",
+        titulo: "CAMBIO Play Doh X6",
         preciomayorista: 7199,
         precio: 11500,
         referencia: "6603-6",
@@ -5141,7 +6217,7 @@ const jugueterialocaldb = [
                 url: "/producto51a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+11",
         categoria: "punteria",
@@ -5370,7 +6446,7 @@ const jugueterialocaldb = [
                 url: "/producto55a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Grafiti",
         edad: "+6",
         categoria: "carros-control",
@@ -5456,7 +6532,7 @@ const jugueterialocaldb = [
                 url: "/producto48b.mp4" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Amarillo",
         edad: "+3",
         categoria: "mascotas",
@@ -6575,6 +7651,7 @@ const jugueterialocaldb = [
         categoria: "mascotas",
         genero: "unisex"
     },
+
 
 ];
 

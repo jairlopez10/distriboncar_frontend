@@ -8,6 +8,7 @@ import Ferreteriagregorio from './paginas/Ferreteriagregorio'
 import FerrreteriaIvan from './paginas/FerrreteriaIvan'
 import FerrreteriaMery from './paginas/FerreteriaMery'
 import FerreteriaJair from './paginas/FerreteriaJair'
+import JugueteriaBodega from './paginas/JugueteriaBodega'
 import Checkout from './paginas/Checkout'
 import { PaginaProvider } from './context/PaginaProvider'
 
@@ -25,6 +26,7 @@ function App() {
               <Route path='ferreteriaiv' element={<FerrreteriaIvan />}/>
               <Route path='ferreteriame' element={<FerrreteriaMery />}/>
               <Route path='ferreteriaj' element={<FerreteriaJair />}/>
+              <Route path='jugueteriabodega' element={<JugueteriaBodega />}/>
               <Route path='ferreteriaj/:categoria' element={<FerreteriaJair />}/>
               <Route path='/:titulo/:id/:tipocliente' element={<Producto />}/>
               <Route path='nosotros' element={<Nosotros />}/>
