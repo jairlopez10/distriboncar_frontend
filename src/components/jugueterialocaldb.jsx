@@ -1,17 +1,16 @@
 
 const jugueterialocaldb = [
-
     {
-        id: 364,
-        titulo: "Camioneta Control Remoto B/R",
+        id: 378,
+        titulo: "Tanque Hidrogel Sensor, Control y Humo",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 97000,
         referencia: "",
         descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
-                url: "/producto364a.webp" 
+                url: "/producto378a.webp" 
             }
         ],
         status: "disponible",
@@ -21,10 +20,128 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
-        id: 415,
-        titulo: "Carro Transformer Control Sensor B/R",
+        id: 361,
+        titulo: "Tanque Control Remoto y Manilla Lanza Hidrogel y Vapor de Agua Recargable",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 100000,
+        referencia: "8818B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto361a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 411,
+        titulo: "Carro Lanza Burbujas, Hidrogel con Manilla y Control",
+        preciomayorista: 7199,
+        precio: 120000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto411a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 426,
+        titulo: "Carro Control Climber Lanza Vapor B/R",
+        preciomayorista: 7199,
+        precio: 136000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto426a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 300,
+        titulo: "Carro Control Dinosaurio B/R",
+        preciomayorista: 7199,
+        precio: 40000,
+        referencia: "008-206",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto300a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 409,
+        titulo: "Carro Dinosaurio Control Lanza Hidrogel B/R",
+        preciomayorista: 7199,
+        precio: 145000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto409a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 301,
+        titulo: "Carro Control Transformer Grande Recargable con Sensor",
+        preciomayorista: 7199,
+        precio: 75000,
+        referencia: "96-1K",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto301a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto301b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 415,
+        titulo: "Carro Transformer Control B/R",
+        preciomayorista: 7199,
+        precio: 45000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -41,6 +158,1336 @@ const jugueterialocaldb = [
                 url: "/producto415c.webp" 
             },
 
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 413,
+        titulo: "Carro Lanza Vapor con Manilla y Control",
+        preciomayorista: 7199,
+        precio: 90000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto413a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    
+    {
+        id: 373,
+        titulo: "Lancha a Control Remoto B/R",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto373a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 374,
+        titulo: "Carro Loco Niña Remoto B/R",
+        preciomayorista: 7199,
+        precio: 38000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto374a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 22,
+        titulo: "Jeep Recargable a Control Remoto Safari",
+        preciomayorista: 1000,
+        precio: 28000,
+        referencia: "091-43B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto22a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Safari",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 414,
+        titulo: "Carro Solenary Control B/R",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto414a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 296,
+        titulo: "Carro Control Metalico Recargable",
+        preciomayorista: 7199,
+        precio: 119900,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto296a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 298,
+        titulo: "Carro Control Mario Kart Recargable",
+        preciomayorista: 7199,
+        precio: 64000,
+        referencia: "055404",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto298a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 288,
+        titulo: "Carro Loco Personajes (Paw Patrol, Mario, Spiderman)",
+        preciomayorista: 7199,
+        precio: 38000,
+        referencia: "DY1853",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto288a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 380,
+        titulo: "Camioneta Control Remoto Luz",
+        preciomayorista: 7199,
+        precio: 22000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto380a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 56,
+        titulo: "Jeep/Hummer/Mini Cooper Abre Puertas Recargable Control Remoto",
+        preciomayorista: 61999,
+        precio: 60000,
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto56a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto56b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Rojo, Amarillo",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 287,
+        titulo: "Carro Loco Recargable Control",
+        preciomayorista: 7199,
+        precio: 32000,
+        referencia: "9802M-11",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto287a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Azul, Rojo",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 299,
+        titulo: "Carro Control Timon Lamborghini Recargable",
+        preciomayorista: 7199,
+        precio: 25000,
+        referencia: "323-9",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto299a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 289,
+        titulo: "Carro Control Humo Transparente Recargable con Luz y Sonido (GRANDE)",
+        preciomayorista: 7199,
+        precio: 115000,
+        referencia: "999-59CS",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto289a.webp" 
+            }
+        ],
+        status: "No Stock",
+        colores: "Azul, Rojo",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 290,
+        titulo: "Carro Control Vengadores Recargable",
+        preciomayorista: 7199,
+        precio: 58000,
+        referencia: "8587-2A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto290a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 255,
+        titulo: "CAMBIO - Carro Control Cars Recargable",
+        preciomayorista: 7199,
+        precio: 35000,
+        referencia: "9920B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto255a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    
+    {
+        id: 292,
+        titulo: "Carro Control Lamborghini",
+        preciomayorista: 7199,
+        precio: 22000,
+        referencia: "KF-1A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto292a.webp" 
+            }
+        ],
+        status: "No Stock",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    
+    
+    {
+        id: 410,
+        titulo: "Camion de Bomberos a Control Remoto B",
+        preciomayorista: 7199,
+        precio: 50000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto410a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+
+    {
+        id: 291,
+        titulo: "Excavadora Control Remoto Recargable",
+        preciomayorista: 7199,
+        precio: 68000,
+        referencia: "8034E",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto291a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    
+    {
+        id: 58,
+        titulo: "Carro Control Recargable Sensor con Control Remoto con Vapor de Agua",
+        preciomayorista: 84999,
+        precio: 73000,
+        referencia: "8868E",
+        descripcion: `¡Prepárate para una experiencia de conducción única con el Carro Control Sensor, Este vehículo te ofrece lo mejor de ambos mundos, combinando tecnología avanzada con la diversión clásica de los carros a control remoto.
+
+        El control de sensor de movimiento te permite dirigir el carro simplemente moviendo la mano, lo que añade un nivel de interacción y emoción sin precedentes. ¡Es como si estuvieras controlando el carro con gestos mágicos! Además, el control convencional también está incluido para una experiencia de conducción tradicional.
+        
+        Este carro está equipado con luces brillantes que iluminan tu camino y sonidos realistas que te sumergen en una experiencia de conducción auténtica. Pero eso no es todo, ¡también lanza vapor de agua, creando efectos visuales impresionantes que emulan el escape de un vehículo real!`,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto58a.webp" 
+            },
+            {
+                tipo: "video",
+                url: "/producto58b.mp4" 
+            }
+        ],
+        status: "disponible",
+        colores: "Rojo",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 15,
+        titulo: "Carro Recargable con Control Remoto Estilo Ferrari",
+        preciomayorista: 28999,
+        precio: 23500,
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto15b.webp"
+            },
+            {
+                tipo: "imagen",
+                url: "/producto15a.webp"
+            }
+        ],
+        status: "disponible",
+        colores: "Amarillo, Rojo",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 14,
+        titulo: "Carro Recargable Control Remoto con Efecto Vapor",
+        preciomayorista: 74999,
+        precio: 70000,
+        descripcion: `¡Acelera hacia la diversión con nuestro Carro a Control Remoto con Efecto Vapor! Este impresionante vehículo combina la emoción de la velocidad con un toque de magia gracias a su capacidad para lanzar vapor de agua, ¡simulando un efecto de nitro!
+
+        Equipado con luces brillantes y sonidos realistas, este carro se convierte en una experiencia multisensorial que cautivará a los entusiastas de todas las edades. Su diseño llamativo y su potente rendimiento hacen que cada giro sea una aventura emocionante.
+        
+        Y lo mejor de todo, este carro es de batería recargable. Conéctalo y carga para estar listo para la acción en poco tiempo!`,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto14a.webp"
+            },
+            {
+                tipo: "imagen",
+                url: "/producto14b.webp"
+            },
+            {
+                tipo: "video",
+                url: "/producto14c.mp4"
+            }
+        ],
+        status: "No Stock",
+        colores: "Rojo, Morado",
+        edad: "+3",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 16,
+        titulo: "Carro a Control Remoto (Bidireccional)",
+        preciomayorista: 11999,
+        precio: 12500,
+        referencia: "121-1A",
+        descripcion: `¡Experimenta la emoción de la velocidad y el lujo con nuestro Carro a Control Remoto Estilo Ferrari! Este vehículo excepcional captura la elegancia y la potencia en un diseño compacto y emocionante.
+
+        Con detalles auténticos y un diseño que emula la icónica estética de Ferrari, este carro a control remoto es un deleite visual y funcional. Equipado con batería recargable, simplemente conéctalo para recargarlo y estar listo para desafiar la pista una vez más. Este carro solo se mueve hacia adelante o hacia atrás, brindando una experiencia de conducción única.`,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto16a.webp"
+            },
+            {
+                tipo: "imagen",
+                url: "/producto16b.webp"
+            }
+        ],
+        status: "No Stock",
+        colores: "Grafiti, Negro",
+        edad: "+3",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 352,
+        titulo: "Helicoptero con Movimiento, Luz y Sonido Alas",
+        preciomayorista: 7199,
+        precio: 27000,
+        referencia: "HG881",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto352a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 384,
+        titulo: "Helicoptero de Movimiento, Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 30000,
+        referencia: "8811-25",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto384a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 244,
+        titulo: "Helicoptero con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 20500,
+        referencia: "780",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto244a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 350,
+        titulo: "Helicoptero Transformable Lanza Vapor con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 30000,
+        referencia: "655-1",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto350a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 351,
+        titulo: "Helicoptero Transformer con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 32000,
+        referencia: "HX168",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto351a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto351b.webp" 
+            }
+        ],
+        status: "No Stock",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 353,
+        titulo: "Helicoptero con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 24000,
+        referencia: "JYD182A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto353a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 393,
+        titulo: "Carro Transformer Policia Movimiento Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 21000,
+        referencia: "2033A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto393a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 258,
+        titulo: "CAMBIO Excavadora con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 20000,
+        referencia: "107-1",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto258a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 230,
+        titulo: "Carro Dinosaurio con Vapor, Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 35000,
+        referencia: "834",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto230a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto230b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 233,
+        titulo: "Hummer Transformer con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 30000,
+        referencia: "8811-17",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto233a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 234,
+        titulo: "Tanque Transformer con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "HX156",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto234a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto234b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 240,
+        titulo: "Camaro Rojo Transformer con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 15000,
+        referencia: "JH1034",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto240a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto240b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 57,
+        titulo: "Carro Tanque con Vapor y Lanza Granadas",
+        preciomayorista: 33999,
+        precio: 32000,
+        referencia: "168-11",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto57a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto57b.webp" 
+            },
+            {
+                tipo: "video",
+                url: "/producto57c.mp4" 
+            }
+        ],
+        status: "disponible",
+        colores: "Verde, Gris",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 237,
+        titulo: "Hummer Transformer con Movimiento, Luz y Sonido.",
+        preciomayorista: 7199,
+        precio: 29000,
+        referencia: "8811-5",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto237a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto237b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 231,
+        titulo: "Carro T Rex con Vapor, Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 32000,
+        referencia: "HG-884",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto231a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto231b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 34,
+        titulo: "Carro Loco con Movimiento, Luces y Sonido",
+        preciomayorista: 22999,
+        precio: 18000,
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto34a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto34b.webp" 
+            },
+            {
+                tipo: "video",
+                url: "/producto34c.mp4"
+            }
+        ],
+        status: "disponible",
+        colores: "Azul, Naranja",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 232,
+        titulo: "Tanque con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 14000,
+        referencia: "9056A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto232a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    
+    
+    {
+        id: 227,
+        titulo: "Carro Lanza Tazos con Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "8811-19",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto227a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 257,
+        titulo: "Carro Avengers con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 25000,
+        referencia: "018",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto257a.webp" 
+            }
+        ],
+        status: "No Stock",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 183,
+        titulo: "Carro con Movimiento arriba y lados",
+        preciomayorista: 7199,
+        precio: 24000,
+        referencia: "QF05-14",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto183a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 184,
+        titulo: "Bus con Movimiento, Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 22000,
+        referencia: "HJ-638",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto184a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "unisex"
+    },
+    {
+        id: 185,
+        titulo: "Tren con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "FS238-1A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto185a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "unisex"
+    },
+    {
+        id: 175,
+        titulo: "Carroza con Luces, Sonido y Movimiento",
+        preciomayorista: 7199,
+        precio: 24000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto175a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninas"
+    },
+    {
+        id: 404,
+        titulo: "Barco Lanza Agua con Movimiento, Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto404a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 239,
+        titulo: "Optimus Transformer con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 17000,
+        referencia: "JH1035",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto239a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto239b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 397,
+        titulo: "Camaro Transformer con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 21000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto397a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 235,
+        titulo: "Bomberos Transformer Lanza Agua con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 32500,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto235a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto235b.webp" 
+            }
+        ],
+        status: "No Stock",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 238,
+        titulo: "Bugatti Transformer con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 21000,
+        referencia: "8987",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto238a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto238b.webp" 
+            }
+        ],
+        status: "No Stock",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 241,
+        titulo: "Carro Avion con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 23000,
+        referencia: "740",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto241a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto241b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 47,
+        titulo: "Gato Tom Repetidor con Luces y Sonido",
+        preciomayorista: 29999,
+        precio: 27000,
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto47a.webp" 
+            },
+            {
+                tipo: "video",
+                url: "/producto47b.mp4" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicas",
+        edad: "+3",
+        categoria: "mascotas",
+        genero: "unisex"
+    },
+    {
+        id: 30,
+        titulo: "Bumble Bee Bailarin, Luces y Sonido",
+        preciomayorista: 29999,
+        precio: 25000,
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto30a.webp" 
+            },
+            {
+                tipo: "video",
+                url: "/producto30b.mp4" 
+            }
+        ],
+        status: "No Stock",
+        colores: "Amarillo",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 53,
+        titulo: "Spiderman Bailarin, Luces y Sonido",
+        preciomayorista: 29999,
+        precio: 29000,
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto53a.webp" 
+            },
+            {
+                tipo: "video",
+                url: "/producto53b.mp4" 
+            }
+        ],
+        status: "disponible",
+        colores: "Rojo",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 157,
+        titulo: "Robot Bailarin",
+        preciomayorista: 7199,
+        precio: 29000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto157a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 54,
+        titulo: "Iron Man Bailarin, Luces y Sonido",
+        preciomayorista: 29999,
+        precio: 25000,
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto54a.webp" 
+            },
+            {
+                tipo: "video",
+                url: "/producto54b.mp4" 
+            }
+        ],
+        status: "disponible",
+        colores: "Amarillo",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 177,
+        titulo: "Moto Frozen con Movimiento, Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 29500,
+        referencia: "0138-23",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto177a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninas"
+    },
+    {
+        id: 6,
+        titulo: "Dinosaurio Rex con Movimiento Luces Sonido",
+        preciomayorista: 29999,
+        precio: 29000,
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto6a.webp"
+            },
+            {
+                tipo: "imagen",
+                url: "/producto6b.webp"
+            },
+            {
+                tipo: "video",
+                url: "/producto6c.mp4"
+            }
+        ],
+        status: "disponible",
+        colores: "Verde",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 145,
+        titulo: "Dinosaurio Transparente con Luces, Sonido y Movimiento",
+        preciomayorista: 7199,
+        precio: 23000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto145a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 242,
+        titulo: "Carro Abre Puertas con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 26000,
+        referencia: "8811-21",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto242a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    {
+        id: 243,
+        titulo: "Camioneta Abre Puertas con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 27000,
+        referencia: "8811-9",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto243a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "ninos"
+    },
+    
+    {
+        id: 382,
+        titulo: "Excavadora de Movimiento, Luces y Sonido",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto382a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 375,
+        titulo: "Caracol con luz, sonido y movimiento",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto375a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 376,
+        titulo: "Pato con movimiento, luz y sonido",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto376a.webp" 
+            }
         ],
         status: "disponible",
         colores: "Grafiti, Militar",
@@ -160,25 +1607,6 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
-        id: 371,
-        titulo: "Avion con movimiento, luces y sonido",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto371a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
         id: 372,
         titulo: "Dinosaurio lanza burbujas",
         preciomayorista: 7199,
@@ -201,9 +1629,11 @@ const jugueterialocaldb = [
         categoria: "carros-control",
         genero: "ninos"
     },
+    
+    
     {
-        id: 373,
-        titulo: "Lancha a Control Remoto B/R",
+        id: 381,
+        titulo: "lanzadora Hidrogel, Dardos y Gafas",
         preciomayorista: 7199,
         precio: 1,
         referencia: "",
@@ -211,7 +1641,7 @@ const jugueterialocaldb = [
         imagenes: [
             {
                 tipo: "imagen",
-                url: "/producto373a.webp" 
+                url: "/producto381a.webp" 
             }
         ],
         status: "disponible",
@@ -220,9 +1650,10 @@ const jugueterialocaldb = [
         categoria: "carros-control",
         genero: "ninos"
     },
+    
     {
-        id: 374,
-        titulo: "Carro Control Remoto B/R",
+        id: 383,
+        titulo: "Dardos de Pistolas X 10",
         preciomayorista: 7199,
         precio: 1,
         referencia: "",
@@ -230,45 +1661,7 @@ const jugueterialocaldb = [
         imagenes: [
             {
                 tipo: "imagen",
-                url: "/producto374a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 375,
-        titulo: "Caracol con luz, sonido y movimiento",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto375a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 376,
-        titulo: "Pato con movimiento, luz y sonido",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto376a.webp" 
+                url: "/producto383a.webp" 
             }
         ],
         status: "disponible",
@@ -297,25 +1690,6 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
-        id: 378,
-        titulo: "Tanque Hidrogel Sensor y Control Remoto",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto378a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
         id: 379,
         titulo: "Avion con movimiento, luces y sonido",
         preciomayorista: 7199,
@@ -335,8 +1709,8 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
-        id: 380,
-        titulo: "Camioneta Control Remoto B/R",
+        id: 371,
+        titulo: "Avion con movimiento, luces y sonido",
         preciomayorista: 7199,
         precio: 1,
         referencia: "",
@@ -344,83 +1718,7 @@ const jugueterialocaldb = [
         imagenes: [
             {
                 tipo: "imagen",
-                url: "/producto380a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 381,
-        titulo: "lanzadora Hidrogel, Dardos y Gafas",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto381a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 382,
-        titulo: "Excavadora de Movimiento, Luces y Sonido",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto382a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 383,
-        titulo: "Dardos de Pistolas X 10",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto383a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 384,
-        titulo: "Helicoptero de Movimiento, Luces y Sonido",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto384a.webp" 
+                url: "/producto371a.webp" 
             }
         ],
         status: "disponible",
@@ -486,25 +1784,7 @@ const jugueterialocaldb = [
         categoria: "carros-control",
         genero: "ninos"
     },
-    {
-        id: 388,
-        titulo: "Dinosaurio con Hijo lanza Vapor",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto388a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
+    
     {
         id: 389,
         titulo: "Bebe 15 en 1",
@@ -582,25 +1862,6 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
-        id: 393,
-        titulo: "Carro Transformer Policia Movimiento Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto393a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
         id: 394,
         titulo: "Muñeca Peinados con Luces y sonido",
         preciomayorista: 7199,
@@ -649,25 +1910,6 @@ const jugueterialocaldb = [
             {
                 tipo: "imagen",
                 url: "/producto396a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 397,
-        titulo: "Camaro Transformer con Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto397a.webp" 
             }
         ],
         status: "disponible",
@@ -790,25 +2032,7 @@ const jugueterialocaldb = [
         categoria: "carros-control",
         genero: "ninos"
     },
-    {
-        id: 404,
-        titulo: "Barco Lanza Agua con Movimiento, Luces y Sonido",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto404a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
+    
     {
         id: 405,
         titulo: "Registradora con Balanza",
@@ -866,101 +2090,7 @@ const jugueterialocaldb = [
         categoria: "carros-control",
         genero: "ninos"
     },
-    {
-        id: 409,
-        titulo: "Carro Dinosaurio Control Lanza Hidrogel B/R",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto409a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 410,
-        titulo: "Camion de Bomberos a Control Remoto B",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto410a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 411,
-        titulo: "Carro Lanza Burbujas, Hidrogel con Manilla y Control",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto411a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 413,
-        titulo: "Carro Lanza Vapor con Manilla y Control",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto413a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 414,
-        titulo: "Carro Solenary Control B/R",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto414a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
+    
     {
         id: 416,
         titulo: "Lanza Burbujas Recargable",
@@ -1151,25 +2281,7 @@ const jugueterialocaldb = [
         categoria: "carros-control",
         genero: "ninos"
     },
-    {
-        id: 426,
-        titulo: "Carro Control Climber Lanza Vapor B/R",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto426a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
+    
     {
         id: 427,
         titulo: "Casa de la Barbie",
@@ -1704,25 +2816,6 @@ const jugueterialocaldb = [
         genero: "unisex"
     },
     {
-        id: 175,
-        titulo: "Carroza con Luces, Sonido y Movimiento",
-        preciomayorista: 7199,
-        precio: 24000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto175a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninas"
-    },
-    {
         id: 176,
         titulo: "CAMBIAR - Sonajero Digital Musical",
         preciomayorista: 7199,
@@ -1740,25 +2833,6 @@ const jugueterialocaldb = [
         edad: "+3",
         categoria: "didacticos",
         genero: "unisex"
-    },
-    {
-        id: 177,
-        titulo: "Moto Frozen con Movimiento, Luces y Sonido",
-        preciomayorista: 7199,
-        precio: 29500,
-        referencia: "0138-23",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto177a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninas"
     },
     {
         id: 178,
@@ -1855,63 +2929,7 @@ const jugueterialocaldb = [
         categoria: "organetas-guitarras",
         genero: "unisex"
     },
-    {
-        id: 183,
-        titulo: "Carro con Movimiento arriba y lados",
-        preciomayorista: 7199,
-        precio: 24000,
-        referencia: "QF05-14",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto183a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 184,
-        titulo: "Bus con Movimiento, Luces y Sonido",
-        preciomayorista: 7199,
-        precio: 28000,
-        referencia: "HJ-638",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto184a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "unisex"
-    },
-    {
-        id: 185,
-        titulo: "Tren con Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 29500,
-        referencia: "FS238-1A",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto185a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "unisex"
-    },
+    
     {
         id: 186,
         titulo: "Organeta Perro",
@@ -2026,29 +3044,7 @@ const jugueterialocaldb = [
         categoria: "dinosaurios",
         genero: "ninos"
     },
-    {
-        id: 192,
-        titulo: "Carro Transformer a Control Remoto",
-        preciomayorista: 7199,
-        precio: 52000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto192a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto192b.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
+    
     {
         id: 193,
         titulo: "Dinosaurio Lanza Vapor y Pone Huevos",
@@ -2336,7 +3332,7 @@ const jugueterialocaldb = [
     },
     {
         id: 208,
-        titulo: "Dragona con Alas, Luz y Sonido",
+        titulo: "Dinosaurio con Alas, Luz y Sonido",
         preciomayorista: 7199,
         precio: 46000,
         referencia: "6659",
@@ -2355,7 +3351,7 @@ const jugueterialocaldb = [
     },
     {
         id: 209,
-        titulo: "Dragon 5 Cabezas con Movimiento, Luz y Sonido",
+        titulo: "Dinosaurio 5 Cabezas con Movimiento, Luz y Sonido",
         preciomayorista: 7199,
         precio: 38000,
         referencia: "NY016",
@@ -2370,6 +3366,45 @@ const jugueterialocaldb = [
         colores: "Unicolor",
         edad: "+3",
         categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 388,
+        titulo: "Dinosaurio con Hijo lanza Vapor",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto388a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    
+    {
+        id: 273,
+        titulo: "Dinosaurio Armable",
+        preciomayorista: 7199,
+        precio: 9500,
+        referencia: "211-1A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto273a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "legos",
         genero: "ninos"
     },
     {
@@ -2711,25 +3746,7 @@ const jugueterialocaldb = [
         categoria: "carros-impulso",
         genero: "unisex"
     },
-    {
-        id: 227,
-        titulo: "Carro Lanza Tazos con Luces y Sonido",
-        preciomayorista: 7199,
-        precio: 29000,
-        referencia: "8811-19",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto227a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
+    
     {
         id: 228,
         titulo: "Carros Cambia de Color",
@@ -2772,332 +3789,7 @@ const jugueterialocaldb = [
         categoria: "educativo",
         genero: "ninos"
     },
-    {
-        id: 230,
-        titulo: "Carro Dinosaurio con Vapor, Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 38000,
-        referencia: "834",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto230a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto230b.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 231,
-        titulo: "Carro T Rex con Vapor, Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 34000,
-        referencia: "HG-884",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto231a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto231b.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 232,
-        titulo: "Tanque con Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 14000,
-        referencia: "9056A",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto232a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 233,
-        titulo: "Hummer Transformer con Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 30000,
-        referencia: "8811-17",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto233a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 234,
-        titulo: "Tanque Transformer con Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 28000,
-        referencia: "HX156",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto234a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto234b.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 235,
-        titulo: "Bomberos Transformer Lanza Agua con Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 32500,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto235a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto235b.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 236,
-        titulo: "Camaro con Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 23000,
-        referencia: "YJ388-22",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto236a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto236b.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 237,
-        titulo: "Hummer Transformer con Movimiento, Luz y Sonido.",
-        preciomayorista: 7199,
-        precio: 29000,
-        referencia: "8811-5",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto237a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto237b.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 238,
-        titulo: "Bugatti Transformer con Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 21000,
-        referencia: "8987",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto238a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto238b.webp" 
-            }
-        ],
-        status: "No Stock",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 239,
-        titulo: "Optimus Transformer con Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 20000,
-        referencia: "JH1035",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto239a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto239b.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 240,
-        titulo: "Camaro Rojo Transformer con Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 16000,
-        referencia: "JH1034",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto240a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto240b.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 241,
-        titulo: "Carro Avion con Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 25000,
-        referencia: "740",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto241a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto241b.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 242,
-        titulo: "Carro Abre Puertas con Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 26000,
-        referencia: "8811-21",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto242a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 243,
-        titulo: "Camioneta Abre Puertas con Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 27000,
-        referencia: "8811-9",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto243a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
     
-    {
-        id: 244,
-        titulo: "Helicoptero con Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 19500,
-        referencia: "780",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto244a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
     {
         id: 245,
         titulo: "Collecion Carros X5",
@@ -3288,25 +3980,7 @@ const jugueterialocaldb = [
         categoria: "carros-control",
         genero: "ninos"
     },
-    {
-        id: 255,
-        titulo: "Carro Control Cars Recargable",
-        preciomayorista: 7199,
-        precio: 35000,
-        referencia: "9920B",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto255a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
+    
     {
         id: 256,
         titulo: "Peluche Iron Man",
@@ -3326,44 +4000,7 @@ const jugueterialocaldb = [
         categoria: "peluches",
         genero: "ninos"
     },
-    {
-        id: 257,
-        titulo: "Carro Avengers con Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 25000,
-        referencia: "018",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto257a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 258,
-        titulo: "CAMBIO Excavadora con Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 20000,
-        referencia: "107-1",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto258a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
+    
     {
         id: 259,
         titulo: "Helicoptero Transparente con Movimiento, Luz y Sonido",
@@ -3651,25 +4288,6 @@ const jugueterialocaldb = [
         genero: "unisex"
     },
     {
-        id: 273,
-        titulo: "Dinosaurio Armable",
-        preciomayorista: 7199,
-        precio: 9500,
-        referencia: "211-1A",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto273a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "legos",
-        genero: "ninos"
-    },
-    {
         id: 274,
         titulo: "Bicicleta Metalica Caja",
         preciomayorista: 7199,
@@ -3785,7 +4403,7 @@ const jugueterialocaldb = [
     },
     {
         id: 280,
-        titulo: "Perro Fino Saca la Lengua con Movimiento y Sonido",
+        titulo: "Perro Fino Saca la Lengua con Movimiento y Sonido Recargable",
         preciomayorista: 7199,
         precio: 55000,
         referencia: "",
@@ -3920,120 +4538,7 @@ const jugueterialocaldb = [
         categoria: "didacticos",
         genero: "unisex"
     },
-    {
-        id: 287,
-        titulo: "Carro Loco Recargable Control",
-        preciomayorista: 7199,
-        precio: 33000,
-        referencia: "9802M-11",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto287a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Azul, Rojo",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 288,
-        titulo: "Carro Paw Patrol Recargable Control Remoto",
-        preciomayorista: 7199,
-        precio: 38000,
-        referencia: "DY1853",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto288a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 289,
-        titulo: "Carro Control Humo Transparente Recargable con Luz y Sonido (GRANDE)",
-        preciomayorista: 7199,
-        precio: 115000,
-        referencia: "999-59CS",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto289a.webp" 
-            }
-        ],
-        status: "No Stock",
-        colores: "Azul, Rojo",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 290,
-        titulo: "Carro Control Vengadores Recargable",
-        preciomayorista: 7199,
-        precio: 58000,
-        referencia: "8587-2A",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto290a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 291,
-        titulo: "Excavadora Control Remoto Recargable",
-        preciomayorista: 7199,
-        precio: 65000,
-        referencia: "8034E",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto291a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 292,
-        titulo: "Carro Control Lamborghini",
-        preciomayorista: 7199,
-        precio: 22000,
-        referencia: "KF-1A",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto292a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
+    
     {
         id: 293,
         titulo: "Carro Control Hotwheels Recargable",
@@ -4091,25 +4596,7 @@ const jugueterialocaldb = [
         categoria: "carros-impulso",
         genero: "ninos"
     },
-    {
-        id: 296,
-        titulo: "Carro Control Todo Terreno Recargable (Grande)",
-        preciomayorista: 7199,
-        precio: 98000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto296a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
+    
     {
         id: 297,
         titulo: "Mula Cars con 4 Carros",
@@ -4129,86 +4616,7 @@ const jugueterialocaldb = [
         categoria: "carros-impulso",
         genero: "ninos"
     },
-    {
-        id: 298,
-        titulo: "Carro Control Mario Kart Recargable",
-        preciomayorista: 7199,
-        precio: 63000,
-        referencia: "055404",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto298a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 299,
-        titulo: "Carro Control Timon Lamborghini",
-        preciomayorista: 7199,
-        precio: 29000,
-        referencia: "323-9",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto299a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 300,
-        titulo: "Carro Control Dinosaurio Recargable",
-        preciomayorista: 7199,
-        precio: 43000,
-        referencia: "008-206",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto300a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 301,
-        titulo: "Carro Control Transformer Grande Recargable con Sensor",
-        preciomayorista: 7199,
-        precio: 78000,
-        referencia: "96-1K",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto301a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto301b.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
+    
     {
         id: 302,
         titulo: "Pista Dinosaurio con Catapulta",
@@ -5161,86 +5569,6 @@ const jugueterialocaldb = [
         genero: "ninas"
     },
     {
-        id: 350,
-        titulo: "CAMBIO Helicoptero Transformable Lanza Vapor con Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 34000,
-        referencia: "D168-1",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto350a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 351,
-        titulo: "Helicoptero Transformer con Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 32000,
-        referencia: "HX168",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto351a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto351b.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 352,
-        titulo: "Helicoptero con Movimiento, Luz y Sonido Alas",
-        preciomayorista: 7199,
-        precio: 27000,
-        referencia: "HG881",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto352a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 353,
-        titulo: "Helicoptero con Movimiento, Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 24000,
-        referencia: "JYD182A",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto353a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
         id: 354,
         titulo: "CAMBIO Magic Pad de Dinosaurio",
         preciomayorista: 7199,
@@ -5339,25 +5667,7 @@ const jugueterialocaldb = [
         categoria: "musical",
         genero: "unisex"
     },
-    {
-        id: 361,
-        titulo: "Tanque Control Remoto y Manilla Lanza Hidrogel y Vapor de Agua Recargable",
-        preciomayorista: 7199,
-        precio: 110000,
-        referencia: "8818B",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto361a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
+    
     {
         id: 362,
         titulo: "Lanzadoras X2 de Ping Pong Soft",
@@ -6255,25 +6565,6 @@ const jugueterialocaldb = [
         genero: "ninas"
     },
     {
-        id: 145,
-        titulo: "Dinosaurio Transparente con Luces, Sonido y Movimiento",
-        preciomayorista: 7199,
-        precio: 27000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto145a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "dinosaurios",
-        genero: "ninos"
-    },
-    {
         id: 146,
         titulo: "Pistola Lanzadardos Blister",
         preciomayorista: 7199,
@@ -6483,25 +6774,6 @@ const jugueterialocaldb = [
         genero: "ninas"
     },
     {
-        id: 157,
-        titulo: "Robot Bailarin",
-        preciomayorista: 7199,
-        precio: 29000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto157a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
         id: 158,
         titulo: "Abeja Bailarina",
         preciomayorista: 7199,
@@ -6684,32 +6956,6 @@ const jugueterialocaldb = [
         genero: "unisex"
     },
     {
-        id: 54,
-        titulo: "Iron Man Bailarin, Luces y Sonido",
-        preciomayorista: 29999,
-        precio: 26000,
-        descripcion: `¡Lleva la acción de Iron Man a tu casa con el Iron Man Bailarín con Luces y Sonido! Este emocionante juguete te permite experimentar la elegancia tecnológica de Tony Stark mientras se mueve, se ilumina y suena al ritmo de la aventura.
-
-        Iron Man cobra vida con movimientos de baile sorprendentes y auténticos, que te harán sentir como si estuvieras en medio de una batalla épica. Sus luces brillantes agregan un toque de magia y realismo a la experiencia, mientras que los sonidos te transportan al mundo del genio multimillonario y su traje tecnológico.
-        
-        Este Iron Man bailarín es fácil de activar, solo necesitas 3 pilas AA!`,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto54a.webp" 
-            },
-            {
-                tipo: "video",
-                url: "/producto54b.mp4" 
-            }
-        ],
-        status: "disponible",
-        colores: "Amarillo",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
         id: 61,
         titulo: "Maleta Cocina + Accesorios",
         preciomayorista: 26999,
@@ -6734,32 +6980,6 @@ const jugueterialocaldb = [
         edad: "+3",
         categoria: "doctor-cocina",
         genero: "ninas"
-    },
-    {
-        id: 30,
-        titulo: "Bumble Bee Bailarin, Luces y Sonido",
-        preciomayorista: 29999,
-        precio: 29000,
-        descripcion: `¡Lleva la diversión a un nivel vibrante con nuestro Bumble Bee Bailarín! Este juguete encantador combina movimiento, luces y sonidos en una experiencia llena de alegría y entretenimiento.
-
-        Observa con asombro mientras el Bumble Bee cobra vida con movimientos animados y cautivadores. Sus luces brillantes iluminan su camino mientras realiza sus pasos de baile únicos, y su sonido alegre añade una banda sonora emocionante a cada movimiento.
-        
-        Este Bumble Bee Bailarín es impulsado por 3 pilas AA.`,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto30a.webp" 
-            },
-            {
-                tipo: "video",
-                url: "/producto30b.mp4" 
-            }
-        ],
-        status: "disponible",
-        colores: "Amarillo",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
     },
     {
         id: 60,
@@ -6812,58 +7032,7 @@ const jugueterialocaldb = [
         categoria: "didacticos",
         genero: "unisex"
     },
-    {
-        id: 56,
-        titulo: "Jeep/Hummer/Mini Cooper Abre Puertas Recargable Control Remoto",
-        preciomayorista: 61999,
-        precio: 67000,
-        descripcion: `¡Experimenta la elegancia y la diversión de la carretera con el Carro a Control Remoto Estilo Mini Cooper! Este vehículo de juguete te ofrece una experiencia de conducción realista con un toque de lujo y estilo.
-
-        El diseño detallado y auténtico de este carro estilo Mini Cooper te hará sentir como si estuvieras al volante de un vehículo de lujo. Pero la diversión no se detiene ahí. Con el control remoto incluido, puedes abrir y cerrar las puertas del carro, añadiendo un nivel adicional de realismo y juego interactivo.
-        
-        Las luces brillantes y los sonidos realistas hacen que tu experiencia de conducción sea aún más emocionante. Puedes encender los faros para iluminar tu camino y escuchar los sonidos del motor mientras te desplazas por la pista!`,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto56a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto56b.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Rojo, Amarillo",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 15,
-        titulo: "Carro Recargable con Control Remoto Estilo Ferrari",
-        preciomayorista: 28999,
-        precio: 23000,
-        descripcion: `¡Experimenta la emoción de la velocidad con nuestro Carro a Control Remoto Ferrari! Este vehículo de alta calidad captura la elegancia y la potencia de un Ferrari, ofreciéndote una experiencia de conducción excepcional.
-
-        Con detalles auténticos y un diseño elegante que emula la estética icónica de Ferrari, este carro a control remoto es un deleite visual y funcional. Equipado con batería recargable, simplemente conéctalo para recargarlo y estar listo para dominar la pista una vez más.
-        
-        Controla cada giro y maniobra con el control remoto intuitivo, permitiendo que te conviertas en el conductor de tu propia aventura!`,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto15b.webp"
-            },
-            {
-                tipo: "imagen",
-                url: "/producto15a.webp"
-            }
-        ],
-        status: "disponible",
-        colores: "Amarillo, Rojo",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
+    
     {
         id: 55,
         titulo: "Carro Loco Grafiti Control Bateria Recargable",
@@ -6975,30 +7144,6 @@ const jugueterialocaldb = [
         genero: "unisex"
     },
     {
-        id: 47,
-        titulo: "Gato Tom Repetidor con Luces y Sonido",
-        preciomayorista: 29999,
-        precio: 29000,
-        descripcion: `¡Conoce a tu nuevo compañero parlante, el Gato Tom Repetidor con Luces y Sonido! Este adorable gato interactivo te proporcionará horas de risas y entretenimiento mientras repite todo lo que dices con su propio toque único.
-
-        Este juguete ingenioso no solo imita tus palabras, sino que también añade luces y sonidos para una experiencia de juego aún más emocionante. Sus expresiones y movimientos hacen que las conversaciones con Tom sean divertidas y realistas, como si estuvieras hablando con un amigo peludo de verdad!`,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto47a.webp" 
-            },
-            {
-                tipo: "video",
-                url: "/producto47b.mp4" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicas",
-        edad: "+3",
-        categoria: "mascotas",
-        genero: "unisex"
-    },
-    {
         id: 10,
         titulo: "Carro Lanza Vapor, Movimiento, Luces y Sonido",
         preciomayorista: 24999,
@@ -7099,34 +7244,6 @@ const jugueterialocaldb = [
         edad: "+3",
         categoria: "mascotas",
         genero: "unisex"
-    },
-    {
-        id: 34,
-        titulo: "Carro Loco con Movimiento, Luces y Sonido",
-        preciomayorista: 22999,
-        precio: 18000,
-        descripcion: `¡Presentamos el Carro Loco de Pila, la máxima aventura sobre ruedas para los pequeños exploradores! Este carro innovador lleva la diversión a un nivel completamente nuevo con su capacidad de girar las llantas delanteras a 360 grados, lo que significa giros emocionantes y maniobras sorprendentes en todas direcciones.
-
-        Con luces brillantes y sonidos cautivadores, el Carro Loco de Pila crea un espectáculo visual y auditivo que cautivará la imaginación de tus niños!`,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto34a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto34b.webp" 
-            },
-            {
-                tipo: "video",
-                url: "/producto34c.mp4"
-            }
-        ],
-        status: "disponible",
-        colores: "Azul, Naranja",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
     },
     {
         id: 12,
@@ -7295,61 +7412,7 @@ const jugueterialocaldb = [
         categoria: "didacticos",
         genero: "unisex"
     },
-    {
-        id: 14,
-        titulo: "Carro Recargable Control Remoto con Efecto Vapor",
-        preciomayorista: 74999,
-        precio: 70000,
-        descripcion: `¡Acelera hacia la diversión con nuestro Carro a Control Remoto con Efecto Vapor! Este impresionante vehículo combina la emoción de la velocidad con un toque de magia gracias a su capacidad para lanzar vapor de agua, ¡simulando un efecto de nitro!
-
-        Equipado con luces brillantes y sonidos realistas, este carro se convierte en una experiencia multisensorial que cautivará a los entusiastas de todas las edades. Su diseño llamativo y su potente rendimiento hacen que cada giro sea una aventura emocionante.
-        
-        Y lo mejor de todo, este carro es de batería recargable. Conéctalo y carga para estar listo para la acción en poco tiempo!`,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto14a.webp"
-            },
-            {
-                tipo: "imagen",
-                url: "/producto14b.webp"
-            },
-            {
-                tipo: "video",
-                url: "/producto14c.mp4"
-            }
-        ],
-        status: "disponible",
-        colores: "Rojo, Morado",
-        edad: "+3",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 16,
-        titulo: "Carro a Control Remoto (Bidireccional)",
-        preciomayorista: 11999,
-        precio: 12500,
-        referencia: "121-1A",
-        descripcion: `¡Experimenta la emoción de la velocidad y el lujo con nuestro Carro a Control Remoto Estilo Ferrari! Este vehículo excepcional captura la elegancia y la potencia en un diseño compacto y emocionante.
-
-        Con detalles auténticos y un diseño que emula la icónica estética de Ferrari, este carro a control remoto es un deleite visual y funcional. Equipado con batería recargable, simplemente conéctalo para recargarlo y estar listo para desafiar la pista una vez más. Este carro solo se mueve hacia adelante o hacia atrás, brindando una experiencia de conducción única.`,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto16a.webp"
-            },
-            {
-                tipo: "imagen",
-                url: "/producto16b.webp"
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Negro",
-        edad: "+3",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
+    
     {
         id: 42,
         titulo: "Juego Jenga + Dados",
@@ -7372,7 +7435,7 @@ const jugueterialocaldb = [
     },
     {
         id: 19,
-        titulo: "Dragon a Control Remoto con Vapor y Huevos",
+        titulo: "Dinosaurio a Control Remoto con Vapor y Huevos",
         preciomayorista: 1000,
         precio: 66000,
         referencia: "66163",
@@ -7424,60 +7487,7 @@ const jugueterialocaldb = [
         categoria: "dinosaurios",
         genero: "ninos"
     },
-    {
-        id: 22,
-        titulo: "Jeep Recargable a Control Remoto Safari",
-        preciomayorista: 1000,
-        precio: 28000,
-        referencia: "091-43B",
-        descripcion: `¡Embárcate en una emocionante expedición con nuestra Camioneta Jeep a Control Remoto Estilo Safari! Este vehículo excepcional combina la emoción de la aventura con el estilo icónico de un safari, brindándote una experiencia de juego llena de diversión y imaginación.
-
-        Diseñada con detalles realistas y colores vibrantes que capturan la esencia del safari, esta camioneta Jeep a control remoto es más que un simple juguete. Equipada con batería recargable, simplemente conéctala para recargarla y estar lista para explorar nuevas tierras.
-        
-        El control remoto intuitivo te permite dirigir tu camioneta Jeep con facilidad, mientras te sumerges en una aventura llena de giros, curvas y emocionantes desafíos!`,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto22a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Safari",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 57,
-        titulo: "Carro Tanque con Vapor y Lanza Granadas",
-        preciomayorista: 33999,
-        precio: 32000,
-        referencia: "168-11",
-        descripcion: `¡Prepárate para una aventura de combate épica con el Tanque de Pila Lanzagranadas de Juguete! Este formidable vehículo de batalla te llevará a emocionantes misiones y batallas imaginarias.
-
-        El tanque cuenta con un lanzagranadas de juguete que agrega un nivel adicional de emoción al juego. ¡Lanza las granadas hacia tus objetivos y observa cómo avanzas hacia la victoria! Las luces brillantes y los sonidos realistas completan la experiencia de combate, creando una atmósfera inmersiva.
-        
-        Este tanque es perfecto para recrear escenarios de guerra, participar en batallas estratégicas y disfrutar de aventuras llenas de acción!`,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto57a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto57b.webp" 
-            },
-            {
-                tipo: "video",
-                url: "/producto57c.mp4" 
-            }
-        ],
-        status: "disponible",
-        colores: "Verde, Gris",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
-    },
+    
     {
         id: 66,
         titulo: "Camion + 3 Carritos de Plants VS Zombies",
@@ -7850,34 +7860,7 @@ const jugueterialocaldb = [
         categoria: "punteria",
         genero: "unisex"
     },
-    {
-        id: 6,
-        titulo: "Dinosaurio Rex con Movimiento Luces Sonido",
-        preciomayorista: 29999,
-        precio: 29000,
-        descripcion: `¡Transporta a tu pequeño a la era de los dinosaurios con nuestro Dinosaurio Rex! Este magnífico amigo prehistórico está lleno de emocionantes luces brillantes, sonidos realistas y un movimiento fascinante en su cuerpo, garras y cola, este dinosaurio cobra vida en las manos de tu hijo. Cada paso es una aventura asombrosa mientras el dinosaurio camina y se balancea con autenticidad, creando momentos de maravilla y diversión.
-        
-        La interacción es clave: los niños adorarán activar los sonidos y movimientos con solo tocar un botón. Y para potenciar la diversión, este dinosaurio es fácil de alimentar. Simplemente coloca 3 pilas AA y estarás listo para la acción!`,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto6a.webp"
-            },
-            {
-                tipo: "imagen",
-                url: "/producto6b.webp"
-            },
-            {
-                tipo: "video",
-                url: "/producto6c.mp4"
-            }
-        ],
-        status: "disponible",
-        colores: "Verde",
-        edad: "+3",
-        categoria: "dinosaurios",
-        genero: "ninos"
-    },
+    
     {
         id: 2,
         titulo: "Computador Interactivo con Pantalla y Mouse",
@@ -7917,32 +7900,6 @@ const jugueterialocaldb = [
         edad: "+3",
         categoria: "educativo",
         genero: "ninas"
-    },
-    {
-        id: 53,
-        titulo: "Spiderman Bailarin, Luces y Sonido",
-        preciomayorista: 29999,
-        precio: 29000,
-        descripcion: `¡Experimenta la emoción de Spider-Man en una nueva dimensión con el Spider-Man Bailarín con Luces y Sonido! Este juguete te llevará directamente al mundo del famoso superhéroe arácnido mientras se mueve, brilla y suena al ritmo de la acción.
-
-        Spider-Man cobra vida con movimientos de baile divertidos y realistas que te harán sonreír. Sus luces brillantes añaden un toque de magia y emoción mientras iluminan el camino hacia la diversión. Además, con sonidos auténticos, te sentirás como si estuvieras en el corazón de una verdadera batalla contra villanos.
-        
-        Este Spider-Man bailarín es fácil de activar con solo colocar 3 pilas AA!`,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto53a.webp" 
-            },
-            {
-                tipo: "video",
-                url: "/producto53b.mp4" 
-            }
-        ],
-        status: "disponible",
-        colores: "Rojo",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "ninos"
     },
     {
         id: 52,
@@ -8025,33 +7982,6 @@ const jugueterialocaldb = [
         edad: "+3",
         categoria: "maquillaje",
         genero: "ninas"
-    },
-    {
-        id: 58,
-        titulo: "Carro Control Recargable Sensor con Control Remoto con Vapor de Agua",
-        preciomayorista: 84999,
-        precio: 78000,
-        referencia: "8868E",
-        descripcion: `¡Prepárate para una experiencia de conducción única con el Carro Control Sensor, Este vehículo te ofrece lo mejor de ambos mundos, combinando tecnología avanzada con la diversión clásica de los carros a control remoto.
-
-        El control de sensor de movimiento te permite dirigir el carro simplemente moviendo la mano, lo que añade un nivel de interacción y emoción sin precedentes. ¡Es como si estuvieras controlando el carro con gestos mágicos! Además, el control convencional también está incluido para una experiencia de conducción tradicional.
-        
-        Este carro está equipado con luces brillantes que iluminan tu camino y sonidos realistas que te sumergen en una experiencia de conducción auténtica. Pero eso no es todo, ¡también lanza vapor de agua, creando efectos visuales impresionantes que emulan el escape de un vehículo real!`,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto58a.webp" 
-            },
-            {
-                tipo: "video",
-                url: "/producto58b.mp4" 
-            }
-        ],
-        status: "disponible",
-        colores: "Rojo",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
     },
     {
         id: 62,

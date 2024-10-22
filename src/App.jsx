@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './layout/Layout'
 import Jugueterialocal from './paginas/Jugueterialocal'
+import Jugueterialocalprecios from './paginas/Jugueterialocalprecios'
 import Inicio from './paginas/Inicio'
 import Producto from './paginas/Producto'
 import Nosotros from './paginas/Nosotros'
@@ -22,6 +23,7 @@ function App() {
             <Route path='/' element={<Layout />}>
               <Route index element={<Inicio />}/>
               <Route path='catalogojuguetesl' element={<Jugueterialocal />}/>
+              <Route path='catalogojugueteslp' element={<Jugueterialocalprecios />}/>
               <Route path='ferreteriagr' element={<Ferreteriagregorio />}/>
               <Route path='ferreteriaiv' element={<FerrreteriaIvan />}/>
               <Route path='ferreteriame' element={<FerrreteriaMery />}/>
