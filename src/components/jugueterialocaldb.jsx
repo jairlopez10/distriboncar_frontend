@@ -1,6 +1,197 @@
 
 const jugueterialocaldb = [
     {
+        id: 445,
+        titulo: "Lanzadora Hidrogel M416 con Luz, Doble Proveedor",
+        preciomayorista: 7199,
+        precio: 85000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto445a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "punteria",
+        genero: "ninos"
+    },
+    {
+        id: 366,
+        titulo: "Lanzadora Hidrogel PKM con Luz",
+        preciomayorista: 7199,
+        precio: 67000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto366a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "punteria",
+        genero: "ninos"
+    },
+    {
+        id: 406,
+        titulo: "Lanzadora Hidrogel con Mira y Luces",
+        preciomayorista: 7199,
+        precio: 80000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto406a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "punteria",
+        genero: "ninos"
+    },
+    {
+        id: 407,
+        titulo: "Lanzadora de Hidrogel y Gafas Protección",
+        preciomayorista: 7199,
+        precio: 75000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto407a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "punteria",
+        genero: "ninos"
+    },
+    {
+        id: 52,
+        titulo: "Lanzador Hidrogel M416 Automatica Recargable + 1.500 Orvis Hidrogel",
+        preciomayorista: 74999,
+        precio: 85000,
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto52a.webp" 
+            }
+        ],
+        status: "No Stock",
+        colores: "Unicolor",
+        edad: "+11",
+        categoria: "punteria",
+        genero: "unisex"
+    },
+    {
+        id: 448,
+        titulo: "Lanzadora Agua M416 Recargable",
+        preciomayorista: 74999,
+        precio: 48000,
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto448a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+11",
+        categoria: "punteria",
+        genero: "unisex"
+    },
+    {
+        id: 449,
+        titulo: "Lanzadora Agua Pistola Recargable",
+        preciomayorista: 74999,
+        precio: 32000,
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto449a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+11",
+        categoria: "punteria",
+        genero: "unisex"
+    },
+    {
+        id: 381,
+        titulo: "lanzadora Hidrogel, Dardos y Gafas",
+        preciomayorista: 7199,
+        precio: 40000,
+        referencia: "518B-2",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto381a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 41,
+        titulo: "Pistola Lanza Dardos e Hidrogel + 200 Bolas Hidrogel",
+        preciomayorista: 1000,
+        precio: 20000,
+        referencia: "8820",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto41a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto41b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Azul, Verde",
+        edad: "+12",
+        categoria: "punteria",
+        genero: "unisex"
+    },
+    {
+        id: 362,
+        titulo: "Lanzadoras X2 de Ping Pong Soft",
+        preciomayorista: 7199,
+        precio: 38000,
+        referencia: "G-16",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto362a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "punteria",
+        genero: "unisex"
+    },
+    {
         id: 378,
         titulo: "Tanque Hidrogel Sensor, Control y Humo",
         preciomayorista: 7199,
@@ -176,26 +367,6 @@ const jugueterialocaldb = [
             {
                 tipo: "imagen",
                 url: "/producto413a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    
-    {
-        id: 373,
-        titulo: "Lancha a Control Remoto B/R",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto373a.webp" 
             }
         ],
         status: "disponible",
@@ -448,7 +619,7 @@ const jugueterialocaldb = [
                 url: "/producto255a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+6",
         categoria: "carros-control",
@@ -1336,6 +1507,101 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
+        id: 377,
+        titulo: "Organeta con luces y sonido",
+        preciomayorista: 7199,
+        precio: 34000,
+        referencia: "4400",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto377a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 182,
+        titulo: "CAMBIO - Organeta Granja",
+        preciomayorista: 7199,
+        precio: 15000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto182a.webp" 
+            }
+        ],
+        status: "No Stock",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "organetas-guitarras",
+        genero: "unisex"
+    },
+    {
+        id: 179,
+        titulo: "Organeta Vaca",
+        preciomayorista: 7199,
+        precio: 17000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto179a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "organetas-guitarras",
+        genero: "unisex"
+    },
+    {
+        id: 165,
+        titulo: "Libelula con Luces, Sonido y Movimiento",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto165a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "mascotas",
+        genero: "unisex"
+    },
+    {
+        id: 180,
+        titulo: "Organeta Gusano",
+        preciomayorista: 7199,
+        precio: 18000,
+        referencia: "3019",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto180a.webp" 
+            }
+        ],
+        status: "No Stock",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "organetas-guitarras",
+        genero: "unisex"
+    },
+    {
         id: 177,
         titulo: "Moto Frozen con Movimiento, Luces y Sonido",
         preciomayorista: 7199,
@@ -1480,7 +1746,7 @@ const jugueterialocaldb = [
         id: 376,
         titulo: "Pato con movimiento, luz y sonido",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 25000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1496,29 +1762,10 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
-        id: 366,
-        titulo: "Lanzadora Hidrogel con Luz",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto366a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
         id: 367,
         titulo: "Cry Baby Caminadora Repetidora",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 54000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1541,7 +1788,7 @@ const jugueterialocaldb = [
         id: 368,
         titulo: "Maquina Helados Play Doh",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 29000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1564,7 +1811,7 @@ const jugueterialocaldb = [
         id: 369,
         titulo: "Kit de Uñas con Secador",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 23000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1587,7 +1834,7 @@ const jugueterialocaldb = [
         id: 370,
         titulo: "Cafetera y Licuadora",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 39000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1610,7 +1857,7 @@ const jugueterialocaldb = [
         id: 372,
         titulo: "Dinosaurio lanza burbujas",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 60000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1630,32 +1877,11 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     
-    
-    {
-        id: 381,
-        titulo: "lanzadora Hidrogel, Dardos y Gafas",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto381a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    
     {
         id: 383,
         titulo: "Dardos de Pistolas X 10",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 4500,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1671,29 +1897,10 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
-        id: 377,
-        titulo: "Organeta con luces y sonido",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto377a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
         id: 379,
         titulo: "Avion con movimiento, luces y sonido",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 32000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1712,7 +1919,7 @@ const jugueterialocaldb = [
         id: 371,
         titulo: "Avion con movimiento, luces y sonido",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 32000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1731,7 +1938,7 @@ const jugueterialocaldb = [
         id: 385,
         titulo: "Kit de Uñas con Secador de Cabello",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 49000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1747,29 +1954,10 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
-        id: 386,
-        titulo: "Tapete Musical con Baquetas",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto386a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
         id: 387,
         titulo: "Maleta de Uñas con Secador",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 48000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1784,31 +1972,11 @@ const jugueterialocaldb = [
         categoria: "carros-control",
         genero: "ninos"
     },
-    
-    {
-        id: 389,
-        titulo: "Bebe 15 en 1",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto389a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
     {
         id: 390,
-        titulo: "Registradora con Luces, Sonido",
+        titulo: "Registradora Moño con Luces, Sonido",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 46000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1825,9 +1993,9 @@ const jugueterialocaldb = [
     },
     {
         id: 391,
-        titulo: "Lego Bumble Bee 2 en 1",
+        titulo: "Lego Bumble Bee 2 en 1 de 413 PCS",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 30000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1843,10 +2011,29 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
+        id: 396,
+        titulo: "Lego Transformer 2 en 1 de 413 PCS",
+        preciomayorista: 7199,
+        precio: 30000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto396a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
         id: 392,
         titulo: "Orvis el Hidrogel X 10.000 Orvis ",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 3000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1881,48 +2068,10 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
-        id: 395,
-        titulo: "Lanzadora Soft Balls X 2",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto395a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 396,
-        titulo: "Lego Transformer 2 en 1 de 413 PCS",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto396a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
         id: 398,
         titulo: "Kit de Uñas y Spa con Burbujas",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 60000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1941,7 +2090,7 @@ const jugueterialocaldb = [
         id: 399,
         titulo: "Play Doh Dientes con 3 Repuestos",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 23000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1960,7 +2109,7 @@ const jugueterialocaldb = [
         id: 400,
         titulo: "Karaoke Recargable con Microfono Niño",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 59000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1979,7 +2128,7 @@ const jugueterialocaldb = [
         id: 401,
         titulo: "Karaoke Recargable con Microfono Niña",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 59000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -1996,9 +2145,9 @@ const jugueterialocaldb = [
     },
     {
         id: 402,
-        titulo: "Computador con Pantalla de +150 Actividades",
+        titulo: "Computador con Pantalla de +130 Actividades",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 85000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2017,7 +2166,7 @@ const jugueterialocaldb = [
         id: 403,
         titulo: "Guitarra Jirafa con Luces",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 31000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2037,7 +2186,7 @@ const jugueterialocaldb = [
         id: 405,
         titulo: "Registradora con Balanza",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 49000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2053,49 +2202,10 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
-        id: 406,
-        titulo: "Lanzadora Hidrogel con Mira y Luces",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto406a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 407,
-        titulo: "Lanzadora de Hidrogel y Gafas Protección",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto407a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    
-    {
         id: 416,
         titulo: "Lanza Burbujas Recargable",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 20000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2110,106 +2220,12 @@ const jugueterialocaldb = [
         categoria: "carros-control",
         genero: "ninos"
     },
-    {
-        id: 417,
-        titulo: "Cubo cilindrico",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto417a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 418,
-        titulo: "Cubo cilindrico",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto418a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 419,
-        titulo: "Cubo 4x4",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto419a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 420,
-        titulo: "Cubo 2x2",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto420a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 421,
-        titulo: "Cubo 3x3 Formas",
-        preciomayorista: 7199,
-        precio: 1,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto421a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
+    
     {
         id: 422,
         titulo: "Kit de Maquillaje",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 37000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2228,7 +2244,7 @@ const jugueterialocaldb = [
         id: 423,
         titulo: "Kit de Maquillaje",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 23000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2247,7 +2263,7 @@ const jugueterialocaldb = [
         id: 424,
         titulo: "Twister Juego Mesa",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 29000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2266,7 +2282,7 @@ const jugueterialocaldb = [
         id: 425,
         titulo: "Tablero con Letras 3 en 1",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 70000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2286,7 +2302,7 @@ const jugueterialocaldb = [
         id: 427,
         titulo: "Casa de la Barbie",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 58000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2305,7 +2321,7 @@ const jugueterialocaldb = [
         id: 428,
         titulo: "Shakira Pequeña",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 15000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2324,7 +2340,7 @@ const jugueterialocaldb = [
         id: 429,
         titulo: "Camara lanza Burbujas",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 12000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2341,9 +2357,9 @@ const jugueterialocaldb = [
     },
     {
         id: 430,
-        titulo: "Cafetera con pocillo",
+        titulo: "Batidora Juguete",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 29000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2362,7 +2378,7 @@ const jugueterialocaldb = [
         id: 431,
         titulo: "Licuadora con Frutas",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 21000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2381,7 +2397,7 @@ const jugueterialocaldb = [
         id: 432,
         titulo: "Maquina de Coser Grande",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 54000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2400,7 +2416,7 @@ const jugueterialocaldb = [
         id: 433,
         titulo: "Maquillaje Flor",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 22000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2419,7 +2435,7 @@ const jugueterialocaldb = [
         id: 434,
         titulo: "Muñeca Sirena Pequeña",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 9500,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2438,7 +2454,7 @@ const jugueterialocaldb = [
         id: 435,
         titulo: "Dinosaurio Pop It",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 19000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2457,7 +2473,7 @@ const jugueterialocaldb = [
         id: 436,
         titulo: "Castillo con Princesa y Accesorios",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 44000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2476,7 +2492,7 @@ const jugueterialocaldb = [
         id: 437,
         titulo: "Kit Uñas con Secador",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 39000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2495,7 +2511,7 @@ const jugueterialocaldb = [
         id: 438,
         titulo: "Castillo con Princesa y Colores",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 65000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2514,7 +2530,7 @@ const jugueterialocaldb = [
         id: 439,
         titulo: "Bebe fino con Tetero y Pinguino",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 98000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2533,7 +2549,7 @@ const jugueterialocaldb = [
         id: 440,
         titulo: "Maquillaje Dona",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 18000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2550,9 +2566,9 @@ const jugueterialocaldb = [
     },
     {
         id: 441,
-        titulo: "Maquillaje paleta Grande",
+        titulo: "Maquillaje Colombina Grande",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 20000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2571,7 +2587,7 @@ const jugueterialocaldb = [
         id: 442,
         titulo: "Maquillaje Flor Grande",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 23000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2590,7 +2606,7 @@ const jugueterialocaldb = [
         id: 443,
         titulo: "Maleta Veterinaria",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 30000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2609,7 +2625,7 @@ const jugueterialocaldb = [
         id: 444,
         titulo: "Maquillaje Dulces Grande",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 35000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2623,26 +2639,6 @@ const jugueterialocaldb = [
         edad: "+6",
         categoria: "carros-control",
         genero: "ninos"
-    },
-
-    {
-        id: 165,
-        titulo: "Libelula con Luces, Sonido y Movimiento",
-        preciomayorista: 7199,
-        precio: 26000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto165a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "mascotas",
-        genero: "unisex"
     },
     {
         id: 166,
@@ -2752,7 +2748,7 @@ const jugueterialocaldb = [
                 url: "/producto171a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -2790,7 +2786,7 @@ const jugueterialocaldb = [
                 url: "/producto173a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Surtida",
         edad: "+3",
         categoria: "munecos",
@@ -2800,7 +2796,7 @@ const jugueterialocaldb = [
         id: 174,
         titulo: "Lego X1 de Personajes",
         preciomayorista: 7199,
-        precio: 2500,
+        precio: 2600,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2817,7 +2813,7 @@ const jugueterialocaldb = [
     },
     {
         id: 176,
-        titulo: "CAMBIAR - Sonajero Digital Musical",
+        titulo: "CAMBIO - Sonajero Digital Musical",
         preciomayorista: 7199,
         precio: 12000,
         referencia: "",
@@ -2828,7 +2824,7 @@ const jugueterialocaldb = [
                 url: "/producto176a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "didacticos",
@@ -2847,48 +2843,10 @@ const jugueterialocaldb = [
                 url: "/producto178a.webp" 
             }
         ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "dinosaurios",
-        genero: "unisex"
-    },
-    {
-        id: 179,
-        titulo: "Organeta Vaca",
-        preciomayorista: 7199,
-        precio: 17000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto179a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "organetas-guitarras",
-        genero: "unisex"
-    },
-    {
-        id: 180,
-        titulo: "Organeta Gusano",
-        preciomayorista: 7199,
-        precio: 18000,
-        referencia: "3019",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto180a.webp" 
-            }
-        ],
         status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
-        categoria: "organetas-guitarras",
+        categoria: "dinosaurios",
         genero: "unisex"
     },
     {
@@ -2909,27 +2867,7 @@ const jugueterialocaldb = [
         edad: "+3",
         categoria: "munecas",
         genero: "ninas"
-    },
-    {
-        id: 182,
-        titulo: "Organeta Granja",
-        preciomayorista: 7199,
-        precio: 15000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto182a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "organetas-guitarras",
-        genero: "unisex"
-    },
-    
+    },    
     {
         id: 186,
         titulo: "Organeta Perro",
@@ -2991,7 +2929,7 @@ const jugueterialocaldb = [
         id: 189,
         titulo: "Dinosaurio 4 Cabezas Pone Huevos",
         preciomayorista: 7199,
-        precio: 46000,
+        precio: 45000,
         referencia: "666-4",
         descripcion: ``,
         imagenes: [
@@ -3010,7 +2948,7 @@ const jugueterialocaldb = [
         id: 190,
         titulo: "Dinosaurio 3 Cabezas con Movimiento, Luces y Sonido",
         preciomayorista: 7199,
-        precio: 45000,
+        precio: 40000,
         referencia: "6653",
         descripcion: ``,
         imagenes: [
@@ -3049,7 +2987,7 @@ const jugueterialocaldb = [
         id: 193,
         titulo: "Dinosaurio Lanza Vapor y Pone Huevos",
         preciomayorista: 7199,
-        precio: 50000,
+        precio: 45000,
         referencia: "NY019B",
         descripcion: ``,
         imagenes: [
@@ -3087,7 +3025,7 @@ const jugueterialocaldb = [
         id: 195,
         titulo: "Dinosaurio Lanza Vapor y Pone Huevos Grande",
         preciomayorista: 7199,
-        precio: 65000,
+        precio: 55000,
         referencia: "6689",
         descripcion: ``,
         imagenes: [
@@ -3106,7 +3044,7 @@ const jugueterialocaldb = [
         id: 196,
         titulo: "Dinosaurio Chimuelo con Ginete",
         preciomayorista: 7199,
-        precio: 35000,
+        precio: 34000,
         referencia: "3308",
         descripcion: ``,
         imagenes: [
@@ -3125,7 +3063,7 @@ const jugueterialocaldb = [
         id: 197,
         titulo: "Dinosaurio Pone Huevos con Movimiento, Luces y Sonido",
         preciomayorista: 7199,
-        precio: 46000,
+        precio: 40000,
         referencia: "666-16",
         descripcion: ``,
         imagenes: [
@@ -3153,7 +3091,7 @@ const jugueterialocaldb = [
                 url: "/producto198a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "dinosaurios",
@@ -3163,7 +3101,7 @@ const jugueterialocaldb = [
         id: 199,
         titulo: "Dinosaurio 3 Cabezas Bota Humo",
         preciomayorista: 7199,
-        precio: 55000,
+        precio: 49000,
         referencia: "8801",
         descripcion: ``,
         imagenes: [
@@ -3182,7 +3120,7 @@ const jugueterialocaldb = [
         id: 200,
         titulo: "Dinosaurio Lanza Humo con Movimiento, Luces y Sonido",
         preciomayorista: 7199,
-        precio: 55000,
+        precio: 48000,
         referencia: "881",
         descripcion: ``,
         imagenes: [
@@ -3201,7 +3139,7 @@ const jugueterialocaldb = [
         id: 201,
         titulo: "Dinosaurio Calabera Pone Huevos",
         preciomayorista: 7199,
-        precio: 46000,
+        precio: 40000,
         referencia: "666-15",
         descripcion: ``,
         imagenes: [
@@ -3220,7 +3158,7 @@ const jugueterialocaldb = [
         id: 202,
         titulo: "Dinosaurio Cuello Largo Pone Huevos",
         preciomayorista: 7199,
-        precio: 30000,
+        precio: 27000,
         referencia: "6626",
         descripcion: ``,
         imagenes: [
@@ -3256,7 +3194,7 @@ const jugueterialocaldb = [
     },
     {
         id: 204,
-        titulo: "CAMBIAR - Lanza burbujas Escopeta",
+        titulo: "CAMBIO - Lanza burbujas Escopeta",
         preciomayorista: 7199,
         precio: 28000,
         referencia: "B968A",
@@ -3267,7 +3205,7 @@ const jugueterialocaldb = [
                 url: "/producto204a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "punteria",
@@ -3277,7 +3215,7 @@ const jugueterialocaldb = [
         id: 205,
         titulo: "Dinosaurio Alas Cuello Largo Pone Huevos",
         preciomayorista: 7199,
-        precio: 35000,
+        precio: 32000,
         referencia: "857B",
         descripcion: ``,
         imagenes: [
@@ -3296,7 +3234,7 @@ const jugueterialocaldb = [
         id: 206,
         titulo: "Dinosaurio Gigante (Nuevo) Cuello Largo Alas Pone Huevos",
         preciomayorista: 7199,
-        precio: 43000,
+        precio: 40000,
         referencia: "666-2A",
         descripcion: ``,
         imagenes: [
@@ -3315,7 +3253,7 @@ const jugueterialocaldb = [
         id: 207,
         titulo: "Dinosaurio 3 Cabezas Pone Huevos",
         preciomayorista: 7199,
-        precio: 39000,
+        precio: 37000,
         referencia: "858B",
         descripcion: ``,
         imagenes: [
@@ -3334,7 +3272,7 @@ const jugueterialocaldb = [
         id: 208,
         titulo: "Dinosaurio con Alas, Luz y Sonido",
         preciomayorista: 7199,
-        precio: 46000,
+        precio: 40000,
         referencia: "6659",
         descripcion: ``,
         imagenes: [
@@ -3353,7 +3291,7 @@ const jugueterialocaldb = [
         id: 209,
         titulo: "Dinosaurio 5 Cabezas con Movimiento, Luz y Sonido",
         preciomayorista: 7199,
-        precio: 38000,
+        precio: 35000,
         referencia: "NY016",
         descripcion: ``,
         imagenes: [
@@ -3372,7 +3310,7 @@ const jugueterialocaldb = [
         id: 388,
         titulo: "Dinosaurio con Hijo lanza Vapor",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 33000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -3430,7 +3368,7 @@ const jugueterialocaldb = [
         id: 211,
         titulo: "Maleta Construccion y Militar",
         preciomayorista: 7199,
-        precio: 22000,
+        precio: 20000,
         referencia: "399-256/7",
         descripcion: ``,
         imagenes: [
@@ -3462,7 +3400,7 @@ const jugueterialocaldb = [
                 url: "/producto212b.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "doctor-cocina",
@@ -3617,7 +3555,7 @@ const jugueterialocaldb = [
         id: 220,
         titulo: "Cocina Musical con Horno y Accesorios",
         preciomayorista: 7199,
-        precio: 70000,
+        precio: 78000,
         referencia: "008-58",
         descripcion: ``,
         imagenes: [
@@ -3645,7 +3583,7 @@ const jugueterialocaldb = [
                 url: "/producto221a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -3664,7 +3602,7 @@ const jugueterialocaldb = [
                 url: "/producto222a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+6",
         categoria: "punteria",
@@ -3683,7 +3621,7 @@ const jugueterialocaldb = [
                 url: "/producto223a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "peluches",
@@ -3702,7 +3640,7 @@ const jugueterialocaldb = [
                 url: "/producto224a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "educativo",
@@ -3740,7 +3678,7 @@ const jugueterialocaldb = [
                 url: "/producto226a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -3751,7 +3689,7 @@ const jugueterialocaldb = [
         id: 228,
         titulo: "Carros Cambia de Color",
         preciomayorista: 7199,
-        precio: 6000,
+        precio: 5000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -3822,7 +3760,7 @@ const jugueterialocaldb = [
                 url: "/producto246a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -3860,7 +3798,7 @@ const jugueterialocaldb = [
                 url: "/producto248a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -4291,7 +4229,7 @@ const jugueterialocaldb = [
         id: 274,
         titulo: "Bicicleta Metalica Caja",
         preciomayorista: 7199,
-        precio: 22000,
+        precio: 19000,
         referencia: "NM2204-012",
         descripcion: ``,
         imagenes: [
@@ -4319,7 +4257,7 @@ const jugueterialocaldb = [
                 url: "/producto275a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "educativo",
@@ -4384,9 +4322,9 @@ const jugueterialocaldb = [
     },
     {
         id: 279,
-        titulo: "CAMBIO Dinosaurio Lanza Vapor Desarmable con Movimiento Luz y Sonido",
+        titulo: "Dinosaurio Lanza Vapor Desarmable con Movimiento Luz y Sonido",
         preciomayorista: 7199,
-        precio: 33000,
+        precio: 30000,
         referencia: "8880",
         descripcion: ``,
         imagenes: [
@@ -4405,7 +4343,7 @@ const jugueterialocaldb = [
         id: 280,
         titulo: "Perro Fino Saca la Lengua con Movimiento y Sonido Recargable",
         preciomayorista: 7199,
-        precio: 55000,
+        precio: 53000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -4437,7 +4375,7 @@ const jugueterialocaldb = [
                 url: "/producto281a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "legos",
@@ -4445,9 +4383,9 @@ const jugueterialocaldb = [
     },
     {
         id: 282,
-        titulo: "Cartas Pokemon Doradas",
+        titulo: "Cartas Pokemon Doradas X 55 UND",
         preciomayorista: 7199,
-        precio: 7000,
+        precio: 9000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -4466,7 +4404,7 @@ const jugueterialocaldb = [
         id: 283,
         titulo: "Cartas Vengadores",
         preciomayorista: 7199,
-        precio: 2000,
+        precio: 1800,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -4590,7 +4528,7 @@ const jugueterialocaldb = [
                 url: "/producto295a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -4601,7 +4539,7 @@ const jugueterialocaldb = [
         id: 297,
         titulo: "Mula Cars con 4 Carros",
         preciomayorista: 7199,
-        precio: 35000,
+        precio: 33000,
         referencia: "8835-2",
         descripcion: ``,
         imagenes: [
@@ -4953,7 +4891,7 @@ const jugueterialocaldb = [
         id: 318,
         titulo: "Bebe Orina y Come con Accesorios",
         preciomayorista: 7199,
-        precio: 54000,
+        precio: 55000,
         referencia: "9560",
         descripcion: ``,
         imagenes: [
@@ -5029,7 +4967,7 @@ const jugueterialocaldb = [
         id: 322,
         titulo: "Oso Peluche con Luz y Sonido",
         preciomayorista: 7199,
-        precio: 30000,
+        precio: 25000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -5076,7 +5014,7 @@ const jugueterialocaldb = [
                 url: "/producto324a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "punteria",
@@ -5181,7 +5119,7 @@ const jugueterialocaldb = [
         id: 330,
         titulo: "Set de Cocina e Utensilios",
         preciomayorista: 7199,
-        precio: 25000,
+        precio: 26000,
         referencia: "SK98C",
         descripcion: ``,
         imagenes: [
@@ -5333,7 +5271,7 @@ const jugueterialocaldb = [
         id: 338,
         titulo: "Bebe con Sonido y Tetero",
         preciomayorista: 7199,
-        precio: 45000,
+        precio: 47000,
         referencia: "XMY8021",
         descripcion: ``,
         imagenes: [
@@ -5371,7 +5309,7 @@ const jugueterialocaldb = [
         id: 340,
         titulo: "Bebe Llora y se Acuesta",
         preciomayorista: 7199,
-        precio: 82000,
+        precio: 78000,
         referencia: "XMY8068",
         descripcion: ``,
         imagenes: [
@@ -5390,7 +5328,7 @@ const jugueterialocaldb = [
         id: 341,
         titulo: "Bebe Sentidos",
         preciomayorista: 7199,
-        precio: 85000,
+        precio: 91000,
         referencia: "XMY8048",
         descripcion: ``,
         imagenes: [
@@ -5407,9 +5345,9 @@ const jugueterialocaldb = [
     },
     {
         id: 342,
-        titulo: "CAMBIO Cry Baby Sorpresa Huevo",
+        titulo: "Cry Baby Sorpresa Huevo",
         preciomayorista: 69900,
-        precio: 60000,
+        precio: 58000,
         referencia: '',
         descripcion: `
         ¡Inspira a tu pequeña estrella musical con el Conjunto de Guitarra Eléctrica, Parlante y Micrófono! Este juguete musical es perfecto para que las jóvenes artistas exploren la música de manera creativa y divertida.
@@ -5435,6 +5373,10 @@ const jugueterialocaldb = [
         categoria: "munecas",
         genero: "ninas"
     },
+
+];
+
+const pendienteconfirmar = [
     {
         id: 343,
         titulo: "Princesa Alumbra el Pelo, con Luz y Sonido",
@@ -5665,26 +5607,6 @@ const jugueterialocaldb = [
         colores: "Unicolor",
         edad: "+3",
         categoria: "musical",
-        genero: "unisex"
-    },
-    
-    {
-        id: 362,
-        titulo: "Lanzadoras X2 de Ping Pong Soft",
-        preciomayorista: 7199,
-        precio: 35000,
-        referencia: "G-16",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto362a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "punteria",
         genero: "unisex"
     },
     {
@@ -6935,10 +6857,8 @@ const jugueterialocaldb = [
         id: 33,
         titulo: "Patito Burbujeante Bailarin",
         preciomayorista: 32999,
-        precio: 33000,
-        descripcion: `¡Conoce a nuestro Patito Bailarín Burbujeante, el compañero de diversión definitivo para tus pequeños! Este encantador juguete combina la magia de la música, el baile y las burbujas para brindar horas interminables de entretenimiento.
-
-        Nuestro Patito Bailarín no solo se mueve al ritmo de melodías alegres, sino que también lanza burbujas mágicas que agregarán un toque de fantasía a cada juego. Imagina la emoción en los ojos de tus niños mientras ven cómo las burbujas flotan y giran a su alrededor!`,
+        precio: 32000,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7700,33 +7620,6 @@ const jugueterialocaldb = [
         genero: "unisex"
     },
     {
-        id: 41,
-        titulo: "Pistola Lanza Dardos e Hidrogel + 200 Bolas Hidrogel",
-        preciomayorista: 1000,
-        precio: 20000,
-        referencia: "8820",
-        descripcion: `¡Prepárate para la acción emocionante con la Pistola Lanza Dardos e Hidrogel de Última Generación! Este conjunto todo en uno te sumerge en una experiencia de juego llena de adrenalina y diversión.
-
-        La pistola lanza dardos ofrece precisión y potencia en cada disparo. Con 6 dardos incluidos, estarás listo para enfrentar cualquier desafío y alcanzar tus objetivos con precisión. Pero eso no es todo, la verdadera innovación radica en las 200 bolas de hidrogel que también puedes disparar. Estas bolas, que se expanden al contacto con el agua, añaden una dimensión emocionante a tus batallas imaginarias.
-        
-        El set incluso incluye un recipiente especialmente diseñado para guardar las bolas de hidrogel mientras juegas!`,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto41a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto41b.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Azul, Verde",
-        edad: "+12",
-        categoria: "punteria",
-        genero: "unisex"
-    },
-    {
         id: 43,
         titulo: "Cartas de Poker",
         preciomayorista: 1000,
@@ -7854,7 +7747,7 @@ const jugueterialocaldb = [
                 url: "/producto50b.mp4"
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+11",
         categoria: "punteria",
@@ -7900,28 +7793,6 @@ const jugueterialocaldb = [
         edad: "+3",
         categoria: "educativo",
         genero: "ninas"
-    },
-    {
-        id: 52,
-        titulo: "Lanzador Hidrogel M416 Automatica Recargable + 1.500 Orvis Hidrogel",
-        preciomayorista: 74999,
-        precio: 85000,
-        descripcion: `¡Entra en la acción con la Pistola Lanzadora Automática de Bolas de Hidrogel, inspirada en el estilo de un M416! Este emocionante juguete te lleva a un mundo lleno de emociones y diversión mientras te sumerges en batallas simuladas y aventuras imaginativas.
-
-        La pistola lanzadora automática, con su diseño estilo M416, te permite disparar ráfagas de bolas de hidrogel de manera continua con solo mantener presionado el gatillo. Con 1500 bolas de hidrogel incluidas, estarás listo para enfrentar cualquier desafío y mantener la emoción durante horas.
-        
-        Las bolas de hidrogel son seguras y biodegradables, lo que garantiza un juego responsable y sin preocupaciones!`,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto52a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+11",
-        categoria: "punteria",
-        genero: "unisex"
     },
     {
         id: 1,
@@ -8017,9 +7888,157 @@ const jugueterialocaldb = [
         categoria: "mascotas",
         genero: "unisex"
     },
-
-
-];
+    {
+        id: 417,
+        titulo: "Cubo cilindrico",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto417a.webp" 
+            }
+        ],
+        status: "No Stock",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 418,
+        titulo: "Cubo cilindrico",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto418a.webp" 
+            }
+        ],
+        status: "No Stock",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 419,
+        titulo: "Cubo 4x4",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto419a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 373,
+        titulo: "Lancha a Control Remoto B/R",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto373a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 420,
+        titulo: "Cubo 2x2",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto420a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 421,
+        titulo: "Cubo 3x3 Formas",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto421a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 446,
+        titulo: "Lanzadora Hidrogel Pistola Recargable",
+        preciomayorista: 74999,
+        precio: 47000,
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto446a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+11",
+        categoria: "punteria",
+        genero: "unisex"
+    },
+    {
+        id: 447,
+        titulo: "Lanzadora Hidrogel MP5 Recargable",
+        preciomayorista: 74999,
+        precio: 67000,
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto447a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+11",
+        categoria: "punteria",
+        genero: "unisex"
+    },
+]
 
 
 export default jugueterialocaldb;
