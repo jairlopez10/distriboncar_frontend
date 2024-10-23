@@ -62,6 +62,576 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
+        id: 450,
+        titulo: "Excavadora Transformer con Luz, Sonido y Movimiento",
+        preciomayorista: 7199,
+        precio: 27000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto450a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 451,
+        titulo: "Bulldozer con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 30000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto451a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 452,
+        titulo: "Ambulancia con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 27000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto452a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 453,
+        titulo: "Excavadora con Personaje Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 30000,
+        referencia: "6608-21B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto453a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 454,
+        titulo: "Excavadora con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 27000,
+        referencia: "YF3088A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto454a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 455,
+        titulo: "Dinosaurio Transparente con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 32000,
+        referencia: "M8018-45",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto455a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 456,
+        titulo: "Tren Lanza Burbujas, Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 29000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto456a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 457,
+        titulo: "Telefono Musical, Movimiento y Luces",
+        preciomayorista: 7199,
+        precio: 36000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto457a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 458,
+        titulo: "Moto Frozen con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 29000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto458a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 459,
+        titulo: "Organeta Vaca con Antenas",
+        preciomayorista: 7199,
+        precio: 16000,
+        referencia: "MTK015A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto459a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 460,
+        titulo: "Organeta Vaca",
+        preciomayorista: 7199,
+        precio: 32000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto460a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 461,
+        titulo: "Carruaje Pony con Movimiento, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 36000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto461a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 462,
+        titulo: "Organeta Conejo",
+        preciomayorista: 7199,
+        precio: 32000,
+        referencia: "3300",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto462a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 463,
+        titulo: "Pisola Dino Lanza Burbujas Recargable",
+        preciomayorista: 7199,
+        precio: 22000,
+        referencia: "563A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto463a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 464,
+        titulo: "Pisola Burbujas Recargable 32 Orificios",
+        preciomayorista: 7199,
+        precio: 12000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto464a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 465,
+        titulo: "Pisola Soft con Malla de Juego",
+        preciomayorista: 7199,
+        precio: 40000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto465a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 466,
+        titulo: "Pistola Laser Lanza Daros e Hidrogel",
+        preciomayorista: 7199,
+        precio: 23000,
+        referencia: "716C",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto466a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 467,
+        titulo: "Muñeca Frozen con 4 Vestidos y Accesorios",
+        preciomayorista: 7199,
+        precio: 55000,
+        referencia: "218",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto467a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 468,
+        titulo: "Muñeca Cry Baby, Coche y Tetero",
+        preciomayorista: 7199,
+        precio: 45000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto468a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 469,
+        titulo: "Frozen con Pelo, Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 45000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto469a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 470,
+        titulo: "Muñeca Fina con Tetero y Flamenco",
+        preciomayorista: 7199,
+        precio: 276000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto470a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 471,
+        titulo: "Bebe Fino con Leon y Tetero",
+        preciomayorista: 7199,
+        precio: 195000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto471a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 472,
+        titulo: "Masha y el Oso",
+        preciomayorista: 7199,
+        precio: 18000,
+        referencia: "RK3001",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto472a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 473,
+        titulo: "Pony con Tetero y Chupo",
+        preciomayorista: 7199,
+        precio: 11500,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto473a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 474,
+        titulo: "Peluche mueve Ojos y Cola con Sonido",
+        preciomayorista: 7199,
+        precio: 69000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto474a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 475,
+        titulo: "Perro con Casa y Hueso",
+        preciomayorista: 7199,
+        precio: 30000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto475a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 476,
+        titulo: "Perro con Casa",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto476a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 477,
+        titulo: "Muñeca Barbie con Vestidos y Bicicleta",
+        preciomayorista: 7199,
+        precio: 8500,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto477a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 478,
+        titulo: "Juego de Mesa Rummy",
+        preciomayorista: 7199,
+        precio: 29000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto478a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 479,
+        titulo: "",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto479a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
         id: 114,
         titulo: "Kit Maquillaje con Secador de Uñas",
         preciomayorista: 7199,
@@ -490,7 +1060,7 @@ const jugueterialocaldb = [
         id: 124,
         titulo: "Barbie Individual Maciza",
         preciomayorista: 7199,
-        precio: 4000,
+        precio: 4500,
         referencia: "181A2",
         descripcion: ``,
         imagenes: [
@@ -737,7 +1307,7 @@ const jugueterialocaldb = [
         id: 118,
         titulo: "Bebe Sonido con Sleeping (NUEVO)",
         preciomayorista: 7199,
-        precio: 45000,
+        precio: 50000,
         referencia: "XMY8024",
         descripcion: ``,
         imagenes: [
@@ -918,7 +1488,7 @@ const jugueterialocaldb = [
                 url: "/producto41b.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Azul, Verde",
         edad: "+12",
         categoria: "punteria",
@@ -2262,7 +2832,7 @@ const jugueterialocaldb = [
         id: 377,
         titulo: "Organeta con luces y sonido",
         preciomayorista: 7199,
-        precio: 34000,
+        precio: 32000,
         referencia: "4400",
         descripcion: ``,
         imagenes: [
@@ -2460,7 +3030,7 @@ const jugueterialocaldb = [
         id: 382,
         titulo: "Excavadora de Movimiento, Luces y Sonido",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 27000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2479,7 +3049,7 @@ const jugueterialocaldb = [
         id: 375,
         titulo: "Caracol con luz, sonido y movimiento",
         preciomayorista: 7199,
-        precio: 1,
+        precio: 28000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2747,7 +3317,7 @@ const jugueterialocaldb = [
         id: 391,
         titulo: "Lego Bumble Bee 2 en 1 de 413 PCS",
         preciomayorista: 7199,
-        precio: 30000,
+        precio: 32000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2766,7 +3336,7 @@ const jugueterialocaldb = [
         id: 396,
         titulo: "Lego Transformer 2 en 1 de 413 PCS",
         preciomayorista: 7199,
-        precio: 30000,
+        precio: 32000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -2813,7 +3383,7 @@ const jugueterialocaldb = [
                 url: "/producto394a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "carros-control",
@@ -4781,7 +5351,7 @@ const jugueterialocaldb = [
                 url: "/producto271a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "legos",
@@ -5762,7 +6332,7 @@ const jugueterialocaldb = [
                 url: "/producto348a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -5800,7 +6370,7 @@ const jugueterialocaldb = [
                 url: "/producto354a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "educativo",
@@ -5819,7 +6389,7 @@ const jugueterialocaldb = [
                 url: "/producto355a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "educativo",
@@ -5842,7 +6412,7 @@ const jugueterialocaldb = [
                 url: "/producto356B.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -5861,7 +6431,7 @@ const jugueterialocaldb = [
                 url: "/producto359a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "doctor-cocina",
@@ -5915,7 +6485,7 @@ const jugueterialocaldb = [
         id: 100,
         titulo: "Muñeca Frozen Musical con Luz en el Cabello",
         preciomayorista: 7199,
-        precio: 45000,
+        precio: 46000,
         referencia: "SR9878-1",
         descripcion: ``,
         imagenes: [
@@ -6020,7 +6590,7 @@ const jugueterialocaldb = [
                 url: "/producto107a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
