@@ -1,6 +1,758 @@
 
 const jugueterialocaldb = [
     {
+        id: 113,
+        titulo: "Maquillaje Tacon Pequeño",
+        preciomayorista: 7199,
+        precio: 8500,
+        referencia: "XG001",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto113a.webp" 
+            }
+        ],
+        status: "No Stock",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 120,
+        titulo: "Bolso Maquillaje Pequeño",
+        preciomayorista: 7199,
+        precio: 12000,
+        referencia: "1688-8823",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto120a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto120b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 444,
+        titulo: "Maquillaje Dulces Grande",
+        preciomayorista: 7199,
+        precio: 35000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto444a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 114,
+        titulo: "Kit Maquillaje con Secador de Uñas",
+        preciomayorista: 7199,
+        precio: 23000,
+        referencia: "MBK-326",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto114a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },{
+        id: 110,
+        titulo: "Maleta Manicure y Maquillaje con Accesorios",
+        preciomayorista: 7199,
+        precio: 48000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto110a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto110b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 111,
+        titulo: "Maquillaje Mariposa Pequeño",
+        preciomayorista: 7199,
+        precio: 7000,
+        referencia: "876-2B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto111a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 108,
+        titulo: "Neceser Maquillaje Fino",
+        preciomayorista: 7199,
+        precio: 55000,
+        referencia: "M-623",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto108a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto108b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 331,
+        titulo: "Set de Maquillaje e Uñas",
+        preciomayorista: 7199,
+        precio: 16500,
+        referencia: "S015",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto331a.webp" 
+            }
+        ],
+        status: "No Stock",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 332,
+        titulo: "Estuche de Maquillaje con Brillos",
+        preciomayorista: 7199,
+        precio: 65000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto332a.webp" 
+            }
+        ],
+        status: "No Stock",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 333,
+        titulo: "Maquillaje Colombina",
+        preciomayorista: 7199,
+        precio: 9500,
+        referencia: "002-19A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto333a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 328,
+        titulo: "Maquillaje Oso",
+        preciomayorista: 7199,
+        precio: 18000,
+        referencia: "9125C",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto328a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 329,
+        titulo: "Maquillaje Luna",
+        preciomayorista: 7199,
+        precio: 18000,
+        referencia: "1018FP",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto329a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 440,
+        titulo: "Maquillaje Dona",
+        preciomayorista: 7199,
+        precio: 18000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto440a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 441,
+        titulo: "Maquillaje Colombina Grande",
+        preciomayorista: 7199,
+        precio: 20000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto441a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 442,
+        titulo: "Maquillaje Flor Grande",
+        preciomayorista: 7199,
+        precio: 23000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto442a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 433,
+        titulo: "Maquillaje Flor",
+        preciomayorista: 7199,
+        precio: 22000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto433a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 422,
+        titulo: "Kit de Maquillaje",
+        preciomayorista: 7199,
+        precio: 37000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto422a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 423,
+        titulo: "Kit de Maquillaje",
+        preciomayorista: 7199,
+        precio: 23000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto423a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 284,
+        titulo: "Maquillaje Mariposa Pequeño Blister",
+        preciomayorista: 7199,
+        precio: 3000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto284a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "maquillaje",
+        genero: "ninas"
+    },
+    {
+        id: 326,
+        titulo: "Bebe Camina, Gatea, Llora y mueve Manos",
+        preciomayorista: 7199,
+        precio: 75000,
+        referencia: "XMY8058",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto326a.webp" 
+            }
+        ],
+        status: "No Stock",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 126,
+        titulo: "Bebe Bañera Electrica",
+        preciomayorista: 7199,
+        precio: 42000,
+        referencia: "389-1",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto126a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 140,
+        titulo: "Barbie Bicicleta y Vestido",
+        preciomayorista: 7199,
+        precio: 21000,
+        referencia: "HB017",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto140a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 103,
+        titulo: "Muñeca Patinadora Musical",
+        preciomayorista: 7199,
+        precio: 71000,
+        referencia: "XMY8061",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto103a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 181,
+        titulo: "Cry Baby Doctora",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "KQ508",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto181a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    }, 
+    {
+        id: 132,
+        titulo: "Barbie Enfermera",
+        preciomayorista: 7199,
+        precio: 10500,
+        referencia: "MU047",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto132a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 124,
+        titulo: "Barbie Individual Maciza",
+        preciomayorista: 7199,
+        precio: 4000,
+        referencia: "181A2",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto124a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Amarillo, Rosado, Rojo",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 117,
+        titulo: "Bebe Gestos y Toma Tetero",
+        preciomayorista: 7199,
+        precio: 87000,
+        referencia: "XMY201A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto117a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 343,
+        titulo: "Princesa Alumbra el Pelo, con Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 48000,
+        referencia: "L90-2A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto343a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 344,
+        titulo: "Muñeca Bota Lagrimas con Chupo, Tetero y Sonidos",
+        preciomayorista: 7199,
+        precio: 45000,
+        referencia: "XMY8183",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto344a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 318,
+        titulo: "Bebe Orina y Come con Accesorios",
+        preciomayorista: 7199,
+        precio: 55000,
+        referencia: "9560",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto318a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 104,
+        titulo: "Bebe Crece con Sonido",
+        preciomayorista: 7199,
+        precio: 69000,
+        referencia: "XMY8019",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto104a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },{
+        id: 346,
+        titulo: "Bebe Real con Peluche, Tetero y Chupo",
+        preciomayorista: 7199,
+        precio: 170000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto346a.webp" 
+            }
+        ],
+        status: "No Stock",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 338,
+        titulo: "Bebe con Sonido y Tetero",
+        preciomayorista: 7199,
+        precio: 47000,
+        referencia: "XMY8021",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto338a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 323,
+        titulo: "Bebe Unicornio con Sonido",
+        preciomayorista: 7199,
+        precio: 38000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto323a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    
+    {
+        id: 439,
+        titulo: "Bebe fino con Tetero y Pinguino",
+        preciomayorista: 7199,
+        precio: 98000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto439a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 339,
+        titulo: "Bebe Orina con Pañal y Vacija",
+        preciomayorista: 7199,
+        precio: 0,
+        referencia: "XMY8070",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto339a.webp" 
+            }
+        ],
+        status: "Pending",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 340,
+        titulo: "Bebe Llora y se Acuesta",
+        preciomayorista: 7199,
+        precio: 78000,
+        referencia: "XMY8068",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto340a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 341,
+        titulo: "Bebe Sentidos",
+        preciomayorista: 7199,
+        precio: 91000,
+        referencia: "XMY8048",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto341a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
+        id: 118,
+        titulo: "Bebe Sonido con Sleeping (NUEVO)",
+        preciomayorista: 7199,
+        precio: 45000,
+        referencia: "XMY8024",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto118a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "munecas",
+        genero: "ninas"
+    },
+    {
         id: 445,
         titulo: "Lanzadora Hidrogel M416 con Luz, Doble Proveedor",
         preciomayorista: 7199,
@@ -2220,45 +2972,6 @@ const jugueterialocaldb = [
         categoria: "carros-control",
         genero: "ninos"
     },
-    
-    {
-        id: 422,
-        titulo: "Kit de Maquillaje",
-        preciomayorista: 7199,
-        precio: 37000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto422a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 423,
-        titulo: "Kit de Maquillaje",
-        preciomayorista: 7199,
-        precio: 23000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto423a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
     {
         id: 424,
         titulo: "Twister Juego Mesa",
@@ -2413,25 +3126,6 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
-        id: 433,
-        titulo: "Maquillaje Flor",
-        preciomayorista: 7199,
-        precio: 22000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto433a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
         id: 434,
         titulo: "Muñeca Sirena Pequeña",
         preciomayorista: 7199,
@@ -2527,82 +3221,6 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
-        id: 439,
-        titulo: "Bebe fino con Tetero y Pinguino",
-        preciomayorista: 7199,
-        precio: 98000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto439a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 440,
-        titulo: "Maquillaje Dona",
-        preciomayorista: 7199,
-        precio: 18000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto440a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 441,
-        titulo: "Maquillaje Colombina Grande",
-        preciomayorista: 7199,
-        precio: 20000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto441a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
-        id: 442,
-        titulo: "Maquillaje Flor Grande",
-        preciomayorista: 7199,
-        precio: 23000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto442a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
         id: 443,
         titulo: "Maleta Veterinaria",
         preciomayorista: 7199,
@@ -2621,25 +3239,7 @@ const jugueterialocaldb = [
         categoria: "carros-control",
         genero: "ninos"
     },
-    {
-        id: 444,
-        titulo: "Maquillaje Dulces Grande",
-        preciomayorista: 7199,
-        precio: 35000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto444a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
+    
     {
         id: 166,
         titulo: "Leon con Luces, Sonido y Movimiento",
@@ -2848,26 +3448,7 @@ const jugueterialocaldb = [
         edad: "+3",
         categoria: "dinosaurios",
         genero: "unisex"
-    },
-    {
-        id: 181,
-        titulo: "Cry Baby Doctora",
-        preciomayorista: 7199,
-        precio: 29000,
-        referencia: "KQ508",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto181a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "munecas",
-        genero: "ninas"
-    },    
+    },   
     {
         id: 186,
         titulo: "Organeta Perro",
@@ -4420,25 +5001,6 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
-        id: 284,
-        titulo: "Maquillaje Mariposa Pequeño Blister",
-        preciomayorista: 7199,
-        precio: 3000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto284a.webp" 
-            }
-        ],
-        status: "No Stock",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "maquillaje",
-        genero: "ninas"
-    },
-    {
         id: 285,
         titulo: "Slime Leon Doble",
         preciomayorista: 7199,
@@ -4888,25 +5450,6 @@ const jugueterialocaldb = [
         genero: "unisex"
     },
     {
-        id: 318,
-        titulo: "Bebe Orina y Come con Accesorios",
-        preciomayorista: 7199,
-        precio: 55000,
-        referencia: "9560",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto318a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "munecas",
-        genero: "ninas"
-    },
-    {
         id: 319,
         titulo: "Pop Halloween X1",
         preciomayorista: 7199,
@@ -4983,25 +5526,6 @@ const jugueterialocaldb = [
         genero: "ninas"
     },
     {
-        id: 323,
-        titulo: "Bebe Unicornio con Sonido",
-        preciomayorista: 7199,
-        precio: 38000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto323a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "munecas",
-        genero: "ninas"
-    },
-    {
         id: 324,
         titulo: "CAMBIO - Lanzadora de Dardos e Hidrogel con Gafas",
         preciomayorista: 7199,
@@ -5040,25 +5564,6 @@ const jugueterialocaldb = [
         genero: "ninas"
     },
     {
-        id: 326,
-        titulo: "Bebe Camina, Gatea, Llora y mueve Manos",
-        preciomayorista: 7199,
-        precio: 75000,
-        referencia: "XMY8058",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto326a.webp" 
-            }
-        ],
-        status: "No Stock",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "munecas",
-        genero: "ninas"
-    },
-    {
         id: 327,
         titulo: "Barbie Anteojos con 6 Vestidos e Hija",
         preciomayorista: 7199,
@@ -5077,44 +5582,7 @@ const jugueterialocaldb = [
         categoria: "munecas",
         genero: "ninas"
     },
-    {
-        id: 328,
-        titulo: "Maquillaje Oso",
-        preciomayorista: 7199,
-        precio: 20000,
-        referencia: "9125C",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto328a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "maquillaje",
-        genero: "ninas"
-    },
-    {
-        id: 329,
-        titulo: "Maquillaje Luna",
-        preciomayorista: 7199,
-        precio: 18000,
-        referencia: "1018FP",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto329a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "maquillaje",
-        genero: "ninas"
-    },
+    
     {
         id: 330,
         titulo: "Set de Cocina e Utensilios",
@@ -5134,63 +5602,7 @@ const jugueterialocaldb = [
         categoria: "doctor-cocina",
         genero: "ninas"
     },
-    {
-        id: 331,
-        titulo: "Set de Maquillaje e Uñas",
-        preciomayorista: 7199,
-        precio: 16500,
-        referencia: "S015",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto331a.webp" 
-            }
-        ],
-        status: "No Stock",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "maquillaje",
-        genero: "ninas"
-    },
-    {
-        id: 332,
-        titulo: "Estuche de Maquillaje con Brillos",
-        preciomayorista: 7199,
-        precio: 65000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto332a.webp" 
-            }
-        ],
-        status: "No Stock",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "maquillaje",
-        genero: "ninas"
-    },
-    {
-        id: 333,
-        titulo: "Maquillaje Colombina",
-        preciomayorista: 7199,
-        precio: 9500,
-        referencia: "002-19A",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto333a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "maquillaje",
-        genero: "ninas"
-    },
+    
     {
         id: 334,
         titulo: "Barbie Fashion con 2 Vestidos",
@@ -5267,82 +5679,7 @@ const jugueterialocaldb = [
         categoria: "legos",
         genero: "ninas"
     },
-    {
-        id: 338,
-        titulo: "Bebe con Sonido y Tetero",
-        preciomayorista: 7199,
-        precio: 47000,
-        referencia: "XMY8021",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto338a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "munecas",
-        genero: "ninas"
-    },
-    {
-        id: 339,
-        titulo: "Bebe Orina con Pañal y Vacija",
-        preciomayorista: 7199,
-        precio: 0,
-        referencia: "XMY8070",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto339a.webp" 
-            }
-        ],
-        status: "Pending",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "munecas",
-        genero: "ninas"
-    },
-    {
-        id: 340,
-        titulo: "Bebe Llora y se Acuesta",
-        preciomayorista: 7199,
-        precio: 78000,
-        referencia: "XMY8068",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto340a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "munecas",
-        genero: "ninas"
-    },
-    {
-        id: 341,
-        titulo: "Bebe Sentidos",
-        preciomayorista: 7199,
-        precio: 91000,
-        referencia: "XMY8048",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto341a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "munecas",
-        genero: "ninas"
-    },
+    
     {
         id: 342,
         titulo: "Cry Baby Sorpresa Huevo",
@@ -5373,48 +5710,6 @@ const jugueterialocaldb = [
         categoria: "munecas",
         genero: "ninas"
     },
-
-];
-
-const pendienteconfirmar = [
-    {
-        id: 343,
-        titulo: "Princesa Alumbra el Pelo, con Luz y Sonido",
-        preciomayorista: 7199,
-        precio: 48000,
-        referencia: "L90-2A",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto343a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "munecas",
-        genero: "ninas"
-    },
-    {
-        id: 344,
-        titulo: "Muñeca Bota Lagrimas con Chupo, Tetero y Sonidos",
-        preciomayorista: 7199,
-        precio: 45000,
-        referencia: "XMY8183",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto344a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "munecas",
-        genero: "ninas"
-    },
     {
         id: 345,
         titulo: "Muñeca con Lavadora",
@@ -5434,25 +5729,7 @@ const pendienteconfirmar = [
         categoria: "munecas",
         genero: "ninas"
     },
-    {
-        id: 346,
-        titulo: "Bebe Real con Peluche, Tetero y Chupo",
-        preciomayorista: 7199,
-        precio: 170000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto346a.webp" 
-            }
-        ],
-        status: "No Stock",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "munecas",
-        genero: "ninas"
-    },
+    
     {
         id: 347,
         titulo: "Muñeca Campesina Pequeña con Sonido",
@@ -5691,44 +5968,7 @@ const pendienteconfirmar = [
         categoria: "munecas",
         genero: "ninas"
     },
-    {
-        id: 103,
-        titulo: "Muñeca Patinadora Musical",
-        preciomayorista: 7199,
-        precio: 71000,
-        referencia: "XMY8061",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto103a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "munecas",
-        genero: "ninas"
-    },
-    {
-        id: 104,
-        titulo: "Bebe Crece con Sonido",
-        preciomayorista: 7199,
-        precio: 69000,
-        referencia: "XMY8019",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto104a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "munecas",
-        genero: "ninas"
-    },
+    
     {
         id: 105,
         titulo: "Shakira Mediana",
@@ -5787,29 +6027,6 @@ const pendienteconfirmar = [
         genero: "ninas"
     },
     {
-        id: 108,
-        titulo: "Neceser Maquillaje Fino",
-        preciomayorista: 7199,
-        precio: 55000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto108a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto108b.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "maquillaje",
-        genero: "ninas"
-    },
-    {
         id: 109,
         titulo: "Set Manillas",
         preciomayorista: 7199,
@@ -5828,48 +6045,7 @@ const pendienteconfirmar = [
         categoria: "maquillaje",
         genero: "ninas"
     },
-    {
-        id: 110,
-        titulo: "Maleta Manicure y Maquillaje con Accesorios",
-        preciomayorista: 7199,
-        precio: 48000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto110a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto110b.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "maquillaje",
-        genero: "ninas"
-    },
-    {
-        id: 111,
-        titulo: "Maquillaje Mariposa Pequeño",
-        preciomayorista: 7199,
-        precio: 7500,
-        referencia: "876-2B",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto111a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "maquillaje",
-        genero: "ninas"
-    },
+    
     {
         id: 112,
         titulo: "Maleta Doctor con Accesorios",
@@ -5889,44 +6065,7 @@ const pendienteconfirmar = [
         categoria: "doctor-cocina",
         genero: "ninas"
     },
-    {
-        id: 113,
-        titulo: "Maquillaje Tacon Pequeño",
-        preciomayorista: 7199,
-        precio: 8500,
-        referencia: "XG001",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto113a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "maquillaje",
-        genero: "ninas"
-    },
-    {
-        id: 114,
-        titulo: "Kit Maquillaje con Secador de Uñas",
-        preciomayorista: 7199,
-        precio: 29000,
-        referencia: "MBK-326",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto114a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "maquillaje",
-        genero: "ninas"
-    },
+    
     {
         id: 115,
         titulo: "Peluche Minie Mouse",
@@ -5966,44 +6105,6 @@ const pendienteconfirmar = [
         genero: "ninas"
     },
     {
-        id: 117,
-        titulo: "Bebe Gestos y Toma Tetero",
-        preciomayorista: 7199,
-        precio: 80000,
-        referencia: "XMY201A",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto117a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "munecas",
-        genero: "ninas"
-    },
-    {
-        id: 118,
-        titulo: "Bebe Sonido con Sleeping (NUEVO)",
-        preciomayorista: 7199,
-        precio: 45000,
-        referencia: "XMY8024",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto118a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "munecas",
-        genero: "ninas"
-    },
-    {
         id: 119,
         titulo: "CAMBIO Maquina Repostera y Cafetera",
         preciomayorista: 7199,
@@ -6020,29 +6121,6 @@ const pendienteconfirmar = [
         colores: "Unicolor",
         edad: "+3",
         categoria: "doctor-cocina",
-        genero: "ninas"
-    },
-    {
-        id: 120,
-        titulo: "Bolso Maquillaje Pequeño",
-        preciomayorista: 7199,
-        precio: 12000,
-        referencia: "1688-8823",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto120a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto120b.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "maquillaje",
         genero: "ninas"
     },
     {
@@ -6103,25 +6181,6 @@ const pendienteconfirmar = [
         genero: "ninos"
     },
     {
-        id: 124,
-        titulo: "Barbie Individual Maciza",
-        preciomayorista: 7199,
-        precio: 4500,
-        referencia: "181A2",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto124a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Amarillo, Rosado, Rojo",
-        edad: "+3",
-        categoria: "munecas",
-        genero: "ninas"
-    },
-    {
         id: 125,
         titulo: "Maquina de Coser",
         preciomayorista: 7199,
@@ -6138,25 +6197,6 @@ const pendienteconfirmar = [
         colores: "Unicolor",
         edad: "+3",
         categoria: "maquillaje",
-        genero: "ninas"
-    },
-    {
-        id: 126,
-        titulo: "Bebe Bañera Electrica",
-        preciomayorista: 7199,
-        precio: 42000,
-        referencia: "389-1",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto126a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "munecas",
         genero: "ninas"
     },
     {
@@ -6253,25 +6293,6 @@ const pendienteconfirmar = [
         edad: "+3",
         categoria: "didacticos",
         genero: "unisex"
-    },
-    {
-        id: 132,
-        titulo: "Barbie Doctora",
-        preciomayorista: 7199,
-        precio: 10500,
-        referencia: "MU047",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto132a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "munecas",
-        genero: "ninas"
     },
     {
         id: 133,
@@ -6383,25 +6404,6 @@ const pendienteconfirmar = [
             {
                 tipo: "imagen",
                 url: "/producto139a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "munecas",
-        genero: "ninas"
-    },
-    {
-        id: 140,
-        titulo: "Barbie Bicicleta y Vestido",
-        preciomayorista: 7199,
-        precio: 21000,
-        referencia: "HB017",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto140a.webp" 
             }
         ],
         status: "disponible",
@@ -6981,12 +6983,8 @@ const pendienteconfirmar = [
         id: 32,
         titulo: "Computador Interactivo Unisex",
         preciomayorista: 22999,
-        precio: 21000,
-        descripcion: `¡Descubre el emocionante mundo del aprendizaje con nuestro Computador Interactivo, diseñado para preescolares, este juguete cautivante es más que un juego.
-
-        Explora números del 1 al 10, el abecedario y palabras esenciales, operaciones matematicas con diversión interactiva. Con canciones animadas y actividades intuitivas de suma y resta, cada momento se convierte en una lección emocionante.
-        
-        Colores vibrantes y personajes adorables hacen que el aprendizaje sea divertido. Este computador educativo es una herramienta valiosa que fomenta el desarrollo cognitivo. ¡Cada toque en las teclas crea un futuro de conocimiento!`,
+        precio: 20000,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7118,11 +7116,7 @@ const pendienteconfirmar = [
         titulo: "Barbie +6 Vestidos + 2 Hijas + Pony",
         preciomayorista: 27999,
         precio: 24000,
-        descripcion: `¡Crea mágicas historias con nuestro Set de Barbie Familia y Amigos! Este encantador conjunto incluye una Barbie radiante con una selección de 6 elegantes vestidos, ¡siempre lista para cualquier ocasión!
-
-        Pero eso no es todo, ¡también presentamos a las adorables hijas de Barbie! Con 2 hijas llenas de personalidad y estilo, las posibilidades de juego se multiplican. Desde aventuras familiares hasta tardes de diversión, esta familia está lista para todo.
-        
-        Y para añadir un toque aún más especial, el set incluye un pony encantador para las hijas. Paseos en la naturaleza o puro juego imaginativo, este pony es la compañía perfecta para las pequeñas!`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7382,11 +7376,7 @@ const pendienteconfirmar = [
         preciomayorista: 1000,
         precio: 85000,
         referencia: "895-21/22",
-        descripcion: `¡Embárcate en una emocionante aventura prehistórica con nuestro Trailer Dinosaurio! Este conjunto único combina la diversión del juego de dinosaurios con un toque de magia y acción.
-
-        El trailer está diseñado con una cabeza de dinosaurio que emana vapor de agua por la boca, creando un efecto asombroso que transporta a los niños a tiempos antiguos. Pero eso no es todo: dentro del trailer, encontrarás 7 diferentes dinosaurios listos para explorar, cada uno con detalles realistas que estimulan la imaginación.
-        
-        Incluso mejor, este conjunto incluye una herramienta especial que permite a los niños armar y desarmar todo el trailer, fomentando habilidades de construcción y juego creativo!`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7414,9 +7404,7 @@ const pendienteconfirmar = [
         preciomayorista: 30999,
         precio: 30000,
         referencia: "8690",
-        descripcion: `¡Prepárate para la diversión de la construcción con el Camión de Carritos Estilo Plantas vs. Zombies! Este juego de construcción te lleva al emocionante mundo de Plantas vs. Zombies mientras creas tu propio escenario de batalla.
-
-        El camión es la herramienta perfecta para transportar y desplegar a tus carritos de construcción, cada uno con el estilo único de Plantas vs. Zombies. Puedes llevarlos a la acción y construir tu propio escenario de batalla, ¡donde las plantas defensoras se enfrentarán a los traviesos zombies!`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7438,9 +7426,7 @@ const pendienteconfirmar = [
         titulo: "Slime con Sorpresa de Mario Bros",
         preciomayorista: 3499,
         precio: 3000,
-        descripcion: `¡Doble diversión en un solo frasco con nuestro Frasco de Slime con Sorpresa de Mario Bros! Este emocionante paquete combina la satisfacción sensorial del slime con la emoción de desenterrar una sorpresa especial.
-
-        Dentro del frasco, encontrarás una textura de slime suave y colorida que brinda una experiencia táctil única y relajante. Pero eso no es todo: ¡sumérgete en la emoción cuando descubras una sorpresa especial de Mario Bros en su interior! Este juguete también funciona como un llamativo llavero que podrás llevar contigo a donde quieras.`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7458,9 +7444,7 @@ const pendienteconfirmar = [
         titulo: "Slime con Sorpresa de los Vengadores",
         preciomayorista: 3499,
         precio: 3000,
-        descripcion: `¡Doble diversión en un solo frasco con nuestro Frasco de Slime con Sorpresa de los Vengadores! Este emocionante paquete combina la satisfacción sensorial del slime con la emoción de desenterrar una sorpresa especial.
-
-        Dentro del frasco, encontrarás una textura de slime suave y colorida que brinda una experiencia táctil única y relajante. Pero eso no es todo: ¡sumérgete en la emoción cuando descubras una sorpresa especial de los Vengadores en su interior! Este juguete también funciona como un llamativo llavero que podrás llevar contigo a donde quieras.`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7478,9 +7462,7 @@ const pendienteconfirmar = [
         titulo: "Slime con Sorpresa de Paw Patrol",
         preciomayorista: 3499,
         precio: 3000,
-        descripcion: `¡Doble diversión en un solo frasco con nuestro Frasco de Slime con Sorpresa de Paw Patrol! Este emocionante paquete combina la satisfacción sensorial del slime con la emoción de desenterrar una sorpresa especial.
-
-        Dentro del frasco, encontrarás una textura de slime suave y colorida que brinda una experiencia táctil única y relajante. Pero eso no es todo: ¡sumérgete en la emoción cuando descubras una sorpresa especial de Paw Patrol en su interior! Este juguete también funciona como un llamativo llavero que podrás llevar contigo a donde quieras.`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7498,9 +7480,7 @@ const pendienteconfirmar = [
         titulo: "Slime con Sorpresa de Princesas Disney",
         preciomayorista: 3499,
         precio: 3000,
-        descripcion: `¡Doble diversión en un solo frasco con nuestro Frasco de Slime con Sorpresa de Princesas de Disney! Este emocionante paquete combina la satisfacción sensorial del slime con la emoción de desenterrar una sorpresa especial.
-
-        Dentro del frasco, encontrarás una textura de slime suave y colorida que brinda una experiencia táctil única y relajante. Pero eso no es todo: ¡sumérgete en la emoción cuando descubras una sorpresa especial de Princesas de Disney en su interior! Este juguete también funciona como un llamativo llavero que podrás llevar contigo a donde quieras.`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7518,9 +7498,7 @@ const pendienteconfirmar = [
         titulo: "Slime con Sorpresa de Princesas Grande",
         preciomayorista: 5999,
         precio: 5500,
-        descripcion: `¡Doble diversión en un solo frasco con nuestro Frasco de Slime con Sorpresa de Princesas! Este emocionante paquete combina la satisfacción sensorial del slime con la emoción de desenterrar una sorpresa especial.
-
-        Dentro del frasco, encontrarás una textura de slime suave y colorida que brinda una experiencia táctil única y relajante. Pero eso no es todo: ¡sumérgete en la emoción cuando descubras una sorpresa especial de Princesas en su interior! Este juguete también funciona como un llamativo llavero que podrás llevar contigo a donde quieras.`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7538,9 +7516,7 @@ const pendienteconfirmar = [
         titulo: "Slime con Sorpresa de Vengadores Grande",
         preciomayorista: 5999,
         precio: 5500,
-        descripcion: `¡Doble diversión en un solo frasco con nuestro Frasco de Slime con Sorpresa de Vengadores! Este emocionante paquete combina la satisfacción sensorial del slime con la emoción de desenterrar una sorpresa especial.
-
-        Dentro del frasco, encontrarás una textura de slime suave y colorida que brinda una experiencia táctil única y relajante. Pero eso no es todo: ¡sumérgete en la emoción cuando descubras una sorpresa especial de Vengadores en su interior! Este juguete también funciona como un llamativo llavero que podrás llevar contigo a donde quieras.`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7558,9 +7534,7 @@ const pendienteconfirmar = [
         titulo: "Lego Mario Bros",
         preciomayorista: 1000,
         precio: 35000,
-        descripcion: `¡Embárcate en una emocionante aventura de construcción con el set Lego Super Mario: Desierto de los Ladrillos! Con 207 piezas, este set te sumergirá en el mundo icónico de Mario Bros mientras exploras el emocionante nivel del desierto.
-
-        Recrea tus escenas favoritas del juego con los bloques Lego y crea un desierto lleno de desafíos y diversión interactiva. Utiliza las piezas especiales y los elementos de acción para construir un emocionante recorrido que incluye dunas de arena, cactus y obstáculos únicos. ¡Pero cuidado con los enemigos!`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7579,11 +7553,7 @@ const pendienteconfirmar = [
         preciomayorista: 1000,
         precio: 49000,
         referencia: "1803",
-        descripcion: `¡Bienvenidos a la Maleta Doctora Sonido y Luces Este set de juego emocionante trae la diversión de la medicina a tus manos. Con un estetoscopio que emite luces y sonidos realistas para escuchar los latidos del corazón, y un celular interactivo que te sumerge en situaciones médicas emocionantes, este set ofrece una experiencia de juego única.
-
-        Además, el set incluye elementos como un termómetro, jeringas y otros accesorios para explorar y aprender mientras te diviertes. Los niños pueden sumergirse en un mundo de juego de roles, donde se convierten en médicos valientes que cuidan de sus amigos de juguete.
-        
-        Con la Maleta de Doctora con Estetoscopio y Celular de Luces y Sonido, la diversión y el aprendizaje se combinan de manera emocionante en cada juego. ¡Prepárate para un emocionante diagnóstico y tratamiento imaginario en cada rincón de tu hogar!`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7606,7 +7576,7 @@ const pendienteconfirmar = [
         preciomayorista: 1000,
         precio: 20000,
         referencia: "7652A",
-        descripcion: `¡Sumérgete en el mundo pixelado de Minecraft con el emocionante set de construcción! Este set te trae algunos de los personajes más emblemáticos del juego directamente a tus manos como el Creeper, el temible Zombie, el enigmático Enderman y el imponente Golem de Hierro. ¡Pero eso no es todo! El personaje principal, reconocible por su atuendo único, también está incluido, listo para enfrentar los desafíos que tú le diseñes. Cada figura ha sido meticulosamente diseñada para capturar la esencia de Minecraft, con detalles que harán que los fanáticos del juego se sientan como si estuvieran dentro del mundo del juego!`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7624,9 +7594,7 @@ const pendienteconfirmar = [
         titulo: "Cartas de Poker",
         preciomayorista: 1000,
         precio: 3000,
-        descripcion: `¡Introduce una dosis de diversión en tus partidas con este set de Cartas de Poker asequibles! Este set incluye dos barajas completas, lo que te brinda la oportunidad de disfrutar de una variedad de juegos de cartas sin invertir mucho.
-
-        Cada carta está fabricada con plástico de calidad, lo que asegura su durabilidad y permite que sigan siendo funcionales en varias sesiones de juego. Aunque no son las cartas más lujosas del mercado, cumplen su propósito y son ideales para juegos casuales y reuniones entre amigos!`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7644,9 +7612,7 @@ const pendienteconfirmar = [
         titulo: "Cartas de Poker Intermedio",
         preciomayorista: 1000,
         precio: 6500,
-        descripcion: `¡Potencia tus partidas de cartas con este juego de Cartas de Poker de Plástico de Nivel Intermedio! Este set, que incluye dos barajas completas, te brinda una experiencia de juego que equilibra calidad y accesibilidad.
-
-        Cada carta ha sido confeccionada con plástico de nivel intermedio, lo que asegura su durabilidad y resistencia a lo largo de múltiples partidas. Estas cartas están diseñadas para un rendimiento sólido y constante, perfecto para disfrutar de noches de juego en casa o reuniones sociales!`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7664,9 +7630,7 @@ const pendienteconfirmar = [
         titulo: "Cartas de Poker Alta",
         preciomayorista: 1000,
         precio: 12000,
-        descripcion: `¡Potencia tus partidas de cartas con este juego de Cartas de Poker de Plástico de Nivel Intermedio! Este set, que incluye dos barajas completas, te brinda una experiencia de juego que equilibra calidad y accesibilidad.
-
-        Cada carta ha sido confeccionada con plástico de nivel intermedio, lo que asegura su durabilidad y resistencia a lo largo de múltiples partidas. Estas cartas están diseñadas para un rendimiento sólido y constante, perfecto para disfrutar de noches de juego en casa o reuniones sociales!`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7684,7 +7648,7 @@ const pendienteconfirmar = [
         titulo: "Maleta Tocador Pequeña",
         preciomayorista: 1000,
         precio: 15000,
-        descripcion: `¡Vive la emoción de los Vengadores con la Pistola Nerf Estilo Avengers inspirada en Spider-Man y Capitán América! Este set incluye 6 dardos y un tablero de disparo para una acción heroica llena de diversión y aventuras. Con detalles auténticos y diseño de superhéroes, estarás listo para enfrentar desafíos imaginarios con estilo. ¡Prepárate para un juego lleno de emoción y adrenalina mientras te conviertes en un verdadero defensor de la justicia!`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7702,11 +7666,7 @@ const pendienteconfirmar = [
         titulo: "Carros Impulso Grafiti",
         preciomayorista: 7199,
         precio: 7000,
-        descripcion: `¡Prepárate para la acción con el Carro de Impulso Estilo Cuatrimoto y Camión Destructor Grafiti! Este diminuto vehículo de carreras te ofrece emocionantes aventuras en la palma de tu mano.
-
-        A pesar de su tamaño compacto, este carro es un verdadero titán en la pista. Su diseño estilo cuatrimoto y camión destructor grafiti le da una apariencia única y audaz que lo distingue de los demás. Sus ruedas resistentes y su capacidad de impulso le permiten desafiar cualquier terreno y superar obstáculos.
-        
-        Lánzalo con fuerza y observa cómo alcanza velocidades impresionantes en distancias cortas. Este carro es perfecto para carreras de alta velocidad en espacios reducidos, como tu escritorio, una mesa o incluso la palma de tu mano!`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7732,11 +7692,7 @@ const pendienteconfirmar = [
         titulo: "Lanzador Hidrogel MP5 Automatica Recargable, con Gafas, con 6.000 Orvis Hidrogel",
         preciomayorista: 60999,
         precio: 67000,
-        descripcion: `¡Prepárate para la batalla definitiva con la Pistola Lanzadora Automática de Bolas de Hidrogel, inspirada en el estilo de un MP5! Este set de juego te sumerge en una experiencia de combate emocionante y llena de adrenalina.
-
-        Esta pistola lanzadora automática, con su diseño estilo MP5, te ofrece la emoción de una auténtica batalla. Dispara ráfagas de bolas de hidrogel de manera continua con solo mantener presionado el gatillo. Con capacidad para 6000 bolas de hidrogel, estarás listo para enfrentar cualquier desafío y mantenerte en la acción durante horas.
-        
-        La seguridad es una prioridad, y es por eso que este set incluye gafas de protección para mantener tus ojos a salvo mientras te sumerges en la acción. Las bolas de hidrogel son seguras y biodegradables, lo que garantiza un juego seguro y responsable`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7759,13 +7715,7 @@ const pendienteconfirmar = [
         titulo: "Computador Interactivo con Pantalla y Mouse",
         preciomayorista: 37000,
         precio: 35000,
-        descripcion: `¡Descubre el emocionante mundo del aprendizaje con nuestro Computador Interactivo Todo en Uno, equipado con mouse y pantalla digital! Diseñado para preescolares, este juguete cautivante es más que un juego.
-
-        Explora números del 1 al 10, el abecedario y palabras esenciales con diversión interactiva. Con canciones animadas y actividades intuitivas de suma y resta, cada momento se convierte en una lección emocionante.
-        
-        Colores vibrantes y personajes adorables hacen que el aprendizaje sea divertido. Los botones grandes y el mouse fácil de usar garantizan una inmersión sin complicaciones.
-        
-        Este computador educativo es una herramienta valiosa que fomenta el desarrollo cognitivo. ¡Cada toque en las teclas crea un futuro de conocimiento!`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7799,11 +7749,7 @@ const pendienteconfirmar = [
         titulo: "Kit de Uñas X12 con Brillos",
         preciomayorista: 3499,
         precio: 3000,
-        descripcion: `¡Fusionamos diversión y creatividad en nuestro kit de uñas encantadoras! Diseñado especialmente para niñas de 3 a 7 años, este kit les brinda la oportunidad de explorar su lado artístico mientras se divierten.
-
-        Con 12 uñas en colores vibrantes y diseños encantadores, cada uña es una pequeña obra maestra lista para ser creada. Desde delicadas flores hasta brillantes estrellas, ¡serán princesitas creativas!
-        
-        El kit incluye un tubito de pegamento suave y seguro para que las uñas permanezcan en su lugar durante todas las aventuras. Y para el toque final mágico, nuestro frasquito de brillo añade destellos y colores chispeantes a cada creación.`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7833,11 +7779,7 @@ const pendienteconfirmar = [
         titulo: "Maleta Tocador + Accesorios",
         preciomayorista: 26999,
         precio: 29000,
-        descripcion: `¡Lleva la diversión y la belleza a un nivel superior con la Maleta Tocador para Niñas! Este juguete es perfecto para que las pequeñas exploren su creatividad y se sumerjan en el emocionante mundo de la moda y el maquillaje.
-
-        Dentro de esta maleta mágica, encontrarán 3 esmaltes de uñas para crear manicuras encantadoras, 1 peinilla para peinar y arreglar su cabello, y 1 secador de juguete para simular el secado y el estilismo del cabello.
-        
-        Pero eso no es todo, también podrán disfrutar de 3 anillos, 3 pulseras y 1 collar para añadir un toque de glamour a su estilo. Con 2 labiales de juguete en tonos divertidos, podrán experimentar con colores y expresar su personalidad!`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -7860,10 +7802,7 @@ const pendienteconfirmar = [
         preciomayorista: 42999,
         precio: 37000,
         referencia: '008-967B',
-        descripcion: `
-        ¡La Maleta Veterinaria es la elección perfecta para los amantes de los animales y los futuros veterinarios! Este juguete transformable permite a los niños explorar el emocionante mundo de cuidar y curar a sus amigos peludos.
-        
-        Dentro de la maleta veterinaria, encontrarás una gama de accesorios esenciales para cuidar al adorable perro de juguete. Esto incluye un plato de comida, un peine para acicalar al peludo amigo, 2 cajas de comida, tijeras para cortar su pelaje, shampoo para mantenerlo limpio y un lavabo para darle un buen baño!`,
+        descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
@@ -8038,6 +7977,11 @@ const pendienteconfirmar = [
         categoria: "punteria",
         genero: "unisex"
     },
+
+];
+
+const pendienteconfirmar = [
+    
 ]
 
 
