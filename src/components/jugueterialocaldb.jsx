@@ -3655,6 +3655,25 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
+        id: 507,
+        titulo: "Maleta Veterinaria Mascota",
+        preciomayorista: 7199,
+        precio: 38000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto507a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
         id: 62,
         titulo: "Maleta Veterinaria Mascota",
         preciomayorista: 42999,
@@ -8874,6 +8893,7 @@ const jugueterialocaldb = [
         categoria: "carros-control",
         genero: "ninos"
     },
+    
 
 ];
 
