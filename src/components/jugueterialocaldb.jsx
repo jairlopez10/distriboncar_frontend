@@ -3748,7 +3748,7 @@ const jugueterialocaldb = [
         id: 59,
         titulo: "Maleta Tocador + Accesorios",
         preciomayorista: 26999,
-        precio: 29000,
+        precio: 26000,
         descripcion: ``,
         imagenes: [
             {
@@ -6743,7 +6743,29 @@ const jugueterialocaldb = [
         categoria: "carros-impulso",
         genero: "ninos"
     },
-    
+    {
+        id: 66,
+        titulo: "Camion + 3 Carritos de Plants VS Zombies",
+        preciomayorista: 30999,
+        precio: 30000,
+        referencia: "8690",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto66a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/producto66b.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "didacticos",
+        genero: "ninos"
+    },
     {
         id: 297,
         titulo: "Mula Cars con 4 Carros",
@@ -8234,29 +8256,6 @@ const jugueterialocaldb = [
         colores: "Naranja, Verde",
         edad: "+6",
         categoria: "dinosaurios",
-        genero: "ninos"
-    },
-    {
-        id: 66,
-        titulo: "Camion + 3 Carritos de Plants VS Zombies",
-        preciomayorista: 30999,
-        precio: 30000,
-        referencia: "8690",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto66a.webp" 
-            },
-            {
-                tipo: "imagen",
-                url: "/producto66b.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "didacticos",
         genero: "ninos"
     },
     {
