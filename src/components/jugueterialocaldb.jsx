@@ -115,10 +115,29 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
+        id: 502,
+        titulo: "Organeta con Microfono",
+        preciomayorista: 7199,
+        precio: 32000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto502a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
         id: 127,
         titulo: "Guitarra Conejo con Luces y Sonido",
         preciomayorista: 7199,
-        precio: 27500,
+        precio: 28000,
         referencia: "3017",
         descripcion: ``,
         imagenes: [
@@ -137,7 +156,7 @@ const jugueterialocaldb = [
         id: 128,
         titulo: "Guitarra Jirafa con Luces y Sonido",
         preciomayorista: 7199,
-        precio: 33500,
+        precio: 35000,
         referencia: "CY-6020C",
         descripcion: ``,
         imagenes: [
@@ -175,7 +194,7 @@ const jugueterialocaldb = [
         id: 129,
         titulo: "Guitarra Jirafa Antenas",
         preciomayorista: 7199,
-        precio: 32000,
+        precio: 34000,
         referencia: "CY-60115C",
         descripcion: ``,
         imagenes: [
@@ -483,7 +502,7 @@ const jugueterialocaldb = [
         id: 11,
         titulo: "Perro con Sensor de Movimiento, Ladra",
         preciomayorista: 39999,
-        precio: 38000,
+        precio: 40000,
         descripcion: ``,
         imagenes: [
             {
@@ -615,6 +634,44 @@ const jugueterialocaldb = [
             {
                 tipo: "imagen",
                 url: "/producto423a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 499,
+        titulo: "Kit Maquillaje con Espejo",
+        preciomayorista: 7199,
+        precio: 36000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto499a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 501,
+        titulo: "Libro Maquillaje con Espejo",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto501a.webp" 
             }
         ],
         status: "disponible",
@@ -935,7 +992,7 @@ const jugueterialocaldb = [
         id: 1,
         titulo: "Kit de Uñas X12 con Brillos",
         preciomayorista: 3499,
-        precio: 3000,
+        precio: 3500,
         descripcion: ``,
         imagenes: [
             {
@@ -979,6 +1036,44 @@ const jugueterialocaldb = [
             {
                 tipo: "imagen",
                 url: "/producto392a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 488,
+        titulo: "Pistola Hidrogel Recargable ",
+        preciomayorista: 7199,
+        precio: 47000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto488a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 489,
+        titulo: "Lanzadora Hidrogel MP5 Recargable",
+        preciomayorista: 7199,
+        precio: 67000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto489a.webp" 
             }
         ],
         status: "disponible",
@@ -1194,25 +1289,6 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
-        id: 465,
-        titulo: "Pistola Soft con Malla de Juego",
-        preciomayorista: 7199,
-        precio: 40000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto465a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Grafiti, Militar",
-        edad: "+6",
-        categoria: "carros-control",
-        genero: "ninos"
-    },
-    {
         id: 466,
         titulo: "Pistola Laser Lanza Daros e Hidrogel",
         preciomayorista: 7199,
@@ -1255,6 +1331,25 @@ const jugueterialocaldb = [
         genero: "unisex"
     },
     {
+        id: 491,
+        titulo: "Lanzadora de Dardos y Orvis",
+        preciomayorista: 7199,
+        precio: 36000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto491a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
         id: 362,
         titulo: "Lanzadoras X2 de Ping Pong Soft",
         preciomayorista: 7199,
@@ -1272,6 +1367,44 @@ const jugueterialocaldb = [
         edad: "+3",
         categoria: "punteria",
         genero: "unisex"
+    },
+    {
+        id: 490,
+        titulo: "Lanzadora Soft con Blancos",
+        preciomayorista: 7199,
+        precio: 30000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto490a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 465,
+        titulo: "Pistola Soft con Malla de Juego",
+        preciomayorista: 7199,
+        precio: 40000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto465a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
     },
     {
         id: 326,
@@ -1441,7 +1574,7 @@ const jugueterialocaldb = [
                 url: "/producto8a.webp"
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Rosado",
         edad: "+3",
         categoria: "munecas",
@@ -1479,7 +1612,7 @@ const jugueterialocaldb = [
                 url: "/producto141a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -1498,7 +1631,7 @@ const jugueterialocaldb = [
                 url: "/producto134a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -1565,7 +1698,7 @@ const jugueterialocaldb = [
         id: 4,
         titulo: "Barbie +10 Vestidos con Hija, Bicicleta y Accesorios",
         preciomayorista: 1000,
-        precio: 46000,
+        precio: 48000,
         descripcion: ``,
         imagenes: [
             {
@@ -1659,7 +1792,7 @@ const jugueterialocaldb = [
         id: 139,
         titulo: "Cabeza para Peinar con Cepillo",
         preciomayorista: 7199,
-        precio: 29000,
+        precio: 24000,
         referencia: "B369-96",
         descripcion: ``,
         imagenes: [
@@ -1673,6 +1806,44 @@ const jugueterialocaldb = [
         edad: "+3",
         categoria: "munecas",
         genero: "ninas"
+    },
+    {
+        id: 481,
+        titulo: "Muñeca Bebe con Accesorios",
+        preciomayorista: 7199,
+        precio: 22000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto481a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 500,
+        titulo: "Muñeca Frozen X1",
+        preciomayorista: 7199,
+        precio: 6000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto500a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
     },
     {
         id: 124,
@@ -1742,6 +1913,120 @@ const jugueterialocaldb = [
             {
                 tipo: "imagen",
                 url: "/producto411a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 482,
+        titulo: "Carro Cars Transformer Control B/R",
+        preciomayorista: 7199,
+        precio: 50000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto482a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 483,
+        titulo: "Carro Cars Control B/R",
+        preciomayorista: 7199,
+        precio: 75000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto483a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 484,
+        titulo: "Jeep a Control Lanza Orvis B/R",
+        preciomayorista: 7199,
+        precio: 98000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto484a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 485,
+        titulo: "Carro Grafiti Control Lanza Orvis B/R",
+        preciomayorista: 7199,
+        precio: 58000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto485a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 486,
+        titulo: "Excavadora a Control Remoto B/R",
+        preciomayorista: 7199,
+        precio: 90000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto486a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 487,
+        titulo: "Carro Control Lanza Vapor B/R",
+        preciomayorista: 7199,
+        precio: 34000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto487a.webp" 
             }
         ],
         status: "disponible",
@@ -2234,6 +2519,44 @@ const jugueterialocaldb = [
         ],
         status: "disponible",
         colores: "Amarillo, Rojo",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 493,
+        titulo: "Bebe con Tasa",
+        preciomayorista: 7199,
+        precio: 110000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto493a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 497,
+        titulo: "Bebe Dormilon Pequeño",
+        preciomayorista: 7199,
+        precio: 23000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto497a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "carros-control",
         genero: "ninos"
@@ -2948,6 +3271,25 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
+        id: 480,
+        titulo: "Carro Dinosaurio Transformer",
+        preciomayorista: 7199,
+        precio: 32000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto480a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
         id: 231,
         titulo: "Carro T Rex con Vapor, Movimiento, Luz y Sonido",
         preciomayorista: 7199,
@@ -3316,7 +3658,7 @@ const jugueterialocaldb = [
         id: 62,
         titulo: "Maleta Veterinaria Mascota",
         preciomayorista: 42999,
-        precio: 37000,
+        precio: 38000,
         referencia: '008-967B',
         descripcion: ``,
         imagenes: [
@@ -3428,7 +3770,7 @@ const jugueterialocaldb = [
         id: 60,
         titulo: "Maleta Tocador con Luz y Sonido",
         preciomayorista: 70999,
-        precio: 72000,
+        precio: 73000,
         referencia: "008-923A",
         descripcion: ``,
         imagenes: [
@@ -4147,6 +4489,63 @@ const jugueterialocaldb = [
         genero: "ninas"
     },
     {
+        id: 494,
+        titulo: "Muñeca Frozen con Coche",
+        preciomayorista: 7199,
+        precio: 48000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto494a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 495,
+        titulo: "Muñeca Gabby's Pequeña",
+        preciomayorista: 7199,
+        precio: 26000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto495a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 496,
+        titulo: "Muñeca Gabby's Grande",
+        preciomayorista: 7199,
+        precio: 40000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto496a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
         id: 101,
         titulo: "Muñeca Doctora Juguetes con Luz en El Cabello",
         preciomayorista: 7199,
@@ -4326,7 +4725,7 @@ const jugueterialocaldb = [
         id: 125,
         titulo: "Maquina de Coser",
         preciomayorista: 7199,
-        precio: 36000,
+        precio: 35000,
         referencia: "6992A",
         descripcion: ``,
         imagenes: [
@@ -6109,7 +6508,7 @@ const jugueterialocaldb = [
                 url: "/producto162a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "didacticos",
@@ -7227,7 +7626,7 @@ const jugueterialocaldb = [
         id: 144,
         titulo: "Set Manicure con Plancha Grande",
         preciomayorista: 7199,
-        precio: 56000,
+        precio: 49000,
         referencia: "8822",
         descripcion: ``,
         imagenes: [
@@ -7733,7 +8132,7 @@ const jugueterialocaldb = [
                 url: "/producto9b.mp4"
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Azul, Morado, Naranja, Negro",
         edad: "+3",
         categoria: "carros-impulso",
@@ -7743,7 +8142,7 @@ const jugueterialocaldb = [
         id: 13,
         titulo: "Gimnasio de Actividades para Bebe",
         preciomayorista: 1000,
-        precio: 65000,
+        precio: 63000,
         descripcion: `¡Estimula el crecimiento y la diversión con nuestro Gimnasio de Bebés Sonidos y Juguetes! Este espacio de juego interactivo está diseñado para ofrecer a tu bebé una experiencia llena de aprendizaje y entretenimiento.
 
         Con sonidos suaves y alegres, el gimnasio crea un ambiente envolvente que captura la atención y curiosidad de tu bebé. Además, el arco sobre la cabeza del bebé está decorado con juguetes colgantes que invitan a la exploración. Tu bebé podrá recostarse cómodamente mientras se sumerge en el mundo de los colores, formas y texturas!`,
@@ -8248,24 +8647,6 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
-        id: 446,
-        titulo: "Lanzadora Hidrogel Pistola Recargable",
-        preciomayorista: 74999,
-        precio: 47000,
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto446a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+11",
-        categoria: "punteria",
-        genero: "unisex"
-    },
-    {
         id: 167,
         titulo: "Boquitoqui de Personajes",
         preciomayorista: 7199,
@@ -8398,23 +8779,82 @@ const jugueterialocaldb = [
         categoria: "munecos",
         genero: "unisex"
     },
+    
     {
-        id: 447,
-        titulo: "Lanzadora Hidrogel MP5 Recargable",
-        preciomayorista: 74999,
-        precio: 67000,
+        id: 492,
+        titulo: "Gato Tom con Hijo Repetidor",
+        preciomayorista: 7199,
+        precio: 27000,
+        referencia: "",
         descripcion: ``,
         imagenes: [
             {
                 tipo: "imagen",
-                url: "/producto447a.webp" 
+                url: "/producto492a.webp" 
             }
         ],
         status: "disponible",
-        colores: "Unicolor",
-        edad: "+11",
-        categoria: "punteria",
-        genero: "unisex"
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 498,
+        titulo: "Kit Doctor con Estetoscopio",
+        preciomayorista: 7199,
+        precio: 17000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto498a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 503,
+        titulo: "Tablero Magico Personajes",
+        preciomayorista: 7199,
+        precio: 13000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto503a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
+    },
+    {
+        id: 504,
+        titulo: "Tablero Magico Dinosaurio",
+        preciomayorista: 7199,
+        precio: 15000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto504a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "carros-control",
+        genero: "ninos"
     },
 
 ];
