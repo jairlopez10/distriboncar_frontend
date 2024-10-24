@@ -270,7 +270,7 @@ const jugueterialocaldb = [
         id: 470,
         titulo: "Muñeca Fina con Tetero y Flamenco",
         preciomayorista: 7199,
-        precio: 276000,
+        precio: 240000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -289,7 +289,7 @@ const jugueterialocaldb = [
         id: 471,
         titulo: "Bebe Fino con Leon y Tetero",
         preciomayorista: 7199,
-        precio: 195000,
+        precio: 170000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -308,7 +308,7 @@ const jugueterialocaldb = [
         id: 439,
         titulo: "Bebe fino con Tetero y Pinguino",
         preciomayorista: 7199,
-        precio: 98000,
+        precio: 95000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -403,7 +403,7 @@ const jugueterialocaldb = [
         id: 280,
         titulo: "Perro Fino Saca la Lengua con Movimiento y Sonido Recargable",
         preciomayorista: 7199,
-        precio: 53000,
+        precio: 54000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -464,7 +464,7 @@ const jugueterialocaldb = [
         id: 313,
         titulo: "Perro Paw Patrol con Movimiento y Sonido",
         preciomayorista: 7199,
-        precio: 45000,
+        precio: 43000,
         referencia: "YC806",
         descripcion: ``,
         imagenes: [
@@ -779,7 +779,7 @@ const jugueterialocaldb = [
         id: 329,
         titulo: "Maquillaje Luna",
         preciomayorista: 7199,
-        precio: 18000,
+        precio: 17000,
         referencia: "1018FP",
         descripcion: ``,
         imagenes: [
@@ -1467,7 +1467,7 @@ const jugueterialocaldb = [
         id: 342,
         titulo: "Cry Baby Sorpresa Huevo",
         preciomayorista: 69900,
-        precio: 58000,
+        precio: 60000,
         referencia: '',
         descripcion: ``,
         imagenes: [
@@ -1486,7 +1486,7 @@ const jugueterialocaldb = [
         id: 367,
         titulo: "Cry Baby Caminadora Repetidora",
         preciomayorista: 7199,
-        precio: 54000,
+        precio: 55000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -5013,6 +5013,25 @@ const jugueterialocaldb = [
         edad: "+3",
         categoria: "organetas-guitarras",
         genero: "unisex"
+    },
+    {
+        id: 500,
+        titulo: "Velociraptor a Control Lanza Vapor Recargable",
+        preciomayorista: 7199,
+        precio: 45000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto505a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
     },
     {
         id: 189,
