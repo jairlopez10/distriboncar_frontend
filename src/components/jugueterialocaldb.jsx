@@ -35,7 +35,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "organetas-guitarras",
         genero: "ninos"
     },
     {
@@ -1029,7 +1029,7 @@ const jugueterialocaldb = [
         id: 392,
         titulo: "Orvis el Hidrogel X 10.000 Orvis ",
         preciomayorista: 7199,
-        precio: 3000,
+        precio: 2500,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -4875,7 +4875,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+3",
-        categoria: "educativo",
+        categoria: "legos",
         genero: "ninos"
     },
     {
@@ -5034,7 +5034,7 @@ const jugueterialocaldb = [
         genero: "unisex"
     },
     {
-        id: 500,
+        id: 505,
         titulo: "Velociraptor a Control Lanza Vapor Recargable",
         preciomayorista: 7199,
         precio: 45000,
@@ -5794,7 +5794,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Militar, Construccion",
         edad: "+3",
-        categoria: "educativo",
+        categoria: "legos",
         genero: "ninos"
     },
     {
@@ -5836,7 +5836,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+3",
-        categoria: "munecas",
+        categoria: "educativo",
         genero: "ninas"
     },
     {
@@ -6172,7 +6172,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+3",
-        categoria: "educativo",
+        categoria: "didacticos",
         genero: "ninos"
     },
     {
@@ -6663,7 +6663,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+3",
-        categoria: "munecos",
+        categoria: "educativo",
         genero: "ninos"
     },
     {
@@ -6682,14 +6682,14 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+3",
-        categoria: "munecos",
+        categoria: "educativo",
         genero: "ninos"
     },
     {
         id: 285,
         titulo: "Slime Leon Doble",
         preciomayorista: 7199,
-        precio: 7000,
+        precio: 6000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -8431,7 +8431,7 @@ const jugueterialocaldb = [
         id: 43,
         titulo: "Cartas de Poker",
         preciomayorista: 1000,
-        precio: 3000,
+        precio: 3500,
         descripcion: ``,
         imagenes: [
             {
@@ -8485,7 +8485,7 @@ const jugueterialocaldb = [
         id: 65,
         titulo: "Carros Impulso Grafiti",
         preciomayorista: 7199,
-        precio: 7000,
+        precio: 6500,
         descripcion: ``,
         imagenes: [
             {
@@ -8620,7 +8620,7 @@ const jugueterialocaldb = [
                 url: "/producto419a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "carros-control",
@@ -8639,7 +8639,7 @@ const jugueterialocaldb = [
                 url: "/producto373a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "carros-control",
@@ -8658,7 +8658,7 @@ const jugueterialocaldb = [
                 url: "/producto420a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "carros-control",
@@ -8677,7 +8677,7 @@ const jugueterialocaldb = [
                 url: "/producto421a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "carros-control",
@@ -8699,7 +8699,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Avengers, Mickey Mouse, Cars, Frozen",
         edad: "+3",
-        categoria: "munecos",
+        categoria: "educativo",
         genero: "unisex"
     },
     {
