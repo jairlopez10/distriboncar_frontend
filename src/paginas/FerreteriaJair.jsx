@@ -100,16 +100,26 @@ const FerreteriaJair = () => {
         202410, //Detal
         101010, //Mayorista Jair
         141414, //Detal Jair
-        201212,
-        121111,
-        201254,
-        343421,
-        429804,
-        439777,
-        750980,
-        129312,
-        323232,
-        485443,
+        201212, //Cliente Ingrid
+        121111, //Cliente Ingrid
+        201254, //Cliente Ingrid
+        343421, //Cliente Ingrid
+        429804, //Cliente Ingrid
+        439777, //Cliente Ingrid
+        750980, //Cliente Ingrid
+        129312, //Cliente Ingrid
+        323232, //Cliente Ingrid
+        485443, //Cliente Carolina
+        123219, //Cliente Carolina
+        120010, //Cliente Carolina
+        110121, //Cliente Carolina
+        200001, //Cliente Carolina
+        900101, //Cliente Carolina
+        102221, //Cliente Carolina
+        666642, //Cliente Carolina
+        992221, //Cliente Carolina
+        111131, //Cliente Carolina
+        323299 //Cliente Carolina
       ]
 
       let tipoclienttemp = '';
