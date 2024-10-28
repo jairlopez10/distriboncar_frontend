@@ -80,16 +80,26 @@ const Jugueterialocalprecios = () => {
       202410, //Detal
       101010, //Mayorista Jair
       141414, //Detal Jair
-      201212,
-      121111,
-      201254,
-      343421,
-      429804,
-      439777,
-      750980,
-      129312,
-      323232,
-      485443,
+      201212, //Cliente Ingrid
+      121111, //Cliente Ingrid
+      201254, //Cliente Ingrid
+      343421, //Cliente Ingrid
+      429804, //Cliente Ingrid
+      439777, //Cliente Ingrid
+      750980, //Cliente Ingrid
+      129312, //Cliente Ingrid
+      323232, //Cliente Ingrid
+      485443, //Cliente Carolina
+      123219, //Cliente Carolina
+      120010, //Cliente Carolina
+      110121, //Cliente Carolina
+      200001, //Cliente Carolina
+      900101, //Cliente Carolina
+      102221, //Cliente Carolina
+      666642, //Cliente Carolina
+      992221, //Cliente Carolina
+      111131, //Cliente Carolina
+      323299 //Cliente Carolina
     ]
 
     let tipoclienttemp = '';
@@ -137,7 +147,7 @@ const Jugueterialocalprecios = () => {
   return (
     <>
       <div className="contenedor">
-        <div className={`${auth ? 'hidden' : 'hidden'}`}>
+        <div className={`${auth ? 'hidden' : 'login-auth'}`}>
           {/*
             En vez del doble hidden va "login-auth" para que pida la contraseña
           */}
@@ -149,7 +159,7 @@ const Jugueterialocalprecios = () => {
         </div>
         
       </div>
-      <div className={`${auth ? 'contenedor' : 'contenedor'}`}>
+      <div className={`${auth ? 'contenedor' : 'hidden'}`}>
         {/* 
           En vez de conteneder en alguna va es "hidden" para que desaparezca el contenido cuando no tiene la contraseña
         */}
@@ -159,8 +169,7 @@ const Jugueterialocalprecios = () => {
             <select className="filtro juguetes" name="categoria" id="categoria" onChange={e => setcategoria(e.target.value)}>
               <option value="" >{categoria === "" ? "Categoria" : "Todas las categorias"}</option>
               <option value="dinosaurios">Dinosaurios</option>
-              <option value="carros-impulso">Carros y Motos de Impulso</option>
-              <option value="carros-pila">Carros y Helicopteros de Pila</option>
+              <option value="carros-impulso">Carros/Helicopteros de Pila</option>
               <option value="carros-control">Carros de Control Remoto</option>
               <option value="didacticos">Didacticos</option>
               <option value="mascotas">Animales y Mascotas</option>
@@ -173,7 +182,6 @@ const Jugueterialocalprecios = () => {
               <option value="legos">Legos y Pistas</option>
               <option value="peluches">Peluches</option>
               <option value="organetas-guitarras">Organetas & Guitarras</option>
-              <option value="musical">Musical</option>
             </select>
             <select name="ordenar" id="ordenar" className="filtro juguetes" onChange={e => setordenar(e.target.value)}>
               <option value="">{ordenar === "" ? "Ordenar" : "Mayor Relevancia"}</option>

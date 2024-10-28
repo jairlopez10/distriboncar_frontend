@@ -73,7 +73,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "organetas-guitarras",
         genero: "ninos"
     },
     {
@@ -92,7 +92,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "organetas-guitarras",
         genero: "ninos"
     },
     {
@@ -111,7 +111,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "organetas-guitarras",
         genero: "ninos"
     },
     {
@@ -130,7 +130,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "organetas-guitarras",
         genero: "ninos"
     },
     {
@@ -187,7 +187,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "organetas-guitarras",
         genero: "ninos"
     },
     {
@@ -225,7 +225,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "punteria",
         genero: "ninos"
     },
     {
@@ -244,7 +244,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "punteria",
         genero: "ninos"
     },
     {
@@ -263,7 +263,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "punteria",
         genero: "ninos"
     },
     {
@@ -282,7 +282,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -301,7 +301,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -320,7 +320,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -339,7 +339,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "mascotas",
         genero: "ninos"
     },
     {
@@ -358,7 +358,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "mascotas",
         genero: "ninos"
     },
     {
@@ -377,7 +377,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "mascotas",
         genero: "ninos"
     },
     {
@@ -396,7 +396,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "mascotas",
         genero: "ninos"
     },
     {
@@ -620,7 +620,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "maquillaje",
         genero: "ninos"
     },
     {
@@ -639,7 +639,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "maquillaje",
         genero: "ninos"
     },
     {
@@ -658,7 +658,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "maquillaje",
         genero: "ninos"
     },
     {
@@ -677,7 +677,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "maquillaje",
         genero: "ninos"
     },
     {
@@ -734,7 +734,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "maquillaje",
         genero: "ninos"
     },
     {
@@ -810,7 +810,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "maquillaje",
         genero: "ninos"
     },
     {
@@ -829,7 +829,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "maquillaje",
         genero: "ninos"
     },
     {
@@ -848,7 +848,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "maquillaje",
         genero: "ninos"
     },
     {
@@ -867,7 +867,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "maquillaje",
         genero: "ninos"
     },
     {
@@ -909,7 +909,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "maquillaje",
         genero: "ninos"
     },
     {
@@ -928,7 +928,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "maquillaje",
         genero: "ninos"
     },
     {
@@ -966,7 +966,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "maquillaje",
         genero: "ninos"
     },
     {
@@ -985,7 +985,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "maquillaje",
         genero: "ninos"
     },
     {
@@ -1022,12 +1022,12 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "maquillaje",
         genero: "ninos"
     },
     {
         id: 392,
-        titulo: "Orvis el Hidrogel X 10.000 Orvis ",
+        titulo: "Orvis de Hidrogel X 10.000 Orvis ",
         preciomayorista: 7199,
         precio: 2500,
         referencia: "",
@@ -1041,7 +1041,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "punteria",
         genero: "ninos"
     },
     {
@@ -1060,7 +1060,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "punteria",
         genero: "ninos"
     },
     {
@@ -1079,7 +1079,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "punteria",
         genero: "ninos"
     },
     {
@@ -1228,7 +1228,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "punteria",
         genero: "ninos"
     },
     {
@@ -1247,7 +1247,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "punteria",
         genero: "ninos"
     },
     {
@@ -1304,7 +1304,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "punteria",
         genero: "ninos"
     },
     {
@@ -1346,7 +1346,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "punteria",
         genero: "ninos"
     },
     {
@@ -1384,7 +1384,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "punteria",
         genero: "ninos"
     },
     {
@@ -1403,7 +1403,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "punteria",
         genero: "ninos"
     },
     {
@@ -1460,7 +1460,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -1502,7 +1502,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -1540,7 +1540,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -1728,7 +1728,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -1766,7 +1766,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -1823,7 +1823,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -1842,7 +1842,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -2539,7 +2539,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -2558,7 +2558,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -2878,7 +2878,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "carros-impulso",
         genero: "ninos"
     },
     {
@@ -2977,7 +2977,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "carros-impulso",
         genero: "ninos"
     },
     {
@@ -2996,7 +2996,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "carros-impulso",
         genero: "ninos"
     },
     {
@@ -3015,7 +3015,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "carros-impulso",
         genero: "ninos"
     },
     {
@@ -3034,7 +3034,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "carros-impulso",
         genero: "ninos"
     },
     {
@@ -3053,7 +3053,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "carros-impulso",
         genero: "ninos"
     },
     {
@@ -3156,7 +3156,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "carros-impulso",
         genero: "ninos"
     },
     {
@@ -3286,7 +3286,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "carros-impulso",
         genero: "ninos"
     },
     {
@@ -3328,7 +3328,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "carros-impulso",
         genero: "ninos"
     },
     {
@@ -3347,7 +3347,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "carros-impulso",
         genero: "ninos"
     },
     {
@@ -3506,7 +3506,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "carros-impulso",
         genero: "ninos"
     },
     {
@@ -3651,7 +3651,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "mascotas",
         genero: "ninos"
     },
     {
@@ -3670,7 +3670,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "mascotas",
         genero: "ninos"
     },
     {
@@ -3939,7 +3939,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "maquillaje",
         genero: "ninos"
     },
     {
@@ -4004,6 +4004,28 @@ const jugueterialocaldb = [
         edad: "+3",
         categoria: "carros-impulso",
         genero: "ninos"
+    },
+    {
+        id: 33,
+        titulo: "Patito Burbujeante Bailarin",
+        preciomayorista: 32999,
+        precio: 32000,
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto33a.webp" 
+            },
+            {
+                tipo: "video",
+                url: "/producto33b.mp4" 
+            }
+        ],
+        status: "disponible",
+        colores: "Amarillo",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "unisex"
     },
     {
         id: 53,
@@ -4143,7 +4165,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "mascotas",
         genero: "ninos"
     },
     {
@@ -4162,7 +4184,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "mascotas",
         genero: "ninos"
     },
     {
@@ -4181,7 +4203,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "carros-impulso",
         genero: "ninos"
     },
     {
@@ -4200,7 +4222,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "carros-impulso",
         genero: "ninos"
     },
     {
@@ -4219,7 +4241,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "carros-impulso",
         genero: "ninos"
     },
     {
@@ -4257,7 +4279,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "organetas-guitarras",
         genero: "ninos"
     },
     {
@@ -4276,7 +4298,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "mascotas",
         genero: "ninos"
     },
     {
@@ -4314,7 +4336,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "organetas-guitarras",
         genero: "ninos"
     },
     {
@@ -4333,7 +4355,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "organetas-guitarras",
         genero: "ninos"
     },
     {
@@ -4352,7 +4374,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "educativo",
         genero: "ninos"
     },
     {
@@ -4409,7 +4431,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "doctor-cocina",
         genero: "ninos"
     },
     {
@@ -4428,7 +4450,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "doctor-cocina",
         genero: "ninos"
     },
     {
@@ -4466,7 +4488,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -4485,7 +4507,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -4523,7 +4545,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -4542,7 +4564,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -4561,7 +4583,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -4603,6 +4625,158 @@ const jugueterialocaldb = [
         genero: "ninas"
     },
     {
+        id: 515,
+        titulo: "Bicicleta Metalica",
+        preciomayorista: 7199,
+        precio: 16000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto515a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "didacticos",
+        genero: "ninos"
+    },
+    {
+        id: 516,
+        titulo: "Bicicleta Metalica",
+        preciomayorista: 7199,
+        precio: 16000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto516a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "didacticos",
+        genero: "ninos"
+    },
+    {
+        id: 517,
+        titulo: "Bicicleta Metalica",
+        preciomayorista: 7199,
+        precio: 16000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto517a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "didacticos",
+        genero: "ninos"
+    },
+    {
+        id: 518,
+        titulo: "Bicicleta Metalica",
+        preciomayorista: 7199,
+        precio: 16000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto518a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "didacticos",
+        genero: "ninos"
+    },
+    {
+        id: 519,
+        titulo: "Bicicleta Metalica",
+        preciomayorista: 7199,
+        precio: 16000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto519a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "didacticos",
+        genero: "ninos"
+    },
+    {
+        id: 520,
+        titulo: "Bicicleta Metalica",
+        preciomayorista: 7199,
+        precio: 16000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto520a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "didacticos",
+        genero: "ninos"
+    },
+    {
+        id: 521,
+        titulo: "Bicicleta Metalica",
+        preciomayorista: 7199,
+        precio: 16000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto521a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "didacticos",
+        genero: "ninos"
+    },
+    {
+        id: 522,
+        titulo: "Bicicleta Metalica",
+        preciomayorista: 7199,
+        precio: 16000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto522a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "didacticos",
+        genero: "ninos"
+    },
+    {
         id: 424,
         titulo: "Twister Juego Mesa",
         preciomayorista: 7199,
@@ -4618,7 +4792,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "educativo",
         genero: "ninos"
     },
     {
@@ -4637,7 +4811,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "educativo",
         genero: "ninos"
     },
     {
@@ -4675,7 +4849,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "educativo",
         genero: "ninos"
     },
     
@@ -4699,7 +4873,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "doctor-cocina",
         genero: "ninos"
     },
     {
@@ -4718,7 +4892,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "doctor-cocina",
         genero: "ninos"
     },
     {
@@ -4737,7 +4911,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "doctor-cocina",
         genero: "ninos"
     },
     {
@@ -4775,7 +4949,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "educativo",
         genero: "ninos"
     },
     {
@@ -4794,7 +4968,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "legos",
         genero: "ninos"
     },
     
@@ -4814,7 +4988,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "legos",
         genero: "ninos"
     },
     {
@@ -4833,7 +5007,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "legos",
         genero: "ninos"
     },
     {
@@ -4852,7 +5026,178 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "legos",
+        genero: "ninos"
+    },
+    {
+        id: 508,
+        titulo: "Lego Mario Bros 159 PCS",
+        preciomayorista: 7199,
+        precio: 35000,
+        referencia: "60019",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto508a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "legos",
+        genero: "ninos"
+    },
+    {
+        id: 509,
+        titulo: "Lego Bomberos 184 PCS",
+        preciomayorista: 7199,
+        precio: 38000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto509a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "legos",
+        genero: "ninos"
+    },
+    {
+        id: 510,
+        titulo: "Legos 3D Personajes",
+        preciomayorista: 7199,
+        precio: 4500,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto510a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "legos",
+        genero: "ninos"
+    },
+    {
+        id: 511,
+        titulo: "Lego Harry Potter 323 PCS",
+        preciomayorista: 7199,
+        precio: 46000,
+        referencia: "86008",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto511a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "legos",
+        genero: "ninos"
+    },
+    {
+        id: 512,
+        titulo: "Lego Mario Bros 4 en 1 de 479 PCS",
+        preciomayorista: 7199,
+        precio: 44000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto512a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "legos",
+        genero: "ninos"
+    },
+    {
+        id: 513,
+        titulo: "Lego Mario Bros 250 PC",
+        preciomayorista: 7199,
+        precio: 56000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto513a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "legos",
+        genero: "ninos"
+    },
+    {
+        id: 514,
+        titulo: "Lego Castillo Princesa de 191 PC",
+        preciomayorista: 7199,
+        precio: 24000,
+        referencia: "2000",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto514a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
+        categoria: "legos",
+        genero: "ninos"
+    },
+    {
+        id: 337,
+        titulo: "Lego Frozen y Carruaje",
+        preciomayorista: 7199,
+        precio: 26000,
+        referencia: "LB2101",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto337a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "legos",
+        genero: "ninas"
+    },
+    {
+        id: 281,
+        titulo: "Lego Avengers de 273 Piezas",
+        preciomayorista: 7199,
+        precio: 26000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto281a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "legos",
         genero: "ninos"
     },
     {
@@ -4935,7 +5280,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+6",
-        categoria: "didacticos",
+        categoria: "legos",
         genero: "ninos"
     },
     {
@@ -5129,7 +5474,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "dinosaurios",
         genero: "ninos"
     },
     {
@@ -5471,7 +5816,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "dinosaurios",
         genero: "ninos"
     },
     
@@ -5517,6 +5862,25 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Verde",
         edad: "+3",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 523,
+        titulo: "Dinosaurio Za Za",
+        preciomayorista: 7199,
+        precio: 18000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto523a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Grafiti, Militar",
+        edad: "+6",
         categoria: "dinosaurios",
         genero: "ninos"
     },
@@ -5604,7 +5968,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "dinosaurios",
         genero: "ninos"
     },
     {
@@ -5650,7 +6014,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+3",
-        categoria: "carros-impulso",
+        categoria: "legos",
         genero: "ninos"
     },
     {
@@ -5677,7 +6041,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+3",
-        categoria: "carros-impulso",
+        categoria: "legos",
         genero: "ninos"
     },
     {
@@ -5696,7 +6060,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+6",
-        categoria: "carros-impulso",
+        categoria: "legos",
         genero: "ninos"
     },
     {
@@ -5737,7 +6101,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Neon",
         edad: "+3",
-        categoria: "carros-impulso",
+        categoria: "legos",
         genero: "ninos"
     },
     {
@@ -5756,7 +6120,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+3",
-        categoria: "carros-impulso",
+        categoria: "legos",
         genero: "ninos"
     },
     {
@@ -6252,6 +6616,25 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
+        id: 164,
+        titulo: "Mario Karts X8",
+        preciomayorista: 7199,
+        precio: 33000,
+        referencia: "999-58",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto164a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+3",
+        categoria: "carros-impulso",
+        genero: "unisex"
+    },
+    {
         id: 254,
         titulo: "Hummer Control Recargable",
         preciomayorista: 7199,
@@ -6626,25 +7009,6 @@ const jugueterialocaldb = [
         colores: "Camioneta, Policia",
         edad: "+3",
         categoria: "carros-impulso",
-        genero: "ninos"
-    },
-    {
-        id: 281,
-        titulo: "Lego Avengers de 273 Piezas",
-        preciomayorista: 7199,
-        precio: 26000,
-        referencia: "",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto281a.webp" 
-            }
-        ],
-        status: "No Stock",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "legos",
         genero: "ninos"
     },
     {
@@ -7132,7 +7496,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+3",
-        categoria: "munecas",
+        categoria: "peluches",
         genero: "ninas"
     },
     {
@@ -7151,7 +7515,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Rosada, Morada",
         edad: "+3",
-        categoria: "munecas",
+        categoria: "peluches",
         genero: "ninas"
     },
     {
@@ -7190,25 +7554,6 @@ const jugueterialocaldb = [
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
-        genero: "ninas"
-    },
-    {
-        id: 337,
-        titulo: "Lego Frozen y Carruaje",
-        preciomayorista: 7199,
-        precio: 0,
-        referencia: "LEG33",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto337a.webp" 
-            }
-        ],
-        status: "Pending",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "legos",
         genero: "ninas"
     },
     {
@@ -7603,7 +7948,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "didacticos",
         genero: "ninos"
     },
     {
@@ -7660,7 +8005,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "didacticos",
         genero: "ninos"
     },
     {
@@ -7931,26 +8276,6 @@ const jugueterialocaldb = [
         categoria: "didacticos",
         genero: "unisex"
     },
-    {
-        id: 164,
-        titulo: "Mario Karts X8",
-        preciomayorista: 7199,
-        precio: 33000,
-        referencia: "999-58",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto164a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+3",
-        categoria: "carros-impulso",
-        genero: "unisex"
-    },
-
 
 
     {
@@ -7973,28 +8298,6 @@ const jugueterialocaldb = [
         colores: "Unicolor",
         edad: "+11",
         categoria: "punteria",
-        genero: "unisex"
-    },
-    {
-        id: 33,
-        titulo: "Patito Burbujeante Bailarin",
-        preciomayorista: 32999,
-        precio: 32000,
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto33a.webp" 
-            },
-            {
-                tipo: "video",
-                url: "/producto33b.mp4" 
-            }
-        ],
-        status: "disponible",
-        colores: "Amarillo",
-        edad: "+3",
-        categoria: "carros-impulso",
         genero: "unisex"
     },
     {
@@ -8255,7 +8558,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "educativo",
         genero: "ninos"
     },
     {
@@ -8547,7 +8850,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -8566,7 +8869,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "mascotas",
         genero: "ninos"
     },
     {
@@ -8718,7 +9021,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "punteria",
         genero: "ninos"
     },
     {
@@ -8833,7 +9136,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "mascotas",
         genero: "ninos"
     },
     {
@@ -8852,7 +9155,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "doctor-cocina",
         genero: "ninos"
     },
     {
@@ -8871,7 +9174,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "educativo",
         genero: "ninos"
     },
     {
@@ -8890,7 +9193,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
-        categoria: "carros-control",
+        categoria: "educativo",
         genero: "ninos"
     },
     
