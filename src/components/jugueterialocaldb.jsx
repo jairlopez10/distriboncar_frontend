@@ -403,7 +403,7 @@ const jugueterialocaldb = [
         id: 280,
         titulo: "Perro Fino Saca la Lengua con Movimiento y Sonido Recargable",
         preciomayorista: 7199,
-        precio: 54000,
+        precio: 55000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -935,7 +935,7 @@ const jugueterialocaldb = [
         id: 114,
         titulo: "Kit Maquillaje con Secador de Uñas",
         preciomayorista: 7199,
-        precio: 23000,
+        precio: 25000,
         referencia: "MBK-326",
         descripcion: ``,
         imagenes: [
@@ -1467,7 +1467,7 @@ const jugueterialocaldb = [
         id: 342,
         titulo: "Cry Baby Sorpresa Huevo",
         preciomayorista: 69900,
-        precio: 60000,
+        precio: 55000,
         referencia: '',
         descripcion: ``,
         imagenes: [
@@ -2175,7 +2175,7 @@ const jugueterialocaldb = [
                 url: "/producto374a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "carros-control",
@@ -2458,7 +2458,7 @@ const jugueterialocaldb = [
         id: 291,
         titulo: "Excavadora Control Remoto Recargable",
         preciomayorista: 7199,
-        precio: 68000,
+        precio: 65000,
         referencia: "8034E",
         descripcion: ``,
         imagenes: [
@@ -3831,7 +3831,7 @@ const jugueterialocaldb = [
         id: 330,
         titulo: "Set de Cocina e Utensilios",
         preciomayorista: 7199,
-        precio: 26000,
+        precio: 24000,
         referencia: "SK98C",
         descripcion: ``,
         imagenes: [
@@ -4113,7 +4113,7 @@ const jugueterialocaldb = [
         id: 165,
         titulo: "Libelula con Luces, Sonido y Movimiento",
         preciomayorista: 7199,
-        precio: 28000,
+        precio: 26000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -5538,7 +5538,7 @@ const jugueterialocaldb = [
         id: 196,
         titulo: "Dinosaurio Chimuelo con Ginete",
         preciomayorista: 7199,
-        precio: 34000,
+        precio: 35000,
         referencia: "3308",
         descripcion: ``,
         imagenes: [
@@ -5804,7 +5804,7 @@ const jugueterialocaldb = [
         id: 388,
         titulo: "Dinosaurio con Hijo lanza Vapor",
         preciomayorista: 7199,
-        precio: 33000,
+        precio: 35000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -6098,7 +6098,7 @@ const jugueterialocaldb = [
                 url: "/producto12a.webp"
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Neon",
         edad: "+3",
         categoria: "legos",
@@ -6197,7 +6197,7 @@ const jugueterialocaldb = [
                 url: "/producto213a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+3",
         categoria: "educativo",
@@ -7417,7 +7417,7 @@ const jugueterialocaldb = [
                 url: "/producto256a.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         colores: "Unicolor",
         edad: "+6",
         categoria: "peluches",
