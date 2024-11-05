@@ -33,7 +33,7 @@ const Header = () => {
                         <path d="M18 6l-12 12" />
                         <path d="M6 6l12 12" />
                     </svg>
-                    <div className="logo cursor-pointer" onClick={() => pagina === 'Jair' ? navegar("/ferreteriaj") : navegar("/catalogojuguetesl")}>
+                    <div className="logo cursor-pointer" onClick={() => pagina === 'Jair' ? navegar("/ferreteriaj") : navegar("/catalogojugueteslp")}>
                         <img src="/logo.png" alt="logo" />
                     </div>
                     
@@ -50,7 +50,7 @@ const Header = () => {
                 <div className={`${menu ? "flex transition-all" : "hidden"} navegacion`}>
                     
                     <Link to={redireccionaf} className="jugueteslink" onClick={() => setmenu(false)}>Ferreteria</Link>
-                    <Link to="/catalogojuguetesl" className="jugueteslink" onClick={() => setmenu(false)}>Jugueteria</Link>
+                    <Link to="/catalogojugueteslp" className="jugueteslink" onClick={() => setmenu(false)}>Jugueteria</Link>
                     <Link to="/checkout" onClick={() => setmenu(false)} className="carrito-ocultar">
                         <svg xmlns="http://www.w3.org/2000/svg" className="carrito icon icon-tabler icon-tabler-shopping-cart" width="84" height="84" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
