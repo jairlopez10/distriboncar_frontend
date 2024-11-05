@@ -80,7 +80,6 @@ const Jugueterialocalprecios = () => {
       202410, //Detal
       101010, //Mayorista Jair
       141414, //Detal Jair
-      201212, //Cliente Ingrid
       121111, //Cliente Ingrid
       201254, //Cliente Ingrid
       343421, //Cliente Ingrid
@@ -99,7 +98,8 @@ const Jugueterialocalprecios = () => {
       666642, //Cliente Carolina
       992221, //Cliente Carolina
       111131, //Cliente Carolina
-      323299 //Cliente Carolina
+      323299, //Cliente Carolina
+      //201212, //Cliente Ingrid - Se bloquea porque ingreso 5 veces, probablemente se compartio a mas de 1 cliente
     ]
 
     let tipoclienttemp = '';
