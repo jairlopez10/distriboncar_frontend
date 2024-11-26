@@ -100,14 +100,14 @@ const FerreteriaJair = () => {
         202410, //Detal
         101010, //Mayorista Jair
         141414, //Detal Jair
-        121111, //Cliente Ingrid
-        201254, //Cliente Ingrid
-        343421, //Cliente Ingrid
-        429804, //Cliente Ingrid
+        // 121111, //Cliente Ingrid - Se bloque por 5 ingresos en 2 dispositivos
+        // 201254, //Cliente Ingrid - Se bloquea por 9 ingresos en 5 dispositivos
+        // 343421, //Cliente Ingrid Se bloquea por 28 ingresos en 17 dispositivos
+        // 429804, //Cliente Ingrid - Se bloquea por 6 ingresos en 4 dispositivos
         439777, //Cliente Ingrid
-        750980, //Cliente Ingrid
+        // 750980, //Cliente Ingrid - Se bloquea por 7 ingresos en 3 dispositivos
         129312, //Cliente Ingrid
-        323232, //Cliente Ingrid
+        // 323232, //Cliente Ingrid - Se bloque por 13 ingresos en 4 dispositivos
         485443, //Cliente Carolina
         123219, //Cliente Carolina
         120010, //Cliente Carolina
@@ -115,11 +115,41 @@ const FerreteriaJair = () => {
         200001, //Cliente Carolina
         900101, //Cliente Carolina
         102221, //Cliente Carolina
-        666642, //Cliente Carolina
-        992221, //Cliente Carolina
+        666642, //Cliente Carolina - Ingreso 13 veces en 1 solo dispositivo y SI COMPRO
+        992221, //Cliente Carolina - Se bloquea por 7 ingresos en 2 dispositivos
         111131, //Cliente Carolina
-        323299 //Cliente Carolina
+        323299, //Cliente Carolina
         //201212, //Cliente Ingrid - Se bloquea porque ingreso 5 veces, probablemente se compartio a mas de 1 cliente
+        919299, // Cliente Carolina
+        100012, // Cliente Carolina
+        703232, // Cliente Carolina
+        975312, // Cliente Carolina
+        232111, // Cliente Carolina
+        505021, // Cliente Carolina
+        325642, // Cliente Carolina
+        120200, // Cliente Carolina
+        333302, // Cliente Carolina
+        333211, // Cliente Carolina
+        444522, // Cliente Carolina
+        666732, // Cliente Carolina
+        861112, // Cliente Carolina
+        831193, // Cliente Carolina
+        932221, // Cliente Carolina
+        555434, // Cliente Ingrid
+        675384, // Cliente Ingrid
+        853451, // Cliente Ingrid
+        945241, // Cliente Ingrid
+        994844, // Cliente Ingrid
+        223112, // Cliente Ingrid
+        554555, // Cliente Ingrid
+        766666, // Cliente Ingrid
+        839211, // Cliente Ingrid
+        566334, // Cliente Ingrid
+        999000, // Cliente Ingrid
+        443000, // Cliente Ingrid
+        656220, // Cliente Ingrid
+        222198, // Cliente Ingrid
+        418421 // Cliente Ingrid
       ]
 
       let tipoclienttemp = '';
