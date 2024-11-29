@@ -119,7 +119,7 @@ const Jugueterialocalprecios = () => {
       675384, // Cliente Ingrid
       853451, // Cliente Ingrid
       945241, // Cliente Ingrid
-      994844, // Cliente Ingrid
+      // 994844, // Cliente Ingrid - Se bloquea porque es cliente de Paola
       223112, // Cliente Ingrid
       554555, // Cliente Ingrid
       766666, // Cliente Ingrid
