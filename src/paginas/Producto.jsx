@@ -1,26 +1,33 @@
-import { useParams } from "react-router-dom"
+import { useParams, useNavigate } from "react-router-dom"
 import { useState, useEffect } from "react";
 import ferreteriajairdb from "../components/ferreteriajairdb";
 import Multimedia from "../components/Multimedia";
 import usePagina from "../hooks/usePagina";
+import Juegorachetgrand from "../components/productsection/Juegorachetgrand";
 
 const Producto = () => {
 
     const params = useParams();
     const idurl = +params.id
     const tipocliente = params.tipocliente
-
-    console.log(tipocliente)
+    const envio = {
+      pequeno:  10000,
+      grande: 20000
+    }
+    const navegar = useNavigate()
+    const productsection = {
+      140: < Juegorachetgrand />
+    }
 
     const producto = ferreteriajairdb.find(prod => prod.id === idurl)
     const { titulo, id, imagenes } = producto
-
+    console.log(producto.id)
     const [alertacarrito, setAlertaCarrito] = useState(false);
     const [multiactual, setmultiactual] = useState(imagenes[0])
     const [cantidad, setCantidad] = useState(1);
     const [descripcion, setdescripcion] = useState(true);
     const [carrito, setCarrito] = useState(JSON.parse(localStorage.getItem('carritodistribucionesboncar')) || []);
-    const [lanzadoraboolean, setLanzadoraBoolean] = useState(false);
+    const [prodsectionboolean, setProdsectionboolean] = useState(false);
     const profitdetal = 1.332
     
     const { setPagina } = usePagina();
@@ -36,6 +43,10 @@ const Producto = () => {
     window.scrollTo(0,0);
     document.title = `DB - ${titulo}`
     setPagina('Jair')
+
+    if(productsection[producto.id]) {
+      setProdsectionboolean(true)
+    }
   }, [])
 
   const cambiarcantidad = (tipo) => {
@@ -99,7 +110,10 @@ const Producto = () => {
     
     setCarrito(nuevocarrito);
 
-    notificacioncarrito()
+    //notificacioncarrito()
+    setTimeout(() => {
+      navegar('/checkout')
+    }, 200);
   }
 
   const notificacioncarrito = () => {
@@ -113,7 +127,7 @@ const Producto = () => {
 
   return (
     <>
-      <div className="contenedor2">
+      <div className="contenedor2 separaheader">
         <div className={`${alertacarrito ? 'block' : 'hidden'} notificacion-carrito`}>
           Agregado Correctamente
         </div>
@@ -142,45 +156,18 @@ const Producto = () => {
           </div>
           <div className="contenido-producto-final">
             <p className="titulo-producto-final">{producto.titulo}</p>
-            {tipocliente === "d" ? (
-              <>
-                <p className="precio-prod">{`$${(Math.ceil(producto.precio*profitdetal/100)*100).toLocaleString('es-CO')} / Und`}</p>
-              </>
-            ) : (
-              <>
-                <p className="precio-prod">{`$${producto.precio.toLocaleString('es-CO')} / Und`}</p>
-              </>
-            )}
-            <p className="bulto"><span>{producto.bulto}</span></p>
-            <div className="beneficios">
-              <div className="flex gap-2 items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" className="icono-incluido icon icon-tabler icon-tabler-truck-delivery" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#000000" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M7 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-                  <path d="M17 17m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-                  <path d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5" />
-                  <path d="M3 9l4 0" />
-                </svg>
-                <p>Entregas a todo Colombia</p>
-              </div>
-              <div className="flex gap-2 items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" className="icono-incluido icon icon-tabler icon-tabler-shield-check" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#000000" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M11.46 20.846a12 12 0 0 1 -7.96 -14.846a12 12 0 0 0 8.5 -3a12 12 0 0 0 8.5 3a12 12 0 0 1 -.09 7.06" />
-                  <path d="M15 19l2 2l4 -4" />
-                </svg>
-                <p>Garantia de 1 mes</p>
-              </div>
-              <div className="flex gap-2 items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" className="icono-incluido icon icon-tabler icon-tabler-align-box-bottom-left" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#000000" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                  <path d="M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
-                  <path d="M7 15v2" />
-                  <path d="M10 11v6" />
-                  <path d="M13 13v4" />
-                </svg>
-                <p>Stock <span className=" text-green-600">disponible</span></p>
-              </div>
+            <div className="flex gap-1 items-center">
+              <img src="/estrella.webp" alt="estrella" className="estrella"/>
+              <img src="/estrella.webp" alt="estrella" className="estrella"/>
+              <img src="/estrella.webp" alt="estrella" className="estrella"/>
+              <img src="/estrella.webp" alt="estrella" className="estrella"/>
+              <img src="/estrella.webp" alt="estrella" className="estrella"/>
+              <p> + {producto.id + 25} Vendidos</p>
+            </div>
+            <p className="precio-prod-antes">{`$${producto.precio >= 20000 ? ((producto.precio + envio.grande)*2).toLocaleString('es-CO') : ((producto.precio + envio.pequeno)*2).toLocaleString('es-CO')}`}</p>
+            <div className="flex items-center gap-3">
+              <p className="precio-prod">{`$${producto.precio >= 20000 ? (producto.precio + envio.grande).toLocaleString('es-CO') : (producto.precio + envio.pequeno).toLocaleString('es-CO')}`}</p>
+              <p className="oferta-text">50% DESCTO</p>
             </div>
             
             <div className="botones-carrito">
@@ -188,34 +175,38 @@ const Producto = () => {
               <input type="number" min="1" value={cantidad} onChange={e => setCantidad(e.target.value)} />
               <button onClick={() => cambiarcantidad('mas')}>+</button>
             </div>
-            <button className="boton-agregar-carrito" onClick={() => agregaralcarrito()}>Agregar Carrito </button>
+            <button className="boton-agregar-carrito" onClick={() => agregaralcarrito()}>
+              <svg xmlns="http://www.w3.org/2000/svg" className="icono-carrito-producto icon icon-tabler icon-tabler-shopping-cart" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                <path d="M17 17h-11v-14h-2" />
+                <path d="M6 5l14 1l-1 7h-13" />
+              </svg>
+              Pagar en Casa </button>
+
+            <img src="/puntosfuertes.webp" className="puntosfuertes" alt="puntos fuertes" />
             
-            <div className="descripcion-promocion">
-              <div className="descripcion">
-                <div className="boton-descripcion" onClick={() => setdescripcion(!descripcion)}>
-                  <p>Caracteristicas</p>
-                  <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-caret-down" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1" stroke="#3d3d3d" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                    <path d="M6 10l6 6l6 -6h-12" />
-                  </svg>
+            {prodsectionboolean === true ? (
+              <>
+                {productsection[producto.id]}
+              </>
+            ) : (
+              <> 
+                <div className="descripcion-promocion">
+                  <div className="descripcion">
+                    <div className="boton-descripcion" onClick={() => setdescripcion(!descripcion)}>
+                      <p>Caracteristicas</p>
+                      <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-caret-down" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1" stroke="#3d3d3d" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M6 10l6 6l6 -6h-12" />
+                      </svg>
+                    </div>
+                  </div>
                 </div>
-                <div className={`${descripcion ? 'block' : 'hidden'} descripcion-parrafo`}>
-                  {lanzadoraboolean ? (
-                    <>
-                      <Accesoriosproducto 
-                        accesorios={producto.descripcion}
-                      />
-                    </>
-                  ) : (
-                    <>
-                      <p>{producto.descripcion}</p>
-                    </>
-                  )}
-                </div>
-                
-              </div>
-              
-            </div>
+              </>
+            )}
+            
           </div>
         </div>
       </div>

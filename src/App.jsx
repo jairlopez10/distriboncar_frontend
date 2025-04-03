@@ -12,6 +12,7 @@ import FerreteriaJair from './paginas/FerreteriaJair'
 import JugueteriaBodega from './paginas/JugueteriaBodega'
 import Checkout from './paginas/Checkout'
 import { PaginaProvider } from './context/PaginaProvider'
+import Pedidoconfirmado from './paginas/Pedidoconfirmado'
 
 function App() {
   
@@ -32,7 +33,9 @@ function App() {
               <Route path='ferreteriaj/:categoria' element={<FerreteriaJair />}/>
               <Route path='/:titulo/:id/:tipocliente' element={<Producto />}/>
               <Route path='nosotros' element={<Nosotros />}/>
-              <Route path='/checkout' element={<Checkout />} />
+              <Route path='checkout' element={<Checkout />} />
+              <Route path='pedidoconfirmado' element={<Pedidoconfirmado />} />
+              <Route path='/:categoria' element={<Inicio />}/>
             </Route> 
           </Routes>
         </PaginaProvider>

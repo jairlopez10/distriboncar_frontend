@@ -197,7 +197,7 @@ const FerreteriaJair = () => {
 
   return (
     <>
-      <div className="contenedor">
+      <div className="contenedor separaheader">
         <div className={`${auth ? 'hidden' : 'login-auth'}`}>
           <h2>Iniciar Sesion</h2>
           <label htmlFor="loginauth">Contraseña:</label>

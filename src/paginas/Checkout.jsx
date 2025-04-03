@@ -11,7 +11,7 @@ const Checkout = () => {
     const { setPagina } = usePagina();
     const [nombres, setNombres] = useState('');
     const [telefono, setTelefono] = useState('');
-    const [email, setEmail] = useState('');
+    const [cedula, setCedula] = useState('');
     const [origen, setOrigen] = useState('');
     const [ciudad, setCiudad] = useState('');
     const [direccion, setDireccion] = useState('');
@@ -50,7 +50,7 @@ const Checkout = () => {
 
     useEffect(() => {
         setPagina('Jair')
-        document.title = 'Checkout - Distribuciones Boncar'
+        document.title = 'Distriboncar | Checkout'
         
         const datestorage = JSON.parse(localStorage.getItem('authdistribucionesboncar')) || {}
 
@@ -72,7 +72,7 @@ const Checkout = () => {
         setSpinner(true);
 
         //Revisar si algun campo esta vacio y generar alerta
-        if([nombres, telefono, email, origen, ciudad, direccion].includes('')){
+        if([nombres, telefono, cedula, origen, ciudad, direccion].includes('')){
             setAlerta({
                 msg: 'Todos los campos son obligatorios',
                 error: true
@@ -101,6 +101,7 @@ const Checkout = () => {
             cliente: nombres,
             origen,
             fecha,
+            cedula,
             productos: carritomostrar,
             productostext,
             ciudad,
@@ -127,12 +128,11 @@ const Checkout = () => {
         try {
             const url = `${import.meta.env.VITE_BACKEND_URL}/api/clientes`
             await axios.post(url, pedido);
-            setNombres('');
-            setTelefono('');
-            setEmail('');
-            setCiudad('');
-            setOrigen('');
-            setDireccion('')
+            setSpinner(false)
+            navegar('/pedidoconfirmado')
+            localStorage.setItem('carritodistribucionesboncar', JSON.stringify([]))
+            setCarrito([]);
+            setCarritoMostrar([]);
             
         } catch (error) {
             console.log(error);
@@ -146,7 +146,7 @@ const Checkout = () => {
 
   return (
     <>
-        <div className="contenedor-checkout">
+        <div className="contenedor-checkout separaheader">
             <div className="pagina-checkout">
                 <div className="informacion-envio grid-item">
                     <h1 className="text-black">Dirección de Envio</h1>
@@ -163,8 +163,8 @@ const Checkout = () => {
                                 <input type="tel" placeholder="Telefono" id="telefono" value={telefono} onChange={e => setTelefono(e.target.value)}/>
                             </div>
                             <div className="div-row-info">
-                                <label htmlFor="email">Email:</label>
-                                <input type="email" placeholder="Email" id="email" value={email} onChange={e => setEmail(e.target.value)}/>
+                                <label htmlFor="cedula">Cedula:</label>
+                                <input type="text" placeholder="79744931" id="cedula" value={cedula} onChange={e => setCedula(e.target.value)}/>
                             </div>
                         </div>
                         <div className="div-rows-info mt-4">
@@ -216,22 +216,22 @@ const Checkout = () => {
                     </div>
                     
                     <div className={`${tipocliente === 'Detal' ? 'hidden' : 'flex'} justify-between mt-8`}>
-                        <p className=" font-bold">Descuento - 5 %</p>
-                        <p>{`- $${(total*0.05).toLocaleString('es-CO')}`}</p>
+                        <p className="">Envio Contra Entrega</p>
+                        <p className="text-blue-600">GRATIS</p>
                     </div>
                     
-                    <div className="flex justify-between mt-8 seccion-total">
-                        <p className=" font-bold">TOTAL</p>
-                        <p className=" text-3xl">{`$${tipocliente === 'Detal' ? total.toLocaleString('es-CO') : (total*0.95).toLocaleString('es-CO')}`}</p>
+                    <div className="flex justify-between mt-4 seccion-total">
+                        <p className="">TOTAL</p>
+                        <p className=" text-3xl">{`$${tipocliente === 'Detal' ? total.toLocaleString('es-CO') : total.toLocaleString('es-CO')}`}</p>
                     </div>
 
                     <div>
-                        <h2 className="text-black mt-8">Formas de Envio</h2>
-                        <div className="envios-fotos">
-                            <img className="" src="./truck.png" alt="" />
-                            <img className="" src="./contraentrega.jpg" alt="" />
+                        <h2 className="text-black mt-8">Paga en casa</h2>
+                        <div className="flex justify-center mt-6">
+                            <img className=" w-80" src="./inter.webp" alt="" />
                         </div>
-                        <p className="  px-8 py-6 text-center"><span className=" font-bold">CLIENTE PAGA EL FLETE</span> - enviamos tu pedido en <span className="font-bold">1-2 dias habiles</span></p>
+                        
+                        <p className="  px-8 py-6 text-center"> <span className=" font-bold">ENVIO TOTALMENTE</span><span className=" font-bold text-blue-600"> GRATIS</span> y recibe tu pedido entre 1-2 dias habiles (Pago en efectivo)</p>
                     </div>
 
                     <div className="ocultar-info-pedido">

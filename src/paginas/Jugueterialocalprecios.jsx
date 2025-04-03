@@ -176,7 +176,7 @@ const Jugueterialocalprecios = () => {
 
   return (
     <>
-      <div className="contenedor">
+      <div className="contenedor separaheader">
         <div className={`${auth ? 'hidden' : 'login-auth'}`}>
           {/*
             En vez del doble hidden va "login-auth" para que pida la contraseña
