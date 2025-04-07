@@ -6,8 +6,10 @@ const Header = () => {
 
     const navegar = useNavigate();
     const [menu, setmenu] = useState(false)
+    const [anuncio, setAnuncio] = useState(0);
     const { pagina } = usePagina();
     const [redireccionaf, setRedireccionaf] = useState('')
+    const anuncios = ['ENVÍO GRATIS - 1-3 DIAS HÁBILES', 'DESCUENTO DEL - 50% DCTO']
 
     useEffect(() => {
         if(pagina === 'Jair'){
@@ -17,9 +19,18 @@ const Header = () => {
         }
     }, [pagina])
 
+    useEffect(() => {
+        setTimeout(() => {
+            anuncio === 0 ? setAnuncio(1) : setAnuncio(0)
+        }, 6000);
+    }, [anuncio])
+
   return (
     <>
         <header className="fixed w-full top-0">
+            <div className="divanuncios">
+                <p className="anuncio1">{anuncios[anuncio]}</p>
+            </div>
             <div className="divheader contenedor">
                 <div className={`divbarra ${pagina === 'Jair' ? 'block' : 'sincarrito'}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" className={`${menu ? 'hidden' : 'block'} menuicono icon cursor-pointer icon-tabler icon-tabler-menu-2`} width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round" onClick={() => setmenu(!menu)}>

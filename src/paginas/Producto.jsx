@@ -10,18 +10,9 @@ const Producto = () => {
     const params = useParams();
     const idurl = +params.id
     const tipocliente = params.tipocliente
-    const envio = {
-      pequeno:  10000,
-      grande: 20000
-    }
     const navegar = useNavigate()
-    const productsection = {
-      140: < Juegorachetgrand />
-    }
-
     const producto = ferreteriajairdb.find(prod => prod.id === idurl)
     const { titulo, id, imagenes } = producto
-    console.log(producto.id)
     const [alertacarrito, setAlertaCarrito] = useState(false);
     const [multiactual, setmultiactual] = useState(imagenes[0])
     const [cantidad, setCantidad] = useState(1);
@@ -29,6 +20,9 @@ const Producto = () => {
     const [carrito, setCarrito] = useState(JSON.parse(localStorage.getItem('carritodistribucionesboncar')) || []);
     const [prodsectionboolean, setProdsectionboolean] = useState(false);
     const profitdetal = 1.332
+    const productsection = {
+      140: < Juegorachetgrand />
+    }
     
     const { setPagina } = usePagina();
 
@@ -68,7 +62,7 @@ const Producto = () => {
 
   const agregaralcarrito = () => {
 
-    const preciotipocliente = tipocliente === "d" ? Math.ceil(producto.precio*profitdetal/100)*100 : producto.precio
+    const preciotipocliente = producto.precio
 
     const pedido = {
       id: producto.id,
@@ -88,6 +82,14 @@ const Producto = () => {
         price: producto.precio
       }]
     })
+
+    //Enviar evento al Pixel de Facebook
+    fbq('track', 'AddToCart', {
+      content_ids: producto.id,
+      content_name: producto.titulo,
+      currency: 'COP',
+      value: producto.precio * cantidad
+    });
 
     let nuevocarrito = []
 
@@ -164,9 +166,9 @@ const Producto = () => {
               <img src="/estrella.webp" alt="estrella" className="estrella"/>
               <p> + {producto.id + 25} Vendidos</p>
             </div>
-            <p className="precio-prod-antes">{`$${producto.precio >= 20000 ? ((producto.precio + envio.grande)*2).toLocaleString('es-CO') : ((producto.precio + envio.pequeno)*2).toLocaleString('es-CO')}`}</p>
+            <p className="precio-prod-antes">{`$${(producto.precio * 2).toLocaleString('es-CO')}`}</p>
             <div className="flex items-center gap-3">
-              <p className="precio-prod">{`$${producto.precio >= 20000 ? (producto.precio + envio.grande).toLocaleString('es-CO') : (producto.precio + envio.pequeno).toLocaleString('es-CO')}`}</p>
+              <p className="precio-prod">{`$${producto.precio.toLocaleString('es-CO')}`}</p>
               <p className="oferta-text">50% DESCTO</p>
             </div>
             

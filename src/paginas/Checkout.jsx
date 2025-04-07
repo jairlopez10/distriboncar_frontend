@@ -51,6 +51,8 @@ const Checkout = () => {
     useEffect(() => {
         setPagina('Jair')
         document.title = 'Distriboncar | Checkout'
+        window.scrollTo(0,0)
+
         
         const datestorage = JSON.parse(localStorage.getItem('authdistribucionesboncar')) || {}
 
@@ -62,6 +64,13 @@ const Checkout = () => {
                 setTipocliente('Detal')
             }
         }
+
+        //Envia evento de inicio de checkout a Meta
+        fbq('track', 'InitiateCheckout', {
+            contents: carritomostrar,
+            currency: 'COP',
+            value: total
+        })
 
 
     }, [])
@@ -109,6 +118,19 @@ const Checkout = () => {
             telefono,
             total
         }
+
+        //Enviar evento de compra al Pixel de Facebook
+        fbq('track', 'Purchase', {
+            currency: "COP",
+            value: total
+        })
+
+        //Enviar evento de compra a Google
+        gtag('event', 'purchase', {
+            value: total,
+            currency: 'COP',
+            items: carritomostrar
+        })
 
         //Crear texto URL
         /*

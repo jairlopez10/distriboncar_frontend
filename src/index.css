@@ -67,6 +67,24 @@ header {
     padding: .5rem;
 }
 
+.divanuncios {
+  background: linear-gradient(90deg, rgb(199, 164, 7) 0%, rgb(255, 145, 0) 50%, rgb(255, 0, 0) 100%);
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  
+}
+
+.divanuncios p {
+  font-size: 1.7rem;
+}
+
+.anuncio1 {
+  animation: slideright 6s ease-in 0s infinite normal none;
+}
+
 .logo img {
     width: 16rem;
 }
@@ -112,7 +130,7 @@ header {
 }
 
 .separaheader {
-  padding-top: 12rem;
+  padding-top: 17rem;
 }
 
 @media (min-width: 768px) {
@@ -159,6 +177,7 @@ footer {
 
 .titulocatalogo {
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .titulojugueteria {
@@ -230,6 +249,27 @@ footer {
     -webkit-accent-color: #dbff11;
 }
 
+.divpaginador {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.paginador {
+  background-color: #E9E9E9;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+}
+
+.paginador-activo {
+  background-color: #fdec00;
+  color: black;
+}
+
 .text-range-prices {
     display: flex;
     justify-content: space-between;
@@ -249,6 +289,10 @@ footer {
 }
 
 /* --------------------------------------- SECCION CATALOGO --------------------------------*/
+
+.div-banner img {
+  border-radius: 2rem;
+}
 
 .productos {
     display: grid;
@@ -1056,6 +1100,10 @@ footer {
 }
 
 @media (min-width: 768px) {
+  .p-contactar {
+    width: 60%;
+    margin: 2rem auto;
+  }
   .imagenredsocial {
     width: 8rem;
     height: 8rem;
@@ -1063,12 +1111,18 @@ footer {
   .contenido-nosotros {
     width: 80%;
   }
-  .imagenes-nosotros {
-    grid-template-columns: repeat(2, 1fr);
-  }
 
   .imagenes-nosotros img {
     height: 40rem;
     width: 50rem;
+  }
+}
+
+@keyframes slideright {
+  0% {
+    transform: translateX(40rem);
+  }
+  100% {
+    transform: translateX(-40rem);
   }
 }

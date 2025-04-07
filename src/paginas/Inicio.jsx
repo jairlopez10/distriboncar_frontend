@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import ferreteriajairdb from "../components/ferreteriajairdb";
 import Productoferreteriaj from "../components/Productoferreteriaj";
 import usePagina from "../hooks/usePagina";
@@ -14,10 +14,11 @@ const Inicio = () => {
     }
   })
 
-  const { setPagina } = usePagina();
+  const { setPagina, pagina } = usePagina();
   const MIN = 100;
   const STEP = 5000;
   const MAX = 206000;
+  const numproductospag = 12;
   const numproductopag = 10;
   const [ferreteriamostrar, setferreteriamostrar] = useState(ferreteriaavailable)
   const [ferreteriafiltrada, setferreteriafiltrada] = useState(ferreteriaavailable)
@@ -25,10 +26,11 @@ const Inicio = () => {
   const [categoria, setcategoria] = useState("");
   const [ordenar, setordenar] = useState("");
   const [preciomax, setpreciomax] = useState(+MAX);
-  const [auth, setAuth] = useState(false);
-  const [pwdauth, setPwdauth] = useState('');
   const [alerta, setAlerta] = useState({});
-  const [tipocliente, setTipocliente] = useState('');
+  const [numpagina, setnumpagina] = useState(1);
+  const [productosmostrar, setproductosmostrar] = useState(ferreteriaavailable);
+  const tituloferreteria = document.querySelector('.tituloferreteria')
+  const tituloproductosref = useRef(null);
   const navigate = useNavigate()
 
   const params = useParams()
@@ -41,9 +43,51 @@ const Inicio = () => {
     }
   }
 
+  const definirproductospagina = () => {
+
+    let iteradormax = numpagina * numproductospag;
+    let iteradormin = iteradormax - numproductospag;
+
+    //Define si el listado de productos es menor que el iteradormayor definido inicial
+    if (ferreteriafiltrada.length <= iteradormax) iteradormax = ferreteriafiltrada.length;
+
+    let nuevolistado = [];
+
+    for (let i=iteradormin; i<iteradormax; i++){
+      nuevolistado.push(ferreteriafiltrada[i]);
+    }
+
+    setproductosmostrar(nuevolistado);
+
+    definirpaginadores();
+
+  }
+
+  const definirpaginadores = () => {
+
+    const numpaginadores = Math.ceil(ferreteriafiltrada.length / numproductospag);
+    
+    let arraypaginas = []
+
+    for(let i=1; i<=numpaginadores; i++){
+      arraypaginas.push(i);
+    }
+
+    return arraypaginas;
+
+  }
+
   const filtrarpreciomax = (product) => {
       if(product.precio <= preciomax) return product;
   }
+
+  
+  useEffect(() => {
+    definirproductospagina();
+
+  }, [ferreteriafiltrada, numpagina])
+  
+
 
   //Filtra los productos
   useEffect(() => {
@@ -58,29 +102,31 @@ const Inicio = () => {
       }
 
       setferreteriafiltrada(newlist);
+      setproductosmostrar(newlist);
 
-      const filtro = document.querySelector('.tituloferreteria')
-      filtro.scrollIntoView({
-        behavior: 'smooth'
-      })
 
       if(categoria !== ''){
         gtag('event', `filtrar_${categoria}`)
       }
       
-      
+      setnumpagina(1);
+      definirproductospagina();
 
   }, [categoria, ordenar, preciomax])
 
   useEffect(() => {
     setPagina('Jair')
     document.title = "Distriboncar | Ferreteria"
+    window.scrollTo(0,0)
   }, [])
 
   return (
     <>
       <div className="contenedor">
-        <h1 className="titulocatalogo tituloferreteria separaheader">Catalogo</h1>
+        <div className="div-banner separaheader">
+          <img src="./banner.webp" alt="" />
+        </div>
+        <h1 ref={tituloproductosref} className="titulocatalogo tituloferreteria ">Catalogo</h1>
         <div className="seccionjuguetes">
           <div className={`boton-seccion-filtros`} onClick={() => setFiltroshide(!filtroshide)}>
             <svg xmlns="http://www.w3.org/2000/svg" className=" icon icon-tabler icon-tabler-adjustments-horizontal" width="20" height="20" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#3d3d3d" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -144,18 +190,40 @@ const Inicio = () => {
                 </div>
               </div>
             </div>
-          
-          <div className="productos">
-            {ferreteriafiltrada.map(producto => {
-              return (
-                <Productoferreteriaj 
-                  key={producto.id}
-                  producto={producto}
-                  tipocliente={tipocliente}
-                />
-              )
-            })}
+          <div className="">
+            <div className="productos">
+              {productosmostrar.map(producto => {
+                return (
+                  <Productoferreteriaj 
+                    key={producto.id}
+                    producto={producto}
+                    pagina={pagina}
+                  />
+                )
+              })}
+            </div>
+            <div className="divpaginador">
+              {definirpaginadores().map(pag => (
+                <button key={pag} className={`${pag === 1 ? 'paginador-activo' : ''} paginador`} onClick={(e) => {
+                  //Cambiar la pagina
+                  setnumpagina(pag);
+                  definirproductospagina();
+
+                  //Hacer scroll al inicio de los productos
+                  if(tituloproductosref.current){
+                    tituloproductosref.current.scrollIntoView({ behavior: 'smooth'})
+                  }
+                  
+                  //Cambiar el color del paginador
+                  const paginadores = document.querySelectorAll('.paginador');
+                  paginadores.forEach(pagin => pagin.classList.remove('paginador-activo'))
+                  e.target.classList.add('paginador-activo');
+                  
+                }}>{pag}</button>
+              ))}
+            </div>
           </div>
+          
           
         </div>
       </div>
