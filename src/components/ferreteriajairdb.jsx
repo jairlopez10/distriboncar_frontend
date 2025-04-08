@@ -1,5 +1,29 @@
 const ferreteriajairdb = [
     {
+        id: 271,
+        titulo: 'Llave Rachet 7 en 1 con Adaptadores',
+        precio: 79900,
+        referencia: "CA-118",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/j271c.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/j271a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/j271b.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "rachet"
+    },
+    {
         id: 133,
         titulo: 'Juego de Rachet X24 PCS CON L',
         precio: 129900,

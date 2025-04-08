@@ -1,9 +1,10 @@
 import { useParams, useNavigate } from "react-router-dom"
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import ferreteriajairdb from "../components/ferreteriajairdb";
 import Multimedia from "../components/Multimedia";
 import usePagina from "../hooks/usePagina";
 import Juegorachetgrand from "../components/productsection/Juegorachetgrand";
+import Rachetadaptadores from "../components/productsection/Rachetadaptadores";
 
 const Producto = () => {
 
@@ -19,9 +20,11 @@ const Producto = () => {
     const [descripcion, setdescripcion] = useState(true);
     const [carrito, setCarrito] = useState(JSON.parse(localStorage.getItem('carritodistribucionesboncar')) || []);
     const [prodsectionboolean, setProdsectionboolean] = useState(false);
-    const profitdetal = 1.332
+    const [visiblecomprar, setVisiblecomprar] = useState(true);
+    const botoncomprarref = useRef(null); //Referencia el boton
     const productsection = {
-      140: < Juegorachetgrand />
+      140: <Juegorachetgrand />,
+      271: <Rachetadaptadores />
     }
     
     const { setPagina } = usePagina();
@@ -41,6 +44,25 @@ const Producto = () => {
     if(productsection[producto.id]) {
       setProdsectionboolean(true)
     }
+
+    const observer = new IntersectionObserver( entries => {
+      if(entries[0].isIntersecting){
+        setVisiblecomprar(true)
+      } else {
+        setVisiblecomprar(false)
+      }
+    })
+  
+    if(botoncomprarref.current){
+      observer.observe(botoncomprarref.current)
+    }
+
+    return () => {
+      if(botoncomprarref.current) {
+        observer.unobserve(botoncomprarref.current);
+      }
+    }
+
   }, [])
 
   const cambiarcantidad = (tipo) => {
@@ -177,7 +199,17 @@ const Producto = () => {
               <input type="number" min="1" value={cantidad} onChange={e => setCantidad(e.target.value)} />
               <button onClick={() => cambiarcantidad('mas')}>+</button>
             </div>
-            <button className="boton-agregar-carrito" onClick={() => agregaralcarrito()}>
+            <button ref={botoncomprarref} className="boton-agregar-carrito" onClick={() => agregaralcarrito()}>
+              <svg xmlns="http://www.w3.org/2000/svg" className="icono-carrito-producto icon icon-tabler icon-tabler-shopping-cart" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                <path d="M17 17h-11v-14h-2" />
+                <path d="M6 5l14 1l-1 7h-13" />
+              </svg>
+              Pagar en Casa </button>
+
+            <button className={`${visiblecomprar ? 'hidden' : 'fijar-boton-comprar-ahora boton-agregar-carrito'}`} onClick={() => agregaralcarrito()}>
               <svg xmlns="http://www.w3.org/2000/svg" className="icono-carrito-producto icon icon-tabler icon-tabler-shopping-cart" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />

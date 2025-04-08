@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 h1, h2, h3 {
@@ -511,7 +511,6 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    background-color: #1a1a1a;
     background-color: #25d366;
     color: white;
     width: 100%;
@@ -520,6 +519,12 @@ footer {
     text-transform: uppercase;
     margin-top: 2rem;
     border-radius: 1rem;
+  }
+
+  .fijar-boton-comprar-ahora {
+    position: fixed;
+    bottom: 0;
+    left: 0;
   }
   
   .boton-agregar-carrito:hover {
@@ -549,9 +554,26 @@ footer {
     background-color: #d1d1d1;
     border-radius: 1rem;
   }
+
+  .div-aida {
+    margin-top: 2rem;
+  }
+
+  .lista-incluye {
+    padding: 1rem 2rem;
+  }
+
+  .div-aida h2 {
+    margin-top: 1rem;
+  }
   
-  .descripcion-accesorios {
-  
+  .div-aida img {
+    border-radius: 1.5rem;
+    width: 100%;
+  }
+
+  .div-aida p {
+    text-align: center;
   }
   
   ul, li {
