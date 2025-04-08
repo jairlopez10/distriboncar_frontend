@@ -5,7 +5,7 @@ const Pedidoconfirmado = () => {
 
   return (
     <>
-        <div className="contenedor pt-56">
+        <div className="contenedor pt-60">
             <div className="card-confirmacion">
                 <div className="confirmacion">
                     <div className="flex flex-col justify-center items-center gap-8">
