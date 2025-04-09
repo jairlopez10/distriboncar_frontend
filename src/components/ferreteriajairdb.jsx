@@ -2,7 +2,7 @@ const ferreteriajairdb = [
     {
         id: 271,
         titulo: 'Llave Rachet 7 en 1 con Adaptadores',
-        precio: 79900,
+        precio: 69900,
         referencia: "CA-118",
         bulto: "Bulto X  UND",
         descripcion: "",
