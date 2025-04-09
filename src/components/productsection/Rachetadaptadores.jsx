@@ -16,6 +16,7 @@ const Rachetadaptadores = () => {
             <img src="/j271gifc.gif" alt="gif llave adaptadores rachet" />
             <h2>¡Calidad y precision milimetrica!</h2>
             <p>Su material de alta calidad de <span className="font-bold">cromo vanadio</span> y sus adaptadores! </p>
+            <img className=" mt-4" src="/j271f.webp" alt="gif llave adaptadores rachet" />
             <h2 className=" mt-8">¿Qué es lo que incluye?</h2>
             <div className="lista-incluye">
                 <ul >
