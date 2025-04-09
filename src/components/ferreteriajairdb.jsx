@@ -13,11 +13,11 @@ const ferreteriajairdb = [
             },
             {
                 tipo: "imagen",
-                url: "/j271a.webp" 
+                url: "/j271d.webp" 
             },
             {
                 tipo: "imagen",
-                url: "/j271b.webp" 
+                url: "/j271e.webp" 
             }
         ],
         status: "disponible",
