@@ -28,7 +28,7 @@ const Rachetadaptadores = () => {
                 <li>Adaptador 17mm</li>
                 <li>Caja portatil</li>
                 </ul>
-          </div>
+            </div>
         </div>
         
     </>

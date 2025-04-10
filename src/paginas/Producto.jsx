@@ -5,6 +5,7 @@ import Multimedia from "../components/Multimedia";
 import usePagina from "../hooks/usePagina";
 import Juegorachetgrand from "../components/productsection/Juegorachetgrand";
 import Rachetadaptadores from "../components/productsection/Rachetadaptadores";
+import Encendedorrecargable from "../components/productsection/Encendedorrecargable";
 
 const Producto = () => {
 
@@ -24,7 +25,8 @@ const Producto = () => {
     const botoncomprarref = useRef(null); //Referencia el boton
     const productsection = {
       140: <Juegorachetgrand />,
-      271: <Rachetadaptadores />
+      271: <Rachetadaptadores />,
+      272: <Encendedorrecargable />
     }
     
     const { setPagina } = usePagina();

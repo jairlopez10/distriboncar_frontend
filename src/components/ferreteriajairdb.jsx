@@ -1,5 +1,29 @@
 const ferreteriajairdb = [
     {
+        id: 272,
+        titulo: 'Encendedor Electrico Recargable con USB',
+        precio: 59900,
+        referencia: "",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/j272a.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/j272b.webp" 
+            },
+            {
+                tipo: "imagen",
+                url: "/j272d.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "rachet"
+    },
+    {
         id: 271,
         titulo: 'Llave Rachet 7 en 1 con Adaptadores',
         precio: 69900,
