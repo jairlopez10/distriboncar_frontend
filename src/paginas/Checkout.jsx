@@ -239,7 +239,7 @@ const Checkout = () => {
                     
                     <div className={`${tipocliente === 'Detal' ? 'hidden' : 'flex'} justify-between mt-8`}>
                         <p className="">Envio Contra Entrega</p>
-                        <p className="text-blue-600">GRATIS</p>
+                        <p className="text-blue-600 font-bold">GRATIS</p>
                     </div>
                     
                     <div className="flex justify-between mt-4 seccion-total">
