@@ -12,6 +12,7 @@ const Header = () => {
     //const anuncios = ['ENVÍO GRATIS - 1-3 DIAS HÁBILES', 'DESCUENTO DEL - 50% DCTO']
     const anuncios = {
         Jair: ['ENVÍO GRATIS - 1-3 DIAS HÁBILES', 'DESCUENTO DEL - 50% DCTO'],
+        inicio: ['ENVÍO GRATIS - 1-3 DIAS HÁBILES', 'DESCUENTO DEL - 50% DCTO'],
         Ivan: ['DESPACHOS 1-2 DIAS !', 'IMPORTADORES DIRECTOS'],
         Ivanc: ['DESPACHOS 1-2 DIAS !', 'IMPORTADORES DIRECTOS'],
         Gregorio: ['DESPACHOS 1-2 DIAS !', 'IMPORTADORES DIRECTOS'],
@@ -20,12 +21,15 @@ const Header = () => {
     }
     const urlcatalogo = {
         Jair: '/',
+        inicio: '/',
         Ivan: '/ferreteriaiv',
         Ivanc: '/ferreteriaivc',
         Gregorio: '/ferreteriagr',
         Mery: '/ferreteriame',
         Meryc: '/ferreteriamec'
     }
+
+    console.log(pagina)
 
     useEffect(() => {
         if(pagina === 'Jair'){
