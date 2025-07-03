@@ -9,7 +9,15 @@ const Header = () => {
     const [anuncio, setAnuncio] = useState(0);
     const { pagina } = usePagina();
     const [redireccionaf, setRedireccionaf] = useState('')
-    const anuncios = ['ENVÍO GRATIS - 1-3 DIAS HÁBILES', 'DESCUENTO DEL - 50% DCTO']
+    //const anuncios = ['ENVÍO GRATIS - 1-3 DIAS HÁBILES', 'DESCUENTO DEL - 50% DCTO']
+    const anuncios = {
+        Jair: ['ENVÍO GRATIS - 1-3 DIAS HÁBILES', 'DESCUENTO DEL - 50% DCTO'],
+        Ivan: ['DESPACHOS 1-2 DIAS !', 'IMPORTADORES DIRECTOS'],
+        Ivanc: ['DESPACHOS 1-2 DIAS !', 'IMPORTADORES DIRECTOS'],
+        Gregorio: ['DESPACHOS 1-2 DIAS !', 'IMPORTADORES DIRECTOS'],
+        Mery: ['DESPACHOS 1-2 DIAS !', 'IMPORTADORES DIRECTOS'],
+        Meryc: ['DESPACHOS 1-2 DIAS !', 'IMPORTADORES DIRECTOS'],
+    }
     const urlcatalogo = {
         Jair: '/',
         Ivan: '/ferreteriaiv',
@@ -37,7 +45,7 @@ const Header = () => {
     <>
         <header className="fixed w-full top-0">
             <div className="divanuncios">
-                <p className="anuncio1">{anuncios[anuncio]}</p>
+                <p className="anuncio1">{anuncios[pagina][anuncio]}</p>
             </div>
             <div className="divheader contenedor">
                 <div className={`divbarra ${(pagina === 'Jair' || pagina === 'Gregorio' || pagina === 'Ivanc' || pagina === 'Meryc') ? 'block' : 'sincarrito'}`}>
