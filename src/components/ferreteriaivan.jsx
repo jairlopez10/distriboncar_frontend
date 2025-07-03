@@ -3,9 +3,9 @@ const ferreteriaivan = [
     {
         id: 133,
         titulo: 'Juego de Rachet X24 PCS CON L',
-        precio: 90000,
+        precio: 80000,
         referencia: "CA-118",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 5 UND",
         descripcion: "",
         imagenes: [
             {
@@ -13,15 +13,15 @@ const ferreteriaivan = [
                 url: "/m133.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         categoria: "rachet"
     },
     {
         id: 140,
         titulo: 'Juego de Rachet X 24PCS BERBIQUI',
-        precio: 90000,
+        precio: 80000,
         referencia: "CA-119",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 5 UND",
         descripcion: "",
         imagenes: [
             {
@@ -51,7 +51,7 @@ const ferreteriaivan = [
     {
         id: 250,
         titulo: 'DESPINADOR DE CADENA',
-        precio: 7600,
+        precio: 6750,
         referencia: "A-367CW-300",
         bulto: "Bulto X UND",
         descripcion: "",
@@ -77,13 +77,13 @@ const ferreteriaivan = [
                 url: "/m18.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "guayas"
     },
     {
         id: 86,
         titulo: 'KIT DE DESPINCHAR Y TACOS',
-        precio: 3300,
+        precio: 3000,
         referencia: "W0422-54",
         bulto: "Bulto X 144 UND",
         descripcion: "",
@@ -99,9 +99,9 @@ const ferreteriaivan = [
     {
         id: 151,
         titulo: 'Copa Impacto X 10PCS',
-        precio: 50000,
+        precio: 44000,
         referencia: "SR-1018",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 15 UND",
         descripcion: "",
         imagenes: [
             {
@@ -115,9 +115,9 @@ const ferreteriaivan = [
     {
         id: 137,
         titulo: 'Lampara de Taller 10M',
-        precio: 17000,
+        precio: 16000,
         referencia: "W0423-24",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 50 UND",
         descripcion: "",
         imagenes: [
             {
@@ -131,9 +131,9 @@ const ferreteriaivan = [
     {
         id: 138,
         titulo: 'Lampara de Taller 5M',
-        precio: 14800,
+        precio: 13200,
         referencia: "W0423-23",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 50 UND",
         descripcion: "",
         imagenes: [
             {
@@ -147,7 +147,7 @@ const ferreteriaivan = [
     {
         id: 244,
         titulo: 'PELA CABLE 7"',
-        precio: 5700,
+        precio: 5500,
         referencia: "KNR-98P07",
         bulto: "Bulto X  UND",
         descripcion: "",
@@ -163,7 +163,7 @@ const ferreteriaivan = [
     {
         id: 67,
         titulo: 'CORTA GUAYA',
-        precio: 8000,
+        precio: 7800,
         referencia: "W0423-88",
         bulto: "Bulto X 100 UND",
         descripcion: "",
@@ -178,10 +178,10 @@ const ferreteriaivan = [
     },
     {
         id: 255,
-        titulo: 'DESTORNILLADOR IMPACTO X 6PCS',
-        precio: 11000,
+        titulo: 'DESTORNILLADOR DE GOLPE X 6PCS',
+        precio: 10400,
         referencia: "KNR-9802",
-        bulto: "Bulto X UND",
+        bulto: "Bulto X 48 UND",
         descripcion: "",
         imagenes: [
             {
@@ -205,15 +205,15 @@ const ferreteriaivan = [
                 url: "/m122.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "crucetas"
     },
     {
         id: 236,
         titulo: 'MULTIMETRO DT-830L',
-        precio: 17500,
+        precio: 16500,
         referencia: "DT-830L",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 60 UND",
         descripcion: "",
         imagenes: [
             {
@@ -221,7 +221,7 @@ const ferreteriaivan = [
                 url: "/m236.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "electricos"
     },
     {
@@ -269,7 +269,7 @@ const ferreteriaivan = [
                 url: "/m7.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "candados"
     },
     {
@@ -291,7 +291,7 @@ const ferreteriaivan = [
     {
         id: 6,
         titulo: "CANDADO CASTOR #60",
-        precio: 4800,
+        precio: 4500,
         referencia: "PA-60",
         bulto: "Bulto X 60 UND",
         descripcion: "",
@@ -307,7 +307,7 @@ const ferreteriaivan = [
     {
         id: 9,
         titulo: "CANDADO CASTOR #50",
-        precio: 3000,
+        precio: 2900,
         referencia: "PA-50",
         bulto: "Bulto X 120 UND",
         descripcion: "",
@@ -333,7 +333,7 @@ const ferreteriaivan = [
                 url: "/m5.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "candados"
     },
     {
@@ -349,13 +349,13 @@ const ferreteriaivan = [
                 url: "/m8.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "candados"
     },
     {
         id: 2,
         titulo: "CANDADO CASTOR #25",
-        precio: 1100,
+        precio: 1050,
         referencia: "PA-25",
         bulto: "Bulto X 600 UND",
         descripcion: "",
@@ -397,7 +397,7 @@ const ferreteriaivan = [
                 url: "/m36.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "candados"
     },
     {
@@ -413,7 +413,7 @@ const ferreteriaivan = [
                 url: "/m51.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "candados"
     },
     {
@@ -435,7 +435,7 @@ const ferreteriaivan = [
     {
         id: 68,
         titulo: 'CANDADO ENCARTONADO 40-50-60',
-        precio: 43000,
+        precio: 41200,
         referencia: "PA-40-50-60",
         bulto: "Bulto X 10 UND",
         descripcion: "",
@@ -451,7 +451,7 @@ const ferreteriaivan = [
     {
         id: 78,
         titulo: 'CANDADO ENCARTONADO 30-40-50',
-        precio: 31000,
+        precio: 29000,
         referencia: "PA-30-40-50",
         bulto: "Bulto X 20 UND",
         descripcion: "",
@@ -467,7 +467,7 @@ const ferreteriaivan = [
     {
         id: 10,
         titulo: "CANDADO ENCARTONADO 25-30-40",
-        precio: 21500,
+        precio: 20300,
         referencia: "PA-25-30-40",
         bulto: "Bulto X 25 UND",
         descripcion: "",
@@ -481,10 +481,42 @@ const ferreteriaivan = [
         categoria: "candados"
     },
     {
+        id: 274,
+        titulo: 'CANDADO ENCARTONADO 20-25-30',
+        precio: 16000,
+        referencia: "PA-20-25-30",
+        bulto: "Bulto X UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m274.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
         id: 13,
         titulo: "CANDADO PASADOR #90",
-        precio: 10500,
+        precio: 10000,
         referencia: "PV-90",
+        bulto: "Bulto X 48 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m13.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "candados"
+    },
+    {
+        id: 273,
+        titulo: "CANDADO PASADOR #100",
+        precio: 11000,
+        referencia: "PV-100",
         bulto: "Bulto X 48 UND",
         descripcion: "",
         imagenes: [
@@ -499,7 +531,7 @@ const ferreteriaivan = [
     {
         id: 12,
         titulo: "CANDADO PASADOR #80",
-        precio: 9500,
+        precio: 9000,
         referencia: "PV-80",
         bulto: "Bulto X 48 UND",
         descripcion: "",
@@ -515,7 +547,7 @@ const ferreteriaivan = [
     {
         id: 14,
         titulo: "CANDADO PASADOR #70",
-        precio: 8500,
+        precio: 8000,
         referencia: "PV-70",
         bulto: "Bulto X 72 UND",
         descripcion: "",
@@ -531,7 +563,7 @@ const ferreteriaivan = [
     {
         id: 11,
         titulo: "CANDADO PASADOR #60",
-        precio: 7500,
+        precio: 7000,
         referencia: "PV-60",
         bulto: "Bulto X 72 UND",
         descripcion: "",
@@ -547,7 +579,7 @@ const ferreteriaivan = [
     {
         id: 15,
         titulo: "CANDADO CLAVE PEQ",
-        precio: 2600,
+        precio: 2500,
         referencia: "CL-201B",
         bulto: "Bulto X 360 UND",
         descripcion: "",
@@ -563,7 +595,7 @@ const ferreteriaivan = [
     {
         id: 16,
         titulo: "GUAYA BICICLETA SOPORTE 8 X 120 CM",
-        precio: 6500,
+        precio: 6000,
         referencia: "W0422-58",
         bulto: "Bulto X 100 UND",
         descripcion: "",
@@ -573,7 +605,7 @@ const ferreteriaivan = [
                 url: "/m16.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         categoria: "guayas"
     },
     {
@@ -595,7 +627,7 @@ const ferreteriaivan = [
     {
         id: 19,
         titulo: "GUAYA CON CLAVE 12 X 150 CM",
-        precio: 13000,
+        precio: 12500,
         referencia: "W0422-62",
         bulto: "Bulto X 60 UND",
         descripcion: "",
@@ -611,7 +643,7 @@ const ferreteriaivan = [
     {
         id: 20,
         titulo: "GUAYA CON CLAVE 8 X 150 CM",
-        precio: 8000,
+        precio: 7000,
         referencia: "W0422-60",
         bulto: "Bulto X 144 UND",
         descripcion: "",
@@ -627,7 +659,7 @@ const ferreteriaivan = [
     {
         id: 21,
         titulo: "GUAYA CON CLAVE 12 X 120 CM",
-        precio: 10500,
+        precio: 10800,
         referencia: "W0422-61",
         bulto: "Bulto X 60 UND",
         descripcion: "",
@@ -643,7 +675,7 @@ const ferreteriaivan = [
     {
         id: 22,
         titulo: "GUAYA BICICLETA SOPORTE 8 X 150 CM",
-        precio: 7000,
+        precio: 6500,
         referencia: "W0422-59",
         bulto: "Bulto X 100 UND",
         descripcion: "",
@@ -653,13 +685,13 @@ const ferreteriaivan = [
                 url: "/m22.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         categoria: "guayas"
     },
     {
         id: 23,
         titulo: "RACHET TRIPLE",
-        precio: 16000,
+        precio: 13000,
         referencia: "W0422-52",
         bulto: "Bulto X 100 UND",
         descripcion: "",
@@ -691,7 +723,7 @@ const ferreteriaivan = [
     {
         id: 25,
         titulo: "RACHET DOBLE 1/2 - 3/8",
-        precio: 14000,
+        precio: 12500,
         referencia: "CA0421-05",
         bulto: "Bulto X 100 UND",
         descripcion: "",
@@ -701,7 +733,7 @@ const ferreteriaivan = [
                 url: "/m25.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         categoria: "rachet"
     },
     {
@@ -781,7 +813,7 @@ const ferreteriaivan = [
                 url: "/m29.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "tijeras"
     },
     {
@@ -813,13 +845,13 @@ const ferreteriaivan = [
                 url: "/m30.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "tijeras"
     },
     {
         id: 49,
         titulo: 'TIJERA COLORES 9,5"',
-        precio: 2500,
+        precio: 2300,
         referencia: "14601-3",
         bulto: "Bulto X 360 UND",
         descripcion: "",
@@ -835,7 +867,7 @@ const ferreteriaivan = [
     {
         id: 42,
         titulo: 'TIJERA COLORES 7,5"',
-        precio: 2000,
+        precio: 1800,
         referencia: "14601-2",
         bulto: "Bulto X 360 UND",
         descripcion: "",
@@ -861,13 +893,13 @@ const ferreteriaivan = [
                 url: "/m34.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "metros"
     },
     {
         id: 33,
         titulo: 'DECAMETRO 30M',
-        precio: 8000,
+        precio: 7500,
         referencia: "HFBT0130",
         bulto: "Bulto X 60 UND",
         descripcion: "",
@@ -883,7 +915,7 @@ const ferreteriaivan = [
     {
         id: 32,
         titulo: 'DECAMETRO 20M',
-        precio: 6500,
+        precio: 6000,
         referencia: "HFBT0120",
         bulto: "Bulto X 60 UND",
         descripcion: "",
@@ -925,7 +957,7 @@ const ferreteriaivan = [
                 url: "/m73.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "metros"
     },
     {
@@ -941,7 +973,7 @@ const ferreteriaivan = [
                 url: "/m82.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "metros"
     },
     {
@@ -1011,7 +1043,7 @@ const ferreteriaivan = [
     {
         id: 84,
         titulo: 'LLAVE MED BRISTOL X 9 PCS',
-        precio: 8000,
+        precio: 7700,
         referencia: "C0417-2",
         bulto: "Bulto X 60 UND",
         descripcion: "",
@@ -1043,7 +1075,7 @@ const ferreteriaivan = [
     {
         id: 85,
         titulo: 'LLAVE CORTA BRISTOL X 9 PCS',
-        precio: 6500,
+        precio: 6300,
         referencia: "C0417-1",
         bulto: "Bulto X 72 UND",
         descripcion: "",
@@ -1069,13 +1101,13 @@ const ferreteriaivan = [
                 url: "/m57.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "llaves"
     },
     {
         id: 87,
         titulo: 'HENGLIDA LARGA TORX X 9 PCS',
-        precio: 12500,
+        precio: 12000,
         referencia: "H0323006",
         bulto: "Bulto X 60 UND",
         descripcion: "",
@@ -1101,7 +1133,7 @@ const ferreteriaivan = [
                 url: "/m94.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "espatulas"
     },
     {
@@ -1139,7 +1171,7 @@ const ferreteriaivan = [
     {
         id: 97,
         titulo: 'ESPATULAS KINNER 3"',
-        precio: 1400,
+        precio: 1200,
         referencia: "KNR-98015",
         bulto: "Bulto X 240 UND",
         descripcion: "",
@@ -1149,7 +1181,7 @@ const ferreteriaivan = [
                 url: "/m97.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "espatulas"
     },
     {
@@ -1165,7 +1197,7 @@ const ferreteriaivan = [
                 url: "/m96.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "espatulas"
     },
     {
@@ -1197,7 +1229,7 @@ const ferreteriaivan = [
                 url: "/m35.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "gratas"
     },
     {
@@ -1219,7 +1251,7 @@ const ferreteriaivan = [
     {
         id: 52,
         titulo: 'HOMBRE SOLO 7"',
-        precio: 8000,
+        precio: 7500,
         referencia: "180112",
         bulto: "Bulto X 60 UND",
         descripcion: "",
@@ -1245,7 +1277,7 @@ const ferreteriaivan = [
                 url: "/m83.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "hombresolos"
     },
     {
@@ -1261,13 +1293,13 @@ const ferreteriaivan = [
                 url: "/m39.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "gratas"
     },
     {
         id: 44,
         titulo: 'CEPILLO GRATA PEQ X 3 PCS',
-        precio: 1800,
+        precio: 1650,
         referencia: "18780",
         bulto: "Bulto X 240 UND",
         descripcion: "",
@@ -1283,7 +1315,7 @@ const ferreteriaivan = [
     {
         id: 41,
         titulo: 'COPA SIERRA X 6 PCS',
-        precio: 5500,
+        precio: 5400,
         referencia: "AKHS601",
         bulto: "Bulto X 100 UND",
         descripcion: "",
@@ -1299,7 +1331,7 @@ const ferreteriaivan = [
     {
         id: 64,
         titulo: 'COPA SIERRA X 3 PCS',
-        precio: 5200,
+        precio: 5100,
         referencia: "HHS0103",
         bulto: "Bulto X 100 UND",
         descripcion: "",
@@ -1325,7 +1357,7 @@ const ferreteriaivan = [
                 url: "/m77.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "seguetas"
     },
     {
@@ -1357,13 +1389,13 @@ const ferreteriaivan = [
                 url: "/m69.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "alicates"
     },
     {
         id: 76,
         titulo: 'TENAZA 6"',
-        precio: 5200,
+        precio: 5100,
         referencia: "C04-29",
         bulto: "Bulto X 120 UND",
         descripcion: "",
@@ -1379,7 +1411,7 @@ const ferreteriaivan = [
     {
         id: 89,
         titulo: 'KIT DE DESPINCHAR Y TACOS CON NAVAJA',
-        precio: 3500,
+        precio: 3400,
         referencia: "W0422-55",
         bulto: "Bulto X 144 UND",
         descripcion: "",
@@ -1389,7 +1421,7 @@ const ferreteriaivan = [
                 url: "/m89.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         categoria: "kitdespinchar"
     },
     {
@@ -1459,7 +1491,7 @@ const ferreteriaivan = [
     {
         id: 40,
         titulo: 'PISTOLA CALAFATEO',
-        precio: 5800,
+        precio: 5700,
         referencia: "C04-14",
         bulto: "Bulto X 50 UND",
         descripcion: "",
@@ -1475,7 +1507,7 @@ const ferreteriaivan = [
     {
         id: 53,
         titulo: 'CORTA TUBO FONTOR',
-        precio: 9000,
+        precio: 8500,
         referencia: "C-305",
         bulto: "Bulto X 50 UND",
         descripcion: "",
@@ -1491,7 +1523,7 @@ const ferreteriaivan = [
     {
         id: 54,
         titulo: 'SET DESTORNILLADOR RACHET CON PUNTAS',
-        precio: 5800,
+        precio: 5100,
         referencia: "W0422-57",
         bulto: "Bulto X 180 UND",
         descripcion: "",
@@ -1501,13 +1533,13 @@ const ferreteriaivan = [
                 url: "/m54.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         categoria: "destornillador"
     },
     {
         id: 56,
         titulo: 'SACABOCADO X 6',
-        precio: 6500,
+        precio: 6300,
         referencia: "C0418-1",
         bulto: "Bulto X 100 UND",
         descripcion: "",
@@ -1523,9 +1555,9 @@ const ferreteriaivan = [
     {
         id: 154,
         titulo: 'Saca Bocado Golpe X6 PCS',
-        precio: 7300,
+        precio: 6500,
         referencia: "HHPC0806",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 100 UND",
         descripcion: "",
         imagenes: [
             {
@@ -1549,7 +1581,7 @@ const ferreteriaivan = [
                 url: "/m58.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "electricos"
     },
     {
@@ -1565,7 +1597,7 @@ const ferreteriaivan = [
                 url: "/m59.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "otros"
     },
     {
@@ -1597,13 +1629,13 @@ const ferreteriaivan = [
                 url: "/m62.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "otros"
     },
     {
         id: 66,
         titulo: 'ALICATE DIABLO',
-        precio: 14000,
+        precio: 13000,
         referencia: "ACE-407401B",
         bulto: "Bulto X 48 UND",
         descripcion: "",
@@ -1651,9 +1683,9 @@ const ferreteriaivan = [
     {
         id: 109,
         titulo: 'Interruptor Rojo Redondo',
-        precio: 400,
+        precio: 350,
         referencia: "PBS305",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 5000 UND",
         descripcion: "",
         imagenes: [
             {
@@ -1667,9 +1699,9 @@ const ferreteriaivan = [
     {
         id: 108,
         titulo: 'Interruptor 3 Patas',
-        precio: 450,
+        precio: 360,
         referencia: "W0423-20",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 5000 UND",
         descripcion: "",
         imagenes: [
             {
@@ -1683,9 +1715,9 @@ const ferreteriaivan = [
     {
         id: 107,
         titulo: 'Interruptor 2 Patas',
-        precio: 200,
+        precio: 170,
         referencia: "W0423-19",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 10000 UND",
         descripcion: "",
         imagenes: [
             {
@@ -1699,9 +1731,9 @@ const ferreteriaivan = [
     {
         id: 106,
         titulo: 'Calculadora Cientifica KD-350MS',
-        precio: 6800,
+        precio: 6500,
         referencia: "KD-350MS",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 160 UND",
         descripcion: "",
         imagenes: [
             {
@@ -1715,7 +1747,7 @@ const ferreteriaivan = [
     {
         id: 105,
         titulo: 'Calculadora Cientifica Colores KD-350MSC',
-        precio: 6800,
+        precio: 7300,
         referencia: "KD-350MS",
         bulto: "Bulto X  UND",
         descripcion: "",
@@ -1731,9 +1763,9 @@ const ferreteriaivan = [
     {
         id: 104,
         titulo: 'Calculadora KD-876B',
-        precio: 13500,
+        precio: 13000,
         referencia: "KD-876B",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 60 UND",
         descripcion: "",
         imagenes: [
             {
@@ -1747,7 +1779,7 @@ const ferreteriaivan = [
     {
         id: 103,
         titulo: 'Calculadora KD-3866B-C',
-        precio: 6800,
+        precio: 6300,
         referencia: "KD-3866B-C",
         bulto: "Bulto X  UND",
         descripcion: "",
@@ -1765,7 +1797,7 @@ const ferreteriaivan = [
         titulo: 'Calculadora KD-3871B',
         precio: 6800,
         referencia: "KD-3871B",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 160 UND",
         descripcion: "",
         imagenes: [
             {
@@ -1789,7 +1821,7 @@ const ferreteriaivan = [
                 url: "/m101.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "electricos"
     },
     {
@@ -1805,7 +1837,7 @@ const ferreteriaivan = [
                 url: "/m102.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "electricos"
     },
     {
@@ -1813,7 +1845,7 @@ const ferreteriaivan = [
         titulo: 'Destornillador Dielectrico X1',
         precio: 2800,
         referencia: "CA0421-04",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 240 UND",
         descripcion: "",
         imagenes: [
             {
@@ -1827,9 +1859,9 @@ const ferreteriaivan = [
     {
         id: 111,
         titulo: 'Reloj Digital Redondo KD-3806N',
-        precio: 26000,
+        precio: 22800,
         referencia: "KD-3806N",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 30 UND",
         descripcion: "",
         imagenes: [
             {
@@ -1853,15 +1885,15 @@ const ferreteriaivan = [
                 url: "/m112.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "calculadoras"
     },
     {
         id: 113,
         titulo: 'Bristol en T X7 PCS FJP-8888',
-        precio: 28000,
+        precio: 25600,
         referencia: "FJP-8888",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 48 UND",
         descripcion: "",
         imagenes: [
             {
@@ -1877,7 +1909,7 @@ const ferreteriaivan = [
         titulo: 'Kit de Compresor X6 PCS HQC0106',
         precio: 10000,
         referencia: "HQC0106",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 100 UND",
         descripcion: "",
         imagenes: [
             {
@@ -1891,9 +1923,9 @@ const ferreteriaivan = [
     {
         id: 115,
         titulo: 'Bisturi Industrial con Repuesto CAC18-14',
-        precio: 8500,
+        precio: 8200,
         referencia: "CAC18-14",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 240 UND",
         descripcion: "",
         imagenes: [
             {
@@ -1917,7 +1949,7 @@ const ferreteriaivan = [
                 url: "/dm227.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "otros"
     },
     {
@@ -1933,15 +1965,15 @@ const ferreteriaivan = [
                 url: "/dm214.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "otros"
     },
     {
         id: 116,
         titulo: 'Corta Frio 8" 3 en 1',
-        precio: 28500,
+        precio: 26000,
         referencia: "6688",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 60 UND",
         descripcion: "",
         imagenes: [
             {
@@ -1955,9 +1987,9 @@ const ferreteriaivan = [
     {
         id: 117,
         titulo: 'Pinza 8" 3 en 1',
-        precio: 28500,
+        precio: 26000,
         referencia: "6688",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 60 UND",
         descripcion: "",
         imagenes: [
             {
@@ -1971,9 +2003,9 @@ const ferreteriaivan = [
     {
         id: 118,
         titulo: 'Alicate 8" 3 en 1',
-        precio: 28500,
+        precio: 26000,
         referencia: "6688",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 60 UND",
         descripcion: "",
         imagenes: [
             {
@@ -1997,13 +2029,13 @@ const ferreteriaivan = [
                 url: "/m119.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "otros"
     },
     {
         id: 120,
         titulo: 'Cruceta Fija 17-19-21-23',
-        precio: 17500,
+        precio: 14700,
         referencia: "17-19-21-23",
         bulto: "Bulto X 20 UND",
         descripcion: "",
@@ -2019,7 +2051,7 @@ const ferreteriaivan = [
     {
         id: 121,
         titulo: 'Cruceta con Cuadrante 17-19-21-23 1/2',
-        precio: 18500,
+        precio: 17500,
         referencia: "17-19-21-23-1/2",
         bulto: "Bulto X 20 UND",
         descripcion: "",
@@ -2035,9 +2067,9 @@ const ferreteriaivan = [
     {
         id: 123,
         titulo: 'Cronometro Kadio KD-1069',
-        precio: 3950,
+        precio: 3600,
         referencia: "KD-1069",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 500 UND",
         descripcion: "",
         imagenes: [
             {
@@ -2051,7 +2083,7 @@ const ferreteriaivan = [
     {
         id: 124,
         titulo: 'Destornillador Bandera',
-        precio: 2000,
+        precio: 1900,
         referencia: "1688 / CAC0418-3",
         bulto: "Bulto X 240 UND",
         descripcion: "",
@@ -2067,7 +2099,7 @@ const ferreteriaivan = [
     {
         id: 125,
         titulo: 'Juego Rachet con Copas 3/8 SR-1037',
-        precio: 29200,
+        precio: 25400,
         referencia: "SR-1037",
         bulto: "Bulto X 20 UND",
         descripcion: "COPAS: 8-10-11-12-13-14-17-19-21-22 mm",
@@ -2083,7 +2115,7 @@ const ferreteriaivan = [
     {
         id: 126,
         titulo: 'Juego Rachet con Copas 1/4 SR-1040',
-        precio: 20000,
+        precio: 16000,
         referencia: "SR-1040",
         bulto: "Bulto X 50 UND",
         descripcion: "COPAS: 5-6-7-8-9-10-11-12-13-14 mm",
@@ -2109,15 +2141,15 @@ const ferreteriaivan = [
                 url: "/m127.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "rachet"
     },
     {
         id: 128,
         titulo: 'T Bristol #3 CA0419-30',
-        precio: 2600,
+        precio: 1800,
         referencia: "CA0419-30",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 480 UND",
         descripcion: "",
         imagenes: [
             {
@@ -2131,9 +2163,9 @@ const ferreteriaivan = [
     {
         id: 129,
         titulo: 'T Bristol #4 CA0419-31',
-        precio: 3000,
+        precio: 2200,
         referencia: "CA0419-31",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 240 UND",
         descripcion: "",
         imagenes: [
             {
@@ -2147,9 +2179,9 @@ const ferreteriaivan = [
     {
         id: 130,
         titulo: 'T Bristol #5 CA0419-32',
-        precio: 3200,
+        precio: 2500,
         referencia: "CA0419-32",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 240 UND",
         descripcion: "",
         imagenes: [
             {
@@ -2163,9 +2195,9 @@ const ferreteriaivan = [
     {
         id: 131,
         titulo: 'T Bristol #6 CA0419-33',
-        precio: 3500,
+        precio: 2800,
         referencia: "CA0419-33",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 240 UND",
         descripcion: "",
         imagenes: [
             {
@@ -2179,9 +2211,9 @@ const ferreteriaivan = [
     {
         id: 132,
         titulo: 'Pesa Maleta 1501',
-        precio: 8500,
+        precio: 7300,
         referencia: "1501",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 100 UND",
         descripcion: "",
         imagenes: [
             {
@@ -2212,7 +2244,7 @@ const ferreteriaivan = [
     {
         id: 136,
         titulo: 'Rachet Cromado 3/8 CA0419-5',
-        precio: 8000,
+        precio: 7800,
         referencia: "CA0419-5",
         bulto: "Bulto X 100 UND",
         descripcion: "",
@@ -2238,13 +2270,13 @@ const ferreteriaivan = [
                 url: "/m135.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "rachet"
     },
     {
         id: 139,
         titulo: 'Kit Proyecto Escolar',
-        precio: 4800,
+        precio: 4500,
         referencia: "W0423-15",
         bulto: "Bulto X 240 UND",
         descripcion: "",
@@ -2260,9 +2292,9 @@ const ferreteriaivan = [
     {
         id: 141,
         titulo: 'Disco Corte MotorTool 47362',
-        precio: 6500,
+        precio: 5000,
         referencia: "47362",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 200 UND",
         descripcion: "",
         imagenes: [
             {
@@ -2276,9 +2308,9 @@ const ferreteriaivan = [
     {
         id: 142,
         titulo: 'Destornillador Golpe X2 PCS',
-        precio: 6500,
+        precio: 4300,
         referencia: "CA0419-61",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 120 UND",
         descripcion: "",
         imagenes: [
             {
@@ -2292,7 +2324,7 @@ const ferreteriaivan = [
     {
         id: 143,
         titulo: 'Cable Iniciar 600AMP',
-        precio: 16000,
+        precio: 14500,
         referencia: "CA-600AMP",
         bulto: "Bulto X  UND",
         descripcion: "",
@@ -2308,7 +2340,7 @@ const ferreteriaivan = [
     {
         id: 144,
         titulo: 'Destornillador X2 12" C04-40',
-        precio: 7200,
+        precio: 6400,
         referencia: "C04-40",
         bulto: "Bulto X  UND",
         descripcion: "",
@@ -2324,9 +2356,9 @@ const ferreteriaivan = [
     {
         id: 145,
         titulo: 'Puntas Plurientadas X 40PCS CA0419-4',
-        precio: 43000,
+        precio: 34000,
         referencia: "CA0419-4",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 14 UND",
         descripcion: "",
         imagenes: [
             {
@@ -2340,7 +2372,7 @@ const ferreteriaivan = [
     {
         id: 149,
         titulo: 'Copas en T 13MM',
-        precio: 2900,
+        precio: 2800,
         referencia: "CA0421-32",
         bulto: "Bulto X  UND",
         descripcion: "",
@@ -2356,7 +2388,7 @@ const ferreteriaivan = [
     {
         id: 147,
         titulo: 'Copas en T 12MM',
-        precio: 2900,
+        precio: 2800,
         referencia: "CA0421-32",
         bulto: "Bulto X  UND",
         descripcion: "",
@@ -2372,7 +2404,7 @@ const ferreteriaivan = [
     {
         id: 148,
         titulo: 'Copas en T 11MM',
-        precio: 2900,
+        precio: 2800,
         referencia: "CA0421-32",
         bulto: "Bulto X  UND",
         descripcion: "",
@@ -2398,7 +2430,7 @@ const ferreteriaivan = [
                 url: "/m148.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "llaves"
     },
     {
@@ -2414,15 +2446,15 @@ const ferreteriaivan = [
                 url: "/m146.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "llaves"
     },
     {
         id: 150,
         titulo: 'Destornillador Dielectrico X6 PCS',
-        precio: 22300,
+        precio: 21200,
         referencia: "604VDE6",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 24 UND",
         descripcion: "",
         imagenes: [
             {
@@ -2436,9 +2468,9 @@ const ferreteriaivan = [
     {
         id: 152,
         titulo: 'Destornillador 12" Delgado X2 PCS',
-        precio: 4200,
+        precio: 4000,
         referencia: "C04-28",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 240 UND",
         descripcion: "",
         imagenes: [
             {
@@ -2452,9 +2484,9 @@ const ferreteriaivan = [
     {
         id: 153,
         titulo: 'Lima 8" X5 PCS',
-        precio: 18600,
+        precio: 15500,
         referencia: "CAC0417-34",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 50 UND",
         descripcion: "",
         imagenes: [
             {
@@ -2468,9 +2500,9 @@ const ferreteriaivan = [
     {
         id: 155,
         titulo: 'Lima X6 PCS Pequeña',
-        precio: 5100,
+        precio: 4400,
         referencia: "CA0421-30",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 200 UND",
         descripcion: "",
         imagenes: [
             {
@@ -2484,7 +2516,7 @@ const ferreteriaivan = [
     {
         id: 156,
         titulo: 'Cautin 100W ',
-        precio: 16000,
+        precio: 14000,
         referencia: "W0422-14",
         bulto: "Bulto X 50 UND",
         descripcion: "",
@@ -2500,7 +2532,7 @@ const ferreteriaivan = [
     {
         id: 157,
         titulo: 'Tacos Despinche X20 PCS',
-        precio: 5500,
+        precio: 4800,
         referencia: "CA0419-12",
         bulto: "Bulto X  UND",
         descripcion: "",
@@ -2516,7 +2548,7 @@ const ferreteriaivan = [
     {
         id: 158,
         titulo: 'Triceta Pequeña 8-10-12',
-        precio: 2150,
+        precio: 1950,
         referencia: "CA-196",
         bulto: "Bulto X 300 UND",
         descripcion: "",
@@ -2532,7 +2564,7 @@ const ferreteriaivan = [
     {
         id: 159,
         titulo: 'Triceta Corta 9-11-13',
-        precio: 2150,
+        precio: 2000,
         referencia: "CA0421-24",
         bulto: "Bulto X 300 UND",
         descripcion: "",
@@ -2548,7 +2580,7 @@ const ferreteriaivan = [
     {
         id: 160,
         titulo: 'Triceta Corta 10-12-14',
-        precio: 2150,
+        precio: 19550,
         referencia: "CA-197",
         bulto: "Bulto X 300 UND",
         descripcion: "",
@@ -2564,7 +2596,7 @@ const ferreteriaivan = [
     {
         id: 161,
         titulo: 'Triceta Larga 8-10-12',
-        precio: 4000,
+        precio: 3750,
         referencia: "CA-199 / CA0421-28",
         bulto: "Bulto X 100 UND",
         descripcion: "",
@@ -2574,7 +2606,7 @@ const ferreteriaivan = [
                 url: "/m161.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         categoria: "crucetas"
     },
     {
@@ -2590,13 +2622,13 @@ const ferreteriaivan = [
                 url: "/m162.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "crucetas"
     },
     {
         id: 163,
         titulo: 'Triceta Larga 10-12-14',
-        precio: 4000,
+        precio: 3800,
         referencia: "CA0421-29",
         bulto: "Bulto X 100 UND",
         descripcion: "",
@@ -2612,7 +2644,7 @@ const ferreteriaivan = [
     {
         id: 164,
         titulo: 'Triceta Larga 14-17-19',
-        precio: 5500,
+        precio: 5100,
         referencia: "CA0421-36",
         bulto: "Bulto X 100 UND",
         descripcion: "",
@@ -2629,7 +2661,7 @@ const ferreteriaivan = [
         id: 165,
         titulo: 'PINZA SACA PINES 4,5"',
         precio: 3900,
-        referencia: "CA04-46",
+        referencia: "C04-46",
         bulto: "Bulto X 240 UND",
         descripcion: "",
         imagenes: [
@@ -2654,7 +2686,7 @@ const ferreteriaivan = [
                 url: "/m166.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "alicates"
     },
     {
@@ -2670,14 +2702,14 @@ const ferreteriaivan = [
                 url: "/m167.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "alicates"
     },
     {
         id: 168,
         titulo: 'PINZA CURVA 4,5"',
         precio: 3900,
-        referencia: "C04-48",
+        referencia: "C04-51",
         bulto: "Bulto X 240 UND",
         descripcion: "",
         imagenes: [
@@ -2702,7 +2734,7 @@ const ferreteriaivan = [
                 url: "/m169.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "alicates"
     },
     {
@@ -2724,7 +2756,7 @@ const ferreteriaivan = [
     {
         id: 171,
         titulo: 'PINZA AMPERIMETRICA GRANDE',
-        precio: 22000,
+        precio: 21000,
         referencia: "DT-266",
         bulto: "Bulto X 40 UND",
         descripcion: "",
@@ -2740,7 +2772,7 @@ const ferreteriaivan = [
     {
         id: 233,
         titulo: 'PINZA AMPERIMETRICA PEQUEÑA',
-        precio: 20000,
+        precio: 19800,
         referencia: "VC3266L",
         bulto: "Bulto X  UND",
         descripcion: "",
@@ -2756,7 +2788,7 @@ const ferreteriaivan = [
     {
         id: 234,
         titulo: 'PUNTAS TALADRO CORTA MIXTA',
-        precio: 3600,
+        precio: 3200,
         referencia: "CAC0417-32",
         bulto: "Bulto X  UND",
         descripcion: "",
@@ -2772,9 +2804,9 @@ const ferreteriaivan = [
     {
         id: 235,
         titulo: 'PUNTAS LARGAS X10 PCS FINA',
-        precio: 11500,
+        precio: 10500,
         referencia: "CAC0417-20",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 80 UND",
         descripcion: "",
         imagenes: [
             {
@@ -2787,10 +2819,10 @@ const ferreteriaivan = [
     },
     {
         id: 237,
-        titulo: 'JUEGO DE COPAS LARGAS 1/4',
-        precio: 20500,
+        titulo: 'JUEGO DE COPAS LARGAS 1/4 X9 PCS',
+        precio: 19000,
         referencia: "A4-X00902",
-        bulto: "Bulto X  UND",
+        bulto: "Bulto X 30 UND",
         descripcion: "",
         imagenes: [
             {
@@ -2804,7 +2836,7 @@ const ferreteriaivan = [
     {
         id: 238,
         titulo: 'JUEGO DE COPAS LARGAS 3/8',
-        precio: 32000,
+        precio: 30000,
         referencia: "A4-Z00902",
         bulto: "Bulto X  UND",
         descripcion: "",
@@ -2830,7 +2862,7 @@ const ferreteriaivan = [
                 url: "/m239.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "llaves"
     },
     {
@@ -2852,7 +2884,7 @@ const ferreteriaivan = [
     {
         id: 242,
         titulo: 'LLAVE MIXTA 10"',
-        precio: 2050,
+        precio: 2000,
         referencia: "E-666-10MM",
         bulto: "Bulto X  UND",
         descripcion: "",
@@ -2878,7 +2910,7 @@ const ferreteriaivan = [
                 url: "/m242.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "llaves"
     },
     {
@@ -2916,7 +2948,7 @@ const ferreteriaivan = [
     {
         id: 247,
         titulo: 'DESTORNILLADOR TATAMACO CRISTAL X2',
-        precio: 2400,
+        precio: 2200,
         referencia: "CA2302-13",
         bulto: "Bulto X  UND",
         descripcion: "",
@@ -2990,7 +3022,7 @@ const ferreteriaivan = [
                 url: "/m175.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "candados"
     },
     
@@ -3007,7 +3039,7 @@ const ferreteriaivan = [
                 url: "/m91.webp" 
             }
         ],
-        status: "Out Stock",
+        status: "No Stock",
         categoria: "remachadoras"
     },
     {
@@ -3039,13 +3071,13 @@ const ferreteriaivan = [
                 url: "/m248.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "alicates"
     },
     {
         id: 249,
         titulo: 'ALICATE PICO LORO 8"',
-        precio: 8700,
+        precio: 8200,
         referencia: "CAC04-2",
         bulto: "Bulto X UND",
         descripcion: "",
@@ -3061,7 +3093,7 @@ const ferreteriaivan = [
     {
         id: 251,
         titulo: 'DESTORNILLADOR TATAMACO CRISTAL',
-        precio: 1750,
+        precio: 1700,
         referencia: "CA-19",
         bulto: "Bulto X UND",
         descripcion: "",
@@ -3077,9 +3109,9 @@ const ferreteriaivan = [
     {
         id: 252,
         titulo: 'PUNTAS IMPACTO BRISTOL X 8PCS',
-        precio: 52000,
+        precio: 48000,
         referencia: "CA0419-2",
-        bulto: "Bulto X UND",
+        bulto: "Bulto X 12 UND",
         descripcion: "COPAS DE 4MM, 5MM, 6MM, 7MM, 8MM, 10MM, 12MM, 14MM",
         imagenes: [
             {
@@ -3093,9 +3125,9 @@ const ferreteriaivan = [
     {
         id: 253,
         titulo: 'PUNTAS IMPACTO TORX X 8PCS',
-        precio: 52000,
+        precio: 42000,
         referencia: "CA0419-3",
-        bulto: "Bulto X UND",
+        bulto: "Bulto X 12 UND",
         descripcion: "COPAS DE 4MM, 5MM, 6MM, 7MM, 8MM, 10MM, 12MM, 14MM",
         imagenes: [
             {
@@ -3109,7 +3141,7 @@ const ferreteriaivan = [
     {
         id: 254,
         titulo: 'JUEGO RACHET 1/4 X 46PCS',
-        precio: 33000,
+        precio: 30000,
         referencia: "CA2302-16",
         bulto: "Bulto X UND",
         descripcion: "",
@@ -3125,7 +3157,7 @@ const ferreteriaivan = [
     {
         id: 256,
         titulo: 'KIT DESPINCHAR',
-        precio: 3600,
+        precio: 3500,
         referencia: "WF-1871",
         bulto: "Bulto X UND",
         descripcion: "",
@@ -3141,7 +3173,7 @@ const ferreteriaivan = [
     {
         id: 257,
         titulo: 'JUEGO DE COPAS LARGAS 1/2',
-        precio: 36000,
+        precio: 34500,
         referencia: "SR-1269 / A4-D00905",
         bulto: "Bulto X UND",
         descripcion: "",
@@ -3157,7 +3189,7 @@ const ferreteriaivan = [
     {
         id: 258,
         titulo: 'ALICATE DIELECTRICO 8"',
-        precio: 6500,
+        precio: 6200,
         referencia: "Y0420-14",
         bulto: "Bulto X UND",
         descripcion: "",
@@ -3173,7 +3205,7 @@ const ferreteriaivan = [
     {
         id: 259,
         titulo: 'PINZA DIELECTRICO 8"',
-        precio: 6500,
+        precio: 6200,
         referencia: "Y0420-18",
         bulto: "Bulto X UND",
         descripcion: "",
@@ -3189,7 +3221,7 @@ const ferreteriaivan = [
     {
         id: 260,
         titulo: 'CORTA FRIO DIELECTRICO 8"',
-        precio: 6500,
+        precio: 6200,
         referencia: "Y0420-16",
         bulto: "Bulto X UND",
         descripcion: "",
@@ -3205,9 +3237,9 @@ const ferreteriaivan = [
     {
         id: 261,
         titulo: 'PETROLIZADORA',
-        precio: 20500,
+        precio: 20000,
         referencia: "DO-10",
-        bulto: "Bulto X UND",
+        bulto: "Bulto X 30 UND",
         descripcion: "",
         imagenes: [
             {
@@ -3231,15 +3263,15 @@ const ferreteriaivan = [
                 url: "/m263.webp" 
             }
         ],
-        status: "disponible",
+        status: "No Stock",
         categoria: "otros"
     },
     {
         id: 264,
         titulo: 'IMAN NEODIMIO 12X7MM',
-        precio: 1000,
+        precio: 850,
         referencia: "N30",
-        bulto: "Bulto X UND",
+        bulto: "Bulto X 6720 UND",
         descripcion: "",
         imagenes: [
             {
@@ -3253,9 +3285,9 @@ const ferreteriaivan = [
     {
         id: 265,
         titulo: 'IMAN NEODIMIO 25x2.5MM',
-        precio: 1800,
+        precio: 1500,
         referencia: "N33",
-        bulto: "Bulto X UND",
+        bulto: "Bulto X 2880 UND",
         descripcion: "",
         imagenes: [
             {
@@ -3269,7 +3301,7 @@ const ferreteriaivan = [
     {
         id: 268,
         titulo: 'NIVEL CON IMAN 24"',
-        precio: 9500,
+        precio: 9300,
         referencia: "C04-81",
         bulto: "Bulto X UND",
         descripcion: "",
@@ -3301,7 +3333,7 @@ const ferreteriaivan = [
     {
         id: 267,
         titulo: 'NIVEL CON IMAN 18"',
-        precio: 7500,
+        precio: 7200,
         referencia: "C04-34",
         bulto: "Bulto X UND",
         descripcion: "",
@@ -3333,7 +3365,7 @@ const ferreteriaivan = [
     {
         id: 270,
         titulo: 'NIVEL CON IMAN 14"',
-        precio: 6500,
+        precio: 6400,
         referencia: "C04-32",
         bulto: "Bulto X UND",
         descripcion: "",
@@ -3346,871 +3378,87 @@ const ferreteriaivan = [
         status: "disponible",
         categoria: "otros"
     },
+    {
+        id: 271,
+        titulo: 'TIJERA PUNTA ROMA',
+        precio: 600,
+        referencia: "CAC1426-15",
+        bulto: "Bulto X UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m271.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 272,
+        titulo: 'TIJERA PELUQUERA',
+        precio: 560,
+        referencia: "CAC1426-14",
+        bulto: "Bulto X UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m272.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 276,
+        titulo: 'LIMA X5 PCS',
+        precio: 15500,
+        referencia: "CAC0417-34",
+        bulto: "Bulto X 50 UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m276.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 277,
+        titulo: 'JUEGO DE COPAS + L',
+        precio: 19000,
+        referencia: "SR-1016",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m277.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
+    {
+        id: 278,
+        titulo: 'PONCHADORA COAXIAL PEQ',
+        precio: 13000,
+        referencia: "1758",
+        bulto: "Bulto X  UND",
+        descripcion: "",
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/m278.webp" 
+            }
+        ],
+        status: "disponible",
+        categoria: "otros"
+    },
 
-    {
-        id: 182,
-        titulo: 'Taladro inalambrica 12V Henglida',
-        precio: 105000,
-        referencia: "DM2369-56",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm182.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "electricos"
-    },
-    {
-        id: 179,
-        titulo: 'Ducha Cuadrada 10" con Extensor',
-        precio: 32500,
-        referencia: "DM2369-20",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm179.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "duchas"
-    },
-    {
-        id: 178,
-        titulo: 'Ducha Cuadrada 8" con Extensor',
-        precio: 18000,
-        referencia: "DM2369-19",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm178.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "duchas"
-    },
-    {
-        id: 177,
-        titulo: 'Ducha Cuadrada 6" con Extensor',
-        precio: 12000,
-        referencia: "DM2369-18",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm177.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "duchas"
-    },
-    {
-        id: 176,
-        titulo: 'Ducha Cuadrada 4" con Extensor',
-        precio: 7800,
-        referencia: "DM2369-17",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm176.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "duchas"
-    },
-    {
-        id: 218,
-        titulo: 'SIFON FLEXIBLE CROMADO CON CANASTILLA',
-        precio: 9000,
-        referencia: "DM2369-21",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm218.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "mangueras"
-    },
-    {
-        id: 206,
-        titulo: 'SIFON FLEXIBLE CROMADO',
-        precio: 6000,
-        referencia: "DM2369-22",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm206.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "mangueras"
-    },
-    {
-        id: 180,
-        titulo: 'Llave lava platos flexible metalica',
-        precio: 23000,
-        referencia: "DM2369-9",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm180.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "duchas"
-    },
-    {
-        id: 181,
-        titulo: 'Llave lava platos flexible metal/plastica',
-        precio: 18200,
-        referencia: "DM2369-10",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm181.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "duchas"
-    },
-    {
-        id: 186,
-        titulo: 'Prensa Henglida 6"',
-        precio: 13000,
-        referencia: "H0117006",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm186.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "prensas"
-    },
-    {
-        id: 185,
-        titulo: 'Prensa Henglida 5"',
-        precio: 13000,
-        referencia: "H0117005",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm185.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "prensas"
-    },
-    {
-        id: 184,
-        titulo: 'Prensa Henglida 4"',
-        precio: 10000,
-        referencia: "H0117004",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm184.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "prensas"
-    },
-    {
-        id: 183,
-        titulo: 'Prensa Henglida 3"',
-        precio: 8200,
-        referencia: "H0117003",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm183.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "prensas"
-    },
-    {
-        id: 189,
-        titulo: 'Set Broca Escalonada X 3PCS Henglida',
-        precio: 35000,
-        referencia: "H1014034",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm189.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "brocas"
-    },
-    {
-        id: 188,
-        titulo: 'Broca Escalonada 4-32MM Henglida',
-        precio: 22000,
-        referencia: "H1014033",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm188.webp" 
-            }
-        ],
-        status: "No Stock",
-        categoria: "brocas"
-    },
-    {
-        id: 187,
-        titulo: 'Broca Escalonada 4-20MM Henglida',
-        precio: 11000,
-        referencia: "H1014032",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm187.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "brocas"
-    },
-    {
-        id: 207,
-        titulo: 'PEGANTE INSTANTANEO X 14PCS',
-        precio: 6000,
-        referencia: "DM2369-22",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm207.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "pegantes"
-    },
-    {
-        id: 191,
-        titulo: 'Soldador Epoxico 20GR DEYI',
-        precio: 3000,
-        referencia: "DY-E705",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm191.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "pegantes"
-    },
-    {
-        id: 190,
-        titulo: 'Soldador Epoxico 16GR Kafuter',
-        precio: 2500,
-        referencia: "DM2369-43",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm190.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "pegantes"
-    },
-    {
-        id: 194,
-        titulo: 'Fija Tornillos 10GR Gastop',
-        precio: 2600,
-        referencia: "DM2369-24 /243",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm194.webp" 
-            }
-        ],
-        status: "No Stock",
-        categoria: "pegantes"
-    },
-    {
-        id: 192,
-        titulo: 'Remachadora Profesional 8" Henglida',
-        precio: 28000,
-        referencia: "DM2369-53 / H120",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm192.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "remachadoras"
-    },
-    {
-        id: 193,
-        titulo: 'Remachadora Profesional 10" 3 Boquillas Henglida',
-        precio: 21000,
-        referencia: "DM2369-54 / H120",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm193.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "remachadoras"
-    },
-    {
-        id: 197,
-        titulo: 'REGISTRO DE GAS 1/2 PESADO',
-        precio: 7000,
-        referencia: "DM2369-8",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm197.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "electricos"
-    },
-    {
-        id: 211,
-        titulo: 'CINTA ANTIDESLIZANTE REFLECTIVO 5MTS',
-        precio: 14000,
-        referencia: "DM2369-29",
-        bulto: "Bulto X  UND",
-        descripcion: "50MM X 5MTS",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm211.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "cintas"
-    },
-    {
-        id: 210,
-        titulo: 'CINTA ANTIDESLIZANTE N/A 5MTS',
-        precio: 6500,
-        referencia: "DM2369-30",
-        bulto: "Bulto X  UND",
-        descripcion: "50MM X 5MTS",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm210.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "cintas"
-    },
-    {
-        id: 212,
-        titulo: 'CINTA ANTIDESLIZANTE NEGRA 5MTS',
-        precio: 5500,
-        referencia: "DM2369-27",
-        bulto: "Bulto X  UND",
-        descripcion: "50MM X 5MTS",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm212.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "cintas"
-    },
-    {
-        id: 198,
-        titulo: 'CINTA BUTILIO 50MM X 5MTS',
-        precio: 4800,
-        referencia: "DM2369-35",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm198.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "cintas"
-    },
-    {
-        id: 213,
-        titulo: 'CINTA DUCTO 10MTS',
-        precio: 3300,
-        referencia: "DM2369-31",
-        bulto: "Bulto X  UND",
-        descripcion: "48MM X 10MTS",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm213.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "cintas"
-    },
-    {
-        id: 201,
-        titulo: 'CINTA DOBLE FAZ TRANSPARENTE 2MTS',
-        precio: 2000,
-        referencia: "DM2369-38",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm201.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "cintas"
-    },
-    {
-        id: 195,
-        titulo: 'CINTA DOBLE FAZ 3.5MTS',
-        precio: 1600,
-        referencia: "HW0423-28",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm195.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "cintas"
-    },
-    {
-        id: 196,
-        titulo: 'CINTA DOBLE FAZ 1.8MTS',
-        precio: 1200,
-        referencia: "HW0423-27",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm196.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "cintas"
-    },
-    {
-        id: 221,
-        titulo: 'CINTA TAPA GOTERA 20CM X 1.5MT',
-        precio: 10000,
-        referencia: "DM2369-42",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm221.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "cintas"
-    },
-    {
-        id: 220,
-        titulo: 'CINTA TAPA GOTERA 10CM X 1.5MT',
-        precio: 5000,
-        referencia: "DM2369-41",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm220.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "cintas"
-    },
-    {
-        id: 223,
-        titulo: 'CINTA DISPENSADOR X 24PCS DE 40MTS',
-        precio: 13200,
-        referencia: "DM2369-39",
-        bulto: "Bulto X  UND",
-        descripcion: "12MM X 40MTS",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm223.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "cintas"
-    },
-    {
-        id: 224,
-        titulo: 'CINTA DISPENSADOR X 12PCS DE 40MTS',
-        precio: 13200,
-        referencia: "DM2369-40",
-        bulto: "Bulto X  UND",
-        descripcion: "24MM X 40MTS",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm224.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "cintas"
-    },
-    {
-        id: 222,
-        titulo: 'CINTA DISPENSADOR X 12PCS DE 20MTS',
-        precio: 2500,
-        referencia: "DM2369-37",
-        bulto: "Bulto X  UND",
-        descripcion: "12MM X 20MTS",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm222.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "cintas"
-    },
-    {
-        id: 208,
-        titulo: 'ROLLO CINTA TIQUETEADORA',
-        precio: 3800,
-        referencia: "DM2369-36",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm208.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "cintas"
-    },
-    {
-        id: 216,
-        titulo: 'AHORRADOR DE AGUA FLEXIBLE LARGO',
-        precio: 3000,
-        referencia: "DM2369-5",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm216.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "otros"
-    },
-    {
-        id: 199,
-        titulo: 'AHORRADOR AGUA FLEXIBLE CORTO',
-        precio: 2200,
-        referencia: "DM2369-16",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm199.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "otros"
-    },
-    {
-        id: 200,
-        titulo: 'PEGATAMKE NEGRO',
-        precio: 4500,
-        referencia: "0921505336",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm200.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "pegantes"
-    },
-    {
-        id: 204,
-        titulo: 'SET BROCAS PARA METAL X 7PCS',
-        precio: 4800,
-        referencia: "DM2369-64",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm204.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "brocas"
-    },
-    {
-        id: 203,
-        titulo: 'SET BROCAS PARA CONCRETO X 7PCS',
-        precio: 4500,
-        referencia: "DM2369-65",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm203.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "brocas"
-    },
-    {
-        id: 202,
-        titulo: 'SET BROCAS PARA MADERA X 7PCS',
-        precio: 4150,
-        referencia: "DM2369-66",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm202.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "brocas"
-    },
-    {
-        id: 205,
-        titulo: 'MANGUERA DESAGUE DE LAVADORA 1.5MTS',
-        precio: 7500,
-        referencia: "DM2369-3",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm205.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "mangueras"
-    },
-    {
-        id: 209,
-        titulo: 'TEFLON INDUSTRIAL X 10PCS DE 15MTS',
-        precio: 11000,
-        referencia: "DM2369-6",
-        bulto: "Bulto X  UND",
-        descripcion: "19MM X 15MTS",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm209.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "cintas"
-    },
-    {
-        id: 215,
-        titulo: 'TEFLON PEQUEÑO X12 PCS',
-        precio: 4400,
-        referencia: "DM2369-4",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm215.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "cintas"
-    },
-    {
-        id: 217,
-        titulo: 'PISTOLA MANGUERA PUNTA BRONCE',
-        precio: 4000,
-        referencia: "DM2369-63",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm217.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "mangueras"
-    },
-    {
-        id: 219,
-        titulo: 'PISTOLA SILICONA PQ CON INTERRUPTOR HENGLIDA',
-        precio: 8000,
-        referencia: "DM2369-60",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm219.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "otros"
-    },
-    {
-        id: 225,
-        titulo: 'SOPLADORA 600W',
-        precio: 50000,
-        referencia: "7025 / 7025-1",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm225.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "electricos"
-    },
-    {
-        id: 228,
-        titulo: 'PISTOLA CALOR GRADUABLE HENGLIDA',
-        precio: 60000,
-        referencia: "DM2369-52",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm228.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "electricos"
-    },
-    {
-        id: 229,
-        titulo: 'CARTON PEGANTE PARA RATON X2 PCS',
-        precio: 1500,
-        referencia: "AY-1002",
-        bulto: "Bulto X  UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm229.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "pegantes"
-    },
-    {
-        id: 230,
-        titulo: 'MANGUERA FLEXOMETALICA PARA GAS 1M',
-        precio: 8500,
-        referencia: "DM2369-11",
-        bulto: "Bulto X 100 UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm230.webp" 
-            }
-        ],
-        status: "No Stock",
-        categoria: "mangueras"
-    },
-    {
-        id: 231,
-        titulo: 'MANGUERA FLEXOMETALICA PARA GAS 1.5M',
-        precio: 10800,
-        referencia: "DM2369-12",
-        bulto: "Bulto X 100 UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm230.webp" 
-            }
-        ],
-        status: "No Stock",
-        categoria: "mangueras"
-    },
-    {
-        id: 232,
-        titulo: 'MANGUERA FLEXOMETALICA PARA GAS 2M',
-        precio: 14500,
-        referencia: "DM2369-13",
-        bulto: "Bulto X 100 UND",
-        descripcion: "",
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/dm230.webp" 
-            }
-        ],
-        status: "disponible",
-        categoria: "mangueras"
-    },
 
 ]
 

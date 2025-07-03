@@ -3,10 +3,12 @@ import usePagina from "../hooks/usePagina";
 
 const Nosotros = () => {
 
-  const { setPagina } = usePagina()
+  const { setPagina, pagina } = usePagina()
 
   useEffect(() => {
-    setPagina('Jair')
+    if(pagina === 'inicio'){
+      setPagina('Jair')
+    }
     window.scrollTo(0,0)
   }, [])
 

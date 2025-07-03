@@ -1,13 +1,13 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import ferreteriaivan from "../components/ferreteriaivan";
 import usePagina from "../hooks/usePagina";
 import Productoferreteriagr from "../components/Productoferreteriagr";
 import Alerta from "../components/Alerta";
 
-const Ferreteriagregorio = () => {
+const CatalogoIvan = () => {
 
-    const ferreteriaavailable = ferreteriaivan.filter(product => {
+  const ferreteriaavailable = ferreteriaivan.filter(product => {
         if(product.status === "disponible"){
         return product;
         }
@@ -71,7 +71,7 @@ const Ferreteriagregorio = () => {
     }, [categoria, ordenar, preciomax])
 
     useEffect(() => {
-      setPagina('Gregorio')
+      setPagina('Ivanc')
       document.title = 'Distribuciones Boncar - Ferreteria'
       window.scrollTo(0,0)
       setcategoria(categoriaurl)
@@ -97,15 +97,14 @@ const Ferreteriagregorio = () => {
     const handleauth = () => {
       const pwdauths = [
         202410, //Detal
-        101010, //Mayorista Jair
         141414, //Detal Jair
-        885645,
-        885749,
-        886363,
-        885126,
-        889748,
-        882311,
-        881115,
+        101010, //Mayorista Jair
+        171916,
+        171514,
+        171123,
+        176585,
+        179822,
+        175656
         
       ]
 
@@ -172,7 +171,7 @@ const Ferreteriagregorio = () => {
             
           </div>
           <select className="filtro ferreteria" name="categoria" id="categoria" value={categoria} onChange={e => {
-            navigate(`/ferreteriagr/${e.target.value}`)
+            navigate(`/ferreteriaivc/${e.target.value}`)
             setcategoria(e.target.value)
           }}>
               <option value="" >{categoria === "" ? "Categoria" : "Todas las categorias"}</option>
@@ -220,4 +219,4 @@ const Ferreteriagregorio = () => {
   )
 }
 
-export default Ferreteriagregorio
+export default CatalogoIvan

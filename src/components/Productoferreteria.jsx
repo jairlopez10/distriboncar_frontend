@@ -10,9 +10,8 @@ const Productoferreteria = ({producto}) => {
             <img src={`${imagenes[0].url}`} alt={`imagen ${titulo}`} />
             <div>
                 <p className="titulocard">{titulo}</p>
-                <p className="referencia">{bulto}</p>
+                <p className="bultoclase">{bulto}</p>
                 <p className="referencia italic">REF: {producto.referencia ? producto.referencia : "" }</p>
-                
             </div>
             
         </div>

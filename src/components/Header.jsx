@@ -10,6 +10,14 @@ const Header = () => {
     const { pagina } = usePagina();
     const [redireccionaf, setRedireccionaf] = useState('')
     const anuncios = ['ENVÍO GRATIS - 1-3 DIAS HÁBILES', 'DESCUENTO DEL - 50% DCTO']
+    const urlcatalogo = {
+        Jair: '/',
+        Ivan: '/ferreteriaiv',
+        Ivanc: '/ferreteriaivc',
+        Gregorio: '/ferreteriagr',
+        Mery: '/ferreteriame',
+        Meryc: '/ferreteriamec'
+    }
 
     useEffect(() => {
         if(pagina === 'Jair'){
@@ -32,7 +40,7 @@ const Header = () => {
                 <p className="anuncio1">{anuncios[anuncio]}</p>
             </div>
             <div className="divheader contenedor">
-                <div className={`divbarra ${pagina === 'Jair' ? 'block' : 'sincarrito'}`}>
+                <div className={`divbarra ${(pagina === 'Jair' || pagina === 'Gregorio' || pagina === 'Ivanc' || pagina === 'Meryc') ? 'block' : 'sincarrito'}`}>
                     <svg xmlns="http://www.w3.org/2000/svg" className={`${menu ? 'hidden' : 'block'} menuicono icon cursor-pointer icon-tabler icon-tabler-menu-2`} width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round" onClick={() => setmenu(!menu)}>
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <path d="M4 6l16 0" />
@@ -44,11 +52,11 @@ const Header = () => {
                         <path d="M18 6l-12 12" />
                         <path d="M6 6l12 12" />
                     </svg>
-                    <div className="logo cursor-pointer" onClick={() => pagina === 'Jair' ? navegar("/") : navegar("/")}>
+                    <div className="logo cursor-pointer" onClick={() => navegar(urlcatalogo[pagina])}>
                         <img src="/logo.png" alt="logo" />
                     </div>
                     
-                    <Link to="/checkout" onClick={() => setmenu(false)} className={`${pagina === 'Jair' ? 'block' : 'hidden'} md:hidden`}>
+                    <Link to="/checkout" onClick={() => setmenu(false)} className={`${(pagina === 'Jair' || pagina === 'Gregorio' || pagina === 'Ivanc' || pagina === 'Meryc') ? 'block' : 'hidden'} md:hidden`}>
                         <svg xmlns="http://www.w3.org/2000/svg" className="carrito icon icon-tabler icon-tabler-shopping-cart" width="84" height="84" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                             <circle cx="6" cy="19" r="2" />
@@ -60,7 +68,7 @@ const Header = () => {
                 </div>
                 <div className={`${menu ? "flex transition-all" : "hidden"} navegacion`}>
                     
-                    <Link to='/' className="jugueteslink" onClick={() => setmenu(false)}>Ferreteria</Link>
+                    <Link to={urlcatalogo[pagina]} className="jugueteslink" onClick={() => setmenu(false)}>Ferreteria</Link>
                     <Link to="/nosotros" className="jugueteslink" onClick={() => setmenu(false)}>Nosotros</Link>
                     <Link to="/checkout" onClick={() => setmenu(false)} className="carrito-ocultar">
                         <svg xmlns="http://www.w3.org/2000/svg" className="carrito icon icon-tabler icon-tabler-shopping-cart" width="84" height="84" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">

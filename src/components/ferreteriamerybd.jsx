@@ -2,7 +2,7 @@ const ferreteriamerybd = [
     {
         id: 1,
         titulo: "CANDADO SEGURIDAD CASTOR #60",
-        precio: 5500,
+        precio: 1200,
         referencia: "PA-60",
         bulto: "Bulto X 60 UND",
         descripcion: "",

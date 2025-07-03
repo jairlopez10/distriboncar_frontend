@@ -2,13 +2,16 @@ import { useEffect, useState } from "react";
 import usePagina from "../hooks/usePagina";
 import { useNavigate } from "react-router-dom";
 import ferreteriajairdb from "../components/ferreteriajairdb";
+import ferreteriagregoriodb from "../components/ferreteriagregoriodb";
+import ferreteriaivan from "../components/ferreteriaivan";
+import ferreteriamerybd from "../components/ferreteriamerybd";
 import Itemcheckout from "../components/Itemcheckout";
 import Alerta from "../components/Alerta";
 import axios from 'axios'
 
 const Checkout = () => {
 
-    const { setPagina } = usePagina();
+    const { setPagina, pagina } = usePagina();
     const [nombres, setNombres] = useState('');
     const [telefono, setTelefono] = useState('');
     const [cedula, setCedula] = useState('');
@@ -26,11 +29,36 @@ const Checkout = () => {
 
     useEffect(() => {
         //Verifica que los productos que estaban en el carrito sigan disponibles
-        const carritotemporal = carrito.map(item => {
-            if(ferreteriajairdb.some(produ => produ.id === item.id && produ.status === 'disponible')){
-                return item;
-            }
-        })
+        let carritotemporal = []
+
+        console.log(carrito)
+        
+        if(pagina === 'Jair'){
+            carritotemporal = carrito.map(item => {
+                if(ferreteriajairdb.some(produ => produ.id === item.id && produ.status === 'disponible')){
+                    return item;
+                }
+            })
+        } else if (pagina === 'Ivanc') {
+            carritotemporal = carrito.map(item => {
+                if(ferreteriaivan.some(produ => produ.id === item.id && produ.status === 'disponible')){
+                    return item;
+                }
+            })
+        } else if (pagina === 'Gregorio') {
+            carritotemporal = carrito.map(item => {
+                if(ferreteriagregoriodb.some(produ => produ.id === item.id && produ.status === 'disponible')){
+                    return item;
+                }
+            })
+        } else if (pagina === 'Meryc') {
+            carritotemporal = carrito.map(item => {
+                if(ferreteriamerybd.some(produ => produ.id === item.id && produ.status === 'disponible')){
+                    return item;
+                }
+            })
+        }
+        
 
         setCarritoMostrar(carritotemporal);
     }, [carrito])
@@ -49,7 +77,9 @@ const Checkout = () => {
     }, [carritomostrar])
 
     useEffect(() => {
-        setPagina('Jair')
+        if(pagina === 'inicio'){
+            setPagina('Jair')
+        }
         document.title = 'Distriboncar | Checkout'
         window.scrollTo(0,0)
 
@@ -98,7 +128,7 @@ const Checkout = () => {
         }
 
         let productostext = ""
-        carritomostrar.forEach(item => productostext+=item.cantidad + ' - ' + item.nombre+" || ")
+        carritomostrar.forEach(item => productostext+=item.cantidad + ' - ' + item.nombre+ ` (${item.referencia})` + " || ")
         
 
         //Crear el pedido
@@ -198,9 +228,21 @@ const Checkout = () => {
                                 <label>¿Como nos conociste?</label>
                                 <select onChange={e => setOrigen(e.target.value)} value={origen}>
                                     <option value="" disabled>Selecciona</option>
-                                    <option value="Facebook Ads">Facebook</option>
-                                    <option value="Instagram Ads">Instagram</option>
-                                    <option value="Voz a Voz">Voz a Voz</option>
+                                    {pagina === 'Jair' ? (
+                                        <>
+                                        <option value="Facebook Ads">Facebook</option>
+                                        <option value="Instagram Ads">Instagram</option>
+                                        <option value="Voz a Voz">Voz a Voz</option>
+                                        </>
+                                    ): (
+                                        <>
+                                            <option value="Gregorio">Gregorio Chavez</option>
+                                            <option value="Mery">Mery Arias</option>
+                                            <option value="Ivan">Ivan Chavez</option>
+                                            <option value="Otros">Otros</option>
+                                        </>
+                                    )}
+                                    
                                 </select>
                             
                                 
@@ -238,23 +280,24 @@ const Checkout = () => {
                     </div>
                     
                     <div className={`${tipocliente === 'Detal' ? 'hidden' : 'flex'} justify-between mt-8`}>
-                        <p className="">Envio Contra Entrega</p>
-                        <p className="text-blue-600 font-bold">GRATIS</p>
+                        <p className="">{pagina === 'Jair' ? "Envio Contra Entrega" : "Descuento (5%)" }</p>
+                        <p className="text-blue-600 font-bold">{pagina === 'Jair' ? "GRATIS" : `$${(total*0.05).toLocaleString('es-CO')}`}</p>
                     </div>
                     
                     <div className="flex justify-between mt-4 seccion-total">
                         <p className="">TOTAL</p>
-                        <p className=" text-3xl">{`$${tipocliente === 'Detal' ? total.toLocaleString('es-CO') : total.toLocaleString('es-CO')}`}</p>
+                        <p className=" text-3xl">{`$${tipocliente === 'Detal' ? (total*0.95).toLocaleString('es-CO') : (total*0.95).toLocaleString('es-CO')}`}</p>
                     </div>
-
-                    <div>
-                        <h2 className="text-black mt-8">Paga en casa</h2>
-                        <div className="flex justify-center mt-6">
-                            <img className=" w-80" src="./inter.webp" alt="" />
+                    {pagina === 'Jair' ? (
+                        <div>
+                            <h2 className="text-black mt-8">Paga en casa</h2>
+                            <div className="flex justify-center mt-6">
+                                <img className=" w-80" src="./inter.webp" alt="" />
+                            </div>
+                            
+                            <p className="  px-8 py-6 text-center"> <span className=" font-bold">ENVIO TOTALMENTE</span><span className=" font-bold text-blue-600"> GRATIS</span> y recibe tu pedido entre 1-2 dias habiles (Pago en efectivo)</p>
                         </div>
-                        
-                        <p className="  px-8 py-6 text-center"> <span className=" font-bold">ENVIO TOTALMENTE</span><span className=" font-bold text-blue-600"> GRATIS</span> y recibe tu pedido entre 1-2 dias habiles (Pago en efectivo)</p>
-                    </div>
+                    ): ""}
 
                     <div className="ocultar-info-pedido">
                         {alerta.msg && 

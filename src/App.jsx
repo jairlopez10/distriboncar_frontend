@@ -13,6 +13,8 @@ import JugueteriaBodega from './paginas/JugueteriaBodega'
 import Checkout from './paginas/Checkout'
 import { PaginaProvider } from './context/PaginaProvider'
 import Pedidoconfirmado from './paginas/Pedidoconfirmado'
+import CatalogoIvan from './paginas/CatalogoIvan'
+import CatalogoMery from './paginas/CatalogoMery'
 
 function App() {
   
@@ -23,19 +25,26 @@ function App() {
           <Routes>
             <Route path='/' element={<Layout />}>
               <Route index element={<Inicio />}/>
+              <Route path='/:categoria' element={<Inicio />}/>
+              <Route path='ferreteriaiv' element={<FerrreteriaIvan />}/>
+              <Route path='ferreteriaiv/:categoria' element={<FerrreteriaIvan />}/>
+              <Route path='ferreteriaivc' element={<CatalogoIvan />}/>
+              <Route path='ferreteriaivc/:categoria' element={<CatalogoIvan />}/>
               <Route path='catalogojuguetesl' element={<Jugueterialocal />}/>
               <Route path='catalogojugueteslp' element={<Jugueterialocalprecios />}/>
               <Route path='ferreteriagr' element={<Ferreteriagregorio />}/>
-              <Route path='ferreteriaiv' element={<FerrreteriaIvan />}/>
+              <Route path='ferreteriagr/:categoria' element={<Ferreteriagregorio />}/>
               <Route path='ferreteriame' element={<FerrreteriaMery />}/>
+              <Route path='ferreteriame/:categoria' element={<FerrreteriaMery />}/>
+              <Route path='ferreteriamec' element={<CatalogoMery />}/>
               <Route path='ferreteriaj' element={<FerreteriaJair />}/>
-              <Route path='jugueteriabodega' element={<JugueteriaBodega />}/>
               <Route path='ferreteriaj/:categoria' element={<FerreteriaJair />}/>
               <Route path='/:titulo/:id/:tipocliente' element={<Producto />}/>
+              <Route path='jugueteriabodega' element={<JugueteriaBodega />}/>
               <Route path='nosotros' element={<Nosotros />}/>
               <Route path='checkout' element={<Checkout />} />
               <Route path='pedidoconfirmado' element={<Pedidoconfirmado />} />
-              <Route path='/:categoria' element={<Inicio />}/>
+              
             </Route> 
           </Routes>
         </PaginaProvider>

@@ -1,6 +1,9 @@
 import { useParams, useNavigate } from "react-router-dom"
 import { useState, useEffect, useRef } from "react";
 import ferreteriajairdb from "../components/ferreteriajairdb";
+import ferreteriagregoriodb from "../components/ferreteriagregoriodb";
+import ferreteriaivan from "../components/ferreteriaivan";
+import ferreteriamerybd from "../components/ferreteriamerybd";
 import Multimedia from "../components/Multimedia";
 import usePagina from "../hooks/usePagina";
 import Juegorachetgrand from "../components/productsection/Juegorachetgrand";
@@ -13,7 +16,17 @@ const Producto = () => {
     const idurl = +params.id
     const tipocliente = params.tipocliente
     const navegar = useNavigate()
-    const producto = ferreteriajairdb.find(prod => prod.id === idurl)
+    //let producto = ferreteriajairdb.find(prod => prod.id === idurl)
+    let producto = {}
+    if(tipocliente === 'Jair'){
+      producto = ferreteriajairdb.find(prod => prod.id === idurl)
+    } else if (tipocliente === 'Meryc') {
+      producto = ferreteriamerybd.find(prod => prod.id === idurl)
+    } else if (tipocliente === 'Ivanc'){
+      producto = ferreteriaivan.find(prod => prod.id === idurl)
+    } else if (tipocliente === 'Gregorio') {
+      producto = ferreteriagregoriodb.find(prod => prod.id === idurl)
+    }
     const { titulo, id, imagenes } = producto
     const [alertacarrito, setAlertaCarrito] = useState(false);
     const [multiactual, setmultiactual] = useState(imagenes[0])
@@ -23,13 +36,21 @@ const Producto = () => {
     const [prodsectionboolean, setProdsectionboolean] = useState(false);
     const [visiblecomprar, setVisiblecomprar] = useState(true);
     const botoncomprarref = useRef(null); //Referencia el boton
+    const urlcatalogo = {
+        Jair: '/',
+        Ivan: '/ferreteriaiv',
+        Ivanc: '/ferreteriaivc',
+        Gregorio: '/ferreteriagr',
+        Mery: '/ferreteriame',
+        Meryc: '/ferreteriamec'
+    }
     const productsection = {
       140: <Juegorachetgrand />,
       271: <Rachetadaptadores />,
       272: <Encendedorrecargable />
     }
     
-    const { setPagina } = usePagina();
+    const { setPagina, pagina } = usePagina();
 
    //Actualizar carrito en localstorage
    useEffect(() => {
@@ -41,7 +62,7 @@ const Producto = () => {
   useEffect(() => {
     window.scrollTo(0,0);
     document.title = `DB - ${titulo}`
-    setPagina('Jair')
+    setPagina(tipocliente)
 
     if(productsection[producto.id]) {
       setProdsectionboolean(true)
@@ -92,6 +113,7 @@ const Producto = () => {
       id: producto.id,
       nombre: producto.titulo,
       cantidad: +cantidad,
+      referencia: producto.referencia,
       precio: preciotipocliente,
       imagen: producto.imagenes[0].url
     }
@@ -138,7 +160,18 @@ const Producto = () => {
 
     //notificacioncarrito()
     setTimeout(() => {
-      navegar('/checkout')
+      if(tipocliente === 'Jair') {
+        navegar('/checkout')
+      } else {
+        window.close()
+
+        setTimeout(() => {
+          if(!window.closed){
+            navegar(urlcatalogo[pagina])
+          }
+        }, 200);
+      }
+      
     }, 200);
   }
 
@@ -190,10 +223,18 @@ const Producto = () => {
               <img src="/estrella.webp" alt="estrella" className="estrella"/>
               <p> + {producto.id + 25} Vendidos</p>
             </div>
-            <p className="precio-prod-antes">{`$${(producto.precio * 2).toLocaleString('es-CO')}`}</p>
+            {pagina === 'Jair' ? (
+              <p className="precio-prod-antes">{`$${(producto.precio * 2).toLocaleString('es-CO')}`}</p>
+            ): (
+              <p className="bulto-pag-producto">{producto.bulto}</p>
+            )}
+            
             <div className="flex items-center gap-3">
               <p className="precio-prod">{`$${producto.precio.toLocaleString('es-CO')}`}</p>
-              <p className="oferta-text">50% DESCTO</p>
+              {pagina === 'Jair' ? (
+                <p className="oferta-text">50% DESCTO</p>
+              ) : <p className="precio-prod">/ Und</p>}
+              
             </div>
             
             <div className="botones-carrito">
@@ -209,7 +250,7 @@ const Producto = () => {
                 <path d="M17 17h-11v-14h-2" />
                 <path d="M6 5l14 1l-1 7h-13" />
               </svg>
-              Pagar en Casa </button>
+              {tipocliente === 'Jair' ? "PAGAR EN CASA" : "AGREGAR CARRITO"} </button>
 
             <button className={`${visiblecomprar ? 'hidden' : 'fijar-boton-comprar-ahora boton-agregar-carrito'}`} onClick={() => agregaralcarrito()}>
               <svg xmlns="http://www.w3.org/2000/svg" className="icono-carrito-producto icon icon-tabler icon-tabler-shopping-cart" width="44" height="44" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -219,7 +260,7 @@ const Producto = () => {
                 <path d="M17 17h-11v-14h-2" />
                 <path d="M6 5l14 1l-1 7h-13" />
               </svg>
-              Pagar en Casa </button>
+              {tipocliente === 'Jair' ? "PAGAR EN CASA" : "AGREGAR CARRITO"} </button>
 
             <img src="/puntosfuertes.webp" className="puntosfuertes" alt="puntos fuertes" />
             

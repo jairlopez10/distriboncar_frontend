@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import ferreteriamerybd from "../components/ferreteriamerybd";
 import Productoferreteria from "../components/Productoferreteria";
-import Productoferreteriaj from "../components/Productoferreteriaj";
 import usePagina from "../hooks/usePagina";
+import { useNavigate, useParams } from "react-router-dom";
 
 const FerrreteriaMery = () => {
 
@@ -12,6 +12,7 @@ const FerrreteriaMery = () => {
         }
     })
     
+    const navegar = useNavigate()
     const MIN = 100;
     const STEP = 5000;
     const MAX = 206000;
@@ -22,6 +23,9 @@ const FerrreteriaMery = () => {
     const [ordenar, setordenar] = useState("");
     const [preciomax, setpreciomax] = useState(+MAX);
     const { setPagina } = usePagina()
+
+    const params = useParams()
+    const categoriaurl = params.categoria || ""
     
     const filtrarcategoria = (product) => {
         if (categoria === "") return product;
@@ -65,13 +69,16 @@ const FerrreteriaMery = () => {
   return (
     <>
       <div className="contenedor">
-        <h1 className="titulocatalogo tituloferreteria">Catalogo Ferreteria</h1>
+        <h1 className="titulocatalogo tituloferreteria separaheader">Catalogo Ferreteria</h1>
         <div className="seccionjuguetes">
           <div className="seccion-filtros">
             
             
           </div>
-          <select className="filtro ferreteria" name="categoria" id="categoria" onChange={e => setcategoria(e.target.value)}>
+          <select className="filtro ferreteria" name="categoria" id="categoria" value={categoria} onChange={e => {
+            navegar(`/ferreteriame/${e.target.value}`)
+            setcategoria(e.target.value)
+          }}>
           <option value="" >{categoria === "" ? "Categoria" : "Todas las categorias"}</option>
               <option value="alicates">Alicates y Tenazas</option>
               <option value="brocas">Brocas</option>
@@ -100,7 +107,7 @@ const FerrreteriaMery = () => {
           <div className="productos">
             {ferreteriafiltrada.map(producto => {
               return (
-                <Productoferreteriaj 
+                <Productoferreteria 
                   key={producto.id}
                   producto={producto}
                   tipocliente='Mayorista'

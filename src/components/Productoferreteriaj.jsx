@@ -5,7 +5,8 @@ const Productoferreteriaj = ({producto, tipocliente}) => {
 
     const {titulo, precio, imagenes, referencia, bulto, id} = producto
     const navigate = useNavigate()
-    let tipoclienteurl = "d"
+    const { pagina } = usePagina()
+    let tipoclienteurl = pagina
 
     //Funciones
 
