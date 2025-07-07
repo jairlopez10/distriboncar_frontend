@@ -99,7 +99,7 @@ const FerrreteriaIvan = () => {
     const handleauth = () => {
       const pwdauths = [
         202410, //Detal
-        101010, //Mayorista Jair
+        101010, //Mayorista Ivan
         141414, //Detal Jair
         
       ]

@@ -97,7 +97,7 @@ const CatalogoMery = () => {
     const handleauth = () => {
       const pwdauths = [
         202410, //Detal
-        101010, //Mayorista Jair
+        161616, //Mayorista Mery
         141414, //Detal Jair
         
       ]

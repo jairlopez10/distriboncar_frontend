@@ -97,7 +97,7 @@ const Ferreteriagregorio = () => {
     const handleauth = () => {
       const pwdauths = [
         202410, //Detal
-        101010, //Mayorista Jair
+        121212, //Mayorista Jair
         141414, //Detal Jair
         885645,
         885749,
