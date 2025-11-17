@@ -13,7 +13,7 @@ const jugueterialocaldb = [
                 url: "/producto113a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "maquillaje",
@@ -40,9 +40,9 @@ const jugueterialocaldb = [
     },
     {
         id: 179,
-        titulo: "Organeta Vaca",
+        titulo: "Organeta Vaca Mediana",
         preciomayorista: 7199,
-        precio: 17000,
+        precio: 18000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -59,10 +59,10 @@ const jugueterialocaldb = [
     },
     {
         id: 460,
-        titulo: "Organeta Vaca",
+        titulo: "Organeta Vaca Grande",
         preciomayorista: 7199,
         precio: 32000,
-        referencia: "",
+        referencia: "NO-6600",
         descripcion: ``,
         imagenes: [
             {
@@ -80,7 +80,7 @@ const jugueterialocaldb = [
         id: 462,
         titulo: "Organeta Conejo",
         preciomayorista: 7199,
-        precio: 32000,
+        precio: 31000,
         referencia: "3300",
         descripcion: ``,
         imagenes: [
@@ -385,7 +385,7 @@ const jugueterialocaldb = [
         titulo: "Perro con Bañera y Accesorios",
         preciomayorista: 7199,
         precio: 50000,
-        referencia: "",
+        referencia: "699-89A",
         descripcion: ``,
         imagenes: [
             {
@@ -435,7 +435,7 @@ const jugueterialocaldb = [
                 url: "/producto311a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "mascotas",
@@ -520,7 +520,7 @@ const jugueterialocaldb = [
         id: 111,
         titulo: "Maquillaje Mariposa Pequeño",
         preciomayorista: 7199,
-        precio: 7000,
+        precio: 6000,
         referencia: "876-2B",
         descripcion: ``,
         imagenes: [
@@ -562,8 +562,8 @@ const jugueterialocaldb = [
         id: 110,
         titulo: "Maleta Manicure y Maquillaje con Accesorios",
         preciomayorista: 7199,
-        precio: 48000,
-        referencia: "",
+        precio: 44000,
+        referencia: "768-7",
         descripcion: ``,
         imagenes: [
             {
@@ -609,7 +609,7 @@ const jugueterialocaldb = [
         titulo: "Kit de Maquillaje",
         preciomayorista: 7199,
         precio: 37000,
-        referencia: "",
+        referencia: "M-711",
         descripcion: ``,
         imagenes: [
             {
@@ -666,7 +666,7 @@ const jugueterialocaldb = [
         titulo: "Libro Maquillaje con Espejo",
         preciomayorista: 7199,
         precio: 28000,
-        referencia: "",
+        referencia: "M-636",
         descripcion: ``,
         imagenes: [
             {
@@ -693,7 +693,7 @@ const jugueterialocaldb = [
                 url: "/producto331a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "maquillaje",
@@ -712,7 +712,7 @@ const jugueterialocaldb = [
                 url: "/producto332a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "maquillaje",
@@ -760,7 +760,7 @@ const jugueterialocaldb = [
         id: 328,
         titulo: "Maquillaje Oso",
         preciomayorista: 7199,
-        precio: 18000,
+        precio: 20000,
         referencia: "9125C",
         descripcion: ``,
         imagenes: [
@@ -818,7 +818,7 @@ const jugueterialocaldb = [
         titulo: "Maquillaje Colombina Grande",
         preciomayorista: 7199,
         precio: 20000,
-        referencia: "",
+        referencia: "BX49853",
         descripcion: ``,
         imagenes: [
             {
@@ -856,7 +856,7 @@ const jugueterialocaldb = [
         titulo: "Maquillaje Flor",
         preciomayorista: 7199,
         precio: 22000,
-        referencia: "",
+        referencia: "V71698B7",
         descripcion: ``,
         imagenes: [
             {
@@ -916,7 +916,7 @@ const jugueterialocaldb = [
         id: 437,
         titulo: "Kit Uñas con Secador",
         preciomayorista: 7199,
-        precio: 39000,
+        precio: 26000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -935,8 +935,8 @@ const jugueterialocaldb = [
         id: 114,
         titulo: "Kit Maquillaje con Secador de Uñas",
         preciomayorista: 7199,
-        precio: 25000,
-        referencia: "MBK-326",
+        precio: 23000,
+        referencia: "8821",
         descripcion: ``,
         imagenes: [
             {
@@ -955,7 +955,7 @@ const jugueterialocaldb = [
         titulo: "Kit de Uñas y Spa con Burbujas",
         preciomayorista: 7199,
         precio: 60000,
-        referencia: "",
+        referencia: "MBK-526",
         descripcion: ``,
         imagenes: [
             {
@@ -1170,7 +1170,7 @@ const jugueterialocaldb = [
                 url: "/producto52a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+11",
         categoria: "punteria",
@@ -1324,7 +1324,7 @@ const jugueterialocaldb = [
                 url: "/producto41b.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Azul, Verde",
         edad: "+12",
         categoria: "punteria",
@@ -1392,7 +1392,7 @@ const jugueterialocaldb = [
         titulo: "Pistola Soft con Malla de Juego",
         preciomayorista: 7199,
         precio: 40000,
-        referencia: "",
+        referencia: "9010",
         descripcion: ``,
         imagenes: [
             {
@@ -1419,7 +1419,7 @@ const jugueterialocaldb = [
                 url: "/producto326a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -1449,7 +1449,7 @@ const jugueterialocaldb = [
         titulo: "Muñeca Cry Baby, Coche y Tetero",
         preciomayorista: 7199,
         precio: 45000,
-        referencia: "",
+        referencia: "HY-8826",
         descripcion: ``,
         imagenes: [
             {
@@ -1518,7 +1518,7 @@ const jugueterialocaldb = [
                 url: "/producto349a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -1566,7 +1566,8 @@ const jugueterialocaldb = [
         id: 8,
         titulo: "Barbie +6 Vestidos + 2 Hijas + Pony",
         preciomayorista: 27999,
-        precio: 24000,
+        precio: 22000,
+        referencia: "809A1",
         descripcion: ``,
         imagenes: [
             {
@@ -1574,7 +1575,7 @@ const jugueterialocaldb = [
                 url: "/producto8a.webp"
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Rosado",
         edad: "+3",
         categoria: "munecas",
@@ -1612,7 +1613,7 @@ const jugueterialocaldb = [
                 url: "/producto141a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -1631,7 +1632,7 @@ const jugueterialocaldb = [
                 url: "/producto134a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -1669,7 +1670,7 @@ const jugueterialocaldb = [
                 url: "/producto142a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -1679,7 +1680,7 @@ const jugueterialocaldb = [
         id: 143,
         titulo: "Muñeca Princesa X1",
         preciomayorista: 7199,
-        precio: 32000,
+        precio: 30000,
         referencia: "KT142",
         descripcion: ``,
         imagenes: [
@@ -1831,7 +1832,7 @@ const jugueterialocaldb = [
         titulo: "Muñeca Frozen X1",
         preciomayorista: 7199,
         precio: 6000,
-        referencia: "",
+        referencia: "Y8014",
         descripcion: ``,
         imagenes: [
             {
@@ -2175,7 +2176,7 @@ const jugueterialocaldb = [
                 url: "/producto374a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "carros-control",
@@ -2368,7 +2369,7 @@ const jugueterialocaldb = [
                 url: "/producto289a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Azul, Rojo",
         edad: "+6",
         categoria: "carros-control",
@@ -2406,7 +2407,7 @@ const jugueterialocaldb = [
                 url: "/producto255a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+6",
         categoria: "carros-control",
@@ -2426,7 +2427,7 @@ const jugueterialocaldb = [
                 url: "/producto292a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+6",
         categoria: "carros-control",
@@ -2565,7 +2566,7 @@ const jugueterialocaldb = [
         id: 117,
         titulo: "Bebe Gestos y Toma Tetero",
         preciomayorista: 7199,
-        precio: 87000,
+        precio: 90000,
         referencia: "XMY201A",
         descripcion: ``,
         imagenes: [
@@ -2668,7 +2669,7 @@ const jugueterialocaldb = [
                 url: "/producto346a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -2678,7 +2679,7 @@ const jugueterialocaldb = [
         id: 338,
         titulo: "Bebe con Sonido y Tetero",
         preciomayorista: 7199,
-        precio: 47000,
+        precio: 49000,
         referencia: "XMY8021",
         descripcion: ``,
         imagenes: [
@@ -2735,7 +2736,7 @@ const jugueterialocaldb = [
         id: 341,
         titulo: "Bebe Sentidos",
         preciomayorista: 7199,
-        precio: 91000,
+        precio: 90000,
         referencia: "XMY8048",
         descripcion: ``,
         imagenes: [
@@ -2754,7 +2755,7 @@ const jugueterialocaldb = [
         id: 118,
         titulo: "Bebe Sonido con Sleeping (NUEVO)",
         preciomayorista: 7199,
-        precio: 50000,
+        precio: 49000,
         referencia: "XMY8024",
         descripcion: ``,
         imagenes: [
@@ -2812,7 +2813,7 @@ const jugueterialocaldb = [
                 url: "/producto14c.mp4"
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Rojo, Morado",
         edad: "+3",
         categoria: "carros-control",
@@ -2837,7 +2838,7 @@ const jugueterialocaldb = [
                 url: "/producto16b.webp"
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Grafiti, Negro",
         edad: "+3",
         categoria: "carros-control",
@@ -2936,7 +2937,7 @@ const jugueterialocaldb = [
                 url: "/producto351b.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -3069,7 +3070,7 @@ const jugueterialocaldb = [
                 url: "/producto258a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -3408,7 +3409,7 @@ const jugueterialocaldb = [
                 url: "/producto257a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -3456,7 +3457,7 @@ const jugueterialocaldb = [
         id: 185,
         titulo: "Tren con Movimiento, Luz y Sonido",
         preciomayorista: 7199,
-        precio: 28000,
+        precio: 29000,
         referencia: "FS238-1A",
         descripcion: ``,
         imagenes: [
@@ -3484,7 +3485,7 @@ const jugueterialocaldb = [
                 url: "/producto175a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -3495,7 +3496,7 @@ const jugueterialocaldb = [
         titulo: "Barco Lanza Agua con Movimiento, Luces y Sonido",
         preciomayorista: 7199,
         precio: 28000,
-        referencia: "",
+        referencia: "999-68",
         descripcion: ``,
         imagenes: [
             {
@@ -3545,7 +3546,7 @@ const jugueterialocaldb = [
                 url: "/producto235b.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -3568,7 +3569,7 @@ const jugueterialocaldb = [
                 url: "/producto238b.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -3708,7 +3709,7 @@ const jugueterialocaldb = [
         id: 320,
         titulo: "Maleta Mascota y Veterinaria 3 en 1",
         preciomayorista: 7199,
-        precio: 53000,
+        precio: 58000,
         referencia: "008-997A",
         descripcion: ``,
         imagenes: [
@@ -3860,7 +3861,7 @@ const jugueterialocaldb = [
                 url: "/producto334a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -3908,8 +3909,8 @@ const jugueterialocaldb = [
         id: 105,
         titulo: "Shakira Mediana",
         preciomayorista: 7199,
-        precio: 26000,
-        referencia: "XW155-35",
+        precio: 25000,
+        referencia: "XW155-32",
         descripcion: ``,
         imagenes: [
             {
@@ -3999,7 +4000,7 @@ const jugueterialocaldb = [
                 url: "/producto30b.mp4" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Amarillo",
         edad: "+3",
         categoria: "carros-impulso",
@@ -4009,7 +4010,8 @@ const jugueterialocaldb = [
         id: 33,
         titulo: "Patito Burbujeante Bailarin",
         preciomayorista: 32999,
-        precio: 32000,
+        precio: 31000,
+        referencia: "ZR162",
         descripcion: ``,
         imagenes: [
             {
@@ -4053,8 +4055,8 @@ const jugueterialocaldb = [
         id: 157,
         titulo: "Robot Bailarin",
         preciomayorista: 7199,
-        precio: 29000,
-        referencia: "",
+        precio: 28000,
+        referencia: "58661",
         descripcion: ``,
         imagenes: [
             {
@@ -4092,10 +4094,10 @@ const jugueterialocaldb = [
     },
     {
         id: 182,
-        titulo: "CAMBIO - Organeta Granja",
+        titulo: "Organeta Granja",
         preciomayorista: 7199,
         precio: 15000,
-        referencia: "",
+        referencia: "5031-A",
         descripcion: ``,
         imagenes: [
             {
@@ -4103,7 +4105,7 @@ const jugueterialocaldb = [
                 url: "/producto182a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "organetas-guitarras",
@@ -4141,7 +4143,7 @@ const jugueterialocaldb = [
                 url: "/producto180a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "organetas-guitarras",
@@ -4154,7 +4156,7 @@ const jugueterialocaldb = [
         titulo: "Caracol con luz, sonido y movimiento",
         preciomayorista: 7199,
         precio: 28000,
-        referencia: "",
+        referencia: "659B",
         descripcion: ``,
         imagenes: [
             {
@@ -4189,10 +4191,10 @@ const jugueterialocaldb = [
     },
     {
         id: 379,
-        titulo: "Avion con movimiento, luces y sonido",
+        titulo: "Avion con movimiento, luces y sonido Azul",
         preciomayorista: 7199,
-        precio: 32000,
-        referencia: "",
+        precio: 28000,
+        referencia: "8811-18",
         descripcion: ``,
         imagenes: [
             {
@@ -4208,10 +4210,10 @@ const jugueterialocaldb = [
     },
     {
         id: 371,
-        titulo: "Avion con movimiento, luces y sonido",
+        titulo: "Avion con movimiento, luces y sonido Rosado",
         preciomayorista: 7199,
-        precio: 32000,
-        referencia: "",
+        precio: 28000,
+        referencia: "8811-18",
         descripcion: ``,
         imagenes: [
             {
@@ -4314,7 +4316,7 @@ const jugueterialocaldb = [
                 url: "/producto394a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "carros-control",
@@ -4363,7 +4365,7 @@ const jugueterialocaldb = [
         titulo: "Computador con Pantalla de +130 Actividades",
         preciomayorista: 7199,
         precio: 85000,
-        referencia: "",
+        referencia: "BT-271ES",
         descripcion: ``,
         imagenes: [
             {
@@ -4381,7 +4383,8 @@ const jugueterialocaldb = [
         id: 2,
         titulo: "Computador Interactivo con Pantalla y Mouse",
         preciomayorista: 37000,
-        precio: 35000,
+        precio: 32000,
+        referencia: "6683ES-8",
         descripcion: ``,
         imagenes: [
             {
@@ -4400,7 +4403,7 @@ const jugueterialocaldb = [
         id: 32,
         titulo: "Computador Interactivo Unisex",
         preciomayorista: 22999,
-        precio: 20000,
+        precio: 24000,
         descripcion: ``,
         imagenes: [
             {
@@ -4514,7 +4517,7 @@ const jugueterialocaldb = [
         id: 100,
         titulo: "Muñeca Frozen Musical con Luz en el Cabello",
         preciomayorista: 7199,
-        precio: 46000,
+        precio: 45000,
         referencia: "SR9878-1",
         descripcion: ``,
         imagenes: [
@@ -4799,8 +4802,8 @@ const jugueterialocaldb = [
         id: 479,
         titulo: "Juego de Mesa Rummy",
         preciomayorista: 7199,
-        precio: 29000,
-        referencia: "",
+        precio: 26000,
+        referencia: "007-218",
         descripcion: ``,
         imagenes: [
             {
@@ -4881,7 +4884,7 @@ const jugueterialocaldb = [
         titulo: "Batidora Juguete",
         preciomayorista: 7199,
         precio: 29000,
-        referencia: "",
+        referencia: "6846A",
         descripcion: ``,
         imagenes: [
             {
@@ -4900,7 +4903,7 @@ const jugueterialocaldb = [
         titulo: "Licuadora con Frutas",
         preciomayorista: 7199,
         precio: 21000,
-        referencia: "",
+        referencia: "6847A",
         descripcion: ``,
         imagenes: [
             {
@@ -4918,7 +4921,7 @@ const jugueterialocaldb = [
         id: 125,
         titulo: "Maquina de Coser",
         preciomayorista: 7199,
-        precio: 35000,
+        precio: 30000,
         referencia: "6992A",
         descripcion: ``,
         imagenes: [
@@ -4937,8 +4940,8 @@ const jugueterialocaldb = [
         id: 432,
         titulo: "Maquina de Coser Grande",
         preciomayorista: 7199,
-        precio: 54000,
-        referencia: "",
+        precio: 63000,
+        referencia: "7802",
         descripcion: ``,
         imagenes: [
             {
@@ -5259,7 +5262,7 @@ const jugueterialocaldb = [
                 url: "/producto271a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "legos",
@@ -5315,7 +5318,7 @@ const jugueterialocaldb = [
                 url: "/producto176a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "didacticos",
@@ -5334,7 +5337,7 @@ const jugueterialocaldb = [
                 url: "/producto178a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "dinosaurios",
@@ -5353,7 +5356,7 @@ const jugueterialocaldb = [
                 url: "/producto186a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "organetas-guitarras",
@@ -5363,7 +5366,7 @@ const jugueterialocaldb = [
         id: 187,
         titulo: "Organeta Caballo",
         preciomayorista: 7199,
-        precio: 28000,
+        precio: 31000,
         referencia: "5577",
         descripcion: ``,
         imagenes: [
@@ -5372,7 +5375,7 @@ const jugueterialocaldb = [
                 url: "/producto187a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "organetas-guitarras",
@@ -5509,7 +5512,7 @@ const jugueterialocaldb = [
                 url: "/producto194a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "dinosaurios",
@@ -5585,7 +5588,7 @@ const jugueterialocaldb = [
                 url: "/producto198a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "dinosaurios",
@@ -5699,7 +5702,7 @@ const jugueterialocaldb = [
                 url: "/producto204a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "punteria",
@@ -5843,7 +5846,7 @@ const jugueterialocaldb = [
         id: 6,
         titulo: "Dinosaurio Rex con Movimiento Luces Sonido",
         preciomayorista: 29999,
-        precio: 29000,
+        precio: 28000,
         descripcion: ``,
         imagenes: [
             {
@@ -5885,10 +5888,447 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
+        id: 524,
+        titulo: "Cancha Basketball",
+        preciomayorista: 7199,
+        precio: 35000,
+        referencia: "010-11",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto524a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 525,
+        titulo: "Juego Bingo con 90 Cartones",
+        preciomayorista: 7199,
+        precio: 36000,
+        referencia: "8029B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto525a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 526,
+        titulo: "Tablero Magico Elefante",
+        preciomayorista: 7199,
+        precio: 9000,
+        referencia: "808",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto526a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 527,
+        titulo: "Tablero Magico Animales",
+        preciomayorista: 7199,
+        precio: 7000,
+        referencia: "2002",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto527a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 528,
+        titulo: "Muñeco Avengers Caminadores",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto528a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 529,
+        titulo: "Muñeco Avengers Caja X1",
+        preciomayorista: 7199,
+        precio: 16000,
+        referencia: "9999-3",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto529a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 530,
+        titulo: "Juego Playdoh Letras",
+        preciomayorista: 7199,
+        precio: 16000,
+        referencia: "6611",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto530a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 531,
+        titulo: "PlayDoh Plastilina X12",
+        preciomayorista: 7199,
+        precio: 15000,
+        referencia: "9603",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto531a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 532,
+        titulo: "Carro Helados Sofia",
+        preciomayorista: 7199,
+        precio: 30000,
+        referencia: "803",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto532a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 533,
+        titulo: "Maquina de Helados Grande",
+        preciomayorista: 7199,
+        precio: 50000,
+        referencia: "1006-1",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto533a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 534,
+        titulo: "Carroza Pony con Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "JD193-3A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto534a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 535,
+        titulo: "Carroz Pony y Spa",
+        preciomayorista: 7199,
+        precio: 36000,
+        referencia: "HJ588",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto535a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 536,
+        titulo: "Avion Mario Bros con Luz y Sonido",
+        preciomayorista: 7199,
+        precio: 26000,
+        referencia: "8855",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto536a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 537,
+        titulo: "Juego de Boxeo y Reflejos",
+        preciomayorista: 7199,
+        precio: 82000,
+        referencia: "BK891-LOC",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto537a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 538,
+        titulo: "Maquillaje Unicornio",
+        preciomayorista: 7199,
+        precio: 20000,
+        referencia: "9102C",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto538a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 539,
+        titulo: "Maquillaje con Espejo Pony Mediano",
+        preciomayorista: 7199,
+        precio: 26000,
+        referencia: "2619M",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto539a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 540,
+        titulo: "Estuche Maquillaje con Brochas Pequeño",
+        preciomayorista: 7199,
+        precio: 30000,
+        referencia: "2965C",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto540a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 541,
+        titulo: "Maletin Maquillaje",
+        preciomayorista: 7199,
+        precio: 63000,
+        referencia: "M714",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto541a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 542,
+        titulo: "Shakira Doble Grande",
+        preciomayorista: 7199,
+        precio: 41000,
+        referencia: "MBK-272A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto542a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 543,
+        titulo: "Estuche Maleta Maquillaje",
+        preciomayorista: 7199,
+        precio: 57000,
+        referencia: "M-644",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto543a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 544,
+        titulo: "Castillo 19 Piezas",
+        preciomayorista: 7199,
+        precio: 67000,
+        referencia: "SG-29083",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto544a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 545,
+        titulo: "Castillo Princesa",
+        preciomayorista: 7199,
+        precio: 45000,
+        referencia: "SG-29070",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto545a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 546,
+        titulo: "Peluche Mickey & Minie",
+        preciomayorista: 7199,
+        precio: 50000,
+        referencia: "HD029-75C",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto546a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
         id: 279,
         titulo: "Dinosaurio Lanza Vapor Desarmable con Movimiento Luz y Sonido",
         preciomayorista: 7199,
-        precio: 30000,
+        precio: 29000,
         referencia: "8880",
         descripcion: ``,
         imagenes: [
@@ -5976,7 +6416,7 @@ const jugueterialocaldb = [
         titulo: "Dinosaurio Transparente con Luces, Sonido y Movimiento",
         preciomayorista: 7199,
         precio: 23000,
-        referencia: "",
+        referencia: "8703",
         descripcion: ``,
         imagenes: [
             {
@@ -6021,7 +6461,7 @@ const jugueterialocaldb = [
         id: 310,
         titulo: "Pista Carros Estilo Tiburon",
         preciomayorista: 59999,
-        precio: 64000,
+        precio: 69000,
         referencia: 'LT-003',
         descripcion: `¡Prepárate para una emocionante aventura en la Pista de Carros Tiburon! Esta pista de carreras es el lugar perfecto para que los amantes de la velocidad y la acción pongan a prueba sus habilidades.
 
@@ -6098,7 +6538,7 @@ const jugueterialocaldb = [
                 url: "/producto12a.webp"
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Neon",
         edad: "+3",
         categoria: "legos",
@@ -6136,7 +6576,7 @@ const jugueterialocaldb = [
                 url: "/producto210a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Azul, Rosada",
         edad: "+3",
         categoria: "doctor-cocina",
@@ -6178,7 +6618,7 @@ const jugueterialocaldb = [
                 url: "/producto212b.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "doctor-cocina",
@@ -6197,7 +6637,7 @@ const jugueterialocaldb = [
                 url: "/producto213a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "educativo",
@@ -6207,8 +6647,8 @@ const jugueterialocaldb = [
         id: 215,
         titulo: "Boquitoquis Personajes",
         preciomayorista: 7199,
-        precio: 27000,
-        referencia: "178-260",
+        precio: 22000,
+        referencia: "178-260 - 178-258",
         descripcion: ``,
         imagenes: [
             {
@@ -6216,7 +6656,7 @@ const jugueterialocaldb = [
                 url: "/producto215a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Capitan America, Minie Mouse",
         edad: "+3",
         categoria: "educativo",
@@ -6226,8 +6666,8 @@ const jugueterialocaldb = [
         id: 216,
         titulo: "Transformer X1 Grande",
         preciomayorista: 7199,
-        precio: 92000,
-        referencia: "JH1036",
+        precio: 72000,
+        referencia: "611-16A",
         descripcion: ``,
         imagenes: [
             {
@@ -6239,7 +6679,7 @@ const jugueterialocaldb = [
                 url: "/producto216b.webp" 
             } 
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Optimus Prime, Bumblee Bee",
         edad: "+3",
         categoria: "munecos",
@@ -6285,7 +6725,7 @@ const jugueterialocaldb = [
                 url: "/producto218b.webp" 
             } 
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Optimus Prime, Bumblee Bee",
         edad: "+3",
         categoria: "munecos",
@@ -6304,7 +6744,7 @@ const jugueterialocaldb = [
                 url: "/producto219a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecos",
@@ -6323,7 +6763,7 @@ const jugueterialocaldb = [
                 url: "/producto221a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -6342,7 +6782,7 @@ const jugueterialocaldb = [
                 url: "/producto222a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+6",
         categoria: "punteria",
@@ -6361,7 +6801,7 @@ const jugueterialocaldb = [
                 url: "/producto223a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "peluches",
@@ -6380,7 +6820,7 @@ const jugueterialocaldb = [
                 url: "/producto224a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "educativo",
@@ -6418,7 +6858,7 @@ const jugueterialocaldb = [
                 url: "/producto226a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -6476,7 +6916,7 @@ const jugueterialocaldb = [
                 url: "/producto246a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -6514,7 +6954,7 @@ const jugueterialocaldb = [
                 url: "/producto248a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -6571,7 +7011,7 @@ const jugueterialocaldb = [
                 url: "/producto251a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -6647,7 +7087,7 @@ const jugueterialocaldb = [
                 url: "/producto254a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+6",
         categoria: "carros-control",
@@ -6666,7 +7106,7 @@ const jugueterialocaldb = [
                 url: "/producto259a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -6685,7 +7125,7 @@ const jugueterialocaldb = [
                 url: "/producto260a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -6872,7 +7312,7 @@ const jugueterialocaldb = [
                 url: "/producto269a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecos",
@@ -6929,7 +7369,7 @@ const jugueterialocaldb = [
                 url: "/producto162a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "didacticos",
@@ -6948,7 +7388,7 @@ const jugueterialocaldb = [
                 url: "/producto275a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "educativo",
@@ -6967,7 +7407,7 @@ const jugueterialocaldb = [
                 url: "/producto276a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "punteria",
@@ -6986,7 +7426,7 @@ const jugueterialocaldb = [
                 url: "/producto277a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "punteria",
@@ -7101,7 +7541,7 @@ const jugueterialocaldb = [
                 url: "/producto293a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Azul, Negro",
         edad: "+6",
         categoria: "carros-control",
@@ -7120,10 +7560,10 @@ const jugueterialocaldb = [
                 url: "/producto295a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
-        categoria: "carros-impulso",
+        categoria: "carros-impulso", 
         genero: "ninos"
     },
     {
@@ -7181,7 +7621,7 @@ const jugueterialocaldb = [
                 url: "/producto303a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+6",
         categoria: "legos",
@@ -7191,7 +7631,7 @@ const jugueterialocaldb = [
         id: 304,
         titulo: "Pista Electrica en 8 con 2 Carros",
         preciomayorista: 7199,
-        precio: 95000,
+        precio: 100000,
         referencia: "LVT12112",
         descripcion: ``,
         imagenes: [
@@ -7200,7 +7640,7 @@ const jugueterialocaldb = [
                 url: "/producto304a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+6",
         categoria: "legos",
@@ -7253,7 +7693,7 @@ const jugueterialocaldb = [
         titulo: "Mula Cohetes y Satelite X3 Desarmable",
         preciomayorista: 71993,
         precio: 30000,
-        referencia: "",
+        referencia: "8810",
         descripcion: ``,
         imagenes: [
             {
@@ -7417,7 +7857,7 @@ const jugueterialocaldb = [
                 url: "/producto256a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+6",
         categoria: "peluches",
@@ -7531,7 +7971,7 @@ const jugueterialocaldb = [
                 url: "/producto324a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "punteria",
@@ -7542,7 +7982,7 @@ const jugueterialocaldb = [
         titulo: "Sofia Bailarina con Luz y Sonido",
         preciomayorista: 7199,
         precio: 29000,
-        referencia: "LD-141D",
+        referencia: "LD-131D",
         descripcion: ``,
         imagenes: [
             {
@@ -7569,7 +8009,7 @@ const jugueterialocaldb = [
                 url: "/producto345a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -7589,7 +8029,7 @@ const jugueterialocaldb = [
                 url: "/producto348a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -7608,7 +8048,7 @@ const jugueterialocaldb = [
                 url: "/producto354a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "educativo",
@@ -7627,7 +8067,7 @@ const jugueterialocaldb = [
                 url: "/producto355a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "educativo",
@@ -7650,7 +8090,7 @@ const jugueterialocaldb = [
                 url: "/producto356B.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -7660,7 +8100,7 @@ const jugueterialocaldb = [
         id: 359,
         titulo: "Registradora Musical con Mercado, Dinero y Canasta",
         preciomayorista: 7199,
-        precio: 77000,
+        precio: 80000,
         referencia: "5911",
         descripcion: ``,
         imagenes: [
@@ -7669,7 +8109,7 @@ const jugueterialocaldb = [
                 url: "/producto359a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "doctor-cocina",
@@ -7688,7 +8128,7 @@ const jugueterialocaldb = [
                 url: "/producto360a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "musical",
@@ -7707,7 +8147,7 @@ const jugueterialocaldb = [
                 url: "/producto363a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "carros-control",
@@ -7746,7 +8186,7 @@ const jugueterialocaldb = [
                 url: "/producto107a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -7765,7 +8205,7 @@ const jugueterialocaldb = [
                 url: "/producto109a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "maquillaje",
@@ -7804,7 +8244,7 @@ const jugueterialocaldb = [
                 url: "/producto119a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "doctor-cocina",
@@ -7823,7 +8263,7 @@ const jugueterialocaldb = [
                 url: "/producto121a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "maquillaje",
@@ -7880,7 +8320,7 @@ const jugueterialocaldb = [
                 url: "/producto133a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -7899,7 +8339,7 @@ const jugueterialocaldb = [
                 url: "/producto136a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -7932,8 +8372,8 @@ const jugueterialocaldb = [
         id: 368,
         titulo: "Maquina Helados Play Doh",
         preciomayorista: 7199,
-        precio: 29000,
-        referencia: "",
+        precio: 30000,
+        referencia: "666-93",
         descripcion: ``,
         imagenes: [
             {
@@ -8118,7 +8558,7 @@ const jugueterialocaldb = [
                 url: "/producto150a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -8194,7 +8634,7 @@ const jugueterialocaldb = [
                 url: "/producto154a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -8232,7 +8672,7 @@ const jugueterialocaldb = [
                 url: "/producto158a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -8270,7 +8710,7 @@ const jugueterialocaldb = [
                 url: "/producto160a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "didacticos",
@@ -8294,7 +8734,7 @@ const jugueterialocaldb = [
                 url: "/producto51a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+11",
         categoria: "punteria",
@@ -8343,7 +8783,7 @@ const jugueterialocaldb = [
                 url: "/producto55a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Grafiti",
         edad: "+6",
         categoria: "carros-control",
@@ -8379,6 +8819,7 @@ const jugueterialocaldb = [
         titulo: "Pez con Movimiento, Luces y Sonido",
         preciomayorista: 32999,
         precio: 27000,
+        referencia: "8701",
         descripcion: `¡Sumérgete en la diversión acuática con el increíble Pez Interactivo con Luces y Sonido! Este juguete cautivador te transportará a un mundo submarino lleno de emoción y asombro.
 
         Observa cómo este pez cobra vida con movimientos realistas en su cuerpo, imitando el suave aleteo y la gracia de los peces reales. Sus ojos brillantes con luces añaden un toque mágico mientras exploras aventuras submarinas. Además, el sonido realista completa la experiencia, creando una atmósfera inmersiva!`,
@@ -8392,7 +8833,7 @@ const jugueterialocaldb = [
                 url: "/producto48b.mp4" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Amarillo",
         edad: "+3",
         categoria: "mascotas",
@@ -8412,7 +8853,7 @@ const jugueterialocaldb = [
                 url: "/producto17a.webp"
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Rosada",
         edad: "+3",
         categoria: "munecas",
@@ -8442,7 +8883,7 @@ const jugueterialocaldb = [
                 url: "producto3c.webp"
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Azul, Rosado",
         edad: "+3",
         categoria: "educativo",
@@ -8495,7 +8936,7 @@ const jugueterialocaldb = [
                 url: "/producto9b.mp4"
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Azul, Morado, Naranja, Negro",
         edad: "+3",
         categoria: "carros-impulso",
@@ -8574,7 +9015,7 @@ const jugueterialocaldb = [
                 url: "/producto19a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Naranja, Verde",
         edad: "+6",
         categoria: "dinosaurios",
@@ -8826,7 +9267,7 @@ const jugueterialocaldb = [
                 url: "/producto50b.mp4"
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+11",
         categoria: "punteria",
@@ -8838,8 +9279,8 @@ const jugueterialocaldb = [
         id: 472,
         titulo: "Masha y el Oso",
         preciomayorista: 7199,
-        precio: 14000,
-        referencia: "RK3001",
+        precio: 12000,
+        referencia: "RK301",
         descripcion: ``,
         imagenes: [
             {
@@ -8885,7 +9326,7 @@ const jugueterialocaldb = [
                 url: "/producto417a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "carros-control",
@@ -8904,7 +9345,7 @@ const jugueterialocaldb = [
                 url: "/producto418a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "carros-control",
@@ -8923,7 +9364,7 @@ const jugueterialocaldb = [
                 url: "/producto419a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "carros-control",
@@ -8942,7 +9383,7 @@ const jugueterialocaldb = [
                 url: "/producto373a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "carros-control",
@@ -8961,7 +9402,7 @@ const jugueterialocaldb = [
                 url: "/producto420a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "carros-control",
@@ -8980,7 +9421,7 @@ const jugueterialocaldb = [
                 url: "/producto421a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "carros-control",
@@ -8990,8 +9431,8 @@ const jugueterialocaldb = [
         id: 167,
         titulo: "Boquitoqui de Personajes",
         preciomayorista: 7199,
-        precio: 16000,
-        referencia: "",
+        precio: 18000,
+        referencia: "2718",
         descripcion: ``,
         imagenes: [
             {
@@ -9075,7 +9516,7 @@ const jugueterialocaldb = [
                 url: "/producto171a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -9113,7 +9554,7 @@ const jugueterialocaldb = [
                 url: "/producto173a.webp" 
             }
         ],
-        status: "No Stock",
+        status: "disponible",
         colores: "Surtida",
         edad: "+3",
         categoria: "munecos",
