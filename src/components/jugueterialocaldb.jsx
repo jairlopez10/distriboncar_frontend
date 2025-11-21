@@ -5903,7 +5903,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+6",
-        categoria: "dinosaurios",
+        categoria: "educativo",
         genero: "ninos"
     },
     {
@@ -5922,7 +5922,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+6",
-        categoria: "dinosaurios",
+        categoria: "educativo",
         genero: "ninos"
     },
     {
@@ -5941,7 +5941,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+6",
-        categoria: "dinosaurios",
+        categoria: "educativo",
         genero: "ninos"
     },
     {
@@ -5960,7 +5960,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+6",
-        categoria: "dinosaurios",
+        categoria: "educativo",
         genero: "ninos"
     },
     {
@@ -5979,7 +5979,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+6",
-        categoria: "dinosaurios",
+        categoria: "munecos",
         genero: "ninos"
     },
     {
@@ -5998,7 +5998,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+6",
-        categoria: "dinosaurios",
+        categoria: "munecos",
         genero: "ninos"
     },
     {
@@ -6017,7 +6017,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+6",
-        categoria: "dinosaurios",
+        categoria: "educativo",
         genero: "ninos"
     },
     {
@@ -6036,7 +6036,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+6",
-        categoria: "dinosaurios",
+        categoria: "educativo",
         genero: "ninos"
     },
     {
@@ -6055,7 +6055,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+6",
-        categoria: "dinosaurios",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -6074,7 +6074,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+6",
-        categoria: "dinosaurios",
+        categoria: "educativo",
         genero: "ninos"
     },
     {
@@ -6093,12 +6093,12 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+6",
-        categoria: "dinosaurios",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
         id: 535,
-        titulo: "Carroz Pony y Spa",
+        titulo: "Carroza Pony y Spa",
         preciomayorista: 7199,
         precio: 36000,
         referencia: "HJ588",
@@ -6112,7 +6112,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+6",
-        categoria: "dinosaurios",
+        categoria: "munecas",
         genero: "ninos"
     },
     {
@@ -6131,7 +6131,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+6",
-        categoria: "dinosaurios",
+        categoria: "carros-impulso",
         genero: "ninos"
     },
     {
@@ -6150,7 +6150,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+6",
-        categoria: "dinosaurios",
+        categoria: "educativo",
         genero: "ninos"
     },
     {
@@ -6169,7 +6169,7 @@ const jugueterialocaldb = [
         status: "disponible",
         colores: "Unicolor",
         edad: "+6",
-        categoria: "dinosaurios",
+        categoria: "maquillaje",
         genero: "ninos"
     },
     {
@@ -6316,6 +6316,766 @@ const jugueterialocaldb = [
             {
                 tipo: "imagen",
                 url: "/producto546a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 547,
+        titulo: "Muñeca Frozen Vestidos y Accesorios",
+        preciomayorista: 7199,
+        precio: 55000,
+        referencia: "SR218",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto547a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 548,
+        titulo: "Peluche Stich Azul/Rosado Grande",
+        preciomayorista: 7199,
+        precio: 60000,
+        referencia: "AQ-2303",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto548a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 549,
+        titulo: "Parlante Karaoke con Microfonos",
+        preciomayorista: 7199,
+        precio: 60000,
+        referencia: "HY863-E",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto549a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 550,
+        titulo: "Set de Maquina de Coser y Plancha",
+        preciomayorista: 7199,
+        precio: 67000,
+        referencia: "7814",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto550a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 551,
+        titulo: "Muñecos Bubu",
+        preciomayorista: 7199,
+        precio: 27000,
+        referencia: "DQ20",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto551a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 552,
+        titulo: "Muñeca Frozen con Muñeco Nieve",
+        preciomayorista: 7199,
+        precio: 11000,
+        referencia: "F258",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto552a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 553,
+        titulo: "Muñeca Barbie Vestido y Osito",
+        preciomayorista: 7199,
+        precio: 6500,
+        referencia: "620B4",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto553a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 554,
+        titulo: "Set de Te, Galletas y Cubiertos",
+        preciomayorista: 7199,
+        precio: 26000,
+        referencia: "SK87B-1",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto554a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 555,
+        titulo: "Maquillaje Colombina X3",
+        preciomayorista: 7199,
+        precio: 18000,
+        referencia: "FX772-35",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto555a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 556,
+        titulo: "Muñecos Bubu x6 Personajes",
+        preciomayorista: 7199,
+        precio: 20000,
+        referencia: "9901",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto556a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 557,
+        titulo: "Set Maquillaje Libro 27 en 1",
+        preciomayorista: 7199,
+        precio: 20000,
+        referencia: "532B-1",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto557a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 558,
+        titulo: "Registradora Digital Mediana",
+        preciomayorista: 7199,
+        precio: 50000,
+        referencia: "35562",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto558a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 559,
+        titulo: "Casa de la Barbie de 201 pcs",
+        preciomayorista: 7199,
+        precio: 63000,
+        referencia: "DSJ588-26",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto559a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 560,
+        titulo: "Casa de Stich con 4 Personajes",
+        preciomayorista: 7199,
+        precio: 46000,
+        referencia: "AA022",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto560a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 561,
+        titulo: "Muñecos Bubu Coleccion",
+        preciomayorista: 7199,
+        precio: 58000,
+        referencia: "111-437D",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto561a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 562,
+        titulo: "Carro Stich Control Remoto Recargable",
+        preciomayorista: 7199,
+        precio: 48000,
+        referencia: "015",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto562a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 563,
+        titulo: "Carro Barbie Control Remoto Recargable",
+        preciomayorista: 7199,
+        precio: 110000,
+        referencia: "928-1",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto563a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 564,
+        titulo: "Cabeza de Frozen para Peinar",
+        preciomayorista: 7199,
+        precio: 35000,
+        referencia: "88A-1",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto564a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 565,
+        titulo: "Sonajeros X3 para Bebe",
+        preciomayorista: 7199,
+        precio: 10000,
+        referencia: "K225H38",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto565a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 566,
+        titulo: "Camara Digital Niña Niño",
+        preciomayorista: 7199,
+        precio: 22000,
+        referencia: "XZ00A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto566a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 567,
+        titulo: "Xilofono Juguete",
+        preciomayorista: 7199,
+        precio: 16000,
+        referencia: "S210-21",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto567a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 568,
+        titulo: "Organeta Leon o Elefante",
+        preciomayorista: 7199,
+        precio: 19000,
+        referencia: "855-33A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto568a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 569,
+        titulo: "Organeta Caballo Mediana",
+        preciomayorista: 7199,
+        precio: 16000,
+        referencia: "CY-6093C",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto569a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 570,
+        titulo: "Muñeca Bubu Peluche",
+        preciomayorista: 7199,
+        precio: 29000,
+        referencia: "BOLLABO-30",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto570a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 571,
+        titulo: "Mula Impulso con carros",
+        preciomayorista: 7199,
+        precio: 30000,
+        referencia: "2233B-1",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto571a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 572,
+        titulo: "Mula Impulso con Remolque 2 carros",
+        preciomayorista: 7199,
+        precio: 7000,
+        referencia: "518-2",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto572a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 573,
+        titulo: "Volqueta Didactica Pequeña",
+        preciomayorista: 7199,
+        precio: 4500,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto573a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 574,
+        titulo: "Carros Rescue Bolsa X4",
+        preciomayorista: 7199,
+        precio: 18500,
+        referencia: "624A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto574a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 575,
+        titulo: "Carro Multiservicios Bolsa x4",
+        preciomayorista: 7199,
+        precio: 12500,
+        referencia: "912-A39",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto575a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 576,
+        titulo: "Carro Policia Monster Blister",
+        preciomayorista: 7199,
+        precio: 6500,
+        referencia: "952A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto576a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 577,
+        titulo: "Carro Plantas vs Zombies X3",
+        preciomayorista: 7199,
+        precio: 19500,
+        referencia: "8690",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto577a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 578,
+        titulo: "Mula Cars con 5 Carros",
+        preciomayorista: 7199,
+        precio: 40000,
+        referencia: "919-87",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto578a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 579,
+        titulo: "Multa Construccion con 3 Volquetas",
+        preciomayorista: 7199,
+        precio: 30000,
+        referencia: "8861",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto579a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 580,
+        titulo: "Camion Militar Impulso Misiles",
+        preciomayorista: 7199,
+        precio: 16500,
+        referencia: "128E",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto580a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 581,
+        titulo: "Carro Militar Impulso Monster",
+        preciomayorista: 7199,
+        precio: 20000,
+        referencia: "364D",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto581a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 582,
+        titulo: "Muñeca Bubu Peluche Peq",
+        preciomayorista: 7199,
+        precio: 16000,
+        referencia: "LABSEN-20",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto582a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 583,
+        titulo: "Bebe Real",
+        preciomayorista: 7199,
+        precio: 180000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto583a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 584,
+        titulo: "Bebe Real Inteligente",
+        preciomayorista: 7199,
+        precio: 196000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto584a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 585,
+        titulo: "Bebe Real Set de Tejido",
+        preciomayorista: 7199,
+        precio: 160000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto585a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 586,
+        titulo: "Manilla de la Bubu",
+        preciomayorista: 7199,
+        precio: 10000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto586a.webp" 
             }
         ],
         status: "disponible",
