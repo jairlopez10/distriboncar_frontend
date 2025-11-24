@@ -7523,7 +7523,7 @@ const jugueterialocaldb = [
                 url: "/producto221a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -7542,7 +7542,7 @@ const jugueterialocaldb = [
                 url: "/producto222a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+6",
         categoria: "punteria",
@@ -7561,7 +7561,7 @@ const jugueterialocaldb = [
                 url: "/producto223a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "peluches",
@@ -7580,7 +7580,7 @@ const jugueterialocaldb = [
                 url: "/producto224a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "educativo",
@@ -7599,7 +7599,7 @@ const jugueterialocaldb = [
                 url: "/producto225a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Mario Bros, Bowser",
         edad: "+3",
         categoria: "munecos",
@@ -7618,7 +7618,7 @@ const jugueterialocaldb = [
                 url: "/producto226a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -7676,7 +7676,7 @@ const jugueterialocaldb = [
                 url: "/producto246a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -7714,7 +7714,7 @@ const jugueterialocaldb = [
                 url: "/producto248a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -7724,7 +7724,7 @@ const jugueterialocaldb = [
         id: 249,
         titulo: "Dinosaurio para Pintar",
         preciomayorista: 7199,
-        precio: 10500,
+        precio: 9500,
         referencia: "AN808",
         descripcion: ``,
         imagenes: [
@@ -7752,7 +7752,7 @@ const jugueterialocaldb = [
                 url: "/producto250a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -7771,7 +7771,7 @@ const jugueterialocaldb = [
                 url: "/producto251a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -7790,7 +7790,7 @@ const jugueterialocaldb = [
                 url: "/producto252a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -7847,7 +7847,7 @@ const jugueterialocaldb = [
                 url: "/producto254a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+6",
         categoria: "carros-control",
@@ -7866,7 +7866,7 @@ const jugueterialocaldb = [
                 url: "/producto259a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -7885,7 +7885,7 @@ const jugueterialocaldb = [
                 url: "/producto260a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -8072,7 +8072,7 @@ const jugueterialocaldb = [
                 url: "/producto269a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecos",
@@ -8101,7 +8101,7 @@ const jugueterialocaldb = [
         id: 274,
         titulo: "Bicicleta Metalica Caja",
         preciomayorista: 7199,
-        precio: 19000,
+        precio: 18000,
         referencia: "NM2204-012",
         descripcion: ``,
         imagenes: [
@@ -8120,7 +8120,7 @@ const jugueterialocaldb = [
         id: 162,
         titulo: "Play Doh X6",
         preciomayorista: 7199,
-        precio: 11500,
+        precio: 13000,
         referencia: "6603-6",
         descripcion: ``,
         imagenes: [
@@ -8139,7 +8139,7 @@ const jugueterialocaldb = [
         id: 275,
         titulo: "Play Doh Doctor Dientes",
         preciomayorista: 7199,
-        precio: 24000,
+        precio: 23000,
         referencia: "JD1218",
         descripcion: ``,
         imagenes: [
@@ -8167,7 +8167,7 @@ const jugueterialocaldb = [
                 url: "/producto276a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "punteria",
@@ -8186,7 +8186,7 @@ const jugueterialocaldb = [
                 url: "/producto277a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "punteria",
