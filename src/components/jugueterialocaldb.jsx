@@ -2937,7 +2937,7 @@ const jugueterialocaldb = [
                 url: "/producto351b.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -4998,7 +4998,7 @@ const jugueterialocaldb = [
         id: 396,
         titulo: "Lego Transformer 2 en 1 de 413 PCS",
         preciomayorista: 7199,
-        precio: 32000,
+        precio: 30000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -5017,7 +5017,7 @@ const jugueterialocaldb = [
         id: 391,
         titulo: "Lego Bumble Bee 2 en 1 de 413 PCS",
         preciomayorista: 7199,
-        precio: 32000,
+        precio: 30000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -5102,7 +5102,7 @@ const jugueterialocaldb = [
                 url: "/producto511a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "legos",
@@ -5121,7 +5121,7 @@ const jugueterialocaldb = [
                 url: "/producto512a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "legos",
@@ -5140,7 +5140,7 @@ const jugueterialocaldb = [
                 url: "/producto513a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "legos",
@@ -5197,7 +5197,7 @@ const jugueterialocaldb = [
                 url: "/producto281a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "legos",
@@ -5220,7 +5220,7 @@ const jugueterialocaldb = [
                 url: "/producto229b.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "legos",
@@ -5239,7 +5239,7 @@ const jugueterialocaldb = [
                 url: "/producto270a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "legos",
@@ -5262,7 +5262,7 @@ const jugueterialocaldb = [
                 url: "/producto271a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "legos",
@@ -5280,7 +5280,7 @@ const jugueterialocaldb = [
                 url: "/producto35a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+6",
         categoria: "legos",
@@ -5299,7 +5299,7 @@ const jugueterialocaldb = [
                 url: "/producto174a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecos",
@@ -5318,7 +5318,7 @@ const jugueterialocaldb = [
                 url: "/producto176a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "didacticos",
@@ -5337,7 +5337,7 @@ const jugueterialocaldb = [
                 url: "/producto178a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "dinosaurios",
@@ -5347,7 +5347,7 @@ const jugueterialocaldb = [
         id: 186,
         titulo: "Organeta Perro",
         preciomayorista: 7199,
-        precio: 28000,
+        precio: 32000,
         referencia: "5577",
         descripcion: ``,
         imagenes: [
@@ -5356,7 +5356,7 @@ const jugueterialocaldb = [
                 url: "/producto186a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "organetas-guitarras",
@@ -5413,7 +5413,7 @@ const jugueterialocaldb = [
                 url: "/producto189a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "dinosaurios",
@@ -5442,7 +5442,7 @@ const jugueterialocaldb = [
         id: 191,
         titulo: "Dinosaurio Hijo con Movimiento, Luces y Sonido",
         preciomayorista: 7199,
-        precio: 42000,
+        precio: 40000,
         referencia: "6627B",
         descripcion: ``,
         imagenes: [
@@ -5461,7 +5461,7 @@ const jugueterialocaldb = [
         id: 372,
         titulo: "Dinosaurio lanza burbujas",
         preciomayorista: 7199,
-        precio: 60000,
+        precio: 48000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -5484,7 +5484,7 @@ const jugueterialocaldb = [
         id: 193,
         titulo: "Dinosaurio Lanza Vapor y Pone Huevos",
         preciomayorista: 7199,
-        precio: 45000,
+        precio: 50000,
         referencia: "NY019B",
         descripcion: ``,
         imagenes: [
@@ -5512,7 +5512,7 @@ const jugueterialocaldb = [
                 url: "/producto194a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "dinosaurios",
@@ -5531,7 +5531,7 @@ const jugueterialocaldb = [
                 url: "/producto195a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "dinosaurios",
@@ -5569,7 +5569,7 @@ const jugueterialocaldb = [
                 url: "/producto197a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "dinosaurios",
@@ -5579,7 +5579,7 @@ const jugueterialocaldb = [
         id: 198,
         titulo: "Dinosaurio Lanza Ping Pong",
         preciomayorista: 7199,
-        precio: 45000,
+        precio: 44000,
         referencia: "6632B",
         descripcion: ``,
         imagenes: [
@@ -5598,7 +5598,7 @@ const jugueterialocaldb = [
         id: 199,
         titulo: "Dinosaurio 3 Cabezas Bota Humo",
         preciomayorista: 7199,
-        precio: 49000,
+        precio: 44000,
         referencia: "8801",
         descripcion: ``,
         imagenes: [
@@ -5645,7 +5645,7 @@ const jugueterialocaldb = [
                 url: "/producto201a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "dinosaurios",
@@ -5702,7 +5702,7 @@ const jugueterialocaldb = [
                 url: "/producto204a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "punteria",
@@ -5729,7 +5729,7 @@ const jugueterialocaldb = [
     },
     {
         id: 206,
-        titulo: "Dinosaurio Gigante (Nuevo) Cuello Largo Alas Pone Huevos",
+        titulo: "Dinosaurio Gigante Cuello Largo Alas Pone Huevos",
         preciomayorista: 7199,
         precio: 40000,
         referencia: "666-2A",
@@ -5759,7 +5759,7 @@ const jugueterialocaldb = [
                 url: "/producto207a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "dinosaurios",
@@ -5797,7 +5797,7 @@ const jugueterialocaldb = [
                 url: "/producto209a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "dinosaurios",
@@ -5807,7 +5807,7 @@ const jugueterialocaldb = [
         id: 388,
         titulo: "Dinosaurio con Hijo lanza Vapor",
         preciomayorista: 7199,
-        precio: 35000,
+        precio: 30000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -5881,7 +5881,7 @@ const jugueterialocaldb = [
                 url: "/producto523a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "dinosaurios",
@@ -6043,7 +6043,7 @@ const jugueterialocaldb = [
         id: 532,
         titulo: "Carro Helados Sofia",
         preciomayorista: 7199,
-        precio: 30000,
+        precio: 29000,
         referencia: "803",
         descripcion: ``,
         imagenes: [
@@ -6290,8 +6290,8 @@ const jugueterialocaldb = [
         id: 545,
         titulo: "Castillo Princesa",
         preciomayorista: 7199,
-        precio: 45000,
-        referencia: "SG-29070",
+        precio: 42000,
+        referencia: "S9069",
         descripcion: ``,
         imagenes: [
             {
@@ -6375,7 +6375,7 @@ const jugueterialocaldb = [
                 url: "/producto549a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+6",
         categoria: "dinosaurios",
@@ -6489,7 +6489,7 @@ const jugueterialocaldb = [
                 url: "/producto555a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+6",
         categoria: "dinosaurios",
@@ -6584,7 +6584,7 @@ const jugueterialocaldb = [
                 url: "/producto560a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+6",
         categoria: "dinosaurios",
@@ -6639,25 +6639,6 @@ const jugueterialocaldb = [
             {
                 tipo: "imagen",
                 url: "/producto563a.webp" 
-            }
-        ],
-        status: "disponible",
-        colores: "Unicolor",
-        edad: "+6",
-        categoria: "dinosaurios",
-        genero: "ninos"
-    },
-    {
-        id: 564,
-        titulo: "Cabeza de Frozen para Peinar",
-        preciomayorista: 7199,
-        precio: 35000,
-        referencia: "88A-1",
-        descripcion: ``,
-        imagenes: [
-            {
-                tipo: "imagen",
-                url: "/producto564a.webp" 
             }
         ],
         status: "disponible",
@@ -6879,7 +6860,7 @@ const jugueterialocaldb = [
         id: 576,
         titulo: "Carro Policia Monster Blister",
         preciomayorista: 7199,
-        precio: 6500,
+        precio: 7000,
         referencia: "952A",
         descripcion: ``,
         imagenes: [
@@ -6983,7 +6964,7 @@ const jugueterialocaldb = [
                 url: "/producto581a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+6",
         categoria: "dinosaurios",
@@ -7097,7 +7078,7 @@ const jugueterialocaldb = [
                 url: "/producto279a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "dinosaurios",
@@ -7119,7 +7100,7 @@ const jugueterialocaldb = [
                 url: "producto7b.mp4"
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Amarillo, Verde",
         edad: "+3",
         categoria: "dinosaurios",
@@ -7327,7 +7308,7 @@ const jugueterialocaldb = [
         id: 210,
         titulo: "Maleta Doctor Digital",
         preciomayorista: 7199,
-        precio: 27000,
+        precio: 28000,
         referencia: "9900B",
         descripcion: ``,
         imagenes: [
@@ -7397,7 +7378,7 @@ const jugueterialocaldb = [
                 url: "/producto213a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "educativo",
@@ -7439,7 +7420,7 @@ const jugueterialocaldb = [
                 url: "/producto216b.webp" 
             } 
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Optimus Prime, Bumblee Bee",
         edad: "+3",
         categoria: "munecos",
@@ -7485,7 +7466,7 @@ const jugueterialocaldb = [
                 url: "/producto218b.webp" 
             } 
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Optimus Prime, Bumblee Bee",
         edad: "+3",
         categoria: "munecos",
@@ -7504,7 +7485,7 @@ const jugueterialocaldb = [
                 url: "/producto219a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecos",
@@ -8243,7 +8224,7 @@ const jugueterialocaldb = [
                 url: "/producto283a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "educativo",
@@ -8281,7 +8262,7 @@ const jugueterialocaldb = [
                 url: "/producto286a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Amarillo, Rosado, Verde",
         edad: "+3",
         categoria: "didacticos",
@@ -8301,7 +8282,7 @@ const jugueterialocaldb = [
                 url: "/producto293a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Azul, Negro",
         edad: "+6",
         categoria: "carros-control",
@@ -8320,7 +8301,7 @@ const jugueterialocaldb = [
                 url: "/producto295a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso", 
@@ -8362,7 +8343,7 @@ const jugueterialocaldb = [
                 url: "/producto297a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -8560,7 +8541,7 @@ const jugueterialocaldb = [
                 url: "/producto323a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -8570,7 +8551,7 @@ const jugueterialocaldb = [
         id: 130,
         titulo: "Peluche Minie Mouse Grande",
         preciomayorista: 7199,
-        precio: 53000,
+        precio: 50000,
         referencia: "HD028-75",
         descripcion: ``,
         imagenes: [
@@ -8627,8 +8608,8 @@ const jugueterialocaldb = [
         id: 115,
         titulo: "Peluche Minie Mouse",
         preciomayorista: 7199,
-        precio: 21000,
-        referencia: "HD028-40",
+        precio: 32000,
+        referencia: "2948",
         descripcion: ``,
         imagenes: [
             {
@@ -8665,7 +8646,7 @@ const jugueterialocaldb = [
         id: 322,
         titulo: "Oso Peluche con Luz y Sonido",
         preciomayorista: 7199,
-        precio: 25000,
+        precio: 20000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -8684,7 +8665,7 @@ const jugueterialocaldb = [
         id: 321,
         titulo: "Muñeca Campesina Mediana con Sonido",
         preciomayorista: 7199,
-        precio: 22500,
+        precio: 21000,
         referencia: "",
         descripcion: ``,
         imagenes: [
@@ -8703,7 +8684,7 @@ const jugueterialocaldb = [
         id: 347,
         titulo: "Muñeca Campesina Pequeña con Sonido",
         preciomayorista: 7199,
-        precio: 16000,
+        precio: 15000,
         referencia: "L0425-28",
         descripcion: ``,
         imagenes: [
@@ -8731,7 +8712,7 @@ const jugueterialocaldb = [
                 url: "/producto324a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "punteria",
@@ -8769,7 +8750,7 @@ const jugueterialocaldb = [
                 url: "/producto345a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -8789,7 +8770,7 @@ const jugueterialocaldb = [
                 url: "/producto348a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -8808,7 +8789,7 @@ const jugueterialocaldb = [
                 url: "/producto354a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "educativo",
@@ -8827,7 +8808,7 @@ const jugueterialocaldb = [
                 url: "/producto355a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "educativo",
@@ -8850,7 +8831,7 @@ const jugueterialocaldb = [
                 url: "/producto356B.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -8879,7 +8860,7 @@ const jugueterialocaldb = [
         id: 360,
         titulo: "Guitarra Karaoke con Microfono y MP3",
         preciomayorista: 7199,
-        precio: 40000,
+        precio: 41000,
         referencia: "HD-779",
         descripcion: ``,
         imagenes: [
@@ -8907,7 +8888,7 @@ const jugueterialocaldb = [
                 url: "/producto363a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "carros-control",
@@ -8937,7 +8918,7 @@ const jugueterialocaldb = [
         id: 107,
         titulo: "Muñeca Cry Baby Orina con Pañal y Tetero",
         preciomayorista: 7199,
-        precio: 29000,
+        precio: 32000,
         referencia: "KQ-508",
         descripcion: ``,
         imagenes: [
@@ -8965,7 +8946,7 @@ const jugueterialocaldb = [
                 url: "/producto109a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "maquillaje",
@@ -8985,7 +8966,7 @@ const jugueterialocaldb = [
                 url: "/producto112a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "doctor-cocina",
@@ -9004,7 +8985,7 @@ const jugueterialocaldb = [
                 url: "/producto119a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "doctor-cocina",
@@ -9023,7 +9004,7 @@ const jugueterialocaldb = [
                 url: "/producto121a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "maquillaje",
@@ -9080,7 +9061,7 @@ const jugueterialocaldb = [
                 url: "/producto133a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -9099,7 +9080,7 @@ const jugueterialocaldb = [
                 url: "/producto136a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -9122,7 +9103,7 @@ const jugueterialocaldb = [
                 url: "/producto137b.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "didacticos",
@@ -9174,7 +9155,7 @@ const jugueterialocaldb = [
         id: 161,
         titulo: "Play Doh X4",
         preciomayorista: 7199,
-        precio: 8000,
+        precio: 13000,
         referencia: "6603-4",
         descripcion: ``,
         imagenes: [
@@ -9221,7 +9202,7 @@ const jugueterialocaldb = [
                 url: "/producto131a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "didacticos",
@@ -9280,7 +9261,7 @@ const jugueterialocaldb = [
                 url: "/producto148a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecos",
@@ -9299,7 +9280,7 @@ const jugueterialocaldb = [
                 url: "/producto149a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecos",
@@ -9318,7 +9299,7 @@ const jugueterialocaldb = [
                 url: "/producto150a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -9337,7 +9318,7 @@ const jugueterialocaldb = [
                 url: "/producto151a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecos",
@@ -9356,7 +9337,7 @@ const jugueterialocaldb = [
                 url: "/producto152a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecos",
@@ -9394,7 +9375,7 @@ const jugueterialocaldb = [
                 url: "/producto154a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecas",
@@ -9413,7 +9394,7 @@ const jugueterialocaldb = [
                 url: "/producto155a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecos",
@@ -9432,7 +9413,7 @@ const jugueterialocaldb = [
                 url: "/producto158a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "carros-impulso",
@@ -9451,7 +9432,7 @@ const jugueterialocaldb = [
                 url: "/producto159a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "didacticos",
@@ -9470,7 +9451,7 @@ const jugueterialocaldb = [
                 url: "/producto160a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "didacticos",
@@ -9494,7 +9475,7 @@ const jugueterialocaldb = [
                 url: "/producto51a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+11",
         categoria: "punteria",
@@ -9543,7 +9524,7 @@ const jugueterialocaldb = [
                 url: "/producto55a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Grafiti",
         edad: "+6",
         categoria: "carros-control",
@@ -9578,7 +9559,7 @@ const jugueterialocaldb = [
         id: 48,
         titulo: "Pez con Movimiento, Luces y Sonido",
         preciomayorista: 32999,
-        precio: 27000,
+        precio: 24000,
         referencia: "8701",
         descripcion: `¡Sumérgete en la diversión acuática con el increíble Pez Interactivo con Luces y Sonido! Este juguete cautivador te transportará a un mundo submarino lleno de emoción y asombro.
 
@@ -9603,7 +9584,7 @@ const jugueterialocaldb = [
         id: 17,
         titulo: "Coche Plastico + Muñeca Baby Grande + Tetero en Bolsa",
         preciomayorista: 36999,
-        precio: 30000,
+        precio: 45000,
         descripcion: `¡Lleva la diversión en movimiento a un nivel superior con nuestro Coche Paseador de Plástico con Muñeca y Tetero Incluidos! Este conjunto encantador combina la emoción del juego con la imaginación, permitiendo a los niños crear sus propias historias mientras se embarcan en emocionantes aventuras.
 
         El coche paseador de plástico está diseñado con detalles realistas y colores vibrantes que capturan la atención y la creatividad. Y lo mejor de todo, viene con una muñeca incluida, perfecta para sentarla en el coche, además de un tetero para cuidar y alimentar a la muñeca durante los paseos!`,
@@ -9670,7 +9651,7 @@ const jugueterialocaldb = [
             }
             
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Verde, Azul",
         edad: "+3",
         categoria: "punteria",
@@ -9696,7 +9677,7 @@ const jugueterialocaldb = [
                 url: "/producto9b.mp4"
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Azul, Morado, Naranja, Negro",
         edad: "+3",
         categoria: "carros-impulso",
@@ -9756,7 +9737,7 @@ const jugueterialocaldb = [
                 url: "/producto435a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "educativo",
@@ -9766,7 +9747,7 @@ const jugueterialocaldb = [
         id: 19,
         titulo: "Dinosaurio a Control Remoto con Vapor y Huevos",
         preciomayorista: 1000,
-        precio: 66000,
+        precio: 30000,
         referencia: "66163",
         descripcion: ``,
         imagenes: [
@@ -9785,7 +9766,7 @@ const jugueterialocaldb = [
         id: 25,
         titulo: "Slime con Sorpresa de Mario Bros",
         preciomayorista: 3499,
-        precio: 3000,
+        precio: 2700,
         descripcion: ``,
         imagenes: [
             {
@@ -9803,7 +9784,7 @@ const jugueterialocaldb = [
         id: 24,
         titulo: "Slime con Sorpresa de los Vengadores",
         preciomayorista: 3499,
-        precio: 3000,
+        precio: 2700,
         descripcion: ``,
         imagenes: [
             {
@@ -9821,7 +9802,7 @@ const jugueterialocaldb = [
         id: 26,
         titulo: "Slime con Sorpresa de Paw Patrol",
         preciomayorista: 3499,
-        precio: 3000,
+        precio: 2700,
         descripcion: ``,
         imagenes: [
             {
@@ -9839,7 +9820,7 @@ const jugueterialocaldb = [
         id: 29,
         titulo: "Slime con Sorpresa de Princesas Disney",
         preciomayorista: 3499,
-        precio: 3000,
+        precio: 2700,
         descripcion: ``,
         imagenes: [
             {
@@ -9865,7 +9846,7 @@ const jugueterialocaldb = [
                 url: "/producto27a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Amarillo, Rosado, Verde, Rojo, Morado, Azul",
         edad: "+3",
         categoria: "didacticos",
@@ -9883,7 +9864,7 @@ const jugueterialocaldb = [
                 url: "/producto28a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Morado, Rojo, Rosado, Azul, Verde, Amarillo",
         edad: "+3",
         categoria: "didacticos",
@@ -9906,7 +9887,7 @@ const jugueterialocaldb = [
                 url: "/producto36b.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Morado",
         edad: "+3",
         categoria: "doctor-cocina",
@@ -9925,7 +9906,7 @@ const jugueterialocaldb = [
                 url: "/producto40a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "accion",
@@ -10067,7 +10048,7 @@ const jugueterialocaldb = [
                 url: "/producto473a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "mascotas",
@@ -10143,7 +10124,7 @@ const jugueterialocaldb = [
                 url: "/producto373a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "carros-control",
@@ -10257,7 +10238,7 @@ const jugueterialocaldb = [
                 url: "/producto170a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecos",
@@ -10295,7 +10276,7 @@ const jugueterialocaldb = [
                 url: "/producto172a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Unicolor",
         edad: "+3",
         categoria: "munecos",
@@ -10305,7 +10286,7 @@ const jugueterialocaldb = [
         id: 173,
         titulo: "Pokeballs Pequeñas",
         preciomayorista: 7199,
-        precio: 2500,
+        precio: 4000,
         referencia: "GOGO0215-2",
         descripcion: ``,
         imagenes: [
@@ -10353,7 +10334,7 @@ const jugueterialocaldb = [
                 url: "/producto498a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "doctor-cocina",
@@ -10372,7 +10353,7 @@ const jugueterialocaldb = [
                 url: "/producto503a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "educativo",
@@ -10391,7 +10372,7 @@ const jugueterialocaldb = [
                 url: "/producto504a.webp" 
             }
         ],
-        status: "disponible",
+        status: "NT",
         colores: "Grafiti, Militar",
         edad: "+6",
         categoria: "educativo",
