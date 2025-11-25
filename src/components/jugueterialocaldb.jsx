@@ -483,8 +483,8 @@ const jugueterialocaldb = [
         id: 314,
         titulo: "Perro con Movimiento y Sonido Peq",
         preciomayorista: 7199,
-        precio: 15000,
-        referencia: "",
+        precio: 12500,
+        referencia: "894-1",
         descripcion: ``,
         imagenes: [
             {
@@ -2120,8 +2120,8 @@ const jugueterialocaldb = [
         id: 415,
         titulo: "Carro Transformer Control B/R",
         preciomayorista: 7199,
-        precio: 40000,
-        referencia: "",
+        precio: 75000,
+        referencia: "777",
         descripcion: ``,
         imagenes: [
             {
@@ -2243,8 +2243,8 @@ const jugueterialocaldb = [
         id: 298,
         titulo: "Carro Control Mario Kart Recargable",
         preciomayorista: 7199,
-        precio: 63000,
-        referencia: "055404",
+        precio: 58000,
+        referencia: "1902-B",
         descripcion: ``,
         imagenes: [
             {
@@ -2282,7 +2282,7 @@ const jugueterialocaldb = [
         titulo: "Camioneta Control Remoto Luz Pila",
         preciomayorista: 7199,
         precio: 22000,
-        referencia: "",
+        referencia: "8614",
         descripcion: ``,
         imagenes: [
             {
@@ -2439,8 +2439,8 @@ const jugueterialocaldb = [
         id: 410,
         titulo: "Camion de Bomberos a Control Remoto B",
         preciomayorista: 7199,
-        precio: 46000,
-        referencia: "",
+        precio: 67000,
+        referencia: "680",
         descripcion: ``,
         imagenes: [
             {
@@ -2460,7 +2460,7 @@ const jugueterialocaldb = [
         titulo: "Excavadora Control Remoto Recargable",
         preciomayorista: 7199,
         precio: 66000,
-        referencia: "8034E",
+        referencia: "8037E",
         descripcion: ``,
         imagenes: [
             {
@@ -3318,7 +3318,7 @@ const jugueterialocaldb = [
         titulo: "Ambulancia con Movimiento, Luz y Sonido",
         preciomayorista: 7199,
         precio: 29000,
-        referencia: "",
+        referencia: "4545-3",
         descripcion: ``,
         imagenes: [
             {
@@ -4034,6 +4034,7 @@ const jugueterialocaldb = [
         titulo: "Spiderman Bailarin, Luces y Sonido",
         preciomayorista: 29999,
         precio: 28000,
+        referencia: "LD-155E",
         descripcion: ``,
         imagenes: [
             {
@@ -4175,7 +4176,7 @@ const jugueterialocaldb = [
         titulo: "Pato con movimiento, luz y sonido",
         preciomayorista: 7199,
         precio: 25000,
-        referencia: "",
+        referencia: "8899-303A",
         descripcion: ``,
         imagenes: [
             {
@@ -4231,8 +4232,8 @@ const jugueterialocaldb = [
         id: 458,
         titulo: "Moto Frozen con Movimiento, Luz y Sonido",
         preciomayorista: 7199,
-        precio: 29000,
-        referencia: "",
+        precio: 28000,
+        referencia: "916",
         descripcion: ``,
         imagenes: [
             {
@@ -7066,6 +7067,1146 @@ const jugueterialocaldb = [
         genero: "ninos"
     },
     {
+        id: 587,
+        titulo: "Lego Moto Avengers",
+        preciomayorista: 7199,
+        precio: 7000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto587a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 588,
+        titulo: "Mula con Contenedor a Control Remoto",
+        preciomayorista: 7199,
+        precio: 99000,
+        referencia: "848-B5 / 848-B3",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto588a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 589,
+        titulo: "Carro y Set Militar",
+        preciomayorista: 7199,
+        precio: 45000,
+        referencia: "F3109-16",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto589a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 590,
+        titulo: "Multa de Cars con Personajes",
+        preciomayorista: 7199,
+        precio: 40000,
+        referencia: "868-33",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto590a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 591,
+        titulo: "Organeta USB Con Adaptador",
+        preciomayorista: 7199,
+        precio: 65000,
+        referencia: "MQ-83OUSB",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto591a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 592,
+        titulo: "Organeta con Adaptador",
+        preciomayorista: 7199,
+        precio: 38000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto592a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 593,
+        titulo: "Organeta con Adaptador",
+        preciomayorista: 7199,
+        precio: 35000,
+        referencia: "HY-8637A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto593a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 594,
+        titulo: "Carro Loco a Control Remoto y Manilla",
+        preciomayorista: 7199,
+        precio: 40000,
+        referencia: "406-174707",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto594a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 595,
+        titulo: "Camioneta Llanton Control Remoto",
+        preciomayorista: 7199,
+        precio: 58000,
+        referencia: "8057GA / 8223GA",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto595a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 596,
+        titulo: "Carro a Control Remoto Rock",
+        preciomayorista: 7199,
+        precio: 51000,
+        referencia: "299D",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto596a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 597,
+        titulo: "Tanque 6 Llantas Hidrogel y Control Remoto",
+        preciomayorista: 7199,
+        precio: 93000,
+        referencia: "JT647",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto597a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 598,
+        titulo: "Carro Control Remoto Hidrogel Llanton",
+        preciomayorista: 7199,
+        precio: 44000,
+        referencia: "20-1TKA",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto598a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 599,
+        titulo: "Carro Transformer lamborghini Control Remoto",
+        preciomayorista: 7199,
+        precio: 40000,
+        referencia: "3688-K29",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto599a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 600,
+        titulo: "Carro Dinosaurio Control Remoto",
+        preciomayorista: 7199,
+        precio: 90000,
+        referencia: "ZJ238-59A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto600a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 601,
+        titulo: "Hummer a Control Remoto Abre Puertas",
+        preciomayorista: 7199,
+        precio: 65000,
+        referencia: "3688-S67A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto601a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 602,
+        titulo: "Hummer a Control Remoto Llanton",
+        preciomayorista: 7199,
+        precio: 121000,
+        referencia: "S270-3",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto602a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 603,
+        titulo: "Carro Turbo Humo Control Remoto",
+        preciomayorista: 7199,
+        precio: 32000,
+        referencia: "SH2412C",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto603a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 604,
+        titulo: "Can-am Llanton Control Remoto ",
+        preciomayorista: 7199,
+        precio: 37000,
+        referencia: "6688-153A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto604a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 605,
+        titulo: "Carro Bomberos Control Remoto",
+        preciomayorista: 7199,
+        precio: 46000,
+        referencia: "689-953",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto605a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 607,
+        titulo: "Volqueta a Control Remoto y Luces",
+        preciomayorista: 7199,
+        precio: 68000,
+        referencia: "XY-97",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto607a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 609,
+        titulo: "Carro Can-am Hidrogel Control Remoto",
+        preciomayorista: 7199,
+        precio: 37000,
+        referencia: "552A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto609a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 610,
+        titulo: "Camioneta Llanton Control Remoto",
+        preciomayorista: 7199,
+        precio: 18000,
+        referencia: "D807",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto610a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 611,
+        titulo: "Guante Spiderman",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "YK5990-27B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto611a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 612,
+        titulo: "Pista Neon con Hummer",
+        preciomayorista: 7199,
+        precio: 35000,
+        referencia: "888-26",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto612a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 613,
+        titulo: "Pista Neon con Carro",
+        preciomayorista: 7199,
+        precio: 35000,
+        referencia: "1805",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto613a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 614,
+        titulo: "Carro Tanque Luz Movimiento y Sonido",
+        preciomayorista: 7199,
+        precio: 26000,
+        referencia: "ZR223",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto614a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 615,
+        titulo: "Muñeco Vengadores Caja X1",
+        preciomayorista: 7199,
+        precio: 21000,
+        referencia: "21008-4",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto615a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 616,
+        titulo: "Carro Abre Puerta y Baul",
+        preciomayorista: 7199,
+        precio: 26000,
+        referencia: "8811-11",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto616a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 617,
+        titulo: "Carro Policia Abre puertas y Baul",
+        preciomayorista: 7199,
+        precio: 29000,
+        referencia: "4543-2",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto617a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 618,
+        titulo: "Helicoptero Luces, Movimiento y Sonido",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "JYD175E",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto618a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 619,
+        titulo: "Helicoptero Militar Verde",
+        preciomayorista: 7199,
+        precio: 27000,
+        referencia: "HG-881",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto619a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 620,
+        titulo: "Kuromi Bailarina",
+        preciomayorista: 7199,
+        precio: 25000,
+        referencia: "8899-301",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto620a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 621,
+        titulo: "Bu bu Bailarina",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "8899-3114",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto621a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 622,
+        titulo: "Capybara Bailarin",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "8899-302",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto622a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 623,
+        titulo: "Juego Stich y Capybara Digital",
+        preciomayorista: 7199,
+        precio: 13500,
+        referencia: "2004-1A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto623a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 624,
+        titulo: "Carro Elevado y Puertas",
+        preciomayorista: 7199,
+        precio: 23000,
+        referencia: "FW-2057A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto624a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 625,
+        titulo: "Stich Bailarin",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "8899-305A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto625a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 626,
+        titulo: "Tortuga con Hijo Luz, movimiento y Sonido",
+        preciomayorista: 7199,
+        precio: 26000,
+        referencia: "5188B",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto626a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 627,
+        titulo: "Capybara Peluche Sonido",
+        preciomayorista: 7199,
+        precio: 28000,
+        referencia: "CAC0326-15",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto627a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 628,
+        titulo: "Carpa Castillo con Tunel",
+        preciomayorista: 7199,
+        precio: 80000,
+        referencia: "RE-1315P",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto628a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 629,
+        titulo: "Nutria Relajante con Sonido y Luz",
+        preciomayorista: 7199,
+        precio: 23000,
+        referencia: "CAC0326-18",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto629a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 630,
+        titulo: "Perro Sensor, Repetidor y Caminador",
+        preciomayorista: 7199,
+        precio: 55000,
+        referencia: "CAC0.28-15",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto630a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 631,
+        titulo: "Carpa Castillo",
+        preciomayorista: 7199,
+        precio: 30000,
+        referencia: "KL9999",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto631a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 632,
+        titulo: "Gato Sensor, Repetidor y Camina",
+        preciomayorista: 7199,
+        precio: 55000,
+        referencia: "CAC0328-19",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto632a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 633,
+        titulo: "Perro Orejas y Lazo Pequeño",
+        preciomayorista: 7199,
+        precio: 12500,
+        referencia: "898-1",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto633a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 634,
+        titulo: "Bolso con Set Cocina o Doctor",
+        preciomayorista: 7199,
+        precio: 14000,
+        referencia: "184 / 183",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto634a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 635,
+        titulo: "Tablet Digital Pato",
+        preciomayorista: 7199,
+        precio: 13000,
+        referencia: "BB9017C",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto635a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 636,
+        titulo: "Bateria para Niños",
+        preciomayorista: 7199,
+        precio: 85000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto636a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 637,
+        titulo: "Guitarra con Parlante y Microfono",
+        preciomayorista: 7199,
+        precio: 1,
+        referencia: "HX9178D2",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto637a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 638,
+        titulo: "Cocina Desarmable y Set",
+        preciomayorista: 7199,
+        precio: 80000,
+        referencia: "6ST-4",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto638a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 639,
+        titulo: "Bebe con Cuna y Silla",
+        preciomayorista: 7199,
+        precio: 90000,
+        referencia: "220A",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto639a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 640,
+        titulo: "Bebe 18 en 1",
+        preciomayorista: 7199,
+        precio: 180000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto640a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 641,
+        titulo: "Cancha de Futbol",
+        preciomayorista: 7199,
+        precio: 41000,
+        referencia: "DAQ-35",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto641a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 642,
+        titulo: "Andadera para Bebes",
+        preciomayorista: 7199,
+        precio: 84000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto642a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 643,
+        titulo: "Futbolito Madera",
+        preciomayorista: 7199,
+        precio: 70000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto643a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 644,
+        titulo: "Mesa de Billar con Tacos",
+        preciomayorista: 7199,
+        precio: 48000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto644a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 645,
+        titulo: "Lego Bugatti de Impulso",
+        preciomayorista: 7199,
+        precio: 46000,
+        referencia: "3305",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto645a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 646,
+        titulo: "Lego Ford Mustang Impulso",
+        preciomayorista: 7199,
+        precio: 50000,
+        referencia: "XJ-082",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto646a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 647,
+        titulo: "Lego Mundo Mario",
+        preciomayorista: 7199,
+        precio: 36000,
+        referencia: "GT-138",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto647a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
+        id: 648,
+        titulo: "Lego Minecraft 856 pcs",
+        preciomayorista: 7199,
+        precio: 60000,
+        referencia: "",
+        descripcion: ``,
+        imagenes: [
+            {
+                tipo: "imagen",
+                url: "/producto648a.webp" 
+            }
+        ],
+        status: "disponible",
+        colores: "Unicolor",
+        edad: "+6",
+        categoria: "dinosaurios",
+        genero: "ninos"
+    },
+    {
         id: 279,
         titulo: "Dinosaurio Lanza Vapor Desarmable con Movimiento Luz y Sonido",
         preciomayorista: 7199,
@@ -7110,7 +8251,7 @@ const jugueterialocaldb = [
         id: 21,
         titulo: "Trailer Dinosaurio con Vapor + Dinosaurios + Herramientas",
         preciomayorista: 1000,
-        precio: 85000,
+        precio: 60000,
         referencia: "895-21/22",
         descripcion: ``,
         imagenes: [
@@ -7229,8 +8370,8 @@ const jugueterialocaldb = [
         id: 294,
         titulo: "Pista Carros Sencilla",
         preciomayorista: 7199,
-        precio: 26500,
-        referencia: "FOX-1018",
+        precio: 26000,
+        referencia: "BX-49853",
         descripcion: ``,
         imagenes: [
             {
